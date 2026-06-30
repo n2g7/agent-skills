@@ -47,7 +47,7 @@ Add to `.cursor/environment.json` (merge with your existing `install` if needed)
 
 ### New project setup (Cloud Agent)
 
-Paste [auto.md](auto.md) into a Cursor Cloud Agent — it adds the submodule, `environment.json`, and verification steps.
+Paste [auto.md](auto.md) into a Cursor Cloud Agent on any project (~200 words).
 
 ### Find a skill (does not load skill content)
 

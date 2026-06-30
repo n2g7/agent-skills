@@ -2,7 +2,7 @@
 
 Use these prompts after connecting repos in [Cursor dashboard](https://cursor.com/dashboard).
 
-**New projects:** paste [auto.md](auto.md) into a Cloud Agent to wire skills automatically.
+**New projects:** paste [auto.md](auto.md) into a Cloud Agent (~200 words).
 
 ## Repos
 
