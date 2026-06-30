@@ -1,0 +1,22 @@
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Python / Node artifacts inside skills
+__pycache__/
+*.pyc
+node_modules/
+.venv/
+venv/
+
+# Secrets — never commit
+.env
+.env.*
+*.pem
+credentials.json
+**/secrets/
+
+# Large generated caches (if any appear later)
+*.tar.gz
