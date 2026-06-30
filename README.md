@@ -5,7 +5,7 @@ Personal Cursor Agent Skills library — 1,400+ skills with catalog and skill re
 ## Local install
 
 ```bash
-git clone git@github.com:YOUR_USER/agent-skills.git ~/.agents/skills
+git clone git@github.com:n2g7/agent-skills.git ~/.agents/skills
 ```
 
 ## Cloud Agents
@@ -22,7 +22,7 @@ Use skill-recommender: which skill should I use for [your task]?
 
 ```bash
 cd /path/to/your-project
-git submodule add git@github.com:YOUR_USER/agent-skills.git .agents/skills
+git submodule add git@github.com:n2g7/agent-skills.git .agents/skills
 ```
 
 Add to `.cursor/environment.json`:
