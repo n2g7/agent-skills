@@ -2,11 +2,13 @@
 
 Use these prompts after connecting repos in [Cursor dashboard](https://cursor.com/dashboard).
 
+**New projects:** paste [auto.md](auto.md) into a Cloud Agent to wire skills automatically.
+
 ## Repos
 
 | Repo | URL | Purpose |
 |------|-----|---------|
-| agent-skills | https://github.com/n2g7/agent-skills | Full skills library + skill-recommender |
+| agent-skills | https://github.com/n2g7/agent-skills | Public skills library + skill-recommender |
 | skills-pilot | https://github.com/n2g7/skills-pilot | Example project with skills submodule |
 
 ## Mode A — Cloud agent on skills repo
@@ -21,28 +23,35 @@ Use skill-recommender: I'm building a Next.js API with Postgres. Which skills sh
 
 **Expected:** Recommendations from `_catalog/` without executing other skills.
 
-**Local simulation passed:** Fresh clone contains 1,432 skills, `skill-recommender`, and portable catalog paths.
-
 ## Mode B — Cloud agent on pilot project (submodule)
 
 1. Connect `n2g7/skills-pilot` in Cursor dashboard
 2. Ensure environment runs: `git submodule update --init --recursive` (see `.cursor/environment.json`)
-3. Re-snapshot cloud environment after first submodule add
+3. Re-snapshot cloud environment after submodule URL or commit changes
 4. Prompt:
 
 ```
-List skills under .agents/skills/ and use skill-recommender: which skill should I use for a Python CLI tool?
+Use skill-recommender: which skill should I use for a Python CLI tool?
 ```
 
-**Expected:** Agent sees submodule contents; empty `.agents/skills/` means submodule init failed.
+**Expected:** Agent searches catalog; empty `.agents/skills/` means submodule init failed.
 
-**Local verification passed:** Pilot has `.gitmodules`, `environment.json`, and populated `.agents/skills/`.
+## Adding skills to any project
 
-## Adding skills to your own projects
+**Cloud Agent (recommended):** paste contents of [auto.md](auto.md).
+
+**Local script:**
 
 ```bash
-cd /path/to/your-project
-git submodule add git@github.com:n2g7/agent-skills.git .agents/skills
+bash https://raw.githubusercontent.com/n2g7/agent-skills/main/scripts/setup-project-submodule.sh /path/to/your-project
+# Or from a clone:
+bash ~/.agents/skills/scripts/setup-project-submodule.sh /path/to/your-project
+```
+
+**Manual:**
+
+```bash
+git submodule add https://github.com/n2g7/agent-skills.git .agents/skills
 ```
 
 Add to `.cursor/environment.json`:
@@ -53,7 +62,7 @@ Add to `.cursor/environment.json`:
 }
 ```
 
-Merge with existing install steps if your project has dependencies.
+Use **HTTPS** URLs so Cloud Agents can clone without your SSH keys.
 
 ## Sync workflow
 

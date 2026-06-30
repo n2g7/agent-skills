@@ -25,7 +25,7 @@ echo "GitHub user: $GITHUB_USER"
 if git remote get-url origin >/dev/null 2>&1; then
   echo "Remote origin already set: $(git remote get-url origin)"
 else
-  gh repo create "$REPO_NAME" --private --source=. --remote=origin --push
+  gh repo create "$REPO_NAME" --public --source=. --remote=origin --push
   echo "Created and pushed: https://github.com/$GITHUB_USER/$REPO_NAME"
   exit 0
 fi

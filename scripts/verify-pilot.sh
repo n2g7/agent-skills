@@ -27,6 +27,7 @@ check ".gitmodules exists" "test -f .gitmodules"
 check "environment.json exists" "test -f .cursor/environment.json"
 check "submodule skill-recommender" "test -f .agents/skills/skill-recommender/SKILL.md"
 check "submodule catalog" "test -f .agents/skills/_catalog/skills-index.json"
+check "submodule HTTPS URL" "grep -q 'https://github.com/n2g7/agent-skills.git' .gitmodules"
 
 echo ""
 echo "environment.json install command:"
@@ -37,7 +38,7 @@ grep "submodule update" .cursor/environment.json >/dev/null && echo "OK  submodu
 
 if [ "$FAIL" -eq 0 ]; then
   echo ""
-  echo "Pilot ready. After skills repo is on GitHub, update .gitmodules URL and push pilot repo."
+  echo "Pilot ready for Cloud Agents (public HTTPS submodule)."
 else
   exit 1
 fi
