@@ -16,7 +16,17 @@ Help the user pick the right skill(s) from their library. **Never load or invoke
 
 ## Skill library location
 
-All skills live at `~/.agents/skills/<skill-id>/SKILL.md`.
+Resolve the skills root in this order:
+
+1. **Project submodule:** `.agents/skills/<skill-id>/SKILL.md` (when embedded in a code repo)
+2. **This repo as workspace:** `<skill-id>/SKILL.md` at repo root (standalone skills repo)
+3. **Global install (local only):** `~/.agents/skills/<skill-id>/SKILL.md`
+
+Resolve the catalog directory the same way:
+
+- Submodule: `.agents/skills/_catalog/`
+- Standalone repo: `_catalog/` (relative to repo root)
+- Global: `~/.agents/skills/_catalog/`
 
 Catalog (generated index of all skills):
 
@@ -54,20 +64,28 @@ Use this priority order (read only what you need):
 4. **Broad category** — Fall back to [_catalog/categories.md](../_catalog/categories.md)
 5. **Obscure/general** — Check [_catalog/general-subcategories.md](../_catalog/general-subcategories.md)
 
-Search command examples:
+Search command examples (use the catalog path that matches your layout):
 
 ```bash
-# Find skills mentioning "playwright"
+# Standalone skills repo or cwd at skills root
+CATALOG="_catalog/skills-index.json"
+# Submodule in a project:
+# CATALOG=".agents/skills/_catalog/skills-index.json"
+# Global install:
+# CATALOG="$HOME/.agents/skills/_catalog/skills-index.json"
+
 python3 -c "
-import json
-data=json.load(open('$HOME/.agents/skills/_catalog/skills-index.json'))
+import json, os
+catalog = os.environ.get('CATALOG', '_catalog/skills-index.json')
+data = json.load(open(catalog))
 for s in data['skills']:
-    t=f\"{s['id']} {s['description']}\".lower()
-    if 'playwright' in t: print(s['id'], '-', s['category'])
+    t = f\"{s['id']} {s['description']}\".lower()
+    if 'playwright' in t:
+        print(s['id'], '-', s['category'])
 "
 
-# Or use ripgrep on categories.md
-rg -i "playwright" ~/.agents/skills/_catalog/
+# Or ripgrep the catalog folder
+rg -i "playwright" _catalog/
 ```
 
 ### 3. Rank candidates
@@ -161,6 +179,6 @@ Some tasks need a chain, e.g.:
 The catalog in `_catalog/` was auto-generated from all SKILL.md frontmatter. To refresh after adding skills:
 
 ```bash
-# Re-run catalog generation (or ask agent to regenerate _catalog/)
-ls ~/.agents/skills/*/SKILL.md | wc -l
+python3 _catalog/regenerate.py
+# Or: ls */SKILL.md | wc -l
 ```
