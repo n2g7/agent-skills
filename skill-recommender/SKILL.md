@@ -1,12 +1,13 @@
 ---
 name: skill-recommender
 description: >-
-  Recommends which agent skills to use from the user's skill library (1,400+
+  Recommends which agent skills to use from the user's skill library (1,700+
   skills). Works from ~/.agents/skills/, project .agents/skills/ submodule,
   or when this repo is the workspace root. Use when the user asks which skill
   to use, wants skill suggestions for a task, or says "what skill should I
   use for X". Does NOT load or execute other skills — only recommends skill
-  IDs and explains why.
+  IDs and explains why. Never read other SKILL.md files unless the user
+  explicitly asks to use a recommended skill afterward.
 disable-model-invocation: true
 ---
 
@@ -40,7 +41,16 @@ Catalog (generated index of all skills):
 | [_catalog/skills-index.json](../_catalog/skills-index.json) | Machine search by keyword |
 | [_catalog/keyword-index.json](../_catalog/keyword-index.json) | Keyword → skill ID mapping |
 
-**Total:** 1,432 skills across 35 primary categories.
+**Total:** 1,700+ skills across 34+ primary categories.
+
+## On-demand loading policy
+
+Every skill in this library sets `disable-model-invocation: true`. When recommending:
+
+1. Search `_catalog/` only — do not open skill folders during recommendation.
+2. Return skill IDs and rationale.
+3. Tell the user how to invoke the chosen skill explicitly.
+4. Read `<skill-id>/SKILL.md` **only after** the user confirms they want to use it.
 
 ## Recommendation workflow
 

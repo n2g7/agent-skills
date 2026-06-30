@@ -107,11 +107,73 @@ def main():
         cats[s["category"]].append(s)
 
     os.makedirs(CATALOG_DIR, exist_ok=True)
+    cat_counts = {k: len(v) for k, v in sorted(cats.items(), key=lambda x: -len(x[1]))}
     with open(os.path.join(CATALOG_DIR, "skills-index.json"), "w") as f:
-        json.dump({"total": len(skills), "categories": {k: len(v) for k, v in sorted(cats.items(), key=lambda x: -len(x[1]))}, "skills": skills}, f, indent=2)
+        json.dump({"total": len(skills), "categories": cat_counts, "skills": skills}, f, indent=2)
+
+    # Keyword index
+    kw_index = defaultdict(set)
+    stop = {"the", "a", "an", "and", "or", "for", "to", "in", "on", "with", "when", "use", "this", "that", "from", "is", "are", "be", "by", "of", "as", "at", "it", "you", "your", "not", "do", "does"}
+    for s in skills:
+        tokens = re.findall(r"[a-z0-9][a-z0-9_-]{1,}", f"{s['id']} {s['description']}".lower())
+        for t in tokens:
+            if len(t) >= 3 and t not in stop:
+                kw_index[t].add(s["id"])
+    with open(os.path.join(CATALOG_DIR, "keyword-index.json"), "w") as f:
+        json.dump({k: sorted(v) for k, v in sorted(kw_index.items())}, f, indent=2)
+
+    # categories.md
+    lines = [f"# Skills by Category\n\nTotal: {len(skills)} skills across {len(cats)} categories.\n"]
+    for cat in sorted(cats, key=lambda c: (-len(cats[c]), c)):
+        lines.append(f"\n## {cat} ({len(cats[cat])})\n")
+        for s in cats[cat]:
+            desc = (s["description"] or "").replace("\n", " ")
+            if len(desc) > 120:
+                desc = desc[:117] + "..."
+            lines.append(f"- **`{s['id']}`** — {desc}")
+    with open(os.path.join(CATALOG_DIR, "categories.md"), "w") as f:
+        f.write("\n".join(lines) + "\n")
+
+    # full-index.md
+    alpha = sorted(skills, key=lambda s: s["id"].lower())
+    flines = [
+        "# Full Skills Index (Alphabetical)\n",
+        f"{len(skills)} skills.\n",
+        "| Skill ID | Category | Description (truncated) |",
+        "|----------|----------|-------------------------|",
+    ]
+    for s in alpha:
+        desc = (s["description"] or "").replace("|", "\\|").replace("\n", " ")
+        if len(desc) > 120:
+            desc = desc[:117] + " "
+        flines.append(f"| `{s['id']}` | {s['category']} | {desc} |")
+    with open(os.path.join(CATALOG_DIR, "full-index.md"), "w") as f:
+        f.write("\n".join(flines) + "\n")
+
+    # _catalog/README.md category table
+    readme = [
+        "# Skills Catalog Overview\n",
+        f"**Total skills:** {len(skills)}  ",
+        "**Location:** repo root, `~/.agents/skills/`, or `.agents/skills/` submodule\n",
+        "## How to use this catalog\n",
+        "1. **Ask for recommendations** — Use `skill-recommender`: *\"Which skill should I use for X?\"*",
+        "2. **Browse by category** — [categories.md](categories.md)",
+        "3. **Curated picks** — [top-skills.md](top-skills.md)",
+        "4. **Full index** — [full-index.md](full-index.md)",
+        "5. **Machine-readable** — [skills-index.json](skills-index.json)",
+        "6. **Uncategorized skills** — [general-subcategories.md](general-subcategories.md)\n",
+        "Refresh: `python3 _catalog/regenerate.py`\n",
+        "## Category summary\n",
+        "| Category | Count | Top examples |",
+        "|----------|------:|--------------|",
+    ]
+    for cat, count in sorted(cat_counts.items(), key=lambda x: -x[1]):
+        examples = ", ".join(f"`{s['id']}`" for s in cats[cat][:3])
+        readme.append(f"| {cat} | {count} | {examples} |")
+    with open(os.path.join(CATALOG_DIR, "README.md"), "w") as f:
+        f.write("\n".join(readme) + "\n")
 
     print(f"Regenerated catalog: {len(skills)} skills, {len(cats)} categories")
-    print(f"Run the full doc generator separately or ask the agent to refresh all _catalog/ files.")
 
 
 if __name__ == "__main__":
