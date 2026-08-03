@@ -1,6 +1,6 @@
 # Full Skills Index (Alphabetical)
 
-1702 skills.
+1703 skills.
 
 | Skill ID | Category | Description (truncated) |
 |----------|----------|-------------------------|
@@ -1454,6 +1454,7 @@
 | `startup-financial-modeling` | Business & Startup | Build comprehensive 3-5 year financial models with revenue projections, cost structures, cash flow analysis, and scen  |
 | `startup-metrics-framework` | Business & Startup | Comprehensive guide to tracking, calculating, and optimizing key performance metrics for different startup business m  |
 | `statsmodels` | Languages: Python | Statsmodels is Python's premier library for statistical modeling, providing tools for estimation, inference, and diag  |
+| `ste-writing` | General & Miscellaneous | Rewrite prose (docs, READMEs, PR descriptions, error messages, release notes, comments — never code) into ASD-STE100   |
 | `steve-jobs` | General & Miscellaneous | Agente que simula Steve Jobs — cofundador da Apple, CEO da Pixar, fundador da NeXT, o maior designer de produtos tecn  |
 | `stitch-design-taste` | General & Miscellaneous | Use when generating Google Stitch DESIGN.md systems for premium typography, color, layout, motion intent, and anti-ge  |
 | `stitch-loop` | General & Miscellaneous | Teaches agents to iteratively build websites using Stitch with an autonomous baton-passing loop pattern |

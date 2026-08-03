@@ -1,7 +1,7 @@
 {
-  "total": 1702,
+  "total": 1703,
   "categories": {
-    "General & Miscellaneous": 542,
+    "General & Miscellaneous": 543,
     "Automation & Integrations": 166,
     "Azure": 118,
     "AI & LLM": 100,
@@ -6947,6 +6947,12 @@
       "id": "stability-ai",
       "name": "stability-ai",
       "description": "Geracao de imagens via Stability AI (SD3.5, Ultra, Core). Text-to-image, img2img, inpainting, upscale, remove-bg, search-replace. 15 estilos artisticos.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "ste-writing",
+      "name": "ste-writing",
+      "description": "Rewrite prose (docs, READMEs, PR descriptions, error messages, release notes, comments \u2014 never code) into ASD-STE100 Simplified Technical English to remove \"AI slop\". Use when asked to make writing not sound like AI, make docs clear or plain, enforce a controlled writing style, write technical documentation that reads human, or explain technical information in STE. Two modes \u2014 strict (procedures/safety) and STE-flavored (general prose).",
       "category": "General & Miscellaneous"
     },
     {
