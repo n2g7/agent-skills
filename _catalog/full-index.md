@@ -1,6 +1,6 @@
 # Full Skills Index (Alphabetical)
 
-1703 skills.
+1706 skills.
 
 | Skill ID | Category | Description (truncated) |
 |----------|----------|-------------------------|
@@ -1037,6 +1037,8 @@
 | `mobile-developer` | Frontend & UI | Develop React Native, Flutter, or native mobile apps with modern architecture patterns. Masters cross-platform develo  |
 | `mobile-security-coder` | Security & Pentesting | Expert in secure mobile coding practices specializing in input validation, WebView security, and mobile-specific secu  |
 | `mock-hunter` | AI & LLM | Audit a live web page in five phases (catalog, click, trace, classify, report) to identify mock data, hardcoded value  |
+| `model-authoring` | AI & LLM | Empirical rules for authoring PyTorch models for on-device execution on Apple platforms, covering energy-efficient in  |
+| `model-compression-exploration` | AI & LLM | Systematically explore weight compression configurations (quantization and palettization) for a PyTorch model using c  |
 | `modern-javascript-patterns` | Languages: TypeScript/JavaScript | Comprehensive guide for mastering modern JavaScript (ES6+) features, functional programming patterns, and best practi  |
 | `molykit` | AI & LLM | CRITICAL: Use for MolyKit AI chat toolkit. Triggers on: BotClient, OpenAI, SSE streaming, AI chat, molykit, PlatformS  |
 | `monday-automation` | Automation & Integrations | Automate Monday.com work management including boards, items, columns, groups, subitems, and updates via Rube MCP (Com  |
@@ -1675,6 +1677,7 @@
 | `workflow-automation` | Automation & Integrations | Workflow automation is the infrastructure that makes AI agents |
 | `workflow-orchestration-patterns` | Architecture & Design Patterns | Master workflow orchestration architecture with Temporal, covering fundamental design decisions, resilience patterns,  |
 | `workflow-patterns` | Testing & QA | Use this skill when implementing tasks according to Conductor's TDD workflow, handling phase checkpoints, managing gi  |
+| `working-with-coreai` | AI & LLM | Use this skill whenever the user mentions coreai-torch, TorchConverter, coreai-build, AIModel, AIProgram, .aimodel, o  |
 | `wrike-automation` | Automation & Integrations | Automate Wrike project management via Rube MCP (Composio): create tasks/folders, manage projects, assign work, and tr  |
 | `writing-great-skills` | Productivity & Workflow | Reference for writing and editing skills well — the vocabulary and principles that make a skill predictable. |
 | `writing-plans` | General & Miscellaneous | Use when you have a spec or requirements for a multi-step task, before touching code |

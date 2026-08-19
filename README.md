@@ -89,6 +89,7 @@ python3 _catalog/regenerate.py
 ## Credits
 
 - **[Antigravity Awesome Skills](https://github.com/sickn33/antigravity-awesome-skills)** — source library (MIT). Install upstream directly with `npx antigravity-awesome-skills` if you want their npm installer and plugin bundles.
+- **[Apple coreai-models](https://github.com/apple/coreai-models)** — Core AI skills (`working-with-coreai`, `model-authoring`, `model-compression-exploration`), BSD-3-Clause.
 - **This repo** — snapshot + `_catalog/`, `skill-recommender`, lazy-load enforcement, Cloud Agent submodule docs.
 
 Thank you to the Antigravity community for building and maintaining an incredible open skill library.

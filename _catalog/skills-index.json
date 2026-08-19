@@ -1,10 +1,10 @@
 {
-  "total": 1703,
+  "total": 1706,
   "categories": {
     "General & Miscellaneous": 543,
     "Automation & Integrations": 166,
     "Azure": 118,
-    "AI & LLM": 100,
+    "AI & LLM": 103,
     "Productivity & Workflow": 90,
     "Security & Pentesting": 89,
     "SEO & Marketing": 84,
@@ -440,6 +440,18 @@
       "category": "AI & LLM"
     },
     {
+      "id": "model-authoring",
+      "name": "model-authoring",
+      "description": "Empirical rules for authoring PyTorch models for on-device execution on Apple platforms, covering energy-efficient inference, scalable compute, and correctness testing. Use this skill whenever the user is writing, debugging, or reviewing PyTorch model code intended for on-device execution \u2014 even if they don't explicitly mention Neural Engine or Core AI. Covers BC1S layout, op compatibility, KV cache patterns, precision rules, PSNR verification, activation functions, and common issues.",
+      "category": "AI & LLM"
+    },
+    {
+      "id": "model-compression-exploration",
+      "name": "model-compression-exploration",
+      "description": "Systematically explore weight compression configurations (quantization and palettization) for a PyTorch model using coreai-opt, presenting a comprehensive overview of accuracy-vs-size tradeoff options. Use this skill whenever the user wants to compress a model, explore quantization or palettization options, understand compression config tradeoffs, reduce model size, or compare different compression techniques. Also trigger when the user mentions coreai-opt compression, weight quantization exploration, or palettization exploration \u2014 even if they don't say \"explore\" explicitly.",
+      "category": "AI & LLM"
+    },
+    {
       "id": "molykit",
       "name": "molykit",
       "description": "CRITICAL: Use for MolyKit AI chat toolkit. Triggers on: BotClient, OpenAI, SSE streaming, AI chat, molykit, PlatformSend, spawn(), ThreadToken, cross-platform async, Chat widget, Messages, PromptInput, Avatar, LLM",
@@ -623,6 +635,12 @@
       "id": "weaviate-cookbooks",
       "name": "weaviate-cookbooks",
       "description": "Build Weaviate AI apps from official cookbook blueprints for RAG, agentic RAG, data exploration, multimodal PDF search, async clients, and frontends.",
+      "category": "AI & LLM"
+    },
+    {
+      "id": "working-with-coreai",
+      "name": "working-with-coreai",
+      "description": "Use this skill whenever the user mentions coreai-torch, TorchConverter, coreai-build, AIModel, AIProgram, .aimodel, or wants to export/compile/run a PyTorch model on Apple silicon (iPhone, iPad, Mac). Also triggers for \"deploy on device\", \"optimize for on-device performance\", onboarding new models to Core AI, or choosing between iOS and macOS deployment paths.",
       "category": "AI & LLM"
     },
     {

@@ -387,6 +387,9 @@
   "accumulated": [
     "memory-systems"
   ],
+  "accuracy-vs-size": [
+    "model-compression-exploration"
+  ],
   "accurate": [
     "wordpress-centric-high-seo-optimized-blogwriting-skill"
   ],
@@ -540,6 +543,7 @@
     "moyu"
   ],
   "activation": [
+    "model-authoring",
     "onboarding-cro",
     "signup-flow-cro",
     "skill-issue"
@@ -1256,8 +1260,14 @@
   "aigc": [
     "humanize-chinese"
   ],
+  "aimodel": [
+    "working-with-coreai"
+  ],
   "aiohttp": [
     "m365-agents-py"
+  ],
+  "aiprogram": [
+    "working-with-coreai"
   ],
   "airflow": [
     "airflow-dag-patterns",
@@ -1402,7 +1412,9 @@
   ],
   "also": [
     "atlas-ledger",
-    "grill-with-docs"
+    "grill-with-docs",
+    "model-compression-exploration",
+    "working-with-coreai"
   ],
   "alt": [
     "seo-images"
@@ -2367,9 +2379,11 @@
     "hig-patterns",
     "hig-platforms",
     "hig-project-context",
+    "model-authoring",
     "product-design",
     "product-inventor",
-    "steve-jobs"
+    "steve-jobs",
+    "working-with-coreai"
   ],
   "apple-design-context": [
     "hig-components-controls",
@@ -3388,6 +3402,7 @@
     "adhx"
   ],
   "authoring": [
+    "model-authoring",
     "protect-mcp-governance"
   ],
   "authorisation": [
@@ -4530,6 +4545,9 @@
   "bazel-build-optimization": [
     "bazel-build-optimization"
   ],
+  "bc1s": [
+    "model-authoring"
+  ],
   "bdd": [
     "lambdatest-agent-skills"
   ],
@@ -4768,7 +4786,8 @@
     "odoo-migration-helper",
     "react-state-management",
     "seo-aeo-internal-linking",
-    "spec-to-code-compliance"
+    "spec-to-code-compliance",
+    "working-with-coreai"
   ],
   "bevy": [
     "bevy-ecs-expert"
@@ -5772,6 +5791,9 @@
   "c4-context": [
     "c4-context"
   ],
+  "cache": [
+    "model-authoring"
+  ],
   "caching": [
     "azure-identity-py",
     "comfyui-gateway",
@@ -6488,7 +6510,8 @@
     "n8n-node-configuration",
     "react-state-management",
     "ui-setup",
-    "ui-ux-pro-max"
+    "ui-ux-pro-max",
+    "working-with-coreai"
   ],
   "chosen": [
     "theme-factory"
@@ -7120,6 +7143,7 @@
     "logic-lens",
     "makepad-reference",
     "manage-skills",
+    "model-authoring",
     "modern-javascript-patterns",
     "monorepo-management",
     "n8n-code-javascript",
@@ -7592,6 +7616,7 @@
     "backtesting-frameworks",
     "cdk-patterns",
     "linux-shell-scripting",
+    "model-authoring",
     "n8n-expression-syntax",
     "n8n-mcp-tools-expert",
     "n8n-node-configuration",
@@ -7673,6 +7698,7 @@
     "llm-council",
     "loop-library",
     "magic-ui-generator",
+    "model-compression-exploration",
     "unship",
     "xvary-stock-research"
   ],
@@ -7697,6 +7723,7 @@
     "javascript-pro",
     "legacy-modernizer",
     "lightning-architecture-review",
+    "model-authoring",
     "odoo-upgrade-advisor",
     "viboscope"
   ],
@@ -7744,6 +7771,9 @@
   ],
   "competitors": [
     "competitor-analysis"
+  ],
+  "compile": [
+    "working-with-coreai"
   ],
   "compiled": [
     "binary-analysis-patterns"
@@ -8110,6 +8140,7 @@
     "market-sizing-analysis",
     "memory-forensics",
     "mlops-engineer",
+    "model-compression-exploration",
     "modern-javascript-patterns",
     "nextjs-app-router-patterns",
     "nodejs-backend-patterns",
@@ -8169,12 +8200,16 @@
   "comprehensive-review-pr-enhance": [
     "comprehensive-review-pr-enhance"
   ],
+  "compress": [
+    "model-compression-exploration"
+  ],
   "compresses": [
     "recallmax"
   ],
   "compression": [
     "context-compression",
     "context-optimization",
+    "model-compression-exploration",
     "sharp-coder"
   ],
   "compromised": [
@@ -8194,6 +8229,7 @@
   "compute": [
     "azure-ai-ml-py",
     "azure-compute-batch-java",
+    "model-authoring",
     "using-neon"
   ],
   "computed": [
@@ -8333,6 +8369,7 @@
   ],
   "config": [
     "faf-expert",
+    "model-compression-exploration",
     "pre-release-review",
     "vercel-optimize"
   ],
@@ -8382,6 +8419,7 @@
     "deployment-validation-config-validate",
     "environment-setup-guide",
     "kubernetes-deployment",
+    "model-compression-exploration",
     "n8n-mcp-tools-expert",
     "postgres-best-practices"
   ],
@@ -9108,16 +9146,27 @@
     "ios-developer",
     "landing-page-generator",
     "m365-agents-dotnet",
+    "model-authoring",
     "product-marketing-context",
     "scientific-writing",
     "seo-fundamentals",
     "seo-technical",
     "stability-ai",
     "vercel-ai-sdk-expert",
-    "web-performance-optimization"
+    "web-performance-optimization",
+    "working-with-coreai"
   ],
   "core-components": [
     "core-components"
+  ],
+  "coreai-build": [
+    "working-with-coreai"
+  ],
+  "coreai-opt": [
+    "model-compression-exploration"
+  ],
+  "coreai-torch": [
+    "working-with-coreai"
   ],
   "cornerstone": [
     "agent-memory-systems"
@@ -9147,6 +9196,7 @@
     "agent-squad/luna",
     "bugs-are-annoying",
     "deployment-validation-config-validate",
+    "model-authoring",
     "schema-markup"
   ],
   "correctness-first": [
@@ -9260,6 +9310,7 @@
     "godot-4-migration",
     "incident-runbook-templates",
     "kotlin-coroutines-expert",
+    "model-authoring",
     "office-productivity",
     "rag-implementation",
     "saas-mvp-launcher",
@@ -9291,6 +9342,7 @@
     "gemini-api-integration",
     "lightning-architecture-review",
     "lightning-channel-factories",
+    "model-authoring",
     "native-data-fetching",
     "nextjs-seo-indexing",
     "odoo-automated-tests",
@@ -10551,6 +10603,7 @@
     "go-concurrency-patterns",
     "incident-response-smart-fix",
     "makepad-reference",
+    "model-authoring",
     "native-data-fetching",
     "os-scripting",
     "phase-gated-debugging",
@@ -10901,7 +10954,8 @@
     "multi-platform-apps-multi-platform",
     "pre-release-review",
     "remote-gpu-trainer",
-    "vercel-cli-with-tokens"
+    "vercel-cli-with-tokens",
+    "working-with-coreai"
   ],
   "deploy-to-vercel": [
     "deploy-to-vercel"
@@ -10940,7 +10994,8 @@
     "monte-carlo-monitor-creation",
     "production-audit",
     "temporal-python-pro",
-    "unity-developer"
+    "unity-developer",
+    "working-with-coreai"
   ],
   "deployment-engineer": [
     "deployment-engineer"
@@ -11464,7 +11519,8 @@
   ],
   "device": [
     "fda-medtech-compliance-auditor",
-    "premium-3d-website"
+    "premium-3d-website",
+    "working-with-coreai"
   ],
   "devops": [
     "cloud-devops",
@@ -11570,6 +11626,7 @@
   "different": [
     "docx",
     "docx-official",
+    "model-compression-exploration",
     "parallel-agents",
     "playwright-skill",
     "pptx",
@@ -12103,7 +12160,9 @@
   "don": [
     "atlas-ledger",
     "file-organizer",
-    "gha-security-review"
+    "gha-security-review",
+    "model-authoring",
+    "model-compression-exploration"
   ],
   "done": [
     "dos-verify-done-claims"
@@ -12795,6 +12854,9 @@
   "emphasizing": [
     "avalonia-layout-zafiro"
   ],
+  "empirical": [
+    "model-authoring"
+  ],
   "employee": [
     "bamboohr-automation",
     "hr-pro",
@@ -12892,6 +12954,9 @@
   "energy-based": [
     "yann-lecun-tecnico"
   ],
+  "energy-efficient": [
+    "model-authoring"
+  ],
   "energy-procurement": [
     "energy-procurement"
   ],
@@ -12944,6 +13009,7 @@
     "geo-fundamentals",
     "idea-darwin",
     "lex",
+    "model-authoring",
     "open-dynamic-workflows",
     "unreal-engine-cpp-pro"
   ],
@@ -13475,6 +13541,10 @@
   "evasion": [
     "red-team-tactics"
   ],
+  "even": [
+    "model-authoring",
+    "model-compression-exploration"
+  ],
   "event": [
     "azure-eventgrid-dotnet",
     "azure-eventgrid-java",
@@ -13714,6 +13784,7 @@
     "emblemai-crypto-wallet",
     "idea-os",
     "infinite-gratitude",
+    "model-authoring",
     "multi-agent-patterns",
     "playwright-java",
     "polars",
@@ -14071,6 +14142,8 @@
     "crossframe-critical",
     "crossframe-suite",
     "git-pushing",
+    "model-authoring",
+    "model-compression-exploration",
     "test-fixing"
   ],
   "exploit": [
@@ -14098,10 +14171,14 @@
     "windows-privilege-escalation"
   ],
   "exploration": [
+    "model-compression-exploration",
     "weaviate-cookbooks"
   ],
   "exploratory": [
     "plotly"
+  ],
+  "explore": [
+    "model-compression-exploration"
   ],
   "explorer": [
     "aws-cost-optimizer"
@@ -14147,7 +14224,8 @@
     "azure-monitor-opentelemetry-exporter-py",
     "hugging-face-model-trainer",
     "screenstudio-alt",
-    "web-scraper"
+    "web-scraper",
+    "working-with-coreai"
   ],
   "exportacao": [
     "junta-leiloeiros"
@@ -15827,6 +15905,7 @@
     "convex",
     "fp-pipe-ref",
     "microsoft-azure-webjobs-extensions-authentication-events-dotnet",
+    "model-authoring",
     "snowflake-development",
     "supabase-automation",
     "testing-patterns"
@@ -18693,6 +18772,7 @@
     "agentic-actions-auditor",
     "context-fundamentals",
     "local-llm-expert",
+    "model-authoring",
     "runaway-guard",
     "statsmodels",
     "zod-validation-expert"
@@ -19145,6 +19225,9 @@
     "youtube-summarizer",
     "zipai-optimizer"
   ],
+  "intended": [
+    "model-authoring"
+  ],
   "intent": [
     "agent-squad/rex",
     "recallmax",
@@ -19496,7 +19579,8 @@
     "ios-developer",
     "makepad-deployment",
     "makepad-platform",
-    "swiftui-expert-skill"
+    "swiftui-expert-skill",
+    "working-with-coreai"
   ],
   "ios-debugger-agent": [
     "ios-debugger-agent"
@@ -19510,8 +19594,14 @@
   "ipa": [
     "makepad-deployment"
   ],
+  "ipad": [
+    "working-with-coreai"
+  ],
   "ipc": [
     "electron-development"
+  ],
+  "iphone": [
+    "working-with-coreai"
   ],
   "ipn": [
     "paypal-integration"
@@ -19581,6 +19671,7 @@
     "linear-automation",
     "linear-claude-skill",
     "linux-troubleshooting",
+    "model-authoring",
     "nextjs-seo-indexing",
     "odoo-performance-tuner",
     "pagespeed-enhancer",
@@ -20387,6 +20478,7 @@
     "makepad-font",
     "makepad-layout",
     "makepad-reference",
+    "model-authoring",
     "rayden-code",
     "setup-matt-pocock-skills",
     "stitch-design-taste",
@@ -21346,6 +21438,9 @@
   "m365-agents-ts": [
     "m365-agents-ts"
   ],
+  "mac": [
+    "working-with-coreai"
+  ],
   "machine": [
     "ai-ml",
     "azure-ai-ml-py",
@@ -21375,7 +21470,8 @@
     "macos-screen-recorder",
     "macos-spm-app-packaging",
     "makepad-platform",
-    "os-scripting"
+    "os-scripting",
+    "working-with-coreai"
   ],
   "macos-like": [
     "design-it/glassmorphism"
@@ -22500,6 +22596,9 @@
   "mental-health-analyzer": [
     "mental-health-analyzer"
   ],
+  "mention": [
+    "model-authoring"
+  ],
   "mentions": [
     "advanced-evaluation",
     "apify-brand-reputation-monitoring",
@@ -22508,11 +22607,13 @@
     "expo-cicd-workflows",
     "git-pushing",
     "json-canvas",
+    "model-compression-exploration",
     "multi-agent-patterns",
     "obsidian-bases",
     "obsidian-markdown",
     "progressive-web-app",
-    "tdd"
+    "tdd",
+    "working-with-coreai"
   ],
   "menubar": [
     "macos-menubar-tuist-app"
@@ -23056,6 +23157,8 @@
     "ml-engineer",
     "ml-pipeline-workflow",
     "mlops-engineer",
+    "model-authoring",
+    "model-compression-exploration",
     "odoo-module-developer",
     "odoo-rpc-api",
     "odoo-security-rules",
@@ -23066,7 +23169,14 @@
     "skills/x402-express-wrapper",
     "startup-business-analyst-financial-projections",
     "tokenwise",
+    "working-with-coreai",
     "x402-express-wrapper"
+  ],
+  "model-authoring": [
+    "model-authoring"
+  ],
+  "model-compression-exploration": [
+    "model-compression-exploration"
   ],
   "model-index": [
     "hugging-face-evaluation"
@@ -23122,6 +23232,7 @@
     "lightning-architecture-review",
     "marketing-psychology",
     "mmx-cli",
+    "model-authoring",
     "nosql-expert",
     "projection-patterns",
     "pydantic-models-py",
@@ -23131,6 +23242,7 @@
     "startup-metrics-framework",
     "threejs-loaders",
     "transformers-js",
+    "working-with-coreai",
     "yann-lecun-tecnico"
   ],
   "moderation": [
@@ -24060,6 +24172,7 @@
   ],
   "neural": [
     "auri-core",
+    "model-authoring",
     "yann-lecun"
   ],
   "neuro-symbolic": [
@@ -24109,6 +24222,7 @@
     "ui-page",
     "ui-ux-pro-max",
     "wiki-onboarding",
+    "working-with-coreai",
     "youtube-seo-optimizer"
   ],
   "new-rails-project": [
@@ -24754,7 +24868,9 @@
     "lightning-architecture-review"
   ],
   "on-device": [
-    "apple-notes-search"
+    "apple-notes-search",
+    "model-authoring",
+    "working-with-coreai"
   ],
   "on-page": [
     "seo",
@@ -24775,7 +24891,8 @@
     "odoo-edi-connector",
     "onboarding-cro",
     "wiki-architect",
-    "wiki-onboarding"
+    "wiki-onboarding",
+    "working-with-coreai"
   ],
   "onboarding-cro": [
     "onboarding-cro"
@@ -25153,7 +25270,8 @@
     "skill-optimizer",
     "spark-optimization",
     "vector-index-tuning",
-    "web-performance-optimization"
+    "web-performance-optimization",
+    "working-with-coreai"
   ],
   "optimized": [
     "landing-page-generator",
@@ -25210,6 +25328,7 @@
     "finishing-a-development-branch",
     "helium-mcp",
     "longbridge",
+    "model-compression-exploration",
     "options-flow-analyzer"
   ],
   "options-flow-analyzer": [
@@ -25517,7 +25636,8 @@
     "antigravity-skill-orchestrator"
   ],
   "overview": [
-    "design-it/dashboard-design"
+    "design-it/dashboard-design",
+    "model-compression-exploration"
   ],
   "overviews": [
     "ai-seo",
@@ -25709,6 +25829,9 @@
     "theme-factory",
     "ui-ux-pro-max"
   ],
+  "palettization": [
+    "model-compression-exploration"
+  ],
   "pan": [
     "plotly"
   ],
@@ -25891,7 +26014,8 @@
   ],
   "paths": [
     "attack-tree-construction",
-    "windows-shell-reliability"
+    "windows-shell-reliability",
+    "working-with-coreai"
   ],
   "pattern": [
     "code-review-ai-ai-review",
@@ -26007,6 +26131,7 @@
     "microservices-patterns",
     "mobile-developer",
     "mobile-security-coder",
+    "model-authoring",
     "modern-javascript-patterns",
     "monopoly/patterns",
     "multi-agent-patterns",
@@ -26361,7 +26486,8 @@
     "vercel-optimize",
     "web-performance-optimization",
     "wireshark-analysis",
-    "wordpress"
+    "wordpress",
+    "working-with-coreai"
   ],
   "performance-engineer": [
     "performance-engineer"
@@ -26847,6 +26973,7 @@
     "data-engineer",
     "framework-migration-code-migrate",
     "incident-response-smart-fix",
+    "model-authoring",
     "multi-platform-apps-multi-platform",
     "socialclaw"
   ],
@@ -27383,6 +27510,9 @@
   "precisely": [
     "accesslint-scan"
   ],
+  "precision": [
+    "model-authoring"
+  ],
   "precos": [
     "web-scraper"
   ],
@@ -27467,7 +27597,8 @@
     "plotly"
   ],
   "presenting": [
-    "finishing-a-development-branch"
+    "finishing-a-development-branch",
+    "model-compression-exploration"
   ],
   "preserva": [
     "context-guardian"
@@ -28533,6 +28664,9 @@
   "psicologica": [
     "elon-musk"
   ],
+  "psnr": [
+    "model-authoring"
+  ],
   "psp": [
     "pakistan-payments-stack"
   ],
@@ -28810,6 +28944,9 @@
   ],
   "pytorch": [
     "ml-engineer",
+    "model-authoring",
+    "model-compression-exploration",
+    "working-with-coreai",
     "yann-lecun-tecnico"
   ],
   "qdrant": [
@@ -28887,6 +29024,7 @@
   ],
   "quantization": [
     "local-llm-expert",
+    "model-compression-exploration",
     "vector-index-tuning"
   ],
   "quantum": [
@@ -29676,6 +29814,7 @@
     "aws-cost-cleanup",
     "churn-prevention",
     "llm-prompt-optimizer",
+    "model-compression-exploration",
     "signup-flow-cro"
   ],
   "reduced": [
@@ -30656,6 +30795,7 @@
     "fixing-accessibility",
     "fixing-metadata",
     "fixing-motion-performance",
+    "model-authoring",
     "monopoly",
     "postgres-best-practices",
     "react-best-practices",
@@ -31131,6 +31271,7 @@
     "event-staffing-compliance",
     "linkedin-content-generator",
     "loop-library",
+    "model-authoring",
     "odoo-hr-payroll-setup",
     "odoo-inventory-optimizer",
     "odoo-security-rules",
@@ -31166,7 +31307,8 @@
     "setup-matt-pocock-skills",
     "telegram-mini-app",
     "transformers-js",
-    "video-content-extractor"
+    "video-content-extractor",
+    "working-with-coreai"
   ],
   "runapi": [
     "runapi-cli"
@@ -31425,6 +31567,9 @@
     "hierarchical-agent-memory",
     "tokenwise"
   ],
+  "say": [
+    "model-compression-exploration"
+  ],
   "says": [
     "ckw-design",
     "comprehensive-review-pr-enhance",
@@ -31485,6 +31630,7 @@
     "django-pro",
     "graphql-architect",
     "lightning-factory-explainer",
+    "model-authoring",
     "monorepo-management",
     "nodejs-backend-patterns",
     "scanpy",
@@ -33412,6 +33558,9 @@
   "silently": [
     "skill-issue"
   ],
+  "silicon": [
+    "working-with-coreai"
+  ],
   "simclr": [
     "yann-lecun-tecnico"
   ],
@@ -33578,6 +33727,7 @@
     "angular-best-practices",
     "makepad-font",
     "makepad-layout",
+    "model-compression-exploration",
     "seo-images",
     "web-performance-optimization"
   ],
@@ -33660,6 +33810,8 @@
     "loss-aversion-designer",
     "mcp-builder-ms",
     "metasploit-framework",
+    "model-authoring",
+    "model-compression-exploration",
     "monopoly",
     "moodle-external-api-development",
     "multi-agent-patterns",
@@ -33706,6 +33858,7 @@
     "visual-emotion-engineer",
     "wordpress-centric-high-seo-optimized-blogwriting-skill",
     "workflow-patterns",
+    "working-with-coreai",
     "writing-great-skills",
     "x-twitter-scraper",
     "yao-meta-skill"
@@ -35893,6 +36046,7 @@
     "copy-editing",
     "evaluation",
     "incident-response-smart-fix",
+    "model-compression-exploration",
     "production-code-audit",
     "stride-analysis-patterns",
     "test-fixing"
@@ -36443,6 +36597,7 @@
     "llm-application-dev-prompt-optimize",
     "llm-prompt-optimizer",
     "memory-forensics",
+    "model-compression-exploration",
     "odoo-orm-expert",
     "performance-profiling",
     "privilege-escalation-methods",
@@ -36742,6 +36897,7 @@
     "llm-evaluation",
     "mcp-tool-developer",
     "ml-engineer",
+    "model-authoring",
     "nestjs-expert",
     "network-101",
     "pentest-commands",
@@ -36932,6 +37088,8 @@
     "cron-doctor",
     "decision-navigator",
     "graphql",
+    "model-authoring",
+    "model-compression-exploration",
     "paywall-upgrade-cro"
   ],
   "thick": [
@@ -37599,6 +37757,9 @@
     "content-strategy",
     "examprep-ai"
   ],
+  "torchconverter": [
+    "working-with-coreai"
+  ],
   "toss": [
     "idea-darwin",
     "ui-component",
@@ -37726,8 +37887,12 @@
   "trade-off": [
     "architecture"
   ],
+  "tradeoff": [
+    "model-compression-exploration"
+  ],
   "tradeoffs": [
-    "lightning-architecture-review"
+    "lightning-architecture-review",
+    "model-compression-exploration"
   ],
   "trading": [
     "quant-analyst"
@@ -37993,6 +38158,7 @@
     "design-it/widget-based-design",
     "design-it/y2k-design",
     "grilling",
+    "model-compression-exploration",
     "progressive-web-app",
     "seo-dataforseo",
     "trigger-dev"
@@ -38024,7 +38190,8 @@
     "robius-state-management",
     "robius-widget-patterns",
     "sharp-coder",
-    "skill-issue"
+    "skill-issue",
+    "working-with-coreai"
   ],
   "trilingual": [
     "longbridge"
@@ -38416,6 +38583,7 @@
     "explain-like-socrates",
     "expo-cicd-workflows",
     "learn",
+    "model-compression-exploration",
     "n8n-code-python",
     "obsidian-clipper-template-creator",
     "production-code-audit",
@@ -38852,6 +39020,8 @@
     "linux-shell-scripting",
     "mixpanel-automation",
     "mmx-cli",
+    "model-authoring",
+    "model-compression-exploration",
     "moyu",
     "multi-agent-patterns",
     "obsidian-bases",
@@ -38903,6 +39073,7 @@
     "wiki-researcher",
     "wiki-vitepress",
     "wordpress-centric-high-seo-optimized-blogwriting-skill",
+    "working-with-coreai",
     "x-twitter-scraper",
     "xlsx",
     "xlsx-official",
@@ -39038,6 +39209,7 @@
     "marketing-ideas",
     "marketing-psychology",
     "metasploit-framework",
+    "model-compression-exploration",
     "multi-agent-brainstorming",
     "multi-platform-apps-multi-platform",
     "n8n-code-javascript",
@@ -39422,6 +39594,7 @@
     "clarity-gate",
     "closed-loop-delivery",
     "deployment-procedures",
+    "model-authoring",
     "plan-writing",
     "protect-mcp-governance",
     "ui-visual-validator",
@@ -40064,6 +40237,7 @@
     "kaizen",
     "keyword-extractor",
     "mmx-cli",
+    "model-compression-exploration",
     "progressive-web-app",
     "prompt-engineering",
     "screenshots",
@@ -40081,7 +40255,8 @@
     "wiki-onboarding",
     "wiki-qa",
     "wiki-researcher",
-    "wiki-vitepress"
+    "wiki-vitepress",
+    "working-with-coreai"
   ],
   "warehouse": [
     "monte-carlo-push-ingestion",
@@ -40386,6 +40561,9 @@
   "wechat-official-account-strategist": [
     "wechat-official-account-strategist"
   ],
+  "weight": [
+    "model-compression-exploration"
+  ],
   "weightless": [
     "antigravity-design-expert"
   ],
@@ -40463,8 +40641,11 @@
   ],
   "whenever": [
     "ckw-design",
+    "model-authoring",
+    "model-compression-exploration",
     "progressive-web-app",
-    "vexor-cli"
+    "vexor-cli",
+    "working-with-coreai"
   ],
   "where": [
     "agentic-actions-auditor",
@@ -40958,6 +41139,9 @@
     "track-management",
     "vercel-cli-with-tokens"
   ],
+  "working-with-coreai": [
+    "working-with-coreai"
+  ],
   "worklist": [
     "accesslint-scan"
   ],
@@ -41113,6 +41297,7 @@
     "fp-ts-pragmatic",
     "invariant-guard",
     "lemmaly",
+    "model-authoring",
     "modern-javascript-patterns",
     "n8n-code-javascript",
     "n8n-code-python",

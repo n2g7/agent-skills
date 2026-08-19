@@ -23,3 +23,10 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+Third-party skills from [apple/coreai-models](https://github.com/apple/coreai-models)
+(`model-authoring`, `model-compression-exploration`, `working-with-coreai`) are
+Copyright 2026 Apple Inc. and licensed under the BSD 3-Clause License. See the
+LICENSE file in each of those skill directories.

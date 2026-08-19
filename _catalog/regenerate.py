@@ -47,6 +47,7 @@ def categorize(skill_id, name, desc):
         ("AWS", [r"\baws[-_]", r"\bamazon\b"]),
         ("Google Cloud", [r"\bgcp\b", r"\bgoogle[-_]cloud", r"\bfirebase\b"]),
         ("Cloudflare", [r"\bcloudflare\b", r"\bwrangler\b", r"\bdurable[-_]object"]),
+        ("AI & LLM", [r"\bcoreai\b", r"\bcore ai\b"]),
         ("DevOps & CI/CD", [r"\bdevops\b", r"\bci[-_/]cd\b", r"\bterraform\b", r"\bkubernetes\b", r"\bdocker\b", r"\bdeploy\b"]),
         ("Security & Pentesting", [r"\bsecurity\b", r"\bpenetration\b", r"\bpentest\b", r"\bxss\b", r"\bburp\b", r"\bowasp\b", r"\bpci\b"]),
         ("SEO & Marketing", [r"\bseo\b", r"\bmarketing\b", r"\bemail[-_]sequence\b", r"\bbrand\b", r"\bcopywriting\b"]),
