@@ -236,6 +236,7 @@
     "context7-auto-research",
     "expo-cicd-workflows",
     "grilling",
+    "plugin-settings",
     "verification-before-completion",
     "wiki-qa",
     "yield-intelligence"
@@ -621,15 +622,22 @@
   ],
   "add": [
     "2slides-ppt-generator",
+    "agent-development",
     "awt-e2e-testing",
     "buywhere-product-catalog",
+    "command-development",
     "comprehensive-review-pr-enhance",
     "design-spells",
     "frontend-lighthouse",
+    "hook-development",
     "hugging-face-evaluation",
     "mailtrap-setting-up-sending-domain",
+    "mcp-integration",
+    "plugin-dev-agent-creator",
+    "plugin-structure",
     "progressive-web-app",
     "project-skill-audit",
+    "skill-development",
     "ui-tokens",
     "ux-feedback",
     "vercel-cli-with-tokens",
@@ -729,6 +737,7 @@
     "golang-pro",
     "graphql-architect",
     "haskell-pro",
+    "hook-development",
     "kubernetes-architect",
     "llm-application-dev-prompt-optimize",
     "makepad-reference",
@@ -834,7 +843,9 @@
     "lint-and-validate",
     "monte-carlo-validation-notebook",
     "performance-optimizer",
+    "plugin-validator",
     "seo-aeo-content-quality-auditor",
+    "skill-reviewer",
     "variant-analysis"
   ],
   "against": [
@@ -867,6 +878,7 @@
   ],
   "agent": [
     "accint-solve",
+    "agent-development",
     "agent-framework-azure-ai-py",
     "agent-orchestration-multi-agent-optimize",
     "agent-squad",
@@ -905,6 +917,7 @@
     "osterwalder-canvas-architect",
     "pdf-conversion-router",
     "performance-testing-review-multi-agent-review",
+    "plugin-dev-agent-creator",
     "product-manager",
     "progressive-estimation",
     "prompt-engineering",
@@ -925,6 +938,9 @@
   ],
   "agent-creator": [
     "agent-creator"
+  ],
+  "agent-development": [
+    "agent-development"
   ],
   "agent-evaluation": [
     "agent-evaluation"
@@ -1077,6 +1093,8 @@
     "multi-agent-patterns",
     "multi-agent-task-orchestrator",
     "open-dynamic-workflows",
+    "plugin-structure",
+    "plugin-validator",
     "polis-protocol",
     "pydantic-ai",
     "recallmax",
@@ -2097,6 +2115,7 @@
     "gemini-api-dev",
     "gemini-api-integration",
     "github",
+    "hook-development",
     "hugging-face-dataset-viewer",
     "hugging-face-evaluation",
     "hugging-face-papers",
@@ -2693,6 +2712,7 @@
     "nestjs-expert",
     "nextjs-app-router-patterns",
     "nodejs-best-practices",
+    "plugin-structure",
     "production-code-audit",
     "python-development",
     "python-development-python-scaffold",
@@ -2757,6 +2777,7 @@
   ],
   "arguments": [
     "c4-code",
+    "command-development",
     "machine-learning-ops-ml-pipeline"
   ],
   "aria": [
@@ -2914,25 +2935,35 @@
   ],
   "asks": [
     "advanced-evaluation",
+    "agent-development",
     "agents-md",
     "appdeploy",
     "bdi-mental-states",
     "claude-api",
+    "command-development",
     "comprehensive-review-pr-enhance",
     "concise-planning",
+    "create-plugin",
     "explain-like-socrates",
     "expo-cicd-workflows",
     "fp-types-ref",
     "git-pushing",
+    "hook-development",
     "humanize-chinese",
     "image-generator",
     "latex-paper-conversion",
     "learn",
+    "mcp-integration",
     "multi-agent-patterns",
+    "plugin-dev-agent-creator",
+    "plugin-settings",
+    "plugin-structure",
+    "plugin-validator",
     "professional-proofreader",
     "rich-elicitation",
     "sankhya-dashboard-html-jsp-custom-best-pratices",
     "seo",
+    "skill-reviewer",
     "test-fixing",
     "wiki-changelog",
     "wiki-onboarding",
@@ -2941,6 +2972,9 @@
     "wiki-vitepress",
     "wordpress-centric-high-seo-optimized-blogwriting-skill",
     "yield-intelligence"
+  ],
+  "askuserquestion": [
+    "command-development"
   ],
   "aso": [
     "app-store-optimization",
@@ -3447,6 +3481,9 @@
     "faf-wizard",
     "squirrel"
   ],
+  "auto-discovery": [
+    "plugin-structure"
+  ],
   "auto-improves": [
     "analyze-project"
   ],
@@ -3639,6 +3676,7 @@
     "github-actions-advanced",
     "go-playwright",
     "go-rod-master",
+    "hook-development",
     "jobgpt",
     "lambdatest-agent-skills",
     "libreoffice/calc",
@@ -3661,6 +3699,7 @@
   ],
   "autonomous": [
     "aegisops-ai",
+    "agent-development",
     "agentflow",
     "agentfolio",
     "ai-agent-development",
@@ -3668,6 +3707,7 @@
     "autonomous-agent-patterns",
     "autonomous-agents",
     "deep-research",
+    "plugin-dev-agent-creator",
     "stitch-loop"
   ],
   "autonomous-agent-patterns": [
@@ -4484,6 +4524,7 @@
     "bash-scripting",
     "bats-testing-patterns",
     "claude-settings-audit",
+    "command-development",
     "os-scripting",
     "posix-shell-pro",
     "super-code/bash"
@@ -4641,6 +4682,7 @@
     "apify-market-research",
     "behavioral-modes",
     "brainstorming",
+    "plugin-settings",
     "prompt-engineering",
     "systematic-debugging",
     "tdd-workflows-tdd-red"
@@ -4702,6 +4744,7 @@
     "warren-buffett"
   ],
   "best": [
+    "agent-development",
     "agents-md",
     "airflow-dag-patterns",
     "angular-best-practices",
@@ -4721,6 +4764,7 @@
     "code-refactoring-refactor-clean",
     "code-simplifier",
     "codebase-cleanup-refactor-clean",
+    "command-development",
     "docker-expert",
     "documentation-generation-doc-generate",
     "dotnet-backend-patterns",
@@ -4737,6 +4781,7 @@
     "pagespeed-enhancer",
     "pdf-conversion-router",
     "plotly",
+    "plugin-structure",
     "polars",
     "postgres-best-practices",
     "prompt-engineering",
@@ -4755,6 +4800,7 @@
     "seo-snippet-hunter",
     "skill-creator",
     "skill-developer",
+    "skill-development",
     "skill-router",
     "snowflake-development",
     "solidity-security",
@@ -4932,6 +4978,7 @@
     "design-it/aurora-ui"
   ],
   "block": [
+    "hook-development",
     "seo-aeo-blog-writer",
     "wordpress-theme-development"
   ],
@@ -5095,7 +5142,8 @@
   ],
   "both": [
     "azure-data-tables-java",
-    "brand-guidelines"
+    "brand-guidelines",
+    "make-me-an-expert"
   ],
   "bots": [
     "discord-bot-architect",
@@ -5493,6 +5541,7 @@
     "nx-workspace-patterns",
     "observability-engineer",
     "pipecat-friday-agent",
+    "plugin-dev-agent-creator",
     "progressive-web-app",
     "projection-patterns",
     "prototype",
@@ -5629,6 +5678,7 @@
     "docker-expert",
     "frontend-lighthouse",
     "github-actions-advanced",
+    "make-me-an-expert",
     "seo-aeo-content-cluster",
     "social-content",
     "squirrel",
@@ -6119,6 +6169,9 @@
     "mock-hunter",
     "odoo-ecommerce-configurator"
   ],
+  "catalog-routed": [
+    "make-me-an-expert"
+  ],
   "catalogues": [
     "wiki-architect"
   ],
@@ -6346,6 +6399,9 @@
     "microsoft-teams-automation",
     "youtube-full"
   ],
+  "chapter": [
+    "make-me-an-expert"
+  ],
   "chapters": [
     "youtube-seo-optimizer"
   ],
@@ -6415,8 +6471,10 @@
     "hig-inputs",
     "hig-technologies",
     "makepad-widgets",
+    "plugin-validator",
     "seo-content",
-    "seo-page"
+    "seo-page",
+    "skill-reviewer"
   ],
   "checking": [
     "security/aws-compliance-checker"
@@ -6584,6 +6642,9 @@
     "scientific-writing",
     "seo-geo"
   ],
+  "cited": [
+    "make-me-an-expert"
+  ],
   "citizens": [
     "polis-protocol"
   ],
@@ -6674,6 +6735,7 @@
     "puzzle-activity-planner"
   ],
   "claude": [
+    "agent-development",
     "agentflow",
     "agentic-actions-auditor",
     "agents-md",
@@ -6692,7 +6754,9 @@
     "claude-settings-audit",
     "claude-speed-reader",
     "codex-fable5",
+    "command-development",
     "context7-auto-research",
+    "create-plugin",
     "devcontainer-setup",
     "geo-fundamentals",
     "hierarchical-agent-memory",
@@ -6700,12 +6764,20 @@
     "hig-components-menus",
     "hig-inputs",
     "hig-technologies",
+    "hook-development",
     "logic-lens",
     "manage-skills",
+    "mcp-integration",
+    "plugin-dev-agent-creator",
+    "plugin-settings",
+    "plugin-structure",
+    "plugin-validator",
     "skill-check",
     "skill-developer",
+    "skill-development",
     "skill-improver",
     "skill-optimizer",
+    "skill-reviewer",
     "skill-seekers",
     "superpowers-lab",
     "tokenwise",
@@ -6756,6 +6828,11 @@
   ],
   "claude_agent_sdk": [
     "claude-api"
+  ],
+  "claude_plugin_root": [
+    "hook-development",
+    "mcp-integration",
+    "plugin-structure"
   ],
   "clauses": [
     "atlas-ledger"
@@ -7057,6 +7134,7 @@
   ],
   "code": [
     "007",
+    "agent-development",
     "agent-squad/luna",
     "agent-squad/mason",
     "agent-squad/max",
@@ -7100,12 +7178,14 @@
     "codebase-cleanup-refactor-clean",
     "codebase-design",
     "codex-review",
+    "command-development",
     "commit",
     "complexity-cuts",
     "constant-time-analysis",
     "context-driven-development",
     "context7-auto-research",
     "cpp-pro",
+    "create-plugin",
     "csharp-pro",
     "dbos-golang",
     "dbos-python",
@@ -7136,6 +7216,7 @@
     "git-pr-workflows-git-workflow",
     "git-pr-workflows-pr-enhance",
     "github-automation",
+    "hook-development",
     "invariant-guard",
     "kaizen",
     "laravel-security-audit",
@@ -7143,6 +7224,7 @@
     "logic-lens",
     "makepad-reference",
     "manage-skills",
+    "mcp-integration",
     "model-authoring",
     "modern-javascript-patterns",
     "monorepo-management",
@@ -7154,6 +7236,9 @@
     "performance-testing-review-ai-review",
     "phase-gated-debugging",
     "php-pro",
+    "plugin-dev-agent-creator",
+    "plugin-structure",
+    "plugin-validator",
     "python-performance-optimization",
     "rayden-code",
     "react-best-practices",
@@ -7168,8 +7253,10 @@
     "shellcheck-configuration",
     "skill-check",
     "skill-developer",
+    "skill-development",
     "skill-improver",
     "skill-optimizer",
+    "skill-reviewer",
     "skill-scanner",
     "software-architecture",
     "spec-to-code-compliance",
@@ -7450,6 +7537,7 @@
     "design-it/color-blocking"
   ],
   "colors": [
+    "agent-development",
     "design-it/cyberpunk-ui",
     "design-it/flat-design",
     "design-it/minimalism",
@@ -7524,6 +7612,7 @@
   "command": [
     "burpsuite-project-parser",
     "busybox-on-windows",
+    "command-development",
     "cqrs-implementation",
     "design-it/command-center-ui",
     "hugging-face-tool-builder",
@@ -7535,6 +7624,9 @@
   "command-center-ui": [
     "design-it/command-center-ui"
   ],
+  "command-development": [
+    "command-development"
+  ],
   "command-line": [
     "android-cli",
     "hasdata-cli",
@@ -7544,10 +7636,14 @@
   "commands": [
     "bash-linux",
     "claude-settings-audit",
+    "command-development",
+    "hook-development",
     "interview-coach",
     "nx-workspace-patterns",
     "permission-manager",
     "playwright-skill",
+    "plugin-structure",
+    "plugin-validator",
     "server-management",
     "telegram-automation"
   ],
@@ -7927,9 +8023,11 @@
     "bevy-ecs-expert",
     "c4-component",
     "core-components",
+    "create-plugin",
     "emil-design-eng",
     "frontend-mobile-development-component-scaffold",
     "magic-ui-generator",
+    "plugin-structure",
     "radix-ui-design-system",
     "tailwind-design-system",
     "ui-a11y",
@@ -7966,6 +8064,8 @@
     "landing-page-generator",
     "nextjs-app-router-patterns",
     "nextjs-best-practices",
+    "plugin-structure",
+    "plugin-validator",
     "rayden-code",
     "rayden-use",
     "react-best-practices",
@@ -8128,6 +8228,7 @@
     "go-rod-master",
     "grafana-dashboards",
     "helm-chart-scaffolding",
+    "hook-development",
     "hugging-face-datasets",
     "incident-responder",
     "istio-traffic-management",
@@ -8138,6 +8239,7 @@
     "llm-application-dev-ai-assistant",
     "llm-evaluation",
     "market-sizing-analysis",
+    "mcp-integration",
     "memory-forensics",
     "mlops-engineer",
     "model-compression-exploration",
@@ -8322,6 +8424,7 @@
     "typescript-advanced-types"
   ],
   "conditions": [
+    "agent-development",
     "ai-loop",
     "apify-market-research",
     "go-concurrency-patterns"
@@ -8370,6 +8473,7 @@
   "config": [
     "faf-expert",
     "model-compression-exploration",
+    "plugin-validator",
     "pre-release-review",
     "vercel-optimize"
   ],
@@ -8382,6 +8486,7 @@
     "temporal-golang-pro"
   ],
   "configurable": [
+    "plugin-settings",
     "video-content-extractor",
     "wiki-builder"
   ],
@@ -8405,6 +8510,8 @@
     "odoo-inventory-optimizer",
     "odoo-l10n-compliance",
     "odoo-performance-tuner",
+    "plugin-settings",
+    "plugin-structure",
     "prometheus-configuration",
     "reference-builder",
     "sast-configuration",
@@ -8435,10 +8542,12 @@
     "hybrid-cloud-networking",
     "mailtrap-sending-emails",
     "manifest",
+    "mcp-integration",
     "mtls-configuration",
     "network-101",
     "nx-workspace-patterns",
     "permission-manager",
+    "plugin-structure",
     "sentry-automation",
     "setup-matt-pocock-skills",
     "turborepo-caching"
@@ -8485,6 +8594,7 @@
     "helium-mcp",
     "hybrid-cloud-networking",
     "maxia",
+    "mcp-integration",
     "odoo-shopify-integration",
     "wellally-tech"
   ],
@@ -8721,6 +8831,7 @@
     "mmx-cli",
     "obsidian-cli",
     "obsidian-clipper-template-creator",
+    "plugin-settings",
     "podcast-generation",
     "python-pptx-generator",
     "reddit-automation",
@@ -8746,6 +8857,7 @@
     "seo-plan",
     "seo-snippet-hunter",
     "seo-structure-architect",
+    "skill-development",
     "social-content",
     "social-post-writer-seo",
     "tavily-web",
@@ -8812,6 +8924,7 @@
     "hig-technologies",
     "lex",
     "mcp-builder",
+    "mcp-integration",
     "mcp-tool-developer",
     "monte-carlo-prevent",
     "multi-agent-patterns",
@@ -8886,6 +8999,7 @@
     "ddd-strategic-design"
   ],
   "continue": [
+    "make-me-an-expert",
     "manage-skills"
   ],
   "continuidade": [
@@ -8984,6 +9098,7 @@
     "create-branch",
     "design-it/brutalism",
     "event-staffing-ordering",
+    "plugin-structure",
     "ui-component"
   ],
   "conversation": [
@@ -9284,6 +9399,9 @@
   "course": [
     "lesson-generator"
   ],
+  "coursebook": [
+    "make-me-an-expert"
+  ],
   "coverage": [
     "comprehensive-review-pr-enhance",
     "event-staffing-ordering",
@@ -9437,6 +9555,7 @@
     "ad-creative",
     "advanced-evaluation",
     "agent-creator",
+    "agent-development",
     "agentmail",
     "agentphone",
     "agents-md",
@@ -9447,8 +9566,10 @@
     "close-automation",
     "code-refactoring-tech-debt",
     "codebase-cleanup-tech-debt",
+    "command-development",
     "conductor-new-track",
     "create-branch",
+    "create-plugin",
     "datadog-automation",
     "deploy-to-vercel",
     "deployment-validation-config-validate",
@@ -9463,6 +9584,7 @@
     "git-pushing",
     "grafana-dashboards",
     "hig-project-context",
+    "hook-development",
     "html-injection-testing",
     "hugging-face-datasets",
     "hugging-face-tool-builder",
@@ -9489,6 +9611,8 @@
     "odoo-orm-expert",
     "outlook-calendar-automation",
     "paid-ads",
+    "plugin-dev-agent-creator",
+    "plugin-structure",
     "popup-cro",
     "pptx",
     "pptx-official",
@@ -9500,6 +9624,7 @@
     "sales-enablement",
     "screenshots",
     "skill-creator",
+    "skill-development",
     "skill-writer",
     "social-content",
     "sred-work-summary",
@@ -9523,6 +9648,9 @@
   ],
   "create-issue-gate": [
     "create-issue-gate"
+  ],
+  "create-plugin": [
+    "create-plugin"
   ],
   "create-pr": [
     "create-pr"
@@ -9585,6 +9713,7 @@
     "frontend-dev-guidelines",
     "git-pr-workflows-pr-enhance",
     "helm-chart-scaffolding",
+    "hook-development",
     "hosted-agents-v2-py",
     "hugging-face-paper-publisher",
     "industrial-brutalist-ui",
@@ -9600,6 +9729,7 @@
     "obsidian-clipper-template-creator",
     "odoo-module-developer",
     "openapi-spec-generation",
+    "plugin-validator",
     "programmatic-seo",
     "python-packaging",
     "readme",
@@ -9607,6 +9737,7 @@
     "security-requirement-extraction",
     "skill-creator-ms",
     "skill-developer",
+    "skill-reviewer",
     "slack-gif-creator",
     "stride-analysis-patterns",
     "terraform-infrastructure",
@@ -9629,6 +9760,7 @@
     "azure-security-keyvault-keys-dotnet",
     "confluence-automation",
     "content-marketer",
+    "create-plugin",
     "doc-coauthoring",
     "git-pr-workflows-git-workflow",
     "imagen",
@@ -10017,6 +10149,7 @@
     "azure-ai-document-intelligence-ts",
     "azure-monitor-ingestion-java",
     "azure-monitor-ingestion-py",
+    "command-development",
     "copilot-sdk",
     "helpdesk-automation",
     "hugging-face-evaluation",
@@ -10153,6 +10286,9 @@
   ],
   "damages": [
     "logistics-exception-management"
+  ],
+  "dangerous": [
+    "hook-development"
   ],
   "daos": [
     "blockchain-developer"
@@ -10741,7 +10877,8 @@
     "codebase-design"
   ],
   "deep-research": [
-    "deep-research"
+    "deep-research",
+    "make-me-an-expert"
   ],
   "deep-scan": [
     "production-code-audit"
@@ -10797,6 +10934,7 @@
     "defi-protocol-templates"
   ],
   "define": [
+    "command-development",
     "ddd-context-mapping",
     "tdd-workflows-tdd-red"
   ],
@@ -11048,9 +11186,12 @@
     "hello"
   ],
   "description": [
+    "agent-development",
     "comprehensive-review-pr-enhance",
     "git-pr-review",
-    "seo-aeo-meta-description-generator"
+    "seo-aeo-meta-description-generator",
+    "skill-development",
+    "skill-reviewer"
   ],
   "descriptions": [
     "ad-creative",
@@ -11087,6 +11228,7 @@
     "codebase-design",
     "convex",
     "core-components",
+    "create-plugin",
     "crossframe-debate",
     "database",
     "database-architect",
@@ -11434,6 +11576,7 @@
     "competitive-landscape"
   ],
   "development": [
+    "agent-development",
     "agentflow",
     "ai-agent-development",
     "ai-loop",
@@ -11454,6 +11597,7 @@
     "cc-skill-strategic-compact",
     "cicd-automation-workflow-automate",
     "cloud-devops",
+    "command-development",
     "database",
     "devcontainer-setup",
     "development",
@@ -11497,6 +11641,7 @@
     "scala-pro",
     "senior-frontend",
     "shopify-apps",
+    "skill-development",
     "snowflake-development",
     "software-architecture",
     "solidity-security",
@@ -11735,7 +11880,8 @@
     "azure-storage-file-datalake-py",
     "file-path-traversal",
     "global-chat-agent-discovery",
-    "playwright-skill"
+    "playwright-skill",
+    "plugin-structure"
   ],
   "directory-level": [
     "hierarchical-agent-memory"
@@ -11771,6 +11917,8 @@
   "disclosure": [
     "skill-creator",
     "skill-developer",
+    "skill-development",
+    "skill-reviewer",
     "temporal-python-testing",
     "ux-flow"
   ],
@@ -11809,6 +11957,7 @@
     "azure-mgmt-apicenter-dotnet",
     "buywhere-product-catalog",
     "competitor-analysis",
+    "create-plugin",
     "exa-search",
     "filesystem-context",
     "flowhunt-skill",
@@ -11826,6 +11975,9 @@
   ],
   "discussed": [
     "to-prd"
+  ],
+  "discusses": [
+    "mcp-integration"
   ],
   "discussing": [
     "uncle-bob-craft"
@@ -12046,6 +12198,7 @@
     "code-documentation-doc-generate",
     "context-driven-development",
     "context7-auto-research",
+    "create-plugin",
     "customs-trade-compliance",
     "daily",
     "dbt-transformation-patterns",
@@ -12096,6 +12249,7 @@
     "context-fundamentals",
     "doc2math",
     "notebooklm",
+    "plugin-settings",
     "telegram-automation",
     "wiki-onboarding"
   ],
@@ -12379,6 +12533,7 @@
     "azure-appconfiguration-py",
     "azure-appconfiguration-ts",
     "codebase-to-wordpress-converter",
+    "command-development",
     "context-manager",
     "filesystem-context",
     "makepad-splash",
@@ -12928,6 +13083,7 @@
     "android_ui_verification",
     "application-performance-performance-optimization",
     "backend-development-feature-development",
+    "create-plugin",
     "development",
     "e2e-testing",
     "e2e-testing-patterns",
@@ -13570,6 +13726,7 @@
     "azure-eventgrid-py",
     "azure-eventhub-java",
     "event-sourcing-architect",
+    "hook-development",
     "inngest"
   ],
   "event-sourced": [
@@ -13609,6 +13766,7 @@
     "ddd-tactical-patterns",
     "event-staffing-ordering",
     "google-analytics-automation",
+    "hook-development",
     "microsoft-azure-webjobs-extensions-authentication-events-dotnet",
     "mixpanel-automation",
     "outlook-calendar-automation",
@@ -13708,6 +13866,7 @@
     "cc-skill-project-guidelines-example"
   ],
   "examples": [
+    "agent-development",
     "api-documentation-generator",
     "crossframe-teach",
     "fp-async",
@@ -13778,6 +13937,7 @@
     "android-ui-journey-testing",
     "awt-e2e-testing",
     "bazel-build-optimization",
+    "command-development",
     "constant-time-analysis",
     "create-issue-gate",
     "design-orchestration",
@@ -13830,6 +13990,7 @@
     "hig-components-menus",
     "hig-inputs",
     "hig-technologies",
+    "make-me-an-expert",
     "not-a-vibe-coder",
     "redesign-existing-projects",
     "semgrep-rule-variant-creator",
@@ -13997,6 +14158,7 @@
     "llm-application-dev-langchain-agent",
     "llm-application-dev-prompt-optimize",
     "local-llm-expert",
+    "make-me-an-expert",
     "malware-analyst",
     "micro-saas-launcher",
     "mobile-security-coder",
@@ -14303,6 +14465,7 @@
     "c4-context",
     "mcp-builder",
     "mcp-builder-ms",
+    "mcp-integration",
     "moodle-external-api-development",
     "odoo-rpc-api",
     "odoo-shopify-integration",
@@ -14752,6 +14915,7 @@
   ],
   "fields": [
     "airtable-automation",
+    "command-development",
     "helpdesk-automation",
     "hig-components-search",
     "mailtrap-managing-contacts",
@@ -14792,6 +14956,7 @@
     "box-automation",
     "cc-skill-security-review",
     "codebase-audit-pre-push",
+    "command-development",
     "convex",
     "docx",
     "docx-official",
@@ -14801,6 +14966,7 @@
     "one-drive-automation",
     "photopea-embedded-editor",
     "playwright-skill",
+    "plugin-structure",
     "pptx",
     "pptx-official",
     "professional-proofreader",
@@ -14854,6 +15020,9 @@
     "obsidian-bases",
     "obsidian-markdown",
     "planning-with-files",
+    "plugin-dev-agent-creator",
+    "plugin-settings",
+    "plugin-validator",
     "pptx",
     "pptx-official",
     "the-honoured-one",
@@ -15308,6 +15477,7 @@
   "focus": [
     "database-migrations-sql-migrations",
     "fixing-accessibility",
+    "hook-development",
     "unit-testing-test-generate"
   ],
   "focused": [
@@ -15804,8 +15974,11 @@
     "voice-agents"
   ],
   "frontmatter": [
+    "agent-development",
+    "command-development",
     "ingest-youtube",
-    "obsidian-markdown"
+    "obsidian-markdown",
+    "plugin-settings"
   ],
   "frosted": [
     "design-it/glassmorphism"
@@ -15985,6 +16158,9 @@
     "macos-screen-recorder",
     "seo-aeo-content-cluster"
   ],
+  "gap-fill": [
+    "make-me-an-expert"
+  ],
   "gapless": [
     "gpt-taste"
   ],
@@ -16143,6 +16319,7 @@
     "mise-configurator",
     "mmx-cli",
     "openapi-spec-generation",
+    "plugin-dev-agent-creator",
     "podcast-generation",
     "python-development",
     "python-development-python-scaffold",
@@ -16191,6 +16368,7 @@
     "landing-page-generator",
     "monte-carlo-validation-notebook",
     "odoo-xml-views-builder",
+    "plugin-dev-agent-creator",
     "reference-builder",
     "seo-aeo-schema-generator",
     "seo-hreflang",
@@ -16882,11 +17060,13 @@
   ],
   "guidance": [
     "accessibility-compliance-accessibility-audit",
+    "agent-development",
     "android-jetpack-compose-expert",
     "async-python-patterns",
     "claude-ally-health",
     "claude-d3js-skill",
     "codex-fable5",
+    "command-development",
     "ecl-harness-engineer",
     "emil-design-eng",
     "ffuf-web-fuzzing",
@@ -16896,13 +17076,17 @@
     "hig-components-status",
     "hig-components-system",
     "hig-project-context",
+    "hook-development",
     "k8s-manifest-generator",
+    "mcp-integration",
     "n8n-mcp-tools-expert",
     "n8n-node-configuration",
     "nodejs-backend-patterns",
     "nosql-expert",
+    "plugin-structure",
     "security-compliance-compliance-check",
     "seo-dataforseo",
+    "skill-development",
     "stitch-ui-design",
     "top-web-vulnerabilities",
     "typescript-advanced-types",
@@ -17058,6 +17242,7 @@
   "guides": [
     "api-documentation",
     "code-documentation-doc-generate",
+    "create-plugin",
     "documentation-generation-doc-generate",
     "finishing-a-development-branch",
     "learn",
@@ -17648,7 +17833,11 @@
     "hono"
   ],
   "hook": [
+    "hook-development",
     "zod-validation-expert"
+  ],
+  "hook-development": [
+    "hook-development"
   ],
   "hooks": [
     "claude-code-expert",
@@ -17656,6 +17845,9 @@
     "fp-react",
     "fp-ts-react",
     "git-hooks-automation",
+    "hook-development",
+    "plugin-structure",
+    "plugin-validator",
     "react-modernization",
     "react-patterns",
     "vercel-ai-sdk-expert",
@@ -17770,6 +17962,7 @@
     "burp-suite-testing",
     "burpsuite-project-parser",
     "fastapi-router-py",
+    "mcp-integration",
     "n8n-code-javascript",
     "network-101",
     "pubmed-database",
@@ -18280,6 +18473,7 @@
     "event-store-design",
     "frontend-developer",
     "graphql-architect",
+    "hook-development",
     "legacy-modernizer",
     "machine-learning-ops-ml-pipeline",
     "multi-agent-patterns",
@@ -18305,6 +18499,7 @@
     "conductor-implement",
     "conductor-new-track",
     "create-issue-gate",
+    "create-plugin",
     "data-engineering-data-driven-feature",
     "design-it/3d-ui",
     "design-it/ai-native-ui",
@@ -18410,6 +18605,7 @@
     "go-concurrency-patterns",
     "godot-gdscript-patterns",
     "grpc-golang",
+    "hook-development",
     "hybrid-search-implementation",
     "javascript-testing-patterns",
     "k8s-security-policies",
@@ -18491,7 +18687,9 @@
     "professional-proofreader",
     "prompt-engineering",
     "revops",
+    "skill-development",
     "skill-improver",
+    "skill-reviewer",
     "skill-writer",
     "swiftui-expert-skill"
   ],
@@ -18651,6 +18849,7 @@
     "seo-structure-architect",
     "shopify-apps",
     "skill-developer",
+    "skill-reviewer",
     "slack-automation",
     "smtp-penetration-testing",
     "spline-3d-integration",
@@ -19091,7 +19290,8 @@
   ],
   "intake": [
     "acceptance-orchestrator",
-    "flowhunt-skill"
+    "flowhunt-skill",
+    "make-me-an-expert"
   ],
   "integracao": [
     "amazon-alexa",
@@ -19111,6 +19311,7 @@
     "k6-load-testing",
     "magic-ui-generator",
     "mcp-builder-ms",
+    "mcp-integration",
     "payment-integration",
     "wellally-tech"
   ],
@@ -19122,7 +19323,8 @@
   "integrating": [
     "azure-eventgrid-java",
     "frontend-api-integration-patterns",
-    "gemini-api-integration"
+    "gemini-api-integration",
+    "mcp-integration"
   ],
   "integration": [
     "audio-transcriber",
@@ -19145,6 +19347,7 @@
     "ios-developer",
     "jq",
     "langchain-architecture",
+    "mcp-integration",
     "nestjs-expert",
     "nextjs-supabase-auth",
     "odoo-automated-tests",
@@ -19251,6 +19454,7 @@
     "dwarf-expert"
   ],
   "interaction": [
+    "command-development",
     "emil-design-eng",
     "firecrawl-scraper",
     "game-development/vr-ar",
@@ -19272,6 +19476,7 @@
     "antigravity-design-expert",
     "api-documenter",
     "claude-d3js-skill",
+    "command-development",
     "fixing-accessibility",
     "lookdev",
     "matplotlib",
@@ -19431,6 +19636,7 @@
     "launch-strategy",
     "lead-magnets",
     "lookdev-auto",
+    "mcp-integration",
     "not-a-vibe-coder",
     "pdf-conversion-router",
     "prompt-engineer",
@@ -19930,10 +20136,13 @@
     "json-canvas",
     "junta-leiloeiros",
     "llm-structured-output",
+    "mcp-integration",
     "n8n-code-javascript",
     "n8n-code-python",
     "n8n-expression-syntax",
     "pdf-conversion-router",
+    "plugin-structure",
+    "plugin-validator",
     "technical-change-tracker",
     "tool-use-guardian",
     "ui-tokens",
@@ -20479,6 +20688,7 @@
     "makepad-layout",
     "makepad-reference",
     "model-authoring",
+    "plugin-structure",
     "rayden-code",
     "setup-matt-pocock-skills",
     "stitch-design-taste",
@@ -20540,6 +20750,7 @@
   ],
   "learn": [
     "learn",
+    "make-me-an-expert",
     "prompt-engineering"
   ],
   "learning": [
@@ -20665,6 +20876,9 @@
   ],
   "lesson-generator": [
     "lesson-generator"
+  ],
+  "lessons": [
+    "make-me-an-expert"
   ],
   "let": [
     "idea-darwin"
@@ -21036,6 +21250,9 @@
     "twitter-automation",
     "ui-pattern"
   ],
+  "lit-review": [
+    "make-me-an-expert"
+  ],
   "literal": [
     "typescript-advanced-types"
   ],
@@ -21185,6 +21402,7 @@
     "local-llm-expert",
     "lookdev",
     "mise-configurator",
+    "plugin-settings",
     "turborepo-caching",
     "web-media-getter",
     "webapp-testing",
@@ -21611,6 +21829,9 @@
     "create-branch",
     "humanize-chinese",
     "make-automation",
+    "make-me-an-expert",
+    "plugin-dev-agent-creator",
+    "plugin-settings",
     "ste-writing",
     "tdd-workflows-tdd-green",
     "test-fixing",
@@ -21619,6 +21840,9 @@
   ],
   "make-automation": [
     "make-automation"
+  ],
+  "make-me-an-expert": [
+    "make-me-an-expert"
   ],
   "makepad": [
     "makepad-animation",
@@ -21925,7 +22149,8 @@
   ],
   "manifest": [
     "chrome-extension-developer",
-    "manifest"
+    "manifest",
+    "plugin-structure"
   ],
   "manifest__": [
     "odoo-module-developer"
@@ -22012,10 +22237,12 @@
     "defuddle",
     "hugging-face-papers",
     "ingest-youtube",
+    "make-me-an-expert",
     "mock-hunter",
     "obsidian-markdown",
     "pdf-conversion-router",
     "planning-with-files",
+    "plugin-settings",
     "product-manager",
     "video-content-extractor",
     "wiki-builder",
@@ -22381,6 +22608,7 @@
     "maxia",
     "mcp-builder",
     "mcp-builder-ms",
+    "mcp-integration",
     "mcp-tool-developer",
     "mercury-mcp",
     "mesh-memory",
@@ -22397,6 +22625,7 @@
     "outlook-calendar-automation",
     "pagerduty-automation",
     "pipedrive-automation",
+    "plugin-validator",
     "posthog-automation",
     "postmark-automation",
     "protect-mcp-governance",
@@ -22432,6 +22661,9 @@
   ],
   "mcp-builder-ms": [
     "mcp-builder-ms"
+  ],
+  "mcp-integration": [
+    "mcp-integration"
   ],
   "mcp-tool-developer": [
     "mcp-tool-developer"
@@ -22606,7 +22838,9 @@
     "ckw-design",
     "expo-cicd-workflows",
     "git-pushing",
+    "hook-development",
     "json-canvas",
+    "mcp-integration",
     "model-compression-exploration",
     "multi-agent-patterns",
     "obsidian-bases",
@@ -23153,6 +23387,7 @@
     "local-llm-expert",
     "lookdev-auto",
     "mcp-builder",
+    "mcp-integration",
     "mcp-tool-developer",
     "ml-engineer",
     "ml-pipeline-workflow",
@@ -23350,6 +23585,8 @@
     "html-injection-testing"
   ],
   "modifying": [
+    "plugin-validator",
+    "skill-reviewer",
     "threejs-shaders"
   ],
   "modo": [
@@ -23894,6 +24131,9 @@
     "create-pr",
     "viral-generator-builder"
   ],
+  "named": [
+    "make-me-an-expert"
+  ],
   "names": [
     "crossframe-critical"
   ],
@@ -23902,6 +24142,7 @@
   ],
   "naming": [
     "create-branch",
+    "plugin-structure",
     "skill-check",
     "smart-git-automation"
   ],
@@ -24034,9 +24275,11 @@
     "memory-systems"
   ],
   "needs": [
+    "agent-development",
     "agents-md",
     "churn-prevention",
     "codebase-design",
+    "command-development",
     "crossframe-essay",
     "crossframe-review",
     "domain-modeling",
@@ -24047,8 +24290,10 @@
     "fp-types-ref",
     "game-development",
     "gh-review-requests",
+    "plugin-structure",
     "sales-enablement",
     "seo-dataforseo",
+    "skill-development",
     "skill-suggester"
   ],
   "negocio": [
@@ -24207,12 +24452,14 @@
     "new-rails-project",
     "not-a-vibe-coder",
     "obsidian-clipper-template-creator",
+    "plugin-dev-agent-creator",
     "react-best-practices",
     "seo-meta-optimizer",
     "seo-plan",
     "seo-sitemap",
     "skill-creator",
     "skill-creator-ms",
+    "skill-development",
     "skill-improver",
     "skill-suggester",
     "swiftui-expert-skill",
@@ -24465,6 +24712,9 @@
   "notices": [
     "atlas-contract",
     "legal-advisor"
+  ],
+  "notification": [
+    "hook-development"
   ],
   "notifications": [
     "azure-communication-sms-java",
@@ -24918,6 +25168,7 @@
     "latex-paper-conversion",
     "lookdev-auto",
     "loss-aversion-designer",
+    "make-me-an-expert",
     "objection-preemptor",
     "onboarding-psychologist",
     "pitch-psychologist",
@@ -25423,6 +25674,7 @@
     "basecamp-automation",
     "calendly-automation",
     "dbt-transformation-patterns",
+    "plugin-structure",
     "seo-structure-architect",
     "systems-programming-rust-project"
   ],
@@ -25439,6 +25691,9 @@
     "zendesk-automation"
   ],
   "organize": [
+    "command-development",
+    "plugin-structure",
+    "skill-development",
     "sred-project-organizer"
   ],
   "organized": [
@@ -25665,6 +25920,9 @@
   "ownership": [
     "memory-safety-patterns"
   ],
+  "pack": [
+    "make-me-an-expert"
+  ],
   "package": [
     "astropy",
     "azure-postgres-ts",
@@ -25849,6 +26107,7 @@
     "hugging-face-paper-publisher",
     "hugging-face-papers",
     "latex-paper-conversion",
+    "make-me-an-expert",
     "minecraft-bukkit-pro",
     "survey-generator"
   ],
@@ -26025,6 +26284,7 @@
     "java-pro",
     "multi-agent-patterns",
     "performance-testing-review-ai-review",
+    "plugin-settings",
     "pydantic-models-py",
     "skill-developer",
     "stitch-loop",
@@ -26077,6 +26337,7 @@
     "cloudformation-best-practices",
     "code-refactoring-refactor-clean",
     "codebase-cleanup-refactor-clean",
+    "command-development",
     "context-degradation",
     "core-components",
     "cost-optimization",
@@ -26289,6 +26550,7 @@
     "libreoffice/draw",
     "libreoffice/impress",
     "libreoffice/writer",
+    "make-me-an-expert",
     "odoo-qweb-templates",
     "papers-skill",
     "pdf",
@@ -26381,6 +26643,9 @@
   ],
   "per-day": [
     "runaway-guard"
+  ],
+  "per-project": [
+    "plugin-settings"
   ],
   "per-run": [
     "runaway-guard"
@@ -27033,15 +27298,44 @@
   ],
   "plugin": [
     "agent-creator",
+    "create-plugin",
+    "hook-development",
     "manifest",
+    "mcp-integration",
     "minecraft-bukkit-pro",
     "playwright-skill",
+    "plugin-dev-agent-creator",
+    "plugin-settings",
+    "plugin-structure",
+    "plugin-validator",
+    "skill-development",
     "wordpress",
     "wordpress-plugin-development"
   ],
+  "plugin-dev-agent-creator": [
+    "plugin-dev-agent-creator"
+  ],
+  "plugin-name": [
+    "plugin-settings"
+  ],
+  "plugin-settings": [
+    "plugin-settings"
+  ],
+  "plugin-specific": [
+    "plugin-settings"
+  ],
+  "plugin-structure": [
+    "plugin-structure"
+  ],
+  "plugin-validator": [
+    "plugin-validator"
+  ],
   "plugins": [
+    "agent-development",
     "aomi-transact",
-    "obsidian-cli"
+    "mcp-integration",
+    "obsidian-cli",
+    "skill-development"
   ],
   "plus": [
     "deterministic-design",
@@ -27318,6 +27612,9 @@
     "socialclaw",
     "twitter-automation"
   ],
+  "posttooluse": [
+    "hook-development"
+  ],
   "posture": [
     "security/aws-security-audit"
   ],
@@ -27392,6 +27689,7 @@
     "network-101"
   ],
   "practices": [
+    "agent-development",
     "agents-md",
     "airflow-dag-patterns",
     "angular-best-practices",
@@ -27413,6 +27711,7 @@
     "code-review-ai-ai-review",
     "code-simplifier",
     "codebase-cleanup-refactor-clean",
+    "command-development",
     "distributed-debugging-debug-trace",
     "docker-expert",
     "documentation-generation-doc-generate",
@@ -27433,6 +27732,7 @@
     "odoo-module-developer",
     "pagespeed-enhancer",
     "performance-testing-review-ai-review",
+    "plugin-structure",
     "postgres-best-practices",
     "pr-writer",
     "prompt-engineering",
@@ -27453,6 +27753,7 @@
     "seo-snippet-hunter",
     "skill-creator",
     "skill-developer",
+    "skill-development",
     "snowflake-development",
     "solidity-security",
     "swiftui-expert-skill",
@@ -27512,6 +27813,9 @@
   ],
   "precision": [
     "model-authoring"
+  ],
+  "precompact": [
+    "hook-development"
   ],
   "precos": [
     "web-scraper"
@@ -27622,6 +27926,9 @@
   ],
   "pressure": [
     "moatmri"
+  ],
+  "pretooluse": [
+    "hook-development"
   ],
   "prevent": [
     "drizzle-migration-conflict",
@@ -28206,6 +28513,8 @@
     "progressive-web-app",
     "skill-creator",
     "skill-developer",
+    "skill-development",
+    "skill-reviewer",
     "temporal-python-testing",
     "tutorial-engineer",
     "ux-flow"
@@ -28371,6 +28680,9 @@
     "skill-scanner",
     "skill-suggester"
   ],
+  "prompt-based": [
+    "hook-development"
+  ],
   "prompt-caching": [
     "prompt-caching"
   ],
@@ -28393,6 +28705,7 @@
     "molykit"
   ],
   "prompts": [
+    "agent-development",
     "analyze-project",
     "aomi-transact",
     "enhance-prompt",
@@ -28506,6 +28819,7 @@
     "lightning-factory-explainer",
     "maxia",
     "mcp-builder",
+    "mcp-integration",
     "mcp-tool-developer",
     "phase-gated-debugging",
     "polis-protocol",
@@ -28612,8 +28926,10 @@
     "doc-coauthoring",
     "dwarf-expert",
     "gemini-api-dev",
+    "hook-development",
     "hybrid-search-implementation",
     "makepad-reference",
+    "mcp-integration",
     "n8n-mcp-tools-expert",
     "saas-mvp-launcher",
     "seo-content-auditor",
@@ -28999,6 +29315,7 @@
     "seo-programmatic",
     "shellcheck-configuration",
     "skill-improver",
+    "skill-reviewer",
     "software-architecture",
     "swiftui-expert-skill",
     "test-automator",
@@ -29492,6 +29809,7 @@
     "obsidian-cli",
     "pdf",
     "pdf-official",
+    "plugin-settings",
     "pptx",
     "pptx-official",
     "projection-patterns",
@@ -29903,6 +30221,7 @@
   ],
   "references": [
     "code-documentation-doc-generate",
+    "command-development",
     "commit",
     "documentation-generation-doc-generate",
     "reference-builder",
@@ -30243,6 +30562,7 @@
   "repo": [
     "ask-matt",
     "data-structure-protocol",
+    "make-me-an-expert",
     "openclaw-github-repo-commander",
     "production-audit",
     "setup-matt-pocock-skills",
@@ -30276,6 +30596,7 @@
     "google-analytics-automation",
     "internal-comms",
     "libreoffice/base",
+    "make-me-an-expert",
     "odoo-qweb-templates",
     "seo-aeo-content-quality-auditor",
     "test-fixing",
@@ -30324,7 +30645,8 @@
     "form-cro",
     "frontend-api-integration-patterns",
     "moyu",
-    "native-data-fetching"
+    "native-data-fetching",
+    "plugin-dev-agent-creator"
   ],
   "requested": [
     "gh-review-requests"
@@ -30419,6 +30741,7 @@
     "idea-os",
     "infinite-gratitude",
     "last30days",
+    "make-me-an-expert",
     "malware-analyst",
     "papers-skill",
     "protocol-reverse-engineering",
@@ -30767,6 +31090,7 @@
     "seo-aeo-content-quality-auditor",
     "seo-page",
     "simplify-code",
+    "skill-reviewer",
     "swift-concurrency-expert",
     "swiftui-expert-skill",
     "swiftui-liquid-glass",
@@ -30819,6 +31143,7 @@
     "fda-food-safety-auditor",
     "fda-medtech-compliance-auditor",
     "git-pr-workflows-pr-enhance",
+    "skill-reviewer",
     "threat-modeling-expert"
   ],
   "revision": [
@@ -31289,6 +31614,7 @@
     "azure-microsoft-playwright-testing-ts",
     "bumblebee",
     "busybox-on-windows",
+    "create-plugin",
     "debug-buttercup",
     "deep-research",
     "github-actions-debugger",
@@ -31574,6 +31900,7 @@
     "ckw-design",
     "comprehensive-review-pr-enhance",
     "diagnosing-bugs",
+    "make-me-an-expert",
     "seo-competitor-pages",
     "seo-content",
     "seo-hreflang",
@@ -31588,9 +31915,11 @@
     "security-scanning-security-dependencies"
   ],
   "scaffold": [
+    "create-plugin",
     "ejentum-reasoning-harness",
     "macos-spm-app-packaging",
     "playwright-java",
+    "plugin-structure",
     "ui-page",
     "ui-setup"
   ],
@@ -33047,6 +33376,7 @@
     "jobgpt",
     "kubestellar-console",
     "mcp-builder",
+    "mcp-integration",
     "mercury-mcp",
     "minecraft-bukkit-pro",
     "nextjs-app-router-patterns",
@@ -33088,6 +33418,7 @@
     "global-chat-agent-discovery",
     "mcp-builder",
     "mcp-builder-ms",
+    "mcp-integration",
     "mcp-tool-developer",
     "smtp-penetration-testing"
   ],
@@ -33106,6 +33437,7 @@
     "legal-advisor",
     "linkerd-patterns",
     "linux-troubleshooting",
+    "mcp-integration",
     "microservices-patterns",
     "moodle-external-api-development",
     "mtls-configuration",
@@ -33188,6 +33520,9 @@
     "tmux",
     "xss-html-injection"
   ],
+  "sessionend": [
+    "hook-development"
+  ],
   "sessions": [
     "agent-manager-skill",
     "agenttrace-session-audit",
@@ -33202,6 +33537,9 @@
     "varlock",
     "varlock-claude-skill"
   ],
+  "sessionstart": [
+    "hook-development"
+  ],
   "sessoes": [
     "context-agent"
   ],
@@ -33213,7 +33551,10 @@
     "error-debugging-error-trace",
     "error-diagnostics-error-trace",
     "expo-tailwind-setup",
+    "hook-development",
+    "mcp-integration",
     "observability-monitoring-monitor-setup",
+    "plugin-structure",
     "setup-matt-pocock-skills",
     "signup-flow-cro",
     "vercel-cli-with-tokens"
@@ -33247,6 +33588,7 @@
     "azure-mgmt-botservice-dotnet",
     "claude-settings-audit",
     "pdf-conversion-router",
+    "plugin-settings",
     "threejs-textures"
   ],
   "setup": [
@@ -33478,13 +33820,21 @@
   "should": [
     "acceptance-orchestrator",
     "advanced-evaluation",
+    "agent-development",
     "agents-md",
     "bdi-mental-states",
+    "command-development",
+    "hook-development",
     "javascript-mastery",
     "latex-paper-conversion",
+    "make-me-an-expert",
+    "mcp-integration",
     "multi-agent-patterns",
+    "plugin-settings",
+    "plugin-structure",
     "sankhya-dashboard-html-jsp-custom-best-pratices",
     "security-bluebook-builder",
+    "skill-development",
     "software-architecture"
   ],
   "show": [
@@ -33750,6 +34100,7 @@
   ],
   "skill": [
     "advanced-evaluation",
+    "agent-development",
     "agentfolio",
     "agents-md",
     "animejs-animation",
@@ -33779,6 +34130,7 @@
     "clean-code",
     "codebase-design",
     "codebase-to-wordpress-converter",
+    "command-development",
     "commit",
     "copywriting-psychologist",
     "create-pr",
@@ -33795,6 +34147,7 @@
     "github-actions-debugger",
     "headline-psychologist",
     "hello",
+    "hook-development",
     "iconsax-library",
     "identity-mirror",
     "image-generator",
@@ -33808,7 +34161,9 @@
     "latex-paper-conversion",
     "logic-lens",
     "loss-aversion-designer",
+    "make-me-an-expert",
     "mcp-builder-ms",
+    "mcp-integration",
     "metasploit-framework",
     "model-authoring",
     "model-compression-exploration",
@@ -33820,6 +34175,8 @@
     "papers-skill",
     "pitch-psychologist",
     "playwright-skill",
+    "plugin-settings",
+    "plugin-structure",
     "postgres-best-practices",
     "price-psychology-strategist",
     "project-development",
@@ -33835,9 +34192,11 @@
     "sequence-psychologist",
     "sharp-coder",
     "skill-creator",
+    "skill-development",
     "skill-improver",
     "skill-issue",
     "skill-optimizer",
+    "skill-reviewer",
     "skill-router",
     "social-proof-architect",
     "socialclaw",
@@ -33878,6 +34237,9 @@
   "skill-developer": [
     "skill-developer"
   ],
+  "skill-development": [
+    "skill-development"
+  ],
   "skill-improver": [
     "skill-improver"
   ],
@@ -33894,7 +34256,8 @@
     "skill-rails-upgrade"
   ],
   "skill-reviewer": [
-    "skill-improver"
+    "skill-improver",
+    "skill-reviewer"
   ],
   "skill-router": [
     "skill-router"
@@ -33936,6 +34299,8 @@
     "longbridge",
     "makepad-skills",
     "manage-skills",
+    "plugin-structure",
+    "plugin-validator",
     "project-skill-audit",
     "setup-matt-pocock-skills",
     "skill-audit",
@@ -33992,6 +34357,9 @@
   ],
   "slack-gif-creator": [
     "slack-gif-creator"
+  ],
+  "slash": [
+    "command-development"
   ],
   "sleek": [
     "design-it/dark-mode",
@@ -34323,6 +34691,9 @@
   ],
   "source-grounded": [
     "notebooklm"
+  ],
+  "sourced": [
+    "make-me-an-expert"
   ],
   "sources": [
     "helium-mcp",
@@ -34713,6 +35084,7 @@
     "sred-work-summary"
   ],
   "sse": [
+    "mcp-integration",
     "molykit"
   ],
   "ssg": [
@@ -34922,6 +35294,7 @@
     "interview-coach",
     "lemmaly",
     "makepad-animation",
+    "plugin-settings",
     "prototype",
     "react-flow-architect",
     "react-native-architecture",
@@ -35000,6 +35373,9 @@
     "hig-components-status",
     "internal-comms",
     "skin-health-analyzer"
+  ],
+  "stdio": [
+    "mcp-integration"
   ],
   "ste": [
     "ste-writing"
@@ -35093,6 +35469,7 @@
     "agent-manager-skill",
     "ai-loop",
     "fp-errors",
+    "hook-development",
     "loop-library"
   ],
   "stop-losses": [
@@ -35134,6 +35511,7 @@
     "event-store-design",
     "ios-developer",
     "mobile-developer",
+    "plugin-settings",
     "react-flow-node-ts",
     "wordpress-woocommerce-development"
   ],
@@ -35152,7 +35530,8 @@
   "storing": [
     "azure-keyvault-secrets-rust",
     "azure-keyvault-secrets-ts",
-    "azure-security-keyvault-secrets-java"
+    "azure-security-keyvault-secrets-java",
+    "plugin-settings"
   ],
   "storybank": [
     "interview-coach"
@@ -35366,9 +35745,11 @@
   ],
   "structure": [
     "agent-creator",
+    "agent-development",
     "arrowspace",
     "c4-code",
     "claude-settings-audit",
+    "command-development",
     "content-strategy",
     "doc-coauthoring",
     "documentation-templates",
@@ -35377,12 +35758,15 @@
     "lemmaly",
     "makepad-basics",
     "odoo-module-developer",
+    "plugin-structure",
+    "plugin-validator",
     "python-patterns",
     "revops",
     "robius-app-architecture",
     "seo-sitemap",
     "seo-structure-architect",
     "site-architecture",
+    "skill-development",
     "ui-component",
     "ux-flow",
     "wiki-builder",
@@ -35461,7 +35845,8 @@
     "ingest-youtube"
   ],
   "stuck": [
-    "decision-navigator"
+    "decision-navigator",
+    "make-me-an-expert"
   ],
   "studies": [
     "infinite-gratitude",
@@ -35503,6 +35888,7 @@
     "game-development/game-art",
     "humanize-chinese",
     "skill-creator",
+    "skill-reviewer",
     "ste-writing",
     "super-code",
     "ui-setup"
@@ -35561,6 +35947,9 @@
     "yann-lecun-filosofia",
     "yann-lecun-tecnico"
   ],
+  "subagent": [
+    "agent-development"
+  ],
   "subagent-driven-development": [
     "subagent-driven-development"
   ],
@@ -35570,6 +35959,9 @@
   "subagents": [
     "agent-creator",
     "subagent-orchestrator"
+  ],
+  "subagentstop": [
+    "hook-development"
   ],
   "subdomains": [
     "ddd-strategic-design"
@@ -35977,6 +36369,7 @@
     "design-it/synthwave"
   ],
   "system": [
+    "agent-development",
     "agent-memory-mcp",
     "agent-squad/aria",
     "agent-squad/quinn",
@@ -36474,7 +36867,11 @@
   "teach": [
     "behavioral-modes",
     "explain-like-socrates",
+    "make-me-an-expert",
     "teach"
+  ],
+  "teach-from-pack": [
+    "make-me-an-expert"
   ],
   "teaches": [
     "deployment-procedures",
@@ -37058,6 +37455,7 @@
     "canvas-design",
     "flowhunt-skill",
     "improve-codebase-architecture",
+    "make-me-an-expert",
     "mesh-memory",
     "production-code-audit",
     "simplify-code",
@@ -37229,6 +37627,7 @@
     "context-driven-development",
     "context-optimization",
     "copy-editing",
+    "create-plugin",
     "decision-navigator",
     "design-orchestration",
     "doc-coauthoring",
@@ -37519,10 +37918,12 @@
     "claude-code-guide",
     "context-fundamentals",
     "dbt-transformation-patterns",
+    "hook-development",
     "hugging-face-tool-builder",
     "langchain-architecture",
     "last30days",
     "magic-animator",
+    "mcp-integration",
     "mercury-mcp",
     "metasploit-framework",
     "n8n-mcp-tools-expert",
@@ -37590,6 +37991,7 @@
   ],
   "tools": [
     "activecampaign-automation",
+    "agent-development",
     "agent-tool-builder",
     "agentfolio",
     "ai-native-cli",
@@ -37739,6 +38141,7 @@
     "content-strategy",
     "last30days",
     "learn",
+    "make-me-an-expert",
     "seo-aeo-content-cluster",
     "seo-content-planner",
     "seo-content-writer",
@@ -38166,6 +38569,9 @@
   "trigger-dev": [
     "trigger-dev"
   ],
+  "triggering": [
+    "agent-development"
+  ],
   "triggers": [
     "azure-keyvault-keys-rust",
     "azure-keyvault-secrets-rust",
@@ -38191,6 +38597,7 @@
     "robius-widget-patterns",
     "sharp-coder",
     "skill-issue",
+    "skill-reviewer",
     "working-with-coreai"
   ],
   "trilingual": [
@@ -38320,6 +38727,9 @@
   "tutoring": [
     "learn"
   ],
+  "tutoring-only": [
+    "make-me-an-expert"
+  ],
   "twa": [
     "telegram-mini-app"
   ],
@@ -38402,6 +38812,7 @@
   "types": [
     "azure-identity-ts",
     "fp-types-ref",
+    "mcp-integration",
     "mermaid-expert",
     "postgresql",
     "react-flow-node-ts",
@@ -38586,6 +38997,7 @@
     "model-compression-exploration",
     "n8n-code-python",
     "obsidian-clipper-template-creator",
+    "plugin-structure",
     "production-code-audit",
     "wiki-changelog",
     "wiki-onboarding",
@@ -38906,12 +39318,20 @@
   ],
   "used": [
     "advanced-evaluation",
+    "agent-development",
     "agents-md",
     "bdi-mental-states",
+    "command-development",
     "design-it/isometric-design",
+    "hook-development",
     "latex-paper-conversion",
+    "make-me-an-expert",
+    "mcp-integration",
     "multi-agent-patterns",
+    "plugin-settings",
+    "plugin-structure",
     "sankhya-dashboard-html-jsp-custom-best-pratices",
+    "skill-development",
     "software-architecture"
   ],
   "useloaderdata": [
@@ -38919,6 +39339,7 @@
   ],
   "user": [
     "advanced-evaluation",
+    "agent-development",
     "agent-squad/rex",
     "agentphone",
     "agents-md",
@@ -38936,8 +39357,10 @@
     "closed-loop-delivery",
     "code-documentation-doc-generate",
     "codebase-design",
+    "command-development",
     "comprehensive-review-pr-enhance",
     "concise-planning",
+    "create-plugin",
     "crossframe",
     "crossframe-critical",
     "crossframe-suite",
@@ -39006,6 +39429,7 @@
     "fp-types-ref",
     "gitlab-automation",
     "grilling",
+    "hook-development",
     "html-injection-testing",
     "humanize-chinese",
     "idea-os",
@@ -39018,6 +39442,8 @@
     "learn",
     "linux-privilege-escalation",
     "linux-shell-scripting",
+    "make-me-an-expert",
+    "mcp-integration",
     "mixpanel-automation",
     "mmx-cli",
     "model-authoring",
@@ -39027,6 +39453,10 @@
     "obsidian-bases",
     "obsidian-markdown",
     "onboarding-cro",
+    "plugin-dev-agent-creator",
+    "plugin-settings",
+    "plugin-structure",
+    "plugin-validator",
     "popup-cro",
     "posthog-automation",
     "pptx",
@@ -39058,6 +39488,8 @@
     "seo-plan",
     "seo-schema",
     "seo-sitemap",
+    "skill-development",
+    "skill-reviewer",
     "skill-router",
     "smtp-penetration-testing",
     "tdd",
@@ -39082,6 +39514,9 @@
   "user-attachments": [
     "gh-image"
   ],
+  "user-configurable": [
+    "plugin-settings"
+  ],
   "user-facing": [
     "app-store-changelog",
     "brand-guidelines"
@@ -39091,6 +39526,9 @@
   ],
   "user-thoughts": [
     "user-thoughts"
+  ],
+  "userpromptsubmit": [
+    "hook-development"
   ],
   "users": [
     "beautiful-prose",
@@ -39355,8 +39793,10 @@
   ],
   "validate": [
     "cron-doctor",
+    "hook-development",
     "multi-agent-brainstorming",
     "n8n-expression-syntax",
+    "plugin-validator",
     "schema-markup",
     "seo-schema",
     "skill-check",
@@ -39371,6 +39811,7 @@
     "baseline-ui",
     "clarity-gate",
     "conductor-validator",
+    "plugin-validator",
     "seo-hreflang",
     "seo-sitemap"
   ],
@@ -39388,6 +39829,7 @@
     "apify-market-research",
     "atlas-contract",
     "backend-security-coder",
+    "create-plugin",
     "data-quality-frameworks",
     "deployment-validation-config-validate",
     "fda-medtech-compliance-auditor",
@@ -39624,6 +40066,7 @@
     "mailtrap-setting-up-sending-domain",
     "not-human-search-mcp",
     "open-dynamic-workflows",
+    "plugin-validator",
     "requesting-code-review",
     "triage"
   ],
@@ -40238,6 +40681,7 @@
     "keyword-extractor",
     "mmx-cli",
     "model-compression-exploration",
+    "plugin-settings",
     "progressive-web-app",
     "prompt-engineering",
     "screenshots",
@@ -40249,6 +40693,7 @@
     "seo-aeo-landing-page-writer",
     "seo-aeo-meta-description-generator",
     "seo-aeo-schema-generator",
+    "skill-development",
     "tdd",
     "test-fixing",
     "wiki-changelog",
@@ -40408,6 +40853,7 @@
     "landing-page-generator",
     "last30days",
     "lookdev",
+    "make-me-an-expert",
     "makepad-platform",
     "mmx-cli",
     "mock-hunter",
@@ -40544,7 +40990,8 @@
     "azure-ai-voicelive-py",
     "azure-ai-voicelive-ts",
     "azure-messaging-webpubsubservice-py",
-    "azure-web-pubsub-ts"
+    "azure-web-pubsub-ts",
+    "mcp-integration"
   ],
   "websocket-based": [
     "azure-messaging-webpubsub-java"
@@ -40977,6 +41424,7 @@
     "cloud-devops",
     "comfyui-gateway",
     "conductor-implement",
+    "create-plugin",
     "create-pr",
     "database",
     "development",
@@ -41174,6 +41622,7 @@
   "workspace": [
     "azure-monitor-ingestion-py",
     "bitbucket-automation",
+    "make-me-an-expert",
     "slack-automation",
     "socialclaw",
     "teach"
@@ -41225,10 +41674,12 @@
     "wrike-automation"
   ],
   "write": [
+    "agent-development",
     "blog-writing-guide",
     "brand-guidelines",
     "c-pro",
     "cold-email",
+    "command-development",
     "comprehensive-review-pr-enhance",
     "copywriting",
     "cpp-pro",
@@ -41256,6 +41707,7 @@
     "seo-aeo-blog-writer",
     "seo-aeo-landing-page-writer",
     "seo-aeo-meta-description-generator",
+    "skill-development",
     "skill-writer",
     "software-architecture",
     "ste-writing",
@@ -41310,6 +41762,7 @@
     "semgrep-rule-creator",
     "shader-programming-glsl",
     "skill-creator",
+    "skill-reviewer",
     "ste-writing",
     "test-driven-development",
     "testing-patterns",
@@ -41425,8 +41878,10 @@
   ],
   "yaml": [
     "awt-e2e-testing",
+    "command-development",
     "expo-cicd-workflows",
-    "monte-carlo-monitor-creation"
+    "monte-carlo-monitor-creation",
+    "plugin-settings"
   ],
   "yann": [
     "yann-lecun",
@@ -41508,6 +41963,9 @@
   ],
   "youtube-summarizer": [
     "youtube-summarizer"
+  ],
+  "youtube-transcript": [
+    "make-me-an-expert"
   ],
   "yt-dlp": [
     "ingest-youtube",

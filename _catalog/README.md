@@ -1,6 +1,6 @@
 # Skills Catalog Overview
 
-**Total skills:** 1706  
+**Total skills:** 1718  
 **Location:** repo root, `~/.agents/skills/`, or `.agents/skills/` submodule
 
 ## How to use this catalog
@@ -19,10 +19,10 @@ Refresh: `python3 _catalog/regenerate.py`
 | Category | Count | Top examples |
 |----------|------:|--------------|
 | General & Miscellaneous | 543 | `00-andruia-consultant`, `20-andruia-niche-intelligence`, `acceptance-orchestrator` |
-| Automation & Integrations | 166 | `accesslint-audit`, `accint-solve`, `activecampaign-automation` |
+| Automation & Integrations | 169 | `accesslint-audit`, `accint-solve`, `activecampaign-automation` |
 | Azure | 118 | `agent-framework-azure-ai-py`, `azure-ai-agents-persistent-dotnet`, `azure-ai-agents-persistent-java` |
-| AI & LLM | 103 | `adhx`, `advanced-evaluation`, `agent-creator` |
-| Productivity & Workflow | 90 | `10-andruia-skill-smith`, `agentfolio`, `anti-sycophancy` |
+| AI & LLM | 105 | `adhx`, `advanced-evaluation`, `agent-creator` |
+| Productivity & Workflow | 96 | `10-andruia-skill-smith`, `agentfolio`, `anti-sycophancy` |
 | Security & Pentesting | 89 | `007`, `active-directory-attacks`, `agent-squad/luna` |
 | SEO & Marketing | 84 | `ai-seo`, `apify-brand-reputation-monitoring`, `apify-influencer-discovery` |
 | Backend & API | 69 | `2slides-ppt-generator`, `agent-squad/aria`, `agentmail` |
@@ -30,7 +30,7 @@ Refresh: `python3 _catalog/regenerate.py`
 | DevOps & CI/CD | 48 | `aegisops-ai`, `agent-squad/dep`, `agentic-actions-auditor` |
 | Database | 43 | `angular-migration`, `backend-dev-guidelines`, `biopython` |
 | Languages: Python | 35 | `agents-v2-py`, `astropy`, `async-python-patterns` |
-| Architecture & Design Patterns | 29 | `architect-review`, `architecture`, `architecture-decision-records` |
+| Architecture & Design Patterns | 30 | `architect-review`, `architecture`, `architecture-decision-records` |
 | Mobile | 27 | `android-dev`, `app-store-optimization`, `building-native-ui` |
 | Testing & QA | 23 | `ab-test-setup`, `comprehensive-review-pr-enhance`, `conductor-implement` |
 | Languages: TypeScript/JavaScript | 18 | `animejs-animation`, `bun-development`, `dbos-typescript` |

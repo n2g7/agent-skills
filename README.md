@@ -90,6 +90,7 @@ python3 _catalog/regenerate.py
 
 - **[Antigravity Awesome Skills](https://github.com/sickn33/antigravity-awesome-skills)** — source library (MIT). Install upstream directly with `npx antigravity-awesome-skills` if you want their npm installer and plugin bundles.
 - **[Apple coreai-models](https://github.com/apple/coreai-models)** — Core AI skills (`working-with-coreai`, `model-authoring`, `model-compression-exploration`), BSD-3-Clause.
+- **[Anthropic plugin-dev](https://github.com/anthropics/claude-code/tree/main/plugins/plugin-dev)** — Claude Code plugin toolkit (`agent-development`, `command-development`, `hook-development`, `mcp-integration`, `plugin-settings`, `plugin-structure`, `skill-development`, `create-plugin`, `plugin-validator`, `skill-reviewer`, `plugin-dev-agent-creator`). Plugin README claims MIT; see `SOURCE.md` in each skill folder.
 - **This repo** — snapshot + `_catalog/`, `skill-recommender`, lazy-load enforcement, Cloud Agent submodule docs.
 
 Thank you to the Antigravity community for building and maintaining an incredible open skill library.

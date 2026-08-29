@@ -1,11 +1,11 @@
 {
-  "total": 1706,
+  "total": 1718,
   "categories": {
     "General & Miscellaneous": 543,
-    "Automation & Integrations": 166,
+    "Automation & Integrations": 169,
     "Azure": 118,
-    "AI & LLM": 103,
-    "Productivity & Workflow": 90,
+    "AI & LLM": 105,
+    "Productivity & Workflow": 96,
     "Security & Pentesting": 89,
     "SEO & Marketing": 84,
     "Backend & API": 69,
@@ -13,7 +13,7 @@
     "DevOps & CI/CD": 48,
     "Database": 43,
     "Languages: Python": 35,
-    "Architecture & Design Patterns": 29,
+    "Architecture & Design Patterns": 30,
     "Mobile": 27,
     "Testing & QA": 23,
     "Languages: TypeScript/JavaScript": 18,
@@ -53,6 +53,12 @@
       "id": "agent-creator",
       "name": "agent-creator",
       "description": "Create custom AI subagents with proper plugin structure, persona generation, and companion routing skills.",
+      "category": "AI & LLM"
+    },
+    {
+      "id": "agent-development",
+      "name": "Agent Development",
+      "description": "This skill should be used when the user asks to \"create an agent\", \"add an agent\", \"write a subagent\", \"agent frontmatter\", \"when to use description\", \"agent examples\", \"agent tools\", \"agent colors\", \"autonomous agent\", or needs guidance on agent structure, system prompts, triggering conditions, or agent development best practices for Claude Code plugins.",
       "category": "AI & LLM"
     },
     {
@@ -524,6 +530,12 @@
       "category": "AI & LLM"
     },
     {
+      "id": "plugin-dev-agent-creator",
+      "name": "plugin-dev-agent-creator",
+      "description": "Generates Claude Code plugin agent files from a user request. Use when the user asks to create an agent, generate an agent, build a new agent, make an agent, or add an autonomous agent to a plugin.",
+      "category": "AI & LLM"
+    },
+    {
       "id": "product-manager",
       "name": "product-manager",
       "description": "Senior PM agent with 6 knowledge domains, 30+ frameworks, 12 templates, and 32 SaaS metrics with formulas. Pure Markdown, zero scripts.",
@@ -935,6 +947,12 @@
       "id": "monorepo-architect",
       "name": "monorepo-architect",
       "description": "Expert in monorepo architecture, build systems, and dependency management at scale. Masters Nx, Turborepo, Bazel, and Lerna for efficient multi-project development. Use PROACTIVELY for monorepo setup,",
+      "category": "Architecture & Design Patterns"
+    },
+    {
+      "id": "plugin-structure",
+      "name": "Plugin Structure",
+      "description": "This skill should be used when the user asks to \"create a plugin\", \"scaffold a plugin\", \"understand plugin structure\", \"organize plugin components\", \"set up plugin.json\", \"use ${CLAUDE_PLUGIN_ROOT}\", \"add commands/agents/skills/hooks\", \"configure auto-discovery\", or needs guidance on plugin directory layout, manifest configuration, component organization, file naming conventions, or Claude Code plugin architecture best practices.",
       "category": "Architecture & Design Patterns"
     },
     {
@@ -1406,6 +1424,12 @@
       "category": "Automation & Integrations"
     },
     {
+      "id": "hook-development",
+      "name": "Hook Development",
+      "description": "This skill should be used when the user asks to \"create a hook\", \"add a PreToolUse/PostToolUse/Stop hook\", \"validate tool use\", \"implement prompt-based hooks\", \"use ${CLAUDE_PLUGIN_ROOT}\", \"set up event-driven automation\", \"block dangerous commands\", or mentions hook events (PreToolUse, PostToolUse, Stop, SubagentStop, SessionStart, SessionEnd, UserPromptSubmit, PreCompact, Notification). Provides comprehensive guidance for creating and implementing Claude Code plugin hooks with focus on advanced prompt-based hooks API.",
+      "category": "Automation & Integrations"
+    },
+    {
       "id": "hubspot-automation",
       "name": "hubspot-automation",
       "description": "Automate HubSpot CRM operations (contacts, companies, deals, tickets, properties) via Rube MCP using Composio integration.",
@@ -1529,6 +1553,12 @@
       "id": "mcp-builder-ms",
       "name": "mcp-builder-ms",
       "description": "Use this skill when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
+      "category": "Automation & Integrations"
+    },
+    {
+      "id": "mcp-integration",
+      "name": "MCP Integration",
+      "description": "This skill should be used when the user asks to \"add MCP server\", \"integrate MCP\", \"configure MCP in plugin\", \"use .mcp.json\", \"set up Model Context Protocol\", \"connect external service\", mentions \"${CLAUDE_PLUGIN_ROOT} with MCP\", or discusses MCP server types (SSE, stdio, HTTP, WebSocket). Provides comprehensive guidance for integrating Model Context Protocol servers into Claude Code plugins for external tool and service integration.",
       "category": "Automation & Integrations"
     },
     {
@@ -1709,6 +1739,12 @@
       "id": "plaid-fintech",
       "name": "plaid-fintech",
       "description": "Expert patterns for Plaid API integration including Link token",
+      "category": "Automation & Integrations"
+    },
+    {
+      "id": "plugin-validator",
+      "name": "plugin-validator",
+      "description": "Validates Claude Code plugin structure, plugin.json, commands, agents, skills, hooks, and MCP config. Use when the user asks to validate a plugin, check plugin structure, verify plugin.json, check plugin files, or after creating or modifying plugin components.",
       "category": "Automation & Integrations"
     },
     {
@@ -8666,9 +8702,21 @@
       "category": "Productivity & Workflow"
     },
     {
+      "id": "command-development",
+      "name": "Command Development",
+      "description": "This skill should be used when the user asks to \"create a slash command\", \"add a command\", \"write a custom command\", \"define command arguments\", \"use command frontmatter\", \"organize commands\", \"create command with file references\", \"interactive command\", \"use AskUserQuestion in command\", or needs guidance on slash command structure, YAML frontmatter fields, dynamic arguments, bash execution in commands, user interaction patterns, or command development best practices for Claude Code.",
+      "category": "Productivity & Workflow"
+    },
+    {
       "id": "concise-planning",
       "name": "concise-planning",
       "description": "Use when a user asks for a plan for a coding task, to generate a clear, actionable, and atomic checklist.",
+      "category": "Productivity & Workflow"
+    },
+    {
+      "id": "create-plugin",
+      "name": "create-plugin",
+      "description": "Guides end-to-end Claude Code plugin creation through discovery, component design, implementation, validation, and documentation. Use when the user asks to create a plugin, scaffold a plugin, or run a plugin creation workflow.",
       "category": "Productivity & Workflow"
     },
     {
@@ -8846,6 +8894,12 @@
       "category": "Productivity & Workflow"
     },
     {
+      "id": "make-me-an-expert",
+      "name": "make-me-an-expert",
+      "description": "This skill should be used when the user says \"make me an expert in\", \"/make me an expert in\", \"continue expert pack\", \"teach me from .expert\", or \"make me an expert \u2014 continue\", or is stuck on a chapter in an existing `.expert/<topic>/` pack. It builds a sourced `.expert/<topic>/` pack and one Markdown coursebook PDF (repo, named topic, or both): intake, catalog-routed web/paper/YouTube-transcript research, cited kb, then teach-from-pack and gap-fill. Not tutoring-only (learn), workspace lessons (teach), or lit-review reports (deep-research).",
+      "category": "Productivity & Workflow"
+    },
+    {
       "id": "ml-pipeline-workflow",
       "name": "ml-pipeline-workflow",
       "description": "Complete end-to-end MLOps pipeline orchestration from data preparation through model deployment.",
@@ -8903,6 +8957,12 @@
       "id": "planning-with-files",
       "name": "planning-with-files",
       "description": "Work like Manus: Use persistent markdown files as your \\\"working memory on disk.\\",
+      "category": "Productivity & Workflow"
+    },
+    {
+      "id": "plugin-settings",
+      "name": "Plugin Settings",
+      "description": "This skill should be used when the user asks about \"plugin settings\", \"store plugin configuration\", \"user-configurable plugin\", \".local.md files\", \"plugin state files\", \"read YAML frontmatter\", \"per-project plugin settings\", or wants to make plugin behavior configurable. Documents the .claude/plugin-name.local.md pattern for storing plugin-specific configuration with YAML frontmatter and markdown content.",
       "category": "Productivity & Workflow"
     },
     {
@@ -8966,6 +9026,12 @@
       "category": "Productivity & Workflow"
     },
     {
+      "id": "skill-development",
+      "name": "Skill Development",
+      "description": "This skill should be used when the user wants to \"create a skill\", \"add a skill to plugin\", \"write a new skill\", \"improve skill description\", \"organize skill content\", or needs guidance on skill structure, progressive disclosure, or skill development best practices for Claude Code plugins.",
+      "category": "Productivity & Workflow"
+    },
+    {
       "id": "skill-installer",
       "name": "skill-installer",
       "description": "Instala, valida, registra e verifica novas skills no ecossistema. 10 checks de seguranca, copia, registro no orchestrator e verificacao pos-instalacao.",
@@ -8975,6 +9041,12 @@
       "id": "skill-rails-upgrade",
       "name": "skill-rails-upgrade",
       "description": "Analyze Rails apps and provide upgrade assessments",
+      "category": "Productivity & Workflow"
+    },
+    {
+      "id": "skill-reviewer",
+      "name": "skill-reviewer",
+      "description": "Reviews Claude Code skill quality, including description triggers, progressive disclosure, and writing style. Use when the user asks to review a skill, check skill quality, improve a skill description, or after creating or modifying a skill.",
       "category": "Productivity & Workflow"
     },
     {

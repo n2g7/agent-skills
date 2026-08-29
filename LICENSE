@@ -30,3 +30,13 @@ Third-party skills from [apple/coreai-models](https://github.com/apple/coreai-mo
 (`model-authoring`, `model-compression-exploration`, `working-with-coreai`) are
 Copyright 2026 Apple Inc. and licensed under the BSD 3-Clause License. See the
 LICENSE file in each of those skill directories.
+
+---
+
+Third-party skills from [anthropics/claude-code](https://github.com/anthropics/claude-code)
+plugins/plugin-dev (`agent-development`, `command-development`, `hook-development`,
+`mcp-integration`, `plugin-settings`, `plugin-structure`, `skill-development`,
+`create-plugin`, `plugin-validator`, `skill-reviewer`, `plugin-dev-agent-creator`)
+are authored by Daisy Hollman / Anthropic. The plugin-dev README claims MIT.
+The anthropics/claude-code repository has no repo-level LICENSE file. See
+SOURCE.md in each of those skill directories.

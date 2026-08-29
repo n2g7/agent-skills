@@ -1,6 +1,6 @@
 # Full Skills Index (Alphabetical)
 
-1706 skills.
+1718 skills.
 
 | Skill ID | Category | Description (truncated) |
 |----------|----------|-------------------------|
@@ -27,6 +27,7 @@
 | `advogado-especialista` | General & Miscellaneous | Advogado especialista em todas as areas do Direito brasileiro: familia, criminal, trabalhista, tributario, consumidor  |
 | `aegisops-ai` | DevOps & CI/CD | Autonomous DevSecOps & FinOps Guardrails. Orchestrates Gemini 3 Flash to audit Linux Kernel patches, Terraform cost d  |
 | `agent-creator` | AI & LLM | Create custom AI subagents with proper plugin structure, persona generation, and companion routing skills. |
+| `agent-development` | AI & LLM | This skill should be used when the user asks to "create an agent", "add an agent", "write a subagent", "agent frontma  |
 | `agent-evaluation` | AI & LLM | Testing and benchmarking LLM agents including behavioral testing, |
 | `agent-framework-azure-ai-py` | Azure | Build persistent agents on Azure AI Foundry using the Microsoft Agent Framework Python SDK. |
 | `agent-manager-skill` | AI & LLM | Manage multiple local CLI agents via tmux sessions (start/stop/monitor/assign) with cron-friendly scheduling. |
@@ -409,6 +410,7 @@
 | `codex-review` | General & Miscellaneous | Professional code review with auto CHANGELOG generation, integrated with Codex AI. Use when you want professional cod  |
 | `cold-email` | General & Miscellaneous | Write B2B cold emails and follow-up sequences that earn replies. Use when creating outbound prospecting emails, SDR o  |
 | `comfyui-gateway` | Backend & API | REST API gateway for ComfyUI servers. Workflow management, job queuing, webhooks, caching, auth, rate limiting, and i  |
+| `command-development` | Productivity & Workflow | This skill should be used when the user asks to "create a slash command", "add a command", "write a custom command",   |
 | `commit` | Git & Version Control | ALWAYS use this skill when committing code changes — never commit directly without it. Creates commits following Sent  |
 | `competitive-landscape` | General & Miscellaneous | Comprehensive frameworks for analyzing competition, identifying differentiation opportunities, and developing winning  |
 | `competitor-alternatives` | General & Miscellaneous | You are an expert in creating competitor comparison and alternative pages. Your goal is to build pages that rank for   |
@@ -458,6 +460,7 @@
 | `cqrs-implementation` | Architecture & Design Patterns | Implement Command Query Responsibility Segregation for scalable architectures. Use when separating read and write mod  |
 | `create-branch` | Git & Version Control | Create a git branch following Sentry naming conventions. Use when asked to "create a branch", "new branch", "start a   |
 | `create-issue-gate` | General & Miscellaneous | Use when starting a new implementation task and an issue must be created with strict acceptance criteria gating befor  |
+| `create-plugin` | Productivity & Workflow | Guides end-to-end Claude Code plugin creation through discovery, component design, implementation, validation, and do  |
 | `create-pr` | Productivity & Workflow | Alias for sentry-skills:pr-writer. Use when users explicitly ask for "create-pr" or reference the legacy skill name.   |
 | `cred-omega` | General & Miscellaneous | CISO operacional enterprise para gestao total de credenciais e segredos. |
 | `crewai` | AI & LLM | Expert in CrewAI - the leading role-based multi-agent framework |
@@ -820,6 +823,7 @@
 | `hig-technologies` | Apple HIG & Design | Check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information   |
 | `high-end-visual-design` | General & Miscellaneous | Use when designing expensive agency-grade interfaces with premium fonts, spatial rhythm, soft depth, and fluid microi  |
 | `hono` | Cloudflare | Build ultra-fast web APIs and full-stack apps with Hono — runs on Cloudflare Workers, Deno, Bun, Node.js, and any Win  |
+| `hook-development` | Automation & Integrations | This skill should be used when the user asks to "create a hook", "add a PreToolUse/PostToolUse/Stop hook", "validate   |
 | `hosted-agents` | General & Miscellaneous | Build background agents in sandboxed environments. Use for hosted coding agents, sandboxed VMs, Modal sandboxes, and   |
 | `hosted-agents-v2-py` | Languages: Python | Build hosted agents using Azure AI Projects SDK with ImageBasedHostedAgentDefinition. Use when creating container-bas  |
 | `hr-pro` | General & Miscellaneous | Professional, ethical HR partner for hiring, onboarding/offboarding, PTO and leave, performance, compliant policies,   |
@@ -985,6 +989,7 @@
 | `mailtrap-setting-up-sending-domain` | Legal & Compliance | Add or verify a Mailtrap sending domain, troubleshoot DNS propagation, publish SPF/DKIM/DMARC records, and complete c  |
 | `mailtrap-testing-with-sandbox` | General & Miscellaneous | Capture outbound email in Mailtrap Email Sandbox for development, staging, CI, HTML inspection, spam checks, and fake  |
 | `make-automation` | Automation & Integrations | Automate Make (Integromat) tasks via Rube MCP (Composio): operations, enums, language and timezone lookups. Always se  |
+| `make-me-an-expert` | Productivity & Workflow | This skill should be used when the user says "make me an expert in", "/make me an expert in", "continue expert pack",  |
 | `makepad-animation` | General & Miscellaneous | CRITICAL: Use for Makepad animation system. Triggers on: makepad animation, makepad animator, makepad hover, makepad   |
 | `makepad-basics` | General & Miscellaneous | CRITICAL: Use for Makepad getting started and app structure. Triggers on: makepad, makepad getting started, makepad t  |
 | `makepad-deployment` | DevOps & CI/CD | CRITICAL: Use for Makepad packaging and deployment. Triggers on: deploy, package, APK, IPA, 打包, 部署, cargo-packager, c  |
@@ -1010,6 +1015,7 @@
 | `maxia` | Automation & Integrations | Connect to MAXIA AI-to-AI marketplace on Solana. Discover, buy, sell AI services. Earn USDC. 13 MCP tools, A2A protoc  |
 | `mcp-builder` | Automation & Integrations | Create MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed  |
 | `mcp-builder-ms` | Automation & Integrations | Use this skill when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/  |
+| `mcp-integration` | Automation & Integrations | This skill should be used when the user asks to "add MCP server", "integrate MCP", "configure MCP in plugin", "use .m  |
 | `mcp-tool-developer` | Automation & Integrations | Build Model Context Protocol (MCP) servers and tools from scratch. Full-stack MCP development with TypeScript/Python,  |
 | `memory-forensics` | General & Miscellaneous | Comprehensive techniques for acquiring, analyzing, and extracting artifacts from memory dumps for incident response a  |
 | `memory-safety-patterns` | General & Miscellaneous | Cross-language patterns for memory-safe programming including RAII, ownership, smart pointers, and resource management. |
@@ -1181,6 +1187,10 @@
 | `playwright-java` | Languages: Java/Kotlin | Scaffold, write, debug, and enhance enterprise-grade Playwright E2E tests in Java using Page Object Model, JUnit 5, A  |
 | `playwright-skill` | Testing & QA | IMPORTANT - Path Resolution: This skill can be installed in different locations (plugin system, manual installation,   |
 | `plotly` | General & Miscellaneous | Interactive visualization library. Use when you need hover info, zoom, pan, or web-embeddable charts. Best for dashbo  |
+| `plugin-dev-agent-creator` | AI & LLM | Generates Claude Code plugin agent files from a user request. Use when the user asks to create an agent, generate an   |
+| `plugin-settings` | Productivity & Workflow | This skill should be used when the user asks about "plugin settings", "store plugin configuration", "user-configurabl  |
+| `plugin-structure` | Architecture & Design Patterns | This skill should be used when the user asks to "create a plugin", "scaffold a plugin", "understand plugin structure"  |
+| `plugin-validator` | Automation & Integrations | Validates Claude Code plugin structure, plugin.json, commands, agents, skills, hooks, and MCP config. Use when the us  |
 | `podcast-generation` | Backend & API | Generate real audio narratives from text content using Azure OpenAI's Realtime API. |
 | `polars` | Backend & API | Fast in-memory DataFrame library for datasets that fit in RAM. Use when pandas is too slow but data still fits in mem  |
 | `polis-protocol` | General & Miscellaneous | Coordinate multi-vendor AI agents as a self-improving team — a learning router assigns work by track record and citiz  |
@@ -1403,11 +1413,13 @@
 | `skill-creator` | Productivity & Workflow | To create new CLI skills following Anthropic's official best practices with zero manual configuration. This skill aut  |
 | `skill-creator-ms` | Productivity & Workflow | Guide for creating effective skills for AI coding agents working with Azure SDKs and Microsoft Foundry services. Use   |
 | `skill-developer` | Productivity & Workflow | Comprehensive guide for creating and managing skills in Claude Code with auto-activation system, following Anthropic'  |
+| `skill-development` | Productivity & Workflow | This skill should be used when the user wants to "create a skill", "add a skill to plugin", "write a new skill", "imp  |
 | `skill-improver` | AI & LLM | Iteratively improve a Claude Code skill using the skill-reviewer agent until it meets quality standards. Use when imp  |
 | `skill-installer` | Productivity & Workflow | Instala, valida, registra e verifica novas skills no ecossistema. 10 checks de seguranca, copia, registro no orchestr  |
 | `skill-issue` | AI & LLM | Find out why a coding-agent skill won't fire — grade each SKILL.md A–F on activation, simulate which skill a prompt t  |
 | `skill-optimizer` | AI & LLM | Diagnose and optimize Agent Skills (SKILL.md) with real session data and research-backed static analysis. Works with   |
 | `skill-rails-upgrade` | Productivity & Workflow | Analyze Rails apps and provide upgrade assessments |
+| `skill-reviewer` | Productivity & Workflow | Reviews Claude Code skill quality, including description triggers, progressive disclosure, and writing style. Use whe  |
 | `skill-router` | Productivity & Workflow | Use when the user is unsure which skill to use or where to start. Interviews the user with targeted questions and rec  |
 | `skill-scanner` | Security & Pentesting | Scan agent skills for security issues before adoption. Detects prompt injection, malicious code, excessive permission  |
 | `skill-seekers` | Productivity & Workflow | -Automatically convert documentation websites, GitHub repositories, and PDFs into Claude AI skills in minutes. |
