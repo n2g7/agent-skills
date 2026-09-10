@@ -20,3 +20,7 @@ credentials.json
 
 # Large generated caches (if any appear later)
 *.tar.gz
+
+# SkillSpector bulky per-skill JSON (keep summary + high-critical list)
+_security/skillspector/per-skill/
+_security/skillspector/static-report.json

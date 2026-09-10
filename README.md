@@ -86,6 +86,17 @@ python3 scripts/ensure-lazy-load.py
 python3 _catalog/regenerate.py
 ```
 
+## Security scan (SkillSpector)
+
+Static security audit of every skill (NVIDIA [SkillSpector](https://github.com/NVIDIA/SkillSpector), `--no-llm`). SkillSpector's built-in `--recursive` caps out below this library's size, so we scan per-skill in parallel:
+
+```bash
+bash scripts/scan-skillspector.sh static
+# optional: --workers 16  --offline  --limit 20
+```
+
+Reports land in `_security/skillspector/` (`static-summary.md`, `high-critical.txt`; bulky JSON is gitignored).
+
 ## Credits
 
 - **[Antigravity Awesome Skills](https://github.com/sickn33/antigravity-awesome-skills)** — source library (MIT). Install upstream directly with `npx antigravity-awesome-skills` if you want their npm installer and plugin bundles.

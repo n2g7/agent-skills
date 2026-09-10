@@ -1,12 +1,12 @@
 # Chapter {{N}}: {{TITLE}}
 
-- id: `ch-{{slug}}`
-- objective: one sentence the learner should be able to do after this chapter
-- depends_on: `ch-{{prev}}` (or `none`)
+- Id: `ch-{{slug}}`
+- Objective: one sentence the learner should be able to do after this chapter
+- Depends_on: `ch-{{prev}}` (or `none`)
 
 ## Content
 
-Write distilled notes here. Cite sources; do not paste copyrighted books, papers, or full transcripts. Link out.
+Write distilled notes here in STE. Then run `unslop` on the coursebook (`ste-pass.md`). Cite sources. Do not paste copyrighted books, papers, or full transcripts. Link out.
 
 Key ideas:
 
@@ -22,7 +22,7 @@ Worked example (tie to the user repo when `scope` is `repo` or `both`):
 
 ## Active recall
 
-Answer without looking back. Cover after attempting.
+Answer without looking back. Cover after you try.
 
 1. **Q:**
    **A:**

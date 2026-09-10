@@ -841,6 +841,7 @@
     "dx-optimizer",
     "gh-image",
     "lint-and-validate",
+    "make-me-an-expert",
     "monte-carlo-validation-notebook",
     "performance-optimizer",
     "plugin-validator",
@@ -1431,6 +1432,7 @@
   "also": [
     "atlas-ledger",
     "grill-with-docs",
+    "make-me-an-expert",
     "model-compression-exploration",
     "working-with-coreai"
   ],
@@ -2533,6 +2535,7 @@
   ],
   "applies": [
     "llm-prompt-optimizer",
+    "make-me-an-expert",
     "track-management",
     "wordpress-centric-high-seo-optimized-blogwriting-skill"
   ],
@@ -5142,8 +5145,7 @@
   ],
   "both": [
     "azure-data-tables-java",
-    "brand-guidelines",
-    "make-me-an-expert"
+    "brand-guidelines"
   ],
   "bots": [
     "discord-bot-architect",
@@ -6169,9 +6171,6 @@
     "mock-hunter",
     "odoo-ecommerce-configurator"
   ],
-  "catalog-routed": [
-    "make-me-an-expert"
-  ],
   "catalogues": [
     "wiki-architect"
   ],
@@ -6641,9 +6640,6 @@
     "papers-skill",
     "scientific-writing",
     "seo-geo"
-  ],
-  "cited": [
-    "make-me-an-expert"
   ],
   "citizens": [
     "polis-protocol"
@@ -15015,6 +15011,7 @@
     "i18n-localization",
     "idea-os",
     "json-canvas",
+    "make-me-an-expert",
     "moyu",
     "not-a-vibe-coder",
     "obsidian-bases",
@@ -16157,9 +16154,6 @@
   "gap": [
     "macos-screen-recorder",
     "seo-aeo-content-cluster"
-  ],
-  "gap-fill": [
-    "make-me-an-expert"
   ],
   "gapless": [
     "gpt-taste"
@@ -19290,8 +19284,7 @@
   ],
   "intake": [
     "acceptance-orchestrator",
-    "flowhunt-skill",
-    "make-me-an-expert"
+    "flowhunt-skill"
   ],
   "integracao": [
     "amazon-alexa",
@@ -24131,9 +24124,6 @@
     "create-pr",
     "viral-generator-builder"
   ],
-  "named": [
-    "make-me-an-expert"
-  ],
   "names": [
     "crossframe-critical"
   ],
@@ -26107,7 +26097,6 @@
     "hugging-face-paper-publisher",
     "hugging-face-papers",
     "latex-paper-conversion",
-    "make-me-an-expert",
     "minecraft-bukkit-pro",
     "survey-generator"
   ],
@@ -30562,7 +30551,6 @@
   "repo": [
     "ask-matt",
     "data-structure-protocol",
-    "make-me-an-expert",
     "openclaw-github-repo-commander",
     "production-audit",
     "setup-matt-pocock-skills",
@@ -30741,7 +30729,6 @@
     "idea-os",
     "infinite-gratitude",
     "last30days",
-    "make-me-an-expert",
     "malware-analyst",
     "papers-skill",
     "protocol-reverse-engineering",
@@ -35384,6 +35371,7 @@
     "ste-writing"
   ],
   "ste-writing": [
+    "make-me-an-expert",
     "ste-writing"
   ],
   "steal": [
@@ -36870,11 +36858,9 @@
     "make-me-an-expert",
     "teach"
   ],
-  "teach-from-pack": [
-    "make-me-an-expert"
-  ],
   "teaches": [
     "deployment-procedures",
+    "make-me-an-expert",
     "nodejs-best-practices",
     "python-patterns",
     "server-management",
@@ -39137,6 +39123,7 @@
     "unship"
   ],
   "unslop": [
+    "make-me-an-expert",
     "unslop"
   ],
   "unsplash": [
@@ -40853,7 +40840,6 @@
     "landing-page-generator",
     "last30days",
     "lookdev",
-    "make-me-an-expert",
     "makepad-platform",
     "mmx-cli",
     "mock-hunter",
@@ -41726,6 +41712,7 @@
   ],
   "writes": [
     "atlas-ledger",
+    "make-me-an-expert",
     "seo-aeo-blog-writer",
     "seo-aeo-landing-page-writer",
     "seo-aeo-meta-description-generator",
@@ -41963,9 +41950,6 @@
   ],
   "youtube-summarizer": [
     "youtube-summarizer"
-  ],
-  "youtube-transcript": [
-    "make-me-an-expert"
   ],
   "yt-dlp": [
     "ingest-youtube",
