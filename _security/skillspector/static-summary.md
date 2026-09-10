@@ -1,12 +1,12 @@
 # SkillSpector static scan summary
 
-- Scanned at: `2026-09-10T10:11:15.508186+00:00`
+- Scanned at: `2026-09-10T10:41:56.148556+00:00`
 - Skillspector: `SkillSpector v2.11.2`
 - Mode: static (`--no-llm`)
 - Skills discovered: **1636**
 - Scanned OK: **1636** / failed: **0**
-- Workers: **12**
-- Duration: **1502.1s**
+- Workers: **8**
+- Duration: **1488.2s**
 - High/Critical (by SkillSpector severity): **112**
 
 ## Severity counts
@@ -40,7 +40,7 @@
 | 100 | CRITICAL | DO_NOT_INSTALL | 29 | `last30days` | PE3×16, E1×4, PE2×3, RA2×2, EA4 |
 | 100 | CRITICAL | DO_NOT_INSTALL | 7 | `linkedin-content-generator` | MP3×3, AE1, LP3, P6, RA2 |
 | 100 | CRITICAL | DO_NOT_INSTALL | 40 | `linux-privilege-escalation` | PE2×24, PE3×8, TM2×2, YR1×2, YR4×2 |
-| 100 | CRITICAL | DO_NOT_INSTALL | 148 | `loki-mode` | TM1×27, SC1×19, EA2×17, RP1×14, AS3×13 |
+| 100 | CRITICAL | DO_NOT_INSTALL | 152 | `loki-mode` | TM1×27, EA2×19, SC1×19, RP1×14, AS3×13 |
 | 100 | CRITICAL | DO_NOT_INSTALL | 24 | `macos-spm-app-packaging` | RA2×17, PE3×4, TM1×2, LP3 |
 | 100 | CRITICAL | DO_NOT_INSTALL | 16 | `manage-skills` | AS3×9, AS1×3, TM1×2, AE1, RA2 |
 | 100 | CRITICAL | DO_NOT_INSTALL | 14 | `mcp-builder` | AE1×3, E1×2, SC1×2, SC4×2, EA1 |
@@ -1679,7 +1679,7 @@
 - `last30days` — score=100, severity=CRITICAL, max_issue=HIGH, rules=PE3×16, E1×4, PE2×3, RA2×2, EA4
 - `linkedin-content-generator` — score=100, severity=CRITICAL, max_issue=HIGH, rules=MP3×3, AE1, LP3, P6, RA2
 - `linux-privilege-escalation` — score=100, severity=CRITICAL, max_issue=CRITICAL, rules=PE2×24, PE3×8, TM2×2, YR1×2, YR4×2
-- `loki-mode` — score=100, severity=CRITICAL, max_issue=HIGH, rules=TM1×27, SC1×19, EA2×17, RP1×14, AS3×13
+- `loki-mode` — score=100, severity=CRITICAL, max_issue=HIGH, rules=TM1×27, EA2×19, SC1×19, RP1×14, AS3×13
 - `macos-spm-app-packaging` — score=100, severity=CRITICAL, max_issue=HIGH, rules=RA2×17, PE3×4, TM1×2, LP3
 - `manage-skills` — score=100, severity=CRITICAL, max_issue=HIGH, rules=AS3×9, AS1×3, TM1×2, AE1, RA2
 - `mcp-builder` — score=100, severity=CRITICAL, max_issue=HIGH, rules=AE1×3, E1×2, SC1×2, SC4×2, EA1
