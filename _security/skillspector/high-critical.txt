@@ -18,6 +18,7 @@ hugging-face-model-trainer
 last30days
 linkedin-content-generator
 linux-privilege-escalation
+loki-mode
 macos-spm-app-packaging
 manage-skills
 mcp-builder
