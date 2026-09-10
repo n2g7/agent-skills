@@ -1,4 +1,5 @@
 ---
+disable-model-invocation: true
 name: wrangler
 description: Run or troubleshoot Wrangler CLI commands and configure Worker projects for local development, deployment, and Cloudflare resource management.
 ---

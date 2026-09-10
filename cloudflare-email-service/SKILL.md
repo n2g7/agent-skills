@@ -1,4 +1,5 @@
 ---
+disable-model-invocation: true
 name: cloudflare-email-service
 description: Implement or troubleshoot Cloudflare Email Sending and Email Routing integrations and their delivery configuration.
 ---
