@@ -1,6 +1,6 @@
 # Full Skills Index (Alphabetical)
 
-1718 skills.
+1732 skills.
 
 | Skill ID | Category | Description (truncated) |
 |----------|----------|-------------------------|
@@ -52,6 +52,7 @@
 | `agentmail` | Backend & API | Email infrastructure for AI agents. Create accounts, send/receive emails, manage webhooks, and check karma balance vi  |
 | `agentphone` | Backend & API | Build AI phone agents with AgentPhone API. Use when the user wants to make phone calls, send/receive SMS, manage phon  |
 | `agents-md` | AI & LLM | This skill should be used when the user asks to "create AGENTS.md", "update AGENTS.md", "maintain agent docs", "set u  |
+| `agents-sdk` | Cloudflare | Build, debug, or review Cloudflare Agents SDK applications using the agents package. |
 | `agents-v2-py` | Languages: Python | Build container-based Foundry Agents with Azure AI Projects SDK (ImageBasedHostedAgentDefinition). Use when creating   |
 | `agenttrace-session-audit` | AI & LLM | Audit local AI coding-agent sessions with agenttrace for cost, tool failures, latency, anomalies, health, diffs, and   |
 | `ai-agent-development` | AI & LLM | AI agent development workflow for building autonomous agents, multi-agent systems, and agent orchestration with CrewA  |
@@ -387,6 +388,10 @@
 | `cloud-architect` | Google Cloud | Expert cloud architect specializing in AWS/Azure/GCP multi-cloud infrastructure design, advanced IaC (Terraform/OpenT  |
 | `cloud-devops` | Google Cloud | Cloud infrastructure and DevOps workflow covering AWS, Azure, GCP, Kubernetes, Terraform, CI/CD, monitoring, and clou  |
 | `cloud-penetration-testing` | AWS | Conduct comprehensive security assessments of cloud infrastructure across Microsoft Azure, Amazon Web Services (AWS),  |
+| `cloudflare` | Cloudflare | Discover and choose Cloudflare products for apps, APIs, AI agents, storage, networking, and security. Use for archite  |
+| `cloudflare-email-service` | Cloudflare | Implement or troubleshoot Cloudflare Email Sending and Email Routing integrations and their delivery configuration. |
+| `cloudflare-one` | Cloudflare | Design, configure, troubleshoot, or review Cloudflare One Zero Trust and SASE deployments. Use cloudflare-one-migrati  |
+| `cloudflare-one-migrations` | Cloudflare | Assess and plan migrations from existing VPN, SWG, or SASE platforms to Cloudflare One, including policy mapping, par  |
 | `cloudflare-workers-expert` | Cloudflare | Expert in Cloudflare Workers and the Edge Computing ecosystem. Covers Wrangler, KV, D1, Durable Objects, and R2 storage. |
 | `cloudformation-best-practices` | General & Miscellaneous | CloudFormation template optimization, nested stacks, drift detection, and production-ready patterns. Use when writing  |
 | `coda-automation` | Automation & Integrations | Automate Coda tasks via Rube MCP (Composio): manage docs, pages, tables, rows, formulas, permissions, and publishing.  |
@@ -614,6 +619,7 @@
 | `drizzle-migration-conflict` | Database | Diagnose, repair, and prevent Drizzle Kit migration conflicts involving generated SQL, snapshots, journals, merge que  |
 | `drizzle-orm-expert` | Automation & Integrations | Expert in Drizzle ORM for TypeScript — schema design, relational queries, migrations, and serverless database integra  |
 | `dropbox-automation` | Automation & Integrations | Automate Dropbox file management, sharing, search, uploads, downloads, and folder operations via Rube MCP (Composio).  |
+| `durable-objects` | Cloudflare | Build, debug, or review Cloudflare Durable Objects code for persistent state and coordination. |
 | `dwarf-expert` | General & Miscellaneous | Provides expertise for analyzing DWARF debug files and understanding the DWARF debug format/standard (v3-v5). Trigger  |
 | `dx-optimizer` | General & Miscellaneous | Developer Experience specialist. Improves tooling, setup, and workflows. Use PROACTIVELY when setting up new projects  |
 | `e2e-testing` | DevOps & CI/CD | End-to-end testing workflow with Playwright for browser automation, visual regression, cross-browser testing, and CI/  |
@@ -1090,6 +1096,7 @@
 | `news-sentiment-engine` | General & Miscellaneous | Multi-source RSS news aggregation with Claude-powered sentiment analysis and structured briefing output |
 | `nextjs-app-router-patterns` | Frontend & UI | Comprehensive patterns for Next.js 14+ App Router architecture, Server Components, and modern full-stack React develo  |
 | `nextjs-best-practices` | General & Miscellaneous | Next.js App Router principles. Server Components, data fetching, routing patterns. |
+| `nextjs-on-cloudflare` | Cloudflare | Build, migrate, and deploy Next.js apps on Cloudflare Workers with vinext. Use when starting a Next.js project on Clo  |
 | `nextjs-seo-indexing` | SEO & Marketing | Fix SEO indexing issues, crawl budget problems, and Search Console coverage errors for Next.js apps. Covers canonical  |
 | `nextjs-supabase-auth` | Automation & Integrations | Expert integration of Supabase Auth with Next.js App Router |
 | `nft-standards` | General & Miscellaneous | Master ERC-721 and ERC-1155 NFT standards, metadata best practices, and advanced NFT features. |
@@ -1314,6 +1321,9 @@
 | `salesforce-automation` | Automation & Integrations | Automate Salesforce tasks via Rube MCP (Composio): leads, contacts, accounts, opportunities, SOQL queries. Always sea  |
 | `salesforce-development` | General & Miscellaneous | Expert patterns for Salesforce platform development including |
 | `sam-altman` | General & Miscellaneous | Agente que simula Sam Altman — CEO da OpenAI, ex-presidente da Y Combinator, arquiteto da era AGI. |
+| `sandbox-migrate-to-next` | Cloudflare | Migrate Cloudflare Sandbox apps from stable @cloudflare/sandbox to @cloudflare/sandbox@next (SDK 1.0 preview). Use sa  |
+| `sandbox-next` | Cloudflare | Build or maintain Cloudflare Sandbox apps on @cloudflare/sandbox@next (SDK 1.0 preview). Use sandbox-migrate-to-next   |
+| `sandbox-stable` | Cloudflare | Build or maintain Cloudflare Sandbox apps on the stable @cloudflare/sandbox package. Use sandbox-next for preview app  |
 | `sankhya-dashboard-html-jsp-custom-best-pratices` | Database | This skill should be used when the user asks for patterns, best practices, creation, or fixing of Sankhya dashboards   |
 | `sast-configuration` | Security & Pentesting | Static Application Security Testing (SAST) tool setup, configuration, and custom rule creation for comprehensive secu  |
 | `satori` | General & Miscellaneous | Clinically informed wisdom companion blending psychology and philosophy into a structured thinking partner |
@@ -1580,6 +1590,7 @@
 | `trpc-fullstack` | Automation & Integrations | Build end-to-end type-safe APIs with tRPC — routers, procedures, middleware, subscriptions, and Next.js/React integra  |
 | `trust-calibrator` | Productivity & Workflow | One sentence - what this skill does and when to invoke it |
 | `turborepo-caching` | General & Miscellaneous | Configure Turborepo for efficient monorepo builds with local and remote caching. Use when setting up Turborepo, optim  |
+| `turnstile-spin` | Cloudflare | Set up, repair, or migrate to Cloudflare Turnstile bot verification in an existing frontend and backend, including se  |
 | `tutorial-engineer` | General & Miscellaneous | Creates step-by-step tutorials and educational content from code. Transforms complex concepts into progressive learni  |
 | `twilio-communications` | General & Miscellaneous | Build communication features with Twilio: SMS messaging, voice |
 | `twitter-automation` | Automation & Integrations | Automate Twitter/X tasks via Rube MCP (Composio): posts, search, users, bookmarks, lists, media. Always search tools   |
@@ -1657,6 +1668,7 @@
 | `web-artifacts-builder` | Frontend & UI | To build powerful frontend claude.ai artifacts, follow these steps: |
 | `web-design-guidelines` | Legal & Compliance | Review files for compliance with Web Interface Guidelines. |
 | `web-media-getter` | Media & Creative | One query across free image / video / GIF APIs (stock + historical/archival + GIF engines), returning normalized, lic  |
+| `web-perf` | General & Miscellaneous | Audit, diagnose, or optimize website loading and interaction performance, Core Web Vitals, and Lighthouse performance  |
 | `web-performance-optimization` | General & Miscellaneous | Optimize website and web application performance including loading speed, Core Web Vitals, bundle size, caching strat  |
 | `web-project-brainstorming` | SEO & Marketing | Masterclass framework for brainstorming web development projects and page designs. Outlines structural phases for con  |
 | `web-scraper` | General & Miscellaneous | Web scraping inteligente multi-estrategia. Extrai dados estruturados de paginas web (tabelas, listas, precos). Pagina  |
@@ -1686,10 +1698,12 @@
 | `wordpress-plugin-development` | Security & Pentesting | WordPress plugin development workflow covering plugin architecture, hooks, admin interfaces, REST API, security best   |
 | `wordpress-theme-development` | Architecture & Design Patterns | WordPress theme development workflow covering theme architecture, template hierarchy, custom post types, block editor  |
 | `wordpress-woocommerce-development` | Automation & Integrations | WooCommerce store development workflow covering store setup, payment integration, shipping configuration, customizati  |
+| `workers-best-practices` | Cloudflare | Cloudflare Workers best practices for production applications. Use when writing, reviewing, or configuring Workers. |
 | `workflow-automation` | Automation & Integrations | Workflow automation is the infrastructure that makes AI agents |
 | `workflow-orchestration-patterns` | Architecture & Design Patterns | Master workflow orchestration architecture with Temporal, covering fundamental design decisions, resilience patterns,  |
 | `workflow-patterns` | Testing & QA | Use this skill when implementing tasks according to Conductor's TDD workflow, handling phase checkpoints, managing gi  |
 | `working-with-coreai` | AI & LLM | Use this skill whenever the user mentions coreai-torch, TorchConverter, coreai-build, AIModel, AIProgram, .aimodel, o  |
+| `wrangler` | Cloudflare | Run or troubleshoot Wrangler CLI commands and configure Worker projects for local development, deployment, and Cloudf  |
 | `wrike-automation` | Automation & Integrations | Automate Wrike project management via Rube MCP (Composio): create tasks/folders, manage projects, assign work, and tr  |
 | `writing-great-skills` | Productivity & Workflow | Reference for writing and editing skills well — the vocabulary and principles that make a skill predictable. |
 | `writing-plans` | General & Miscellaneous | Use when you have a spec or requirements for a multi-step task, before touching code |

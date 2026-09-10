@@ -1,6 +1,6 @@
 # Skills Catalog Overview
 
-**Total skills:** 1718  
+**Total skills:** 1732  
 **Location:** repo root, `~/.agents/skills/`, or `.agents/skills/` submodule
 
 ## How to use this catalog
@@ -18,7 +18,7 @@ Refresh: `python3 _catalog/regenerate.py`
 
 | Category | Count | Top examples |
 |----------|------:|--------------|
-| General & Miscellaneous | 543 | `00-andruia-consultant`, `20-andruia-niche-intelligence`, `acceptance-orchestrator` |
+| General & Miscellaneous | 544 | `00-andruia-consultant`, `20-andruia-niche-intelligence`, `acceptance-orchestrator` |
 | Automation & Integrations | 169 | `accesslint-audit`, `accint-solve`, `activecampaign-automation` |
 | Azure | 118 | `agent-framework-azure-ai-py`, `azure-ai-agents-persistent-dotnet`, `azure-ai-agents-persistent-java` |
 | AI & LLM | 105 | `adhx`, `advanced-evaluation`, `agent-creator` |
@@ -35,6 +35,7 @@ Refresh: `python3 _catalog/regenerate.py`
 | Testing & QA | 23 | `ab-test-setup`, `comprehensive-review-pr-enhance`, `conductor-implement` |
 | Languages: TypeScript/JavaScript | 18 | `animejs-animation`, `bun-development`, `dbos-typescript` |
 | Observability & Monitoring | 17 | `design-it/command-center-ui`, `error-debugging-error-analysis`, `error-debugging-error-trace` |
+| Cloudflare | 15 | `agents-sdk`, `cloudflare`, `cloudflare-email-service` |
 | Legal & Compliance | 15 | `accessibility-compliance-accessibility-audit`, `ai-md`, `akf-trust-metadata` |
 | Apple HIG & Design | 14 | `hig-components-content`, `hig-components-controls`, `hig-components-dialogs` |
 | Business & Startup | 14 | `business-analyst`, `kpi-dashboard-design`, `launch-strategy` |
@@ -49,6 +50,5 @@ Refresh: `python3 _catalog/regenerate.py`
 | Languages: Java/Kotlin | 6 | `earllm-build`, `java-pro`, `kotlin-coroutines-expert` |
 | Blockchain & Web3 | 3 | `blockchain-developer`, `defi-protocol-templates`, `web3-testing` |
 | Languages: Go | 3 | `dbos-golang`, `golang-pro`, `temporal-golang-pro` |
-| Cloudflare | 2 | `cloudflare-workers-expert`, `hono` |
 | Cursor & IDE | 1 | `screenstudio-alt` |
 | Languages: C#/.NET | 1 | `m365-agents-dotnet` |
