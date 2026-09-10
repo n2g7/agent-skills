@@ -1,6 +1,8 @@
 # Expert pack state
 
-Fill this file at `.expert/<topic-slug>/STATE.md` in the **user project**. Never write it inside the skills repo.
+Fill this file at `.expert/<topic-slug>/STATE.md` in the user project. Never write it inside the skills repo.
+
+Do not run `unslop` on the YAML keys below. You may run STE on the `notes` lines.
 
 ```yaml
 topic: ""
@@ -14,14 +16,14 @@ resume_line: "make me an expert — continue"
 
 ## composed_skills
 
-Catalog IDs loaded this pack (cap 4). Later chats reuse this list; do not re-scan the library.
+Catalog IDs loaded this pack (cap 4). Later chats reuse this list. Do not re-scan the library.
 
-- primary:
-- supporting: []
+- Primary:
+- Supporting: []
 
 ## known
 
-What the user actually demonstrated (not only what they claimed).
+What the user actually showed (not only what they claimed).
 
 -
 
@@ -33,9 +35,9 @@ What is still untested or missing.
 
 ## last_chapter
 
-- id:
-- title:
-- status: not-started   # not-started | in-progress | stuck | done
+- Id:
+- Title:
+- Status: not-started   # not-started | in-progress | stuck | done
 
 ## open_gaps
 

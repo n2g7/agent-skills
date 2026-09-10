@@ -1,44 +1,44 @@
 # Intake
 
-Run intake once for a new pack. Ask, wait, then proceed. Do not research or compose until answers are in.
+Run intake once for a new pack. Ask. Wait. Then proceed. Do not research or compose until you have answers.
 
-Write artifacts only under `.expert/<topic-slug>/` in the **user workspace** (current project). Never write packs into the skills library.
+Write artifacts only under `.expert/<topic-slug>/` in the user workspace (current project). Never write packs into the skills library.
 
-## 1. Scope (hybrid — user chooses)
+## 1. Scope (hybrid. The user chooses)
 
 Ask: this **repo**, the **named topic**, or **both**?
 
-- **Repo only** — curriculum and examples come from this codebase.
-- **Topic only** — ignore the repo except as the write target for `.expert/`.
-- **Both** — research the topic; bind worked examples to this repo.
+- **Repo only**: curriculum and examples come from this codebase.
+- **Topic only**: ignore the repo except as the write target for `.expert/`.
+- **Both**: research the topic. Bind worked examples to this repo.
 
-If the workspace is this skills library (~1,700 skills): do not bulk-read it. Catalog and structure first; then targeted reads only.
+If the workspace is this skills library (about 1,700 skills): do not bulk-read it. Catalog and structure first. Then targeted reads only.
 
-Derive `<topic-slug>` (lowercase, hyphenated). Confirm if ambiguous.
+Derive `<topic-slug>` (lowercase, hyphenated). Confirm if it is ambiguous.
 
 ## 2. Prior knowledge
 
 Ask for a self-rating: **none** / **some** / **practitioner**.
 
-Then ask 3–5 probes that fail if the rating is inflated. Cover:
+Then ask 3 to 5 probes that fail if the rating is inflated. Cover:
 
-- a term they should define if the rating is true
-- a concrete decision or tradeoff
-- a failure mode or common bug
+- A term they should define if the rating is true
+- A concrete decision or tradeoff
+- A failure mode or common bug
 - (if repo-scoped) a file, API, or pattern in this codebase
 
-Do **not** treat the self-rating as fact. Record claimed knowledge as hypotheses in `STATE.md`. Curriculum and teaching must verify before skipping foundations.
+Do not treat the self-rating as fact. Record claimed knowledge as hypotheses in `STATE.md`. Curriculum and teaching must check before they skip foundations.
 
 ## 3. Goal
 
 Ask which outcome they need:
 
-- ship something in this repo
-- interview / hiring bar
-- academic (papers, proofs, citations)
-- operational fluency (run, debug, decide)
+- Ship something in this repo
+- Interview / hiring bar
+- Academic (papers, proofs, citations)
+- Operational fluency (run, debug, decide)
 
-## 4. Constraints
+## 4. Limits
 
 Ask: time budget, languages, topics to skip, depth ceiling. Honor skips. Do not expand past the ceiling.
 
@@ -46,10 +46,10 @@ Ask: time budget, languages, topics to skip, depth ceiling. Honor skips. Do not 
 
 Default: explainer from the pack (this skill).
 
-Offer, do not clone:
+Offer. Do not clone:
 
-- `learn` — adaptive tutoring, retrieval checks, study guides
-- `explain-like-socrates` — Socratic questioning
+- `learn`: adaptive tutoring, retrieval checks, study guides
+- `explain-like-socrates`: Socratic questions
 
 Record the choice. Load the sibling later only if chosen (see `compose.md`).
 
@@ -63,4 +63,4 @@ Offer a small **project rule** in the user repo so Ask mode notices `.expert/`. 
 
 ## After answers
 
-Write `MISSION.md` (why they are learning) and start `STATE.md` (`known` / `unknown`, mode, open gaps, claimed-vs-probed notes). Then route the catalog (`compose.md`).
+Write `MISSION.md` (why they are learning). Start `STATE.md` (`known` / `unknown`, mode, open gaps, claimed-vs-probed notes). Then route the catalog (`compose.md`).

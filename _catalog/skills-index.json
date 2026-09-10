@@ -8896,7 +8896,7 @@
     {
       "id": "make-me-an-expert",
       "name": "make-me-an-expert",
-      "description": "This skill should be used when the user says \"make me an expert in\", \"/make me an expert in\", \"continue expert pack\", \"teach me from .expert\", or \"make me an expert \u2014 continue\", or is stuck on a chapter in an existing `.expert/<topic>/` pack. It builds a sourced `.expert/<topic>/` pack and one Markdown coursebook PDF (repo, named topic, or both): intake, catalog-routed web/paper/YouTube-transcript research, cited kb, then teach-from-pack and gap-fill. Not tutoring-only (learn), workspace lessons (teach), or lit-review reports (deep-research).",
+      "description": "This skill should be used when the user says \"make me an expert in\", \"/make me an expert in\", \"continue expert pack\", \"teach me from .expert\", or \"make me an expert \u2014 continue\". Also use it when the user is stuck on a chapter in an existing `.expert/<topic>/` pack. It builds a sourced `.expert/<topic>/` pack and one Markdown coursebook PDF. Then it teaches from that pack. After it writes files, it applies `ste-writing` and `unslop`. Not tutoring-only (learn), workspace lessons (teach), or lit-review reports (deep-research).",
       "category": "Productivity & Workflow"
     },
     {
