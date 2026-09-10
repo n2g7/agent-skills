@@ -633,6 +633,7 @@
     "hugging-face-evaluation",
     "mailtrap-setting-up-sending-domain",
     "mcp-integration",
+    "nextjs-on-cloudflare",
     "plugin-dev-agent-creator",
     "plugin-structure",
     "progressive-web-app",
@@ -1051,6 +1052,7 @@
     "agentmail",
     "agentphone",
     "agents-md",
+    "agents-sdk",
     "agents-v2-py",
     "ai-agent-development",
     "ai-agents-architect",
@@ -1067,6 +1069,7 @@
     "azure-ai-projects-dotnet",
     "azure-ai-projects-ts",
     "buywhere-product-catalog",
+    "cloudflare",
     "computer-use-agents",
     "conductor-setup",
     "crypto-bd-agent",
@@ -1111,6 +1114,9 @@
   ],
   "agents-md": [
     "agents-md"
+  ],
+  "agents-sdk": [
+    "agents-sdk"
   ],
   "agents-v2-py": [
     "agents-v2-py"
@@ -1427,6 +1433,7 @@
     "hig-components-menus",
     "hig-inputs",
     "hig-technologies",
+    "sandbox-migrate-to-next",
     "to-prd"
   ],
   "also": [
@@ -2247,6 +2254,7 @@
     "api-security-testing",
     "appdeploy",
     "azure-mgmt-apimanagement-py",
+    "cloudflare",
     "data-structure-protocol",
     "dotnet-backend-patterns",
     "fal-platform",
@@ -2342,11 +2350,13 @@
     "mobile-developer",
     "nextjs-app-router-patterns",
     "nextjs-best-practices",
+    "nextjs-on-cloudflare",
     "nextjs-supabase-auth",
     "progressive-web-app",
     "prototype",
     "react-nextjs-development",
     "robius-app-architecture",
+    "sandbox-next",
     "screenshots",
     "shopify-apps",
     "tanstack-query-expert",
@@ -2421,6 +2431,9 @@
   "apple-notes-search": [
     "apple-notes-search"
   ],
+  "applicable": [
+    "nextjs-on-cloudflare"
+  ],
   "application": [
     "ai-ml",
     "app-builder",
@@ -2455,6 +2468,7 @@
     "application-performance-performance-optimization"
   ],
   "applications": [
+    "agents-sdk",
     "ai-engineer",
     "angular",
     "apify-actorization",
@@ -2528,6 +2542,7 @@
     "vector-database-engineer",
     "voice-ai-development",
     "webapp-testing",
+    "workers-best-practices",
     "xss-html-injection"
   ],
   "applied": [
@@ -2595,6 +2610,7 @@
     "browser-testing-with-devtools",
     "building-native-ui",
     "claude-api",
+    "cloudflare",
     "design-spells",
     "expo-deployment",
     "fp-ts-react",
@@ -2604,11 +2620,15 @@
     "macos-spm-app-packaging",
     "makepad-skills",
     "mobile-developer",
+    "nextjs-on-cloudflare",
     "nextjs-seo-indexing",
     "photopea-embedded-editor",
     "privacy-by-design",
     "progressive-web-app",
     "redesign-existing-projects",
+    "sandbox-migrate-to-next",
+    "sandbox-next",
+    "sandbox-stable",
     "schema-markup-generator",
     "security-bluebook-builder",
     "shopify-development",
@@ -2688,6 +2708,7 @@
     "c4-architecture-c4-architecture",
     "c4-component",
     "cc-skill-backend-patterns",
+    "cloudflare",
     "code-documentation-doc-generate",
     "data-engineering-data-pipeline",
     "deployment-pipeline-design",
@@ -2998,6 +3019,7 @@
     "android-ui-journey-testing"
   ],
   "assess": [
+    "cloudflare-one-migrations",
     "code-refactoring-tech-debt",
     "codebase-cleanup-tech-debt",
     "event-staffing-compliance",
@@ -3315,6 +3337,7 @@
     "ux-audit",
     "vercel-optimize",
     "vibe-code-auditor",
+    "web-perf",
     "youtube-seo-optimizer"
   ],
   "audit-context-building": [
@@ -4377,7 +4400,8 @@
     "monopoly",
     "nodejs-backend-patterns",
     "polars",
-    "python-fastapi-development"
+    "python-fastapi-development",
+    "turnstile-spin"
   ],
   "backend-architect": [
     "backend-architect"
@@ -4813,6 +4837,7 @@
     "unreal-engine-cpp-pro",
     "ux-audit",
     "wordpress-plugin-development",
+    "workers-best-practices",
     "workflow-orchestration-patterns"
   ],
   "best-practices": [
@@ -4832,6 +4857,7 @@
     "hybrid-cloud-networking",
     "n8n-code-javascript",
     "n8n-node-configuration",
+    "nextjs-on-cloudflare",
     "odoo-migration-helper",
     "react-state-management",
     "seo-aeo-internal-linking",
@@ -5135,7 +5161,8 @@
     "azure-mgmt-botservice-py",
     "technical-change-tracker",
     "telegram",
-    "telegram-automation"
+    "telegram-automation",
+    "turnstile-spin"
   ],
   "botclient": [
     "molykit"
@@ -5464,6 +5491,7 @@
   "build": [
     "agent-framework-azure-ai-py",
     "agentphone",
+    "agents-sdk",
     "agents-v2-py",
     "ai-engineer",
     "airflow-dag-patterns",
@@ -5511,6 +5539,7 @@
     "django-pro",
     "domain-modeling",
     "dotnet-backend",
+    "durable-objects",
     "e2e-testing-patterns",
     "earllm-build",
     "error-handling-patterns",
@@ -5540,6 +5569,7 @@
     "monorepo-architect",
     "monorepo-management",
     "multi-platform-apps-multi-platform",
+    "nextjs-on-cloudflare",
     "nx-workspace-patterns",
     "observability-engineer",
     "pipecat-friday-agent",
@@ -5554,6 +5584,8 @@
     "radix-ui-design-system",
     "rayden-use",
     "react-flow-architect",
+    "sandbox-next",
+    "sandbox-stable",
     "security-bluebook-builder",
     "seo-aeo-content-cluster",
     "seo-aeo-internal-linking",
@@ -6558,6 +6590,7 @@
     "evaluation"
   ],
   "choose": [
+    "cloudflare",
     "pdf-conversion-router"
   ],
   "choosing": [
@@ -6565,6 +6598,7 @@
     "event-store-design",
     "n8n-code-javascript",
     "n8n-node-configuration",
+    "nextjs-on-cloudflare",
     "react-state-management",
     "ui-setup",
     "ui-ux-pro-max",
@@ -6929,7 +6963,8 @@
     "skill-creator",
     "unslop",
     "vercel-cli-with-tokens",
-    "vexor"
+    "vexor",
+    "wrangler"
   ],
   "cli-driven": [
     "macos-screen-recorder"
@@ -7060,8 +7095,31 @@
     "azure-eventgrid-py"
   ],
   "cloudflare": [
+    "agents-sdk",
+    "cloudflare",
+    "cloudflare-email-service",
+    "cloudflare-one",
+    "cloudflare-one-migrations",
     "cloudflare-workers-expert",
-    "hono"
+    "durable-objects",
+    "hono",
+    "nextjs-on-cloudflare",
+    "sandbox-migrate-to-next",
+    "sandbox-next",
+    "sandbox-stable",
+    "turnstile-spin",
+    "workers-best-practices",
+    "wrangler"
+  ],
+  "cloudflare-email-service": [
+    "cloudflare-email-service"
+  ],
+  "cloudflare-one": [
+    "cloudflare-one"
+  ],
+  "cloudflare-one-migrations": [
+    "cloudflare-one",
+    "cloudflare-one-migrations"
   ],
   "cloudflare-workers-expert": [
     "cloudflare-workers-expert"
@@ -7193,6 +7251,7 @@
     "documentation",
     "documentation-generation-doc-generate",
     "documentation-templates",
+    "durable-objects",
     "dwarf-expert",
     "e2e-testing-patterns",
     "ejentum-reasoning-harness",
@@ -7641,7 +7700,8 @@
     "plugin-structure",
     "plugin-validator",
     "server-management",
-    "telegram-automation"
+    "telegram-automation",
+    "wrangler"
   ],
   "comment": [
     "gh-image",
@@ -8499,6 +8559,7 @@
     "azure-keyvault-secrets-ts",
     "azure-security-keyvault-secrets-java",
     "claude-code-guide",
+    "cloudflare-email-service",
     "deployment-validation-config-validate",
     "file-path-traversal",
     "n8n-node-configuration",
@@ -8529,6 +8590,7 @@
   "configure": [
     "antigravity-agent-manager",
     "cal-com-automation",
+    "cloudflare-one",
     "conductor-setup",
     "distributed-debugging-debug-trace",
     "error-debugging-error-trace",
@@ -8546,7 +8608,8 @@
     "plugin-structure",
     "sentry-automation",
     "setup-matt-pocock-skills",
-    "turborepo-caching"
+    "turborepo-caching",
+    "wrangler"
   ],
   "configured": [
     "network-101"
@@ -8561,7 +8624,8 @@
     "nx-workspace-patterns",
     "odoo-accounting-setup",
     "threejs-fundamentals",
-    "threejs-lighting"
+    "threejs-lighting",
+    "workers-best-practices"
   ],
   "confirmation": [
     "atlas-ledger",
@@ -9202,6 +9266,7 @@
     "backend-development-feature-development"
   ],
   "coordination": [
+    "durable-objects",
     "tdd-orchestrator",
     "team-collaboration-standup-notes"
   ],
@@ -9264,6 +9329,7 @@
     "seo-technical",
     "stability-ai",
     "vercel-ai-sdk-expert",
+    "web-perf",
     "web-performance-optimization",
     "working-with-coreai"
   ],
@@ -10699,10 +10765,12 @@
     "legacy-modernizer"
   ],
   "debug": [
+    "agents-sdk",
     "behavioral-modes",
     "debugging-toolkit",
     "debugging-toolkit-smart-debug",
     "diagnosing-bugs",
+    "durable-objects",
     "dwarf-expert",
     "error-diagnostics-smart-debug",
     "gdb-cli",
@@ -10982,6 +11050,7 @@
     "azure-communication-sms-java",
     "backend-development-feature-development",
     "cicd-automation-workflow-automate",
+    "cloudflare-email-service",
     "comfyui-gateway",
     "development",
     "postmark-automation",
@@ -11086,6 +11155,7 @@
     "expo-deployment",
     "makepad-deployment",
     "multi-platform-apps-multi-platform",
+    "nextjs-on-cloudflare",
     "pre-release-review",
     "remote-gpu-trainer",
     "vercel-cli-with-tokens",
@@ -11126,10 +11196,12 @@
     "mcp-tool-developer",
     "ml-pipeline-workflow",
     "monte-carlo-monitor-creation",
+    "nextjs-on-cloudflare",
     "production-audit",
     "temporal-python-pro",
     "unity-developer",
-    "working-with-coreai"
+    "working-with-coreai",
+    "wrangler"
   ],
   "deployment-engineer": [
     "deployment-engineer"
@@ -11148,6 +11220,7 @@
     "azure-ai-projects-ts",
     "azure-resource-manager-mysql-dotnet",
     "azure-resource-manager-postgresql-dotnet",
+    "cloudflare-one",
     "container-security-hardening",
     "database-migration",
     "github-automation",
@@ -11180,6 +11253,9 @@
   ],
   "describe": [
     "hello"
+  ],
+  "describes": [
+    "cloudflare"
   ],
   "description": [
     "agent-development",
@@ -11219,6 +11295,7 @@
     "cicd-automation-workflow-automate",
     "ckw-design",
     "cloud-architect",
+    "cloudflare-one",
     "code-refactoring-refactor-clean",
     "codebase-cleanup-refactor-clean",
     "codebase-design",
@@ -11653,7 +11730,8 @@
     "wordpress",
     "wordpress-plugin-development",
     "wordpress-theme-development",
-    "wordpress-woocommerce-development"
+    "wordpress-woocommerce-development",
+    "wrangler"
   ],
   "deviation": [
     "atlas-contract"
@@ -11696,7 +11774,8 @@
     "incident-response-smart-fix",
     "react-component-performance",
     "seo-audit",
-    "skill-optimizer"
+    "skill-optimizer",
+    "web-perf"
   ],
   "diagnosing": [
     "context-degradation",
@@ -11934,6 +12013,7 @@
   ],
   "discover": [
     "apify-trend-analysis",
+    "cloudflare",
     "crypto-bd-agent",
     "flowhunt-skill",
     "global-chat-agent-discovery",
@@ -12141,6 +12221,7 @@
     "google-docs-automation",
     "grill-with-docs",
     "lovable-cleanup",
+    "nextjs-on-cloudflare",
     "sales-enablement",
     "squirrel",
     "ste-writing",
@@ -12191,6 +12272,7 @@
     "c4-component",
     "c4-container",
     "c4-context",
+    "cloudflare",
     "code-documentation-doc-generate",
     "context-driven-development",
     "context7-auto-research",
@@ -12496,8 +12578,12 @@
     "dbos-golang",
     "dbos-python",
     "dbos-typescript",
+    "durable-objects",
     "temporal-golang-pro",
     "temporal-python-pro"
+  ],
+  "durable-objects": [
+    "durable-objects"
   ],
   "durations": [
     "baseline-ui"
@@ -12912,6 +12998,7 @@
   "email": [
     "agentmail",
     "brevo-automation",
+    "cloudflare-email-service",
     "email-sequence",
     "email-systems",
     "growth-engine",
@@ -13976,6 +14063,7 @@
     "apify-actorization",
     "c4-architecture-c4-architecture",
     "claude-settings-audit",
+    "cloudflare-one-migrations",
     "complexity-cuts",
     "copy-editing",
     "dbos-golang",
@@ -13987,6 +14075,7 @@
     "hig-inputs",
     "hig-technologies",
     "make-me-an-expert",
+    "nextjs-on-cloudflare",
     "not-a-vibe-coder",
     "redesign-existing-projects",
     "semgrep-rule-variant-creator",
@@ -13995,6 +14084,7 @@
     "skill-creator-ms",
     "swiftui-expert-skill",
     "tool-design",
+    "turnstile-spin",
     "ui-page",
     "xlsx",
     "xlsx-official"
@@ -15093,6 +15183,7 @@
     "accesslint-audit",
     "apify-influencer-discovery",
     "apple-notes-search",
+    "cloudflare",
     "codebase-design",
     "django-perf-review",
     "find-bugs",
@@ -15506,6 +15597,7 @@
     "wrike-automation"
   ],
   "follow": [
+    "nextjs-on-cloudflare",
     "pdf",
     "pdf-official",
     "web-artifacts-builder"
@@ -15932,6 +16024,7 @@
     "javascript-typescript-typescript-scaffold",
     "react-nextjs-development",
     "senior-frontend",
+    "turnstile-spin",
     "web-artifacts-builder"
   ],
   "frontend-api-integration-patterns": [
@@ -16160,6 +16253,7 @@
   ],
   "gaps": [
     "attack-tree-construction",
+    "cloudflare-one-migrations",
     "production-audit",
     "skill-sentinel",
     "spec-to-code-compliance"
@@ -18455,6 +18549,7 @@
     "bdi-mental-states",
     "behavioral-modes",
     "cicd-automation-workflow-automate",
+    "cloudflare-email-service",
     "cqrs-implementation",
     "data-quality-frameworks",
     "database-cloud-optimization-cost-optimize",
@@ -18796,6 +18891,8 @@
     "burp-suite-testing",
     "c4-code",
     "clickup-automation",
+    "cloudflare",
+    "cloudflare-one-migrations",
     "context-window-management",
     "conversation-memory",
     "database-migration",
@@ -18851,6 +18948,7 @@
     "stripe-integration",
     "tailwind-design-system",
     "tool-design",
+    "turnstile-spin",
     "typescript-advanced-types",
     "unity-ecs-patterns",
     "using-superpowers",
@@ -19222,7 +19320,8 @@
   ],
   "install": [
     "awt-e2e-testing",
-    "manifest"
+    "manifest",
+    "nextjs-on-cloudflare"
   ],
   "installability": [
     "progressive-web-app"
@@ -19368,6 +19467,7 @@
     "agentic-actions-auditor",
     "ai-engineer",
     "blockchain-developer",
+    "cloudflare-email-service",
     "mobile-developer",
     "pakistan-payments-stack"
   ],
@@ -19453,7 +19553,8 @@
     "game-development/vr-ar",
     "hig-patterns",
     "threejs-interaction",
-    "voice-agents"
+    "voice-agents",
+    "web-perf"
   ],
   "interaction-quality": [
     "review-animations"
@@ -20985,7 +21086,8 @@
   ],
   "lighthouse": [
     "frontend-lighthouse",
-    "pagespeed-enhancer"
+    "pagespeed-enhancer",
+    "web-perf"
   ],
   "lighting": [
     "design-it/aurora-ui",
@@ -21379,6 +21481,7 @@
     "seo-images",
     "threejs-loaders",
     "ux-feedback",
+    "web-perf",
     "web-performance-optimization"
   ],
   "local": [
@@ -21400,6 +21503,7 @@
     "web-media-getter",
     "webapp-testing",
     "wiki-builder",
+    "wrangler",
     "youtube-notetaker"
   ],
   "local-legal-seo-audit": [
@@ -21763,6 +21867,8 @@
     "memory-systems",
     "openapi-spec-generation",
     "rayden-use",
+    "sandbox-next",
+    "sandbox-stable",
     "seo-content-refresher",
     "wiki-builder"
   ],
@@ -22077,6 +22183,7 @@
     "varlock-claude-skill",
     "webflow-automation",
     "wellally-tech",
+    "wrangler",
     "wrike-automation",
     "zoom-automation"
   ],
@@ -22196,6 +22303,7 @@
   ],
   "mapping": [
     "attack-tree-construction",
+    "cloudflare-one-migrations",
     "crossframe-notebook",
     "ddd-context-mapping",
     "odoo-edi-connector",
@@ -23105,7 +23213,10 @@
     "cron-doctor"
   ],
   "migrate": [
-    "legacy-modernizer"
+    "legacy-modernizer",
+    "nextjs-on-cloudflare",
+    "sandbox-migrate-to-next",
+    "turnstile-spin"
   ],
   "migrating": [
     "angular-state-management",
@@ -23114,21 +23225,25 @@
   ],
   "migration": [
     "angular-migration",
+    "cloudflare-one",
     "database-migrations-migration-observability",
     "drizzle-migration-conflict",
     "framework-migration-code-migrate",
     "framework-migration-deps-upgrade",
+    "nextjs-on-cloudflare",
     "odoo-migration-helper",
     "react-modernization",
     "typescript-expert"
   ],
   "migrations": [
+    "cloudflare-one-migrations",
     "database",
     "database-migration",
     "database-migrations-sql-migrations",
     "drizzle-orm-expert",
     "pre-release-review",
-    "prisma-expert"
+    "prisma-expert",
+    "sandbox-stable"
   ],
   "military": [
     "design-it/sci-fi-interface"
@@ -23229,6 +23344,7 @@
     "arrowspace"
   ],
   "missing": [
+    "nextjs-on-cloudflare",
     "zeroize-audit"
   ],
   "mistake": [
@@ -23813,6 +23929,9 @@
     "algorithmic-art",
     "canvas-design"
   ],
+  "moving": [
+    "nextjs-on-cloudflare"
+  ],
   "moyu": [
     "moyu"
   ],
@@ -24131,6 +24250,7 @@
     "debug-buttercup"
   ],
   "naming": [
+    "cloudflare",
     "create-branch",
     "plugin-structure",
     "skill-check",
@@ -24238,6 +24358,7 @@
   ],
   "need": [
     "address-github-comments",
+    "cloudflare",
     "codex-review",
     "context7-auto-research",
     "exa-search",
@@ -24384,6 +24505,7 @@
     "network-engineer"
   ],
   "networking": [
+    "cloudflare",
     "game-development/multiplayer",
     "ios-developer",
     "mtls-configuration",
@@ -24492,10 +24614,13 @@
     "landing-page-generator",
     "nextjs-app-router-patterns",
     "nextjs-best-practices",
+    "nextjs-on-cloudflare",
     "nextjs-seo-indexing",
     "nextjs-supabase-auth",
     "react-best-practices",
     "react-nextjs-development",
+    "sandbox-migrate-to-next",
+    "sandbox-next",
     "senior-frontend",
     "steve-jobs",
     "tanstack-query-expert",
@@ -24512,6 +24637,9 @@
   ],
   "nextjs-best-practices": [
     "nextjs-best-practices"
+  ],
+  "nextjs-on-cloudflare": [
+    "nextjs-on-cloudflare"
   ],
   "nextjs-seo-indexing": [
     "nextjs-seo-indexing"
@@ -24733,7 +24861,8 @@
     "hugging-face-tool-builder"
   ],
   "npx": [
-    "awt-e2e-testing"
+    "awt-e2e-testing",
+    "nextjs-on-cloudflare"
   ],
   "nrf52": [
     "arm-cortex-expert"
@@ -24832,6 +24961,7 @@
     "ddd-tactical-patterns",
     "design-it/3d-ui",
     "design-it/skeuomorphism",
+    "durable-objects",
     "fp-data-transforms",
     "llm-structured-output",
     "threejs-animation"
@@ -25147,6 +25277,8 @@
   "one": [
     "awareness-stage-mapper",
     "brand-perception-psychologist",
+    "cloudflare-one",
+    "cloudflare-one-migrations",
     "copywriting-psychologist",
     "customer-psychographic-profiler",
     "earllm-build",
@@ -25287,6 +25419,9 @@
   ],
   "opening": [
     "cold-email"
+  ],
+  "opennext": [
+    "nextjs-on-cloudflare"
   ],
   "opens": [
     "notebooklm"
@@ -25511,6 +25646,7 @@
     "skill-optimizer",
     "spark-optimization",
     "vector-index-tuning",
+    "web-perf",
     "web-performance-optimization",
     "working-with-coreai"
   ],
@@ -25737,6 +25873,7 @@
     "azure-security-keyvault-secrets-java",
     "biopython",
     "claude-api",
+    "cloudflare-one",
     "context7-auto-research",
     "docx",
     "docx-official",
@@ -25914,11 +26051,13 @@
     "make-me-an-expert"
   ],
   "package": [
+    "agents-sdk",
     "astropy",
     "azure-postgres-ts",
     "macos-spm-app-packaging",
     "makepad-deployment",
     "networkx",
+    "sandbox-stable",
     "uv-package-manager",
     "wiki-vitepress",
     "yao-meta-skill"
@@ -26160,6 +26299,9 @@
   "parameters": [
     "api-documentation-generator",
     "vector-index-tuning"
+  ],
+  "parity": [
+    "cloudflare-one-migrations"
   ],
   "parquet": [
     "hugging-face-dataset-viewer"
@@ -26738,6 +26880,7 @@
     "unreal-engine-cpp-pro",
     "vector-index-tuning",
     "vercel-optimize",
+    "web-perf",
     "web-performance-optimization",
     "wireshark-analysis",
     "wordpress",
@@ -26825,6 +26968,7 @@
     "conversation-memory",
     "data-structure-protocol",
     "devcontainer-setup",
+    "durable-objects",
     "interview-coach",
     "odoo-docker-deployment",
     "planning-with-files",
@@ -27126,6 +27270,7 @@
   "plan": [
     "agent-squad/alex",
     "blueprint",
+    "cloudflare-one-migrations",
     "concise-planning",
     "conductor-implement",
     "conductor-new-track",
@@ -27164,6 +27309,7 @@
   ],
   "planning": [
     "ai-engineering-toolkit",
+    "cloudflare-one",
     "inventory-demand-planning",
     "learn",
     "nerdzao-elite",
@@ -27224,6 +27370,7 @@
     "apify-lead-generation",
     "apify-ultimate-scraper",
     "blockchain-developer",
+    "cloudflare-one-migrations",
     "data-engineer",
     "framework-migration-code-migrate",
     "incident-response-smart-fix",
@@ -27391,6 +27538,7 @@
     "service-mesh-expert"
   ],
   "policy": [
+    "cloudflare-one-migrations",
     "crossframe-public",
     "ii-commons",
     "protect-mcp-governance",
@@ -27473,6 +27621,7 @@
     "interactive-portfolio"
   ],
   "porting": [
+    "sandbox-next",
     "semgrep-rule-variant-creator"
   ],
   "pos-instalacao": [
@@ -27753,6 +27902,7 @@
     "unreal-engine-cpp-pro",
     "ux-audit",
     "wordpress-plugin-development",
+    "workers-best-practices",
     "workflow-orchestration-patterns"
   ],
   "prd": [
@@ -27949,6 +28099,9 @@
   ],
   "preview": [
     "deploy-to-vercel",
+    "sandbox-migrate-to-next",
+    "sandbox-next",
+    "sandbox-stable",
     "seo-aeo-meta-description-generator"
   ],
   "previews": [
@@ -28234,6 +28387,7 @@
     "apify-market-research",
     "blog-writing-guide",
     "buywhere-product-catalog",
+    "cloudflare",
     "competitor-alternatives",
     "emil-design-eng",
     "image-generator",
@@ -28292,7 +28446,8 @@
     "unity-ecs-patterns",
     "vibe-code-auditor",
     "vibe-code-cleanup",
-    "vibecode-production-qa-validator"
+    "vibecode-production-qa-validator",
+    "workers-best-practices"
   ],
   "production-audit": [
     "production-audit"
@@ -28374,6 +28529,7 @@
   "products": [
     "ai-wrapper-product",
     "azure-mgmt-apimanagement-py",
+    "cloudflare",
     "marketing-ideas",
     "micro-saas-launcher",
     "odoo-shopify-integration",
@@ -28548,6 +28704,7 @@
     "javascript-typescript-typescript-scaffold",
     "makepad-basics",
     "new-rails-project",
+    "nextjs-on-cloudflare",
     "nx-workspace-patterns",
     "odoo-project-timesheet",
     "product-marketing-context",
@@ -28634,6 +28791,7 @@
     "vercel-cli-with-tokens",
     "vibers-code-review",
     "web-project-brainstorming",
+    "wrangler",
     "wrike-automation"
   ],
   "projeto": [
@@ -29795,6 +29953,7 @@
     "google-slides-automation",
     "googlesheets-automation",
     "hugging-face-papers",
+    "nextjs-on-cloudflare",
     "obsidian-cli",
     "pdf",
     "pdf-official",
@@ -30368,6 +30527,7 @@
     "grilling"
   ],
   "relevant": [
+    "cloudflare",
     "hello",
     "keyword-extractor",
     "sred-work-summary",
@@ -30516,7 +30676,8 @@
   "repair": [
     "crossframe-org",
     "crossframe-review",
-    "drizzle-migration-conflict"
+    "drizzle-migration-conflict",
+    "turnstile-spin"
   ],
   "repeat": [
     "lookdev-auto"
@@ -30803,7 +30964,8 @@
     "azure-resource-manager-playwright-dotnet",
     "azure-resource-manager-redis-dotnet",
     "azure-resource-manager-sql-dotnet",
-    "memory-safety-patterns"
+    "memory-safety-patterns",
+    "wrangler"
   ],
   "resources": [
     "aws-cost-cleanup",
@@ -31041,8 +31203,10 @@
     "acceptance-orchestrator",
     "address-github-comments",
     "agentflow",
+    "agents-sdk",
     "behavioral-modes",
     "closed-loop-delivery",
+    "cloudflare-one",
     "code-review-ai-ai-review",
     "code-reviewer",
     "code-simplifier",
@@ -31054,6 +31218,7 @@
     "design-orchestration",
     "differential-review",
     "django-perf-review",
+    "durable-objects",
     "error-debugging-multi-agent-review",
     "executing-plans",
     "find-bugs",
@@ -31115,7 +31280,8 @@
     "seo-cannibalization-detector",
     "swiftui-expert-skill",
     "terraform-aws-modules",
-    "ui-ux-pro-max"
+    "ui-ux-pro-max",
+    "workers-best-practices"
   ],
   "reviews": [
     "agent-squad/luna",
@@ -31332,6 +31498,7 @@
     "pre-release-review"
   ],
   "rollout": [
+    "cloudflare-one-migrations",
     "pre-release-review",
     "protect-mcp-governance"
   ],
@@ -31439,6 +31606,7 @@
     "angular-migration",
     "azure-communication-callautomation-java",
     "azure-maps-search-dotnet",
+    "cloudflare-email-service",
     "design-orchestration",
     "m365-agents-dotnet",
     "m365-agents-py",
@@ -31621,7 +31789,8 @@
     "telegram-mini-app",
     "transformers-js",
     "video-content-extractor",
-    "working-with-coreai"
+    "working-with-coreai",
+    "wrangler"
   ],
   "runapi": [
     "runapi-cli"
@@ -31822,7 +31991,23 @@
   ],
   "sandbox": [
     "mailtrap-testing-with-sandbox",
-    "malware-analyst"
+    "malware-analyst",
+    "sandbox-migrate-to-next",
+    "sandbox-next",
+    "sandbox-stable"
+  ],
+  "sandbox-migrate-to-next": [
+    "sandbox-migrate-to-next",
+    "sandbox-next",
+    "sandbox-stable"
+  ],
+  "sandbox-next": [
+    "sandbox-migrate-to-next",
+    "sandbox-next",
+    "sandbox-stable"
+  ],
+  "sandbox-stable": [
+    "sandbox-stable"
   ],
   "sandboxed": [
     "devcontainer-setup",
@@ -31841,6 +32026,10 @@
   ],
   "sankhya-dashboard-html-jsp-custom-best-pratices": [
     "sankhya-dashboard-html-jsp-custom-best-pratices"
+  ],
+  "sase": [
+    "cloudflare-one",
+    "cloudflare-one-migrations"
   ],
   "sast": [
     "sast-configuration",
@@ -32225,7 +32414,8 @@
     "hugging-face-evaluation",
     "seo-aeo-content-quality-auditor",
     "seo-content-auditor",
-    "sql-sentinel"
+    "sql-sentinel",
+    "web-perf"
   ],
   "scoring": [
     "advanced-evaluation",
@@ -32374,6 +32564,7 @@
   ],
   "sdk": [
     "agent-framework-azure-ai-py",
+    "agents-sdk",
     "agents-v2-py",
     "android-cli",
     "azure-ai-agents-persistent-dotnet",
@@ -32479,6 +32670,8 @@
     "mcp-builder-ms",
     "microsoft-azure-webjobs-extensions-authentication-events-dotnet",
     "robius-matrix-integration",
+    "sandbox-migrate-to-next",
+    "sandbox-next",
     "temporal-golang-pro",
     "temporal-python-pro",
     "upgrading-expo",
@@ -32758,6 +32951,7 @@
     "cc-skill-security-review",
     "cicd-automation-workflow-automate",
     "cloud-penetration-testing",
+    "cloudflare",
     "code-review-checklist",
     "codebase-audit-pre-push",
     "codebase-cleanup-deps-audit",
@@ -32915,6 +33109,7 @@
   ],
   "selection": [
     "api-patterns",
+    "cloudflare",
     "database-architect",
     "database-design",
     "game-development/game-art",
@@ -33044,6 +33239,7 @@
     "azure-eventhub-rust",
     "azure-monitor-ingestion-py",
     "azure-storage-queue-ts",
+    "cloudflare-email-service",
     "mailtrap-sending-emails",
     "mailtrap-setting-up-sending-domain"
   ],
@@ -33381,7 +33577,8 @@
   "server-side": [
     "azure-communication-callautomation-java",
     "cc-skill-backend-patterns",
-    "react-best-practices"
+    "react-best-practices",
+    "turnstile-spin"
   ],
   "server-to-client": [
     "azure-messaging-webpubsub-java"
@@ -33544,6 +33741,7 @@
     "plugin-structure",
     "setup-matt-pocock-skills",
     "signup-flow-cro",
+    "turnstile-spin",
     "vercel-cli-with-tokens"
   ],
   "sets": [
@@ -33561,6 +33759,7 @@
     "environment-setup-guide",
     "fastapi-templates",
     "manifest",
+    "nextjs-on-cloudflare",
     "nx-workspace-patterns",
     "python-testing-patterns",
     "react-state-management",
@@ -33586,6 +33785,7 @@
     "makepad-basics",
     "makepad-skills",
     "monorepo-architect",
+    "nextjs-on-cloudflare",
     "odoo-automated-tests",
     "odoo-docker-deployment",
     "odoo-l10n-compliance",
@@ -34053,6 +34253,9 @@
     "schema-markup-generator",
     "skyvern-browser-automation"
   ],
+  "siteverify": [
+    "turnstile-spin"
+  ],
   "situation": [
     "ask-matt",
     "git-advanced-workflows"
@@ -34115,6 +34318,7 @@
     "claude-code-guide",
     "claude-d3js-skill",
     "clean-code",
+    "cloudflare",
     "codebase-design",
     "codebase-to-wordpress-converter",
     "command-development",
@@ -34157,6 +34361,7 @@
     "monopoly",
     "moodle-external-api-development",
     "multi-agent-patterns",
+    "nextjs-on-cloudflare",
     "objection-preemptor",
     "onboarding-psychologist",
     "papers-skill",
@@ -34286,6 +34491,7 @@
     "longbridge",
     "makepad-skills",
     "manage-skills",
+    "nextjs-on-cloudflare",
     "plugin-structure",
     "plugin-validator",
     "project-skill-audit",
@@ -35106,7 +35312,13 @@
     "stability-ai"
   ],
   "stable": [
+    "sandbox-migrate-to-next",
+    "sandbox-next",
+    "sandbox-stable",
     "swiftui-view-refactor"
+  ],
+  "stable-to-preview": [
+    "sandbox-stable"
   ],
   "stack": [
     "app-builder",
@@ -35232,6 +35444,7 @@
   "starting": [
     "create-branch",
     "create-issue-gate",
+    "nextjs-on-cloudflare",
     "rich-elicitation",
     "using-superpowers"
   ],
@@ -35272,6 +35485,7 @@
     "cc-skill-frontend-patterns",
     "context-fundamentals",
     "dispatching-parallel-agents",
+    "durable-objects",
     "event-staffing-ordering",
     "fp-react",
     "fp-ts-react",
@@ -35476,6 +35690,7 @@
     "azure-storage-file-share-py",
     "azure-storage-queue-py",
     "azure-storage-queue-ts",
+    "cloudflare",
     "cloudflare-workers-expert",
     "convex",
     "file-uploads",
@@ -36229,6 +36444,9 @@
   "sweep": [
     "accesslint-audit",
     "mathguard"
+  ],
+  "swg": [
+    "cloudflare-one-migrations"
   ],
   "swift": [
     "ios-developer",
@@ -37402,6 +37620,7 @@
   "their": [
     "apple-notes-search",
     "blog-writing-guide",
+    "cloudflare-email-service",
     "flowhunt-skill",
     "onboarding-cro",
     "progressive-web-app",
@@ -37439,10 +37658,12 @@
   "then": [
     "algorithmic-art",
     "canvas-design",
+    "cloudflare",
     "flowhunt-skill",
     "improve-codebase-architecture",
     "make-me-an-expert",
     "mesh-memory",
+    "nextjs-on-cloudflare",
     "production-code-audit",
     "simplify-code",
     "skill-suggester",
@@ -38602,8 +38823,11 @@
     "fsi-compliance-checker"
   ],
   "troubleshoot": [
+    "cloudflare-email-service",
+    "cloudflare-one",
     "mailtrap-sending-emails",
-    "mailtrap-setting-up-sending-domain"
+    "mailtrap-setting-up-sending-domain",
+    "wrangler"
   ],
   "troubleshooter": [
     "devops-troubleshooter"
@@ -38631,6 +38855,7 @@
   ],
   "trust": [
     "akf-trust-metadata",
+    "cloudflare-one",
     "lightning-architecture-review",
     "popup-cro",
     "skill-audit",
@@ -38697,6 +38922,12 @@
     "aomi-transact",
     "idea-os",
     "not-a-vibe-coder"
+  ],
+  "turnstile": [
+    "turnstile-spin"
+  ],
+  "turnstile-spin": [
+    "turnstile-spin"
   ],
   "tutored": [
     "learn"
@@ -39245,6 +39476,9 @@
   "upstash-qstash": [
     "upstash-qstash"
   ],
+  "upstream": [
+    "nextjs-on-cloudflare"
+  ],
   "url": [
     "appdeploy",
     "comfyui-gateway",
@@ -39342,6 +39576,7 @@
     "ckw-design",
     "claude-api",
     "closed-loop-delivery",
+    "cloudflare",
     "code-documentation-doc-generate",
     "codebase-design",
     "command-development",
@@ -39547,6 +39782,7 @@
     "address-github-comments",
     "agent-framework-azure-ai-py",
     "agentfolio",
+    "agents-sdk",
     "android-cli",
     "android_ui_verification",
     "antigravity-agent-manager",
@@ -39977,6 +40213,9 @@
   "vendor": [
     "odoo-purchase-workflow"
   ],
+  "vendors": [
+    "cloudflare-one"
+  ],
   "vercel": [
     "deploy-to-vercel",
     "react-best-practices",
@@ -40026,6 +40265,7 @@
     "model-authoring",
     "plan-writing",
     "protect-mcp-governance",
+    "turnstile-spin",
     "ui-visual-validator",
     "verification-before-completion",
     "vibecode-production-qa-validator",
@@ -40309,6 +40549,9 @@
     "swiftui-expert-skill",
     "swiftui-view-refactor"
   ],
+  "vinext": [
+    "nextjs-on-cloudflare"
+  ],
   "vintage": [
     "design-it/retro-design",
     "design-it/retro-futurism"
@@ -40424,6 +40667,7 @@
     "landing-page-generator",
     "seo-fundamentals",
     "seo-technical",
+    "web-perf",
     "web-performance-optimization"
   ],
   "vite": [
@@ -40500,6 +40744,7 @@
     "auri-core"
   ],
   "vpn": [
+    "cloudflare-one-migrations",
     "hybrid-cloud-networking"
   ],
   "vr-ar": [
@@ -40868,6 +41113,7 @@
     "ui-ux-pro-max",
     "wcag-audit-patterns",
     "web-design-guidelines",
+    "web-perf",
     "web-performance-optimization",
     "web-project-brainstorming",
     "web-scraper",
@@ -40889,6 +41135,9 @@
   ],
   "web-media-getter": [
     "web-media-getter"
+  ],
+  "web-perf": [
+    "web-perf"
   ],
   "web-performance-optimization": [
     "web-performance-optimization"
@@ -40955,6 +41204,7 @@
     "odoo-qweb-templates",
     "schema-markup-generator",
     "site-architecture",
+    "web-perf",
     "web-performance-optimization"
   ],
   "websites": [
@@ -41282,6 +41532,7 @@
     "beautiful-prose",
     "bilig-workpaper",
     "blueprint",
+    "cloudflare",
     "codex-fable5",
     "commit",
     "data-structure-protocol",
@@ -41387,7 +41638,8 @@
     "odoo-performance-tuner",
     "robius-app-architecture",
     "temporal-golang-pro",
-    "voice-ai-engine-development"
+    "voice-ai-engine-development",
+    "wrangler"
   ],
   "worker-classification": [
     "event-staffing-compliance"
@@ -41396,7 +41648,12 @@
     "chrome-extension-developer",
     "cloudflare-workers-expert",
     "hono",
-    "progressive-web-app"
+    "nextjs-on-cloudflare",
+    "progressive-web-app",
+    "workers-best-practices"
+  ],
+  "workers-best-practices": [
+    "workers-best-practices"
   ],
   "workflow": [
     "ai-agent-development",
@@ -41637,7 +41894,8 @@
     "claude-speed-reader"
   ],
   "wrangler": [
-    "cloudflare-workers-expert"
+    "cloudflare-workers-expert",
+    "wrangler"
   ],
   "wrap": [
     "ai-wrapper-product"
@@ -41756,6 +42014,7 @@
     "threejs-shaders",
     "uncle-bob-craft",
     "unslop",
+    "workers-best-practices",
     "writing-great-skills"
   ],
   "writing-great-skills": [
@@ -41977,6 +42236,7 @@
   ],
   "zero": [
     "astro",
+    "cloudflare-one",
     "context-guardian",
     "loki-mode",
     "product-manager",

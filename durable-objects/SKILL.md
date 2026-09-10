@@ -1,4 +1,5 @@
 ---
+disable-model-invocation: true
 name: durable-objects
 description: Build, debug, or review Cloudflare Durable Objects code for persistent state and coordination.
 ---

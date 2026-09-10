@@ -1,7 +1,7 @@
 {
-  "total": 1718,
+  "total": 1732,
   "categories": {
-    "General & Miscellaneous": 543,
+    "General & Miscellaneous": 544,
     "Automation & Integrations": 169,
     "Azure": 118,
     "AI & LLM": 105,
@@ -18,6 +18,7 @@
     "Testing & QA": 23,
     "Languages: TypeScript/JavaScript": 18,
     "Observability & Monitoring": 17,
+    "Cloudflare": 15,
     "Legal & Compliance": 15,
     "Apple HIG & Design": 14,
     "Business & Startup": 14,
@@ -32,7 +33,6 @@
     "Languages: Java/Kotlin": 6,
     "Blockchain & Web3": 3,
     "Languages: Go": 3,
-    "Cloudflare": 2,
     "Cursor & IDE": 1,
     "Languages: C#/.NET": 1
   },
@@ -3248,15 +3248,93 @@
       "category": "Business & Startup"
     },
     {
+      "id": "agents-sdk",
+      "name": "agents-sdk",
+      "description": "Build, debug, or review Cloudflare Agents SDK applications using the agents package.",
+      "category": "Cloudflare"
+    },
+    {
+      "id": "cloudflare",
+      "name": "cloudflare",
+      "description": "Discover and choose Cloudflare products for apps, APIs, AI agents, storage, networking, and security. Use for architecture and product selection, including when the user describes a need without naming a Cloudflare product; then find the relevant skill or documentation.",
+      "category": "Cloudflare"
+    },
+    {
+      "id": "cloudflare-email-service",
+      "name": "cloudflare-email-service",
+      "description": "Implement or troubleshoot Cloudflare Email Sending and Email Routing integrations and their delivery configuration.",
+      "category": "Cloudflare"
+    },
+    {
+      "id": "cloudflare-one",
+      "name": "cloudflare-one",
+      "description": "Design, configure, troubleshoot, or review Cloudflare One Zero Trust and SASE deployments. Use cloudflare-one-migrations for migration planning from other vendors.",
+      "category": "Cloudflare"
+    },
+    {
+      "id": "cloudflare-one-migrations",
+      "name": "cloudflare-one-migrations",
+      "description": "Assess and plan migrations from existing VPN, SWG, or SASE platforms to Cloudflare One, including policy mapping, parity gaps, and rollout.",
+      "category": "Cloudflare"
+    },
+    {
       "id": "cloudflare-workers-expert",
       "name": "cloudflare-workers-expert",
       "description": "Expert in Cloudflare Workers and the Edge Computing ecosystem. Covers Wrangler, KV, D1, Durable Objects, and R2 storage.",
       "category": "Cloudflare"
     },
     {
+      "id": "durable-objects",
+      "name": "durable-objects",
+      "description": "Build, debug, or review Cloudflare Durable Objects code for persistent state and coordination.",
+      "category": "Cloudflare"
+    },
+    {
       "id": "hono",
       "name": "hono",
       "description": "Build ultra-fast web APIs and full-stack apps with Hono \u2014 runs on Cloudflare Workers, Deno, Bun, Node.js, and any WinterCG-compatible runtime.",
+      "category": "Cloudflare"
+    },
+    {
+      "id": "nextjs-on-cloudflare",
+      "name": "nextjs-on-cloudflare",
+      "description": "Build, migrate, and deploy Next.js apps on Cloudflare Workers with vinext. Use when starting a Next.js project on Cloudflare, moving an existing app to Workers, choosing between vinext and OpenNext, or setting up vinext for Workers. For setup, migration, or deployment, install vinext's upstream skills with `npx skills add cloudflare/vinext` if missing, then read and follow the applicable skill and docs.",
+      "category": "Cloudflare"
+    },
+    {
+      "id": "sandbox-migrate-to-next",
+      "name": "sandbox-migrate-to-next",
+      "description": "Migrate Cloudflare Sandbox apps from stable @cloudflare/sandbox to @cloudflare/sandbox@next (SDK 1.0 preview). Use sandbox-next for apps already on the preview.",
+      "category": "Cloudflare"
+    },
+    {
+      "id": "sandbox-next",
+      "name": "sandbox-next",
+      "description": "Build or maintain Cloudflare Sandbox apps on @cloudflare/sandbox@next (SDK 1.0 preview). Use sandbox-migrate-to-next when porting a stable app.",
+      "category": "Cloudflare"
+    },
+    {
+      "id": "sandbox-stable",
+      "name": "sandbox-stable",
+      "description": "Build or maintain Cloudflare Sandbox apps on the stable @cloudflare/sandbox package. Use sandbox-next for preview apps and sandbox-migrate-to-next for stable-to-preview migrations.",
+      "category": "Cloudflare"
+    },
+    {
+      "id": "turnstile-spin",
+      "name": "turnstile-spin",
+      "description": "Set up, repair, or migrate to Cloudflare Turnstile bot verification in an existing frontend and backend, including server-side Siteverify.",
+      "category": "Cloudflare"
+    },
+    {
+      "id": "workers-best-practices",
+      "name": "workers-best-practices",
+      "description": "Cloudflare Workers best practices for production applications. Use when writing, reviewing, or configuring Workers.",
+      "category": "Cloudflare"
+    },
+    {
+      "id": "wrangler",
+      "name": "wrangler",
+      "description": "Run or troubleshoot Wrangler CLI commands and configure Worker projects for local development, deployment, and Cloudflare resource management.",
       "category": "Cloudflare"
     },
     {
@@ -7403,6 +7481,12 @@
       "id": "wcag-audit-patterns",
       "name": "wcag-audit-patterns",
       "description": "Comprehensive guide to auditing web content against WCAG 2.2 guidelines with actionable remediation strategies.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "web-perf",
+      "name": "web-perf",
+      "description": "Audit, diagnose, or optimize website loading and interaction performance, Core Web Vitals, and Lighthouse performance scores.",
       "category": "General & Miscellaneous"
     },
     {

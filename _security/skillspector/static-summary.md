@@ -1,21 +1,20 @@
 # SkillSpector static scan summary
 
-- Scanned at: `2026-09-10T09:25:31.128943+00:00`
+- Scanned at: `2026-09-10T10:41:56.148556+00:00`
 - Skillspector: `SkillSpector v2.11.2`
 - Mode: static (`--no-llm`)
 - Skills discovered: **1636**
-- Scanned OK: **1633** / failed: **3**
-- Workers: **16**
-- Duration: **912.4s**
-- High/Critical (by SkillSpector severity): **111**
+- Scanned OK: **1636** / failed: **0**
+- Workers: **8**
+- Duration: **1488.2s**
+- High/Critical (by SkillSpector severity): **112**
 
 ## Severity counts
 
-- CRITICAL: 65
+- CRITICAL: 66
 - HIGH: 46
-- MEDIUM: 199
-- LOW: 1323
-- UNKNOWN: 3
+- MEDIUM: 200
+- LOW: 1324
 
 ## Ranked skills (highest risk first)
 
@@ -41,6 +40,7 @@
 | 100 | CRITICAL | DO_NOT_INSTALL | 29 | `last30days` | PE3×16, E1×4, PE2×3, RA2×2, EA4 |
 | 100 | CRITICAL | DO_NOT_INSTALL | 7 | `linkedin-content-generator` | MP3×3, AE1, LP3, P6, RA2 |
 | 100 | CRITICAL | DO_NOT_INSTALL | 40 | `linux-privilege-escalation` | PE2×24, PE3×8, TM2×2, YR1×2, YR4×2 |
+| 100 | CRITICAL | DO_NOT_INSTALL | 152 | `loki-mode` | TM1×27, EA2×19, SC1×19, RP1×14, AS3×13 |
 | 100 | CRITICAL | DO_NOT_INSTALL | 24 | `macos-spm-app-packaging` | RA2×17, PE3×4, TM1×2, LP3 |
 | 100 | CRITICAL | DO_NOT_INSTALL | 16 | `manage-skills` | AS3×9, AS1×3, TM1×2, AE1, RA2 |
 | 100 | CRITICAL | DO_NOT_INSTALL | 14 | `mcp-builder` | AE1×3, E1×2, SC1×2, SC4×2, EA1 |
@@ -281,6 +281,7 @@
 | 25 | MEDIUM | CAUTION | 2 | `clarity-gate` | EA2, P2 |
 | 25 | MEDIUM | CAUTION | 1 | `comprehensive-review-pr-enhance` | AE1 |
 | 25 | MEDIUM | CAUTION | 2 | `conductor-revert` | TM1×2 |
+| 25 | MEDIUM | CAUTION | 1 | `design-it` | AE1 |
 | 25 | MEDIUM | CAUTION | 3 | `firmware-analyst` | PE2×2, PE3 |
 | 25 | MEDIUM | CAUTION | 1 | `plugin-validator` | AE1 |
 | 25 | MEDIUM | CAUTION | 2 | `red-team-tactics` | PE2, TM2 |
@@ -939,6 +940,7 @@
 | 0 | LOW | CAUTION | 0 | `create-issue-gate` | — |
 | 0 | LOW | SAFE | 0 | `create-pr` | — |
 | 0 | LOW | CAUTION | 0 | `crewai` | — |
+| 0 | LOW | CAUTION | 0 | `crossframe` | — |
 | 0 | LOW | CAUTION | 0 | `crossframe-casebook` | — |
 | 0 | LOW | CAUTION | 0 | `crossframe-critical` | — |
 | 0 | LOW | CAUTION | 0 | `crossframe-debate` | — |
@@ -1654,9 +1656,6 @@
 | 0 | LOW | CAUTION | 0 | `zoho-crm-automation` | — |
 | 0 | LOW | CAUTION | 0 | `zoom-automation` | — |
 | 0 | LOW | CAUTION | 0 | `zustand-store-ts` | — |
-| — | — | — | 0 | `crossframe` *(scan failed)* | — |
-| — | — | — | 0 | `design-it` *(scan failed)* | — |
-| — | — | — | 0 | `loki-mode` *(scan failed)* | — |
 
 ## High / Critical skills
 
@@ -1680,6 +1679,7 @@
 - `last30days` — score=100, severity=CRITICAL, max_issue=HIGH, rules=PE3×16, E1×4, PE2×3, RA2×2, EA4
 - `linkedin-content-generator` — score=100, severity=CRITICAL, max_issue=HIGH, rules=MP3×3, AE1, LP3, P6, RA2
 - `linux-privilege-escalation` — score=100, severity=CRITICAL, max_issue=CRITICAL, rules=PE2×24, PE3×8, TM2×2, YR1×2, YR4×2
+- `loki-mode` — score=100, severity=CRITICAL, max_issue=HIGH, rules=TM1×27, EA2×19, SC1×19, RP1×14, AS3×13
 - `macos-spm-app-packaging` — score=100, severity=CRITICAL, max_issue=HIGH, rules=RA2×17, PE3×4, TM1×2, LP3
 - `manage-skills` — score=100, severity=CRITICAL, max_issue=HIGH, rules=AS3×9, AS1×3, TM1×2, AE1, RA2
 - `mcp-builder` — score=100, severity=CRITICAL, max_issue=HIGH, rules=AE1×3, E1×2, SC1×2, SC4×2, EA1
@@ -1771,9 +1771,3 @@
 - `turborepo-caching` — score=53, severity=HIGH, max_issue=HIGH, rules=RP1×4, PE3×2, TM2
 - `systematic-debugging` — score=52, severity=HIGH, max_issue=HIGH, rules=PE3×2, E4, EA4
 - `web-scraper` — score=51, severity=HIGH, max_issue=HIGH, rules=AR1, EA2, PE1, SC2
-
-## Failed scans
-
-- `crossframe` rc=-15: 
-- `design-it` rc=-15: 
-- `loki-mode` rc=-1: timeout after 180s

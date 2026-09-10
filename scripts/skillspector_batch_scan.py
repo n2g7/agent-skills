@@ -10,6 +10,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import subprocess
 import sys
 import time
@@ -250,6 +251,13 @@ def write_outputs(out_root: Path, results: list[dict], meta: dict) -> None:
     )
 
 
+_ANSI_ESCAPE_RE = re.compile(r"\x1b\[[0-9;]*m")
+
+
+def _strip_ansi(text: str) -> str:
+    return _ANSI_ESCAPE_RE.sub("", text)
+
+
 def skillspector_version(skillspector: str) -> str:
     try:
         proc = subprocess.run(
@@ -258,10 +266,11 @@ def skillspector_version(skillspector: str) -> str:
             text=True,
             timeout=30,
         )
-        for line in (proc.stdout or proc.stderr or "").splitlines():
+        output = _strip_ansi(proc.stdout or proc.stderr or "")
+        for line in output.splitlines():
             if "SkillSpector" in line or line.strip().startswith("v"):
                 return line.strip()
-        return (proc.stdout or "").strip() or "unknown"
+        return output.strip() or "unknown"
     except Exception:
         return "unknown"
 

@@ -1,4 +1,5 @@
 ---
+disable-model-invocation: true
 name: cloudflare-one-migrations
 description: Assess and plan migrations from existing VPN, SWG, or SASE platforms to Cloudflare One, including policy mapping, parity gaps, and rollout.
 ---
