@@ -1,6 +1,6 @@
 # Full Skills Index (Alphabetical)
 
-1732 skills.
+1733 skills.
 
 | Skill ID | Category | Description (truncated) |
 |----------|----------|-------------------------|
@@ -1456,6 +1456,7 @@
 | `software-architecture` | Architecture & Design Patterns | Guide for quality focused software architecture. This skill should be used when users want to write code, design arch  |
 | `solidity-security` | Security & Pentesting | Master smart contract security best practices, vulnerability prevention, and secure Solidity development patterns. |
 | `spark-optimization` | General & Miscellaneous | Optimize Apache Spark jobs with partitioning, caching, shuffle optimization, and memory tuning. Use when improving Sp  |
+| `spec-kit` | Productivity & Workflow | This skill should be used when the user asks to "use Spec Kit", "spec-driven development", "/speckit", "specify then   |
 | `spec-to-code-compliance` | Legal & Compliance | Verifies code implements exactly what documentation specifies for blockchain audits. Use when comparing code against   |
 | `speckit-updater` | General & Miscellaneous | SpecKit Safe Update |
 | `speed` | General & Miscellaneous | Launch RSVP speed reader for text |
