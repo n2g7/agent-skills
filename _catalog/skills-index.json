@@ -1,11 +1,11 @@
 {
-  "total": 1732,
+  "total": 1733,
   "categories": {
     "General & Miscellaneous": 544,
     "Automation & Integrations": 169,
     "Azure": 118,
     "AI & LLM": 105,
-    "Productivity & Workflow": 96,
+    "Productivity & Workflow": 97,
     "Security & Pentesting": 89,
     "SEO & Marketing": 84,
     "Backend & API": 69,
@@ -9161,6 +9161,12 @@
       "id": "social-proof-architect",
       "name": "social-proof-architect",
       "description": "One sentence - what this skill does and when to invoke it",
+      "category": "Productivity & Workflow"
+    },
+    {
+      "id": "spec-kit",
+      "name": "spec-kit",
+      "description": "This skill should be used when the user asks to \"use Spec Kit\", \"spec-driven development\", \"/speckit\", \"specify then plan\", \"run speckit in Plan Mode\", or to do more work in Plan Mode before coding. Distills GitHub Spec Kit's specify \u2192 clarify \u2192 plan \u2192 tasks \u2192 analyze loop into a richer CreatePlan; implementation waits for approval.",
       "category": "Productivity & Workflow"
     },
     {

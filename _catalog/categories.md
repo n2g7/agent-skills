@@ -1,6 +1,6 @@
 # Skills by Category
 
-Total: 1732 skills across 34 categories.
+Total: 1733 skills across 34 categories.
 
 
 ## General & Miscellaneous (544)
@@ -951,7 +951,7 @@ Total: 1732 skills across 34 categories.
 - **`writing-skills`** — Use when creating, updating, or improving agent skills.
 - **`yao-meta-skill`** — Create, refactor, evaluate, and package agent skills from workflows, prompts, transcripts, docs, or notes. Use for sk...
 
-## Productivity & Workflow (96)
+## Productivity & Workflow (97)
 
 - **`10-andruia-skill-smith`** — Ingeniero de Sistemas de Andru.ia. Diseña, redacta y despliega nuevas habilidades (skills) dentro del repositorio sig...
 - **`agentfolio`** — Skill for discovering and researching autonomous AI agents, tools, and ecosystems using the AgentFolio directory.
@@ -1034,6 +1034,7 @@ Total: 1732 skills across 34 categories.
 - **`skill-sentinel`** — Auditoria e evolucao do ecossistema de skills. Qualidade de codigo, seguranca, custos, gaps, duplicacoes, dependencia...
 - **`skill-suggester`** — Scan prompt history for recurring patterns and unmet needs, then propose new skills or command templates
 - **`social-proof-architect`** — One sentence - what this skill does and when to invoke it
+- **`spec-kit`** — This skill should be used when the user asks to "use Spec Kit", "spec-driven development", "/speckit", "specify then ...
 - **`squirrel`** — Full-cycle AI coding skill: plans, builds, tests, lints, fixes bugs, and writes production-grade docs. Auto-detects p...
 - **`subject-line-psychologist`** — One sentence - what this skill does and when to invoke it
 - **`teach`** — Teach the user a new skill or concept, within this workspace.

@@ -1731,6 +1731,7 @@
     "skill-rails-upgrade",
     "skin-health-analyzer",
     "software-architecture",
+    "spec-kit",
     "xvary-stock-research"
   ],
   "analyze-project": [
@@ -2594,7 +2595,8 @@
     "ai-loop",
     "deployment-pipeline-design",
     "odoo-project-timesheet",
-    "pr-merge-champion"
+    "pr-merge-champion",
+    "spec-kit"
   ],
   "approximate": [
     "mathguard"
@@ -2988,6 +2990,7 @@
     "sankhya-dashboard-html-jsp-custom-best-pratices",
     "seo",
     "skill-reviewer",
+    "spec-kit",
     "test-fixing",
     "wiki-changelog",
     "wiki-onboarding",
@@ -4688,6 +4691,7 @@
     "skill-audit",
     "skill-check",
     "skill-scanner",
+    "spec-kit",
     "systematic-debugging",
     "test-driven-development",
     "the-honoured-one",
@@ -6707,7 +6711,8 @@
   ],
   "clarify": [
     "ask-questions-if-underspecified",
-    "idea-os"
+    "idea-os",
+    "spec-kit"
   ],
   "clarifying": [
     "brave-man",
@@ -7481,6 +7486,7 @@
     "open-dynamic-workflows",
     "sharp-coder",
     "skill-creator-ms",
+    "spec-kit",
     "squirrel",
     "super-code",
     "uxui-principles"
@@ -9720,6 +9726,9 @@
   "created": [
     "create-issue-gate"
   ],
+  "createplan": [
+    "spec-kit"
+  ],
   "creates": [
     "app-builder",
     "c4-context",
@@ -11718,6 +11727,7 @@
     "snowflake-development",
     "software-architecture",
     "solidity-security",
+    "spec-kit",
     "tdd",
     "tdd-orchestrator",
     "tdd-workflow",
@@ -12094,7 +12104,8 @@
     "moatmri"
   ],
   "distills": [
-    "atlas-ledger"
+    "atlas-ledger",
+    "spec-kit"
   ],
   "distribute": [
     "expo-dev-client"
@@ -16691,6 +16702,7 @@
     "performance-testing-review-ai-review",
     "prompt-library",
     "skill-seekers",
+    "spec-kit",
     "team-collaboration-issue",
     "vibers-code-review"
   ],
@@ -18649,6 +18661,7 @@
     "security-compliance-compliance-check",
     "security/aws-iam-best-practices",
     "seo-plan",
+    "spec-kit",
     "spec-to-code-compliance",
     "subagent-driven-development",
     "team-collaboration-issue",
@@ -19739,6 +19752,7 @@
     "satori",
     "security-requirement-extraction",
     "skill-seekers",
+    "spec-kit",
     "sql-optimization-patterns",
     "sred-project-organizer",
     "sred-work-summary",
@@ -20456,7 +20470,8 @@
   ],
   "kit": [
     "convertkit-automation",
-    "drizzle-migration-conflict"
+    "drizzle-migration-conflict",
+    "spec-kit"
   ],
   "klaviyo": [
     "klaviyo-automation"
@@ -21661,6 +21676,7 @@
     "diagnosing-bugs",
     "invariant-guard",
     "lookdev-auto",
+    "spec-kit",
     "stitch-loop"
   ],
   "loop-library": [
@@ -23476,7 +23492,8 @@
     "popup-cro"
   ],
   "mode": [
-    "design-it/dark-mode"
+    "design-it/dark-mode",
+    "spec-kit"
   ],
   "model": [
     "advanced-evaluation",
@@ -23878,7 +23895,8 @@
     "humanize-chinese",
     "longbridge",
     "schema-markup-generator",
-    "social-metadata-hardening"
+    "social-metadata-hardening",
+    "spec-kit"
   ],
   "morph": [
     "threejs-animation"
@@ -27295,6 +27313,7 @@
     "seo-plan",
     "seo-programmatic",
     "site-architecture",
+    "spec-kit",
     "sql-optimization-patterns",
     "sql-sentinel",
     "to-issues",
@@ -31342,6 +31361,9 @@
   "rich-elicitation": [
     "rich-elicitation"
   ],
+  "richer": [
+    "spec-kit"
+  ],
   "right": [
     "hierarchical-agent-memory"
   ],
@@ -31786,6 +31808,7 @@
     "seo",
     "seo-forensic-incident-response",
     "setup-matt-pocock-skills",
+    "spec-kit",
     "telegram-mini-app",
     "transformers-js",
     "video-content-extractor",
@@ -34022,7 +34045,8 @@
     "sankhya-dashboard-html-jsp-custom-best-pratices",
     "security-bluebook-builder",
     "skill-development",
-    "software-architecture"
+    "software-architecture",
+    "spec-kit"
   ],
   "show": [
     "gh-review-requests"
@@ -34393,6 +34417,7 @@
     "social-proof-architect",
     "socialclaw",
     "software-architecture",
+    "spec-kit",
     "squirrel",
     "ssh-penetration-testing",
     "stitch-ui-design",
@@ -34959,6 +34984,7 @@
   ],
   "spec": [
     "ai-native-cli",
+    "spec-kit",
     "to-issues",
     "track-management",
     "writing-plans"
@@ -34968,6 +34994,12 @@
   ],
   "spec-build-review": [
     "ai-loop"
+  ],
+  "spec-driven": [
+    "spec-kit"
+  ],
+  "spec-kit": [
+    "spec-kit"
   ],
   "spec-to-code-compliance": [
     "spec-to-code-compliance"
@@ -35106,7 +35138,11 @@
   "specifies": [
     "spec-to-code-compliance"
   ],
+  "specify": [
+    "spec-kit"
+  ],
   "speckit": [
+    "spec-kit",
     "speckit-updater"
   ],
   "speckit-updater": [
@@ -36992,6 +37028,7 @@
     "seo-content-writer",
     "shopify-automation",
     "snowflake-development",
+    "spec-kit",
     "square-automation",
     "stripe-automation",
     "subagent-driven-development",
@@ -37667,6 +37704,7 @@
     "production-code-audit",
     "simplify-code",
     "skill-suggester",
+    "spec-kit",
     "sred-work-summary",
     "unship"
   ],
@@ -39553,7 +39591,8 @@
     "plugin-structure",
     "sankhya-dashboard-html-jsp-custom-best-pratices",
     "skill-development",
-    "software-architecture"
+    "software-architecture",
+    "spec-kit"
   ],
   "useloaderdata": [
     "native-data-fetching"
@@ -39714,6 +39753,7 @@
     "skill-reviewer",
     "skill-router",
     "smtp-penetration-testing",
+    "spec-kit",
     "tdd",
     "teach",
     "threejs-interaction",
@@ -40824,6 +40864,9 @@
   "wage": [
     "event-staffing-compliance"
   ],
+  "waits": [
+    "spec-kit"
+  ],
   "walk": [
     "makepad-layout"
   ],
@@ -41618,6 +41661,7 @@
     "progressive-web-app",
     "pubmed-database",
     "requesting-code-review",
+    "spec-kit",
     "sred-work-summary",
     "track-management",
     "uniprot-database",
