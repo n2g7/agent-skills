@@ -1,3 +1,4 @@
 {
-  "install": "export PATH=\"$HOME/.local/bin:$PATH\"; command -v uv >/dev/null || curl -LsSf https://astral.sh/uv/install.sh | sh; uv tool install --quiet git+https://github.com/NVIDIA/skillspector.git"
+  "install": "export PATH=\"$HOME/.local/bin:$PATH\"; command -v uv >/dev/null || curl -LsSf https://astral.sh/uv/install.sh | sh; uv tool install --quiet git+https://github.com/NVIDIA/skillspector.git",
+  "start": "bash scripts/cloud-agent-start.sh"
 }
