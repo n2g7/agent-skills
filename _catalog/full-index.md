@@ -1,6 +1,6 @@
 # Full Skills Index (Alphabetical)
 
-2153 skills.
+2154 skills.
 
 | Skill ID | Category | Description (truncated) |
 |----------|----------|-------------------------|
@@ -1629,6 +1629,7 @@
 | `requesting-code-review` | General & Miscellaneous | Use when completing tasks, implementing major features, or before merging to verify work meets requirements |
 | `research-prompt` | General & Miscellaneous | Turn vague research needs into one precise deep-research prompt with context and output criteria. |
 | `resolving-merge-conflicts` | Git & Version Control | Use when you need to resolve an in-progress git merge/rebase conflict. |
+| `resume-ats-review` | General & Miscellaneous | Analyze an attached resume or CV PDF, produce a heuristic ATS score with category breakdowns, and give prioritized fi  |
 | `returns-reverse-logistics` | General & Miscellaneous | Codified expertise for returns authorisation, receipt and inspection, disposition decisions, refund processing, fraud  |
 | `reverse-browser-automation` | Automation & Integrations | Automate browsers (Playwright) and Windows desktop applications (UI automation) for reverse-engineering evidence coll  |
 | `reverse-engineer` | General & Miscellaneous | Expert reverse engineer specializing in binary analysis, disassembly, decompilation, and software analysis. Masters I  |
