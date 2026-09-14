@@ -10,6 +10,9 @@ SKIP_DIRS = {".git", "_catalog", "scripts", "node_modules", ".venv", "venv"}
 
 LAZY_FLAG = "disable-model-invocation: true"
 META_DIRS = {"_catalog", "scripts"}
+# Explicit install overrides that must stay model-invocable (FR-013).
+# Without this, ensure_lazy() stamps disable-model-invocation: true.
+ALLOW_MODEL_INVOCATION = {"resume-ats-review"}
 
 
 def ensure_lazy(path: str) -> bool:
@@ -36,7 +39,7 @@ def main() -> int:
         dirs[:] = [d for d in dirs if d not in SKIP_DIRS and not d.startswith(".")]
         if "SKILL.md" in files:
             rel = os.path.relpath(root, SKILLS_ROOT).split(os.sep)[0]
-            if rel in META_DIRS:
+            if rel in META_DIRS or rel in ALLOW_MODEL_INVOCATION:
                 continue
             if ensure_lazy(os.path.join(root, "SKILL.md")):
                 updated += 1
