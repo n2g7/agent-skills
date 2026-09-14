@@ -1,7 +1,7 @@
 {
-  "total": 2153,
+  "total": 2154,
   "categories": {
-    "General & Miscellaneous": 708,
+    "General & Miscellaneous": 709,
     "Automation & Integrations": 211,
     "AI & LLM": 140,
     "Azure": 121,
@@ -8591,6 +8591,12 @@
       "id": "research-prompt",
       "name": "research-prompt",
       "description": "Turn vague research needs into one precise deep-research prompt with context and output criteria.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "resume-ats-review",
+      "name": "resume-ats-review",
+      "description": "Analyze an attached resume or CV PDF, produce a heuristic ATS score with category breakdowns, and give prioritized fix instructions. Use when the user attaches a resume/CV and asks to analyze, ATS-score, critique, or improve it. Optional job description or target role tailors keyword gaps. Default is critique-only \u2014 do not rewrite wording unless asked.",
       "category": "General & Miscellaneous"
     },
     {

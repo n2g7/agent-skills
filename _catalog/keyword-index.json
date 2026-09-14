@@ -2151,6 +2151,7 @@
     "pptx-official",
     "qiskit",
     "quant-analyst",
+    "resume-ats-review",
     "seek-and-analyze-video",
     "seo-page",
     "seo-sitemap",
@@ -3667,6 +3668,7 @@
     "gh-image",
     "gh-review-requests",
     "orca-replay",
+    "resume-ats-review",
     "skill-writer",
     "ste-writing"
   ],
@@ -3716,6 +3718,7 @@
     "plugin-structure",
     "plugin-validator",
     "professional-proofreader",
+    "resume-ats-review",
     "rich-elicitation",
     "sankhya-dashboard-html-jsp-custom-best-pratices",
     "screen-adverse-media",
@@ -3992,10 +3995,14 @@
     "lambda-lang"
   ],
   "ats": [
-    "cv-generator"
+    "cv-generator",
+    "resume-ats-review"
   ],
   "ats-optimized": [
     "cv-generator"
+  ],
+  "ats-score": [
+    "resume-ats-review"
   ],
   "att": [
     "red-team-tactics"
@@ -4003,6 +4010,12 @@
   "attach": [
     "gh-attach",
     "gh-image"
+  ],
+  "attached": [
+    "resume-ats-review"
+  ],
+  "attaches": [
+    "resume-ats-review"
   ],
   "attachment": [
     "gh-attach"
@@ -6532,7 +6545,8 @@
   ],
   "breakdowns": [
     "code-documentation-code-explain",
-    "plan-writing"
+    "plan-writing",
+    "resume-ats-review"
   ],
   "breaking": [
     "changelog-updates",
@@ -7698,6 +7712,7 @@
     "frontend-lighthouse",
     "makepad-reference",
     "monte-carlo-storage-cost-analysis",
+    "resume-ats-review",
     "top-web-vulnerabilities"
   ],
   "cats": [
@@ -12310,7 +12325,11 @@
     "context-guardian"
   ],
   "critique": [
-    "crossframe-critical"
+    "crossframe-critical",
+    "resume-ats-review"
+  ],
+  "critique-only": [
+    "resume-ats-review"
   ],
   "crm": [
     "close-automation",
@@ -13589,7 +13608,8 @@
     "accesslint-diff",
     "astro",
     "brand-guidelines",
-    "create-branch"
+    "create-branch",
+    "resume-ats-review"
   ],
   "defaultazurecredential": [
     "azure-identity-dotnet",
@@ -13981,6 +14001,7 @@
     "agent-development",
     "comprehensive-review-pr-enhance",
     "git-pr-review",
+    "resume-ats-review",
     "seo-aeo-meta-description-generator",
     "skill-development",
     "skill-reviewer"
@@ -19128,6 +19149,7 @@
     "pagespeed-enhancer",
     "phase-gated-debugging",
     "professional-proofreader",
+    "resume-ats-review",
     "seo-aeo-content-quality-auditor",
     "social-metadata-hardening",
     "styleseed-design-review",
@@ -20180,6 +20202,7 @@
     "monte-carlo-monitoring-advisor",
     "multi-source-search",
     "production-audit",
+    "resume-ats-review",
     "review-swarm",
     "skill-sentinel",
     "spec-to-code-compliance"
@@ -20786,6 +20809,7 @@
     "deploy-to-vercel",
     "pi-web-search",
     "pilot-protocol",
+    "resume-ats-review",
     "wiki-onboarding"
   ],
   "giveaway": [
@@ -21946,7 +21970,8 @@
     "landing-page-generator"
   ],
   "heuristic": [
-    "design-ux"
+    "design-ux",
+    "resume-ats-review"
   ],
   "heuristics": [
     "ux-audit"
@@ -23275,6 +23300,7 @@
     "offers",
     "professional-proofreader",
     "prompt-engineering",
+    "resume-ats-review",
     "revops",
     "skill-development",
     "skill-improver",
@@ -23986,6 +24012,7 @@
     "instructree",
     "pdf",
     "pdf-official",
+    "resume-ats-review",
     "seo-aeo-internal-linking"
   ],
   "instructree": [
@@ -25024,6 +25051,7 @@
     "interview-coach",
     "jobgpt",
     "production-scheduling",
+    "resume-ats-review",
     "unity-ecs-patterns",
     "workorai"
   ],
@@ -25341,6 +25369,7 @@
     "developer-seo",
     "hybrid-search-implementation",
     "mesh-memory",
+    "resume-ats-review",
     "seo-aeo-keyword-research",
     "seo-cannibalization-detector",
     "seo-dataforseo",
@@ -31795,6 +31824,7 @@
     "markstream-vue",
     "markstream-vue2",
     "pakistan-payments-stack",
+    "resume-ats-review",
     "web-media-getter"
   ],
   "optionally": [
@@ -33046,6 +33076,7 @@
     "pdf-conversion-router",
     "pdf-official",
     "puppeteer-skill",
+    "resume-ats-review",
     "verify-document",
     "weaviate-cookbooks"
   ],
@@ -34897,6 +34928,7 @@
     "accesslint-audit",
     "marketing-ideas",
     "marketing-psychology",
+    "resume-ats-review",
     "sql-sentinel",
     "ui-score"
   ],
@@ -35076,7 +35108,8 @@
     "docs-architect",
     "fact-check-x-complete",
     "moatmri",
-    "multi-source-search"
+    "multi-source-search",
+    "resume-ats-review"
   ],
   "produced": [
     "scientific-writing"
@@ -38523,7 +38556,11 @@
   ],
   "resume": [
     "interview-coach",
-    "jobgpt"
+    "jobgpt",
+    "resume-ats-review"
+  ],
+  "resume-ats-review": [
+    "resume-ats-review"
   ],
   "resumos": [
     "context-agent"
@@ -38858,6 +38895,7 @@
     "humanize-chinese",
     "linkedin-profile-optimizer",
     "re-create",
+    "resume-ats-review",
     "short",
     "ste-writing"
   ],
@@ -39078,7 +39116,8 @@
   ],
   "role": [
     "event-staffing-ordering",
-    "laravel-expert"
+    "laravel-expert",
+    "resume-ats-review"
   ],
   "role-based": [
     "crewai"
@@ -40224,6 +40263,7 @@
     "clarvia-aeo-check",
     "examprep-ai",
     "leiloeiro-risco",
+    "resume-ats-review",
     "seo-aeo-content-quality-auditor",
     "ui-score",
     "xvary-stock-research"
@@ -45487,6 +45527,9 @@
   "tailor": [
     "hig-project-context"
   ],
+  "tailors": [
+    "resume-ats-review"
+  ],
   "tailwind": [
     "baseline-ui",
     "expo-tailwind-setup",
@@ -45565,6 +45608,7 @@
     "add-app-clip",
     "last30days",
     "network-101",
+    "resume-ats-review",
     "semgrep-rule-variant-creator"
   ],
   "targeted": [
@@ -48689,6 +48733,7 @@
     "mock-hunter"
   ],
   "unless": [
+    "resume-ats-review",
     "xlsx",
     "xlsx-official"
   ],
@@ -49206,6 +49251,7 @@
     "qoder-delegate",
     "rclone-cli",
     "redis-cli",
+    "resume-ats-review",
     "robot-framework-skill",
     "sankhya-dashboard-html-jsp-custom-best-pratices",
     "screen-adverse-media",
@@ -51523,6 +51569,9 @@
   "word": [
     "azure-ai-translation-document-py",
     "cv-generator"
+  ],
+  "wording": [
+    "resume-ats-review"
   ],
   "wordpress": [
     "codebase-to-wordpress-converter",

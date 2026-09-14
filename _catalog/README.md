@@ -1,6 +1,6 @@
 # Skills Catalog Overview
 
-**Total skills:** 2153  
+**Total skills:** 2154  
 **Location:** repo root, `~/.agents/skills/`, or `.agents/skills/` submodule
 
 ## How to use this catalog
@@ -18,7 +18,7 @@ Refresh: `python3 _catalog/regenerate.py`
 
 | Category | Count | Top examples |
 |----------|------:|--------------|
-| General & Miscellaneous | 708 | `00-andruia-consultant`, `20-andruia-niche-intelligence`, `acceptance-orchestrator` |
+| General & Miscellaneous | 709 | `00-andruia-consultant`, `20-andruia-niche-intelligence`, `acceptance-orchestrator` |
 | Automation & Integrations | 211 | `accesslint-audit`, `accint-solve`, `activecampaign-automation` |
 | AI & LLM | 140 | `adhx`, `advanced-evaluation`, `agent-creator` |
 | Azure | 121 | `agent-framework-azure-ai-py`, `azure-ai-agents-persistent-dotnet`, `azure-ai-agents-persistent-java` |

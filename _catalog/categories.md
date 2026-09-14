@@ -1,9 +1,9 @@
 # Skills by Category
 
-Total: 2153 skills across 34 categories.
+Total: 2154 skills across 34 categories.
 
 
-## General & Miscellaneous (708)
+## General & Miscellaneous (709)
 
 - **`00-andruia-consultant`** — Arquitecto de Soluciones Principal y Consultor Tecnológico de Andru.ia. Diagnostica y traza la hoja de ruta óptima pa...
 - **`20-andruia-niche-intelligence`** — Estratega de Inteligencia de Dominio de Andru.ia. Analiza el nicho específico de un proyecto para inyectar conocimien...
@@ -548,6 +548,7 @@ Total: 2153 skills across 34 categories.
 - **`rehabilitation-analyzer`** — 分析康复训练数据、识别康复模式、评估康复进展，并提供个性化康复建议
 - **`requesting-code-review`** — Use when completing tasks, implementing major features, or before merging to verify work meets requirements
 - **`research-prompt`** — Turn vague research needs into one precise deep-research prompt with context and output criteria.
+- **`resume-ats-review`** — Analyze an attached resume or CV PDF, produce a heuristic ATS score with category breakdowns, and give prioritized fi...
 - **`returns-reverse-logistics`** — Codified expertise for returns authorisation, receipt and inspection, disposition decisions, refund processing, fraud...
 - **`reverse-engineer`** — Expert reverse engineer specializing in binary analysis, disassembly, decompilation, and software analysis. Masters I...
 - **`reverse-engineering`** — General reverse-engineering methodology for compiled, obfuscated, packed, or virtualized targets: GDB, Frida, angr, U...
