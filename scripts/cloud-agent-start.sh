@@ -26,20 +26,29 @@ git fetch origin --prune
 before="$(git rev-parse HEAD)"
 branch="$(git rev-parse --abbrev-ref HEAD)"
 
+ff_only() {
+  if git merge --ff-only "$1"; then
+    return 0
+  fi
+  echo "cloud-agent-start: cannot fast-forward onto $1 (diverged); leave checkout as-is"
+  return 0
+}
+
 if [[ "$branch" != "HEAD" ]]; then
   if git rev-parse --abbrev-ref --symbolic-full-name '@{u}' >/dev/null 2>&1; then
-    echo "cloud-agent-start: fast-forward $branch from upstream"
-    git pull --ff-only
+    upstream="$(git rev-parse --abbrev-ref --symbolic-full-name '@{u}')"
+    echo "cloud-agent-start: fast-forward $branch from $upstream"
+    ff_only "$upstream"
   elif git rev-parse "refs/remotes/origin/$branch" >/dev/null 2>&1; then
     echo "cloud-agent-start: fast-forward $branch from origin/$branch"
-    git merge --ff-only "origin/$branch"
+    ff_only "origin/$branch"
   else
     echo "cloud-agent-start: no origin/$branch; skip pull"
   fi
 elif git rev-parse refs/remotes/origin/main >/dev/null 2>&1 \
   && git merge-base --is-ancestor HEAD origin/main; then
   # Detached SHA that is already on main's history (typical boot from main).
-  echo "cloud-agent-start: detached HEAD is behind origin/main; check out latest main"
+  echo "cloud-agent-start: detached HEAD is behind or at origin/main; check out latest main"
   git checkout --detach origin/main
 else
   echo "cloud-agent-start: detached HEAD at $(git rev-parse --short HEAD); not on origin/main; skip"
