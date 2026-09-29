@@ -40,3 +40,10 @@ plugins/plugin-dev (`agent-development`, `command-development`, `hook-developmen
 are authored by Daisy Hollman / Anthropic. The plugin-dev README claims MIT.
 The anthropics/claude-code repository has no repo-level LICENSE file. See
 SOURCE.md in each of those skill directories.
+
+---
+
+Third-party skills imported from [phuryn/pm-skills](https://github.com/phuryn/pm-skills)
+are Copyright (c) 2026 Pawel Huryn and licensed under the MIT License.
+See https://github.com/phuryn/pm-skills/blob/main/LICENSE and the SOURCE.md
+file in each imported skill folder.

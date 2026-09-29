@@ -1,5 +1,5 @@
 {
-  "total": 2511,
+  "total": 2614,
   "categories": {
     "General & Miscellaneous": 872,
     "Automation & Integrations": 220,
@@ -9,6 +9,7 @@
     "Azure": 129,
     "Backend & API": 107,
     "SEO & Marketing": 105,
+    "Product Management": 103,
     "DevOps & CI/CD": 92,
     "Frontend & UI": 81,
     "Database": 59,
@@ -12582,6 +12583,624 @@
       "name": "odoo-xml-views-builder",
       "description": "Expert at building Odoo XML views: Form, List, Kanban, Search, Calendar, and Graph. Generates correct XML for Odoo 14-17 with proper visibility syntax.",
       "category": "Odoo & ERP"
+    },
+    {
+      "id": "ab-test-analysis",
+      "name": "ab-test-analysis",
+      "description": "This skill should be used when the user asks to \\\"ab test analysis\\\". Analyze A/B test results with statistical significance, sample size validation, confidence intervals, and ship/extend/stop.",
+      "category": "Product Management"
+    },
+    {
+      "id": "analyze-cohorts",
+      "name": "analyze-cohorts",
+      "description": "This skill should be used when the user asks to \\\"analyze cohorts\\\". Perform cohort analysis on user data.",
+      "category": "Product Management"
+    },
+    {
+      "id": "analyze-feature-requests",
+      "name": "analyze-feature-requests",
+      "description": "This skill should be used when the user asks to \\\"analyze feature requests\\\". Analyze and prioritize a list of feature requests by theme, strategic alignment, impact, effort, and risk.",
+      "category": "Product Management"
+    },
+    {
+      "id": "analyze-feedback",
+      "name": "analyze-feedback",
+      "description": "This skill should be used when the user asks to \\\"analyze feedback\\\". Analyze user feedback at scale.",
+      "category": "Product Management"
+    },
+    {
+      "id": "analyze-test",
+      "name": "analyze-test",
+      "description": "This skill should be used when the user asks to \\\"analyze test\\\". Analyze A/B test results.",
+      "category": "Product Management"
+    },
+    {
+      "id": "ansoff-matrix",
+      "name": "ansoff-matrix",
+      "description": "This skill should be used when the user asks to \\\"ansoff matrix\\\". Generate an Ansoff Matrix analysis mapping growth strategies across market penetration, market development, product development.",
+      "category": "Product Management"
+    },
+    {
+      "id": "battlecard",
+      "name": "battlecard",
+      "description": "This skill should be used when the user asks to \\\"battlecard\\\". Create a sales-ready competitive battlecard.",
+      "category": "Product Management"
+    },
+    {
+      "id": "beachhead-segment",
+      "name": "beachhead-segment",
+      "description": "This skill should be used when the user asks to \\\"beachhead segment\\\". Identify the first beachhead market segment for a product launch.",
+      "category": "Product Management"
+    },
+    {
+      "id": "brainstorm",
+      "name": "brainstorm",
+      "description": "This skill should be used when the user asks to \\\"brainstorm\\\". Brainstorm product ideas or experiments from PM, Designer, and Engineer perspectives.",
+      "category": "Product Management"
+    },
+    {
+      "id": "brainstorm-experiments-existing",
+      "name": "brainstorm-experiments-existing",
+      "description": "This skill should be used when the user asks to \\\"brainstorm experiments existing\\\". Design experiments to test assumptions for an existing product.",
+      "category": "Product Management"
+    },
+    {
+      "id": "brainstorm-experiments-new",
+      "name": "brainstorm-experiments-new",
+      "description": "This skill should be used when the user asks to \\\"brainstorm experiments new\\\". Design lean startup experiments (pretotypes) for a new product.",
+      "category": "Product Management"
+    },
+    {
+      "id": "brainstorm-ideas-existing",
+      "name": "brainstorm-ideas-existing",
+      "description": "This skill should be used when the user asks to \\\"brainstorm ideas existing\\\". Brainstorm product ideas for an existing product using multi-perspective ideation from PM, Designer, and Engineer.",
+      "category": "Product Management"
+    },
+    {
+      "id": "brainstorm-ideas-new",
+      "name": "brainstorm-ideas-new",
+      "description": "This skill should be used when the user asks to \\\"brainstorm ideas new\\\". Brainstorm feature ideas for a new product in initial discovery from PM, Designer, and Engineer perspectives.",
+      "category": "Product Management"
+    },
+    {
+      "id": "brainstorm-okrs",
+      "name": "brainstorm-okrs",
+      "description": "This skill should be used when the user asks to \\\"brainstorm okrs\\\". Brainstorm team-level OKRs aligned with company objectives.",
+      "category": "Product Management"
+    },
+    {
+      "id": "business-model",
+      "name": "business-model",
+      "description": "Generate a Business Model Canvas with all 9 building blocks. Use when creating a business model, documenting how a business creates value, or analyzing an existing business model.",
+      "category": "Product Management"
+    },
+    {
+      "id": "code-review",
+      "name": "code-review",
+      "description": "This skill should be used when the user asks to \\\"code review\\\". Review code for actionable defects.",
+      "category": "Product Management"
+    },
+    {
+      "id": "cohort-analysis",
+      "name": "cohort-analysis",
+      "description": "This skill should be used when the user asks to \\\"cohort analysis\\\". Perform cohort analysis on user engagement data.",
+      "category": "Product Management"
+    },
+    {
+      "id": "competitive-analysis",
+      "name": "competitive-analysis",
+      "description": "This skill should be used when the user asks to \\\"competitive analysis\\\". Analyze the competitive landscape.",
+      "category": "Product Management"
+    },
+    {
+      "id": "competitive-battlecard",
+      "name": "competitive-battlecard",
+      "description": "This skill should be used when the user asks to \\\"competitive battlecard\\\". Create sales-ready competitive battlecards comparing your product against a specific competitor.",
+      "category": "Product Management"
+    },
+    {
+      "id": "create-prd",
+      "name": "create-prd",
+      "description": "This skill should be used when the user asks to \\\"create prd\\\". Create a Product Requirements Document using a comprehensive 8-section template covering problem, objectives, segments, value.",
+      "category": "Product Management"
+    },
+    {
+      "id": "customer-journey-map",
+      "name": "customer-journey-map",
+      "description": "This skill should be used when the user asks to \\\"customer journey map\\\". Create an end-to-end customer journey map with stages, touchpoints, emotions, pain points, and opportunities.",
+      "category": "Product Management"
+    },
+    {
+      "id": "derive-tests",
+      "name": "derive-tests",
+      "description": "This skill should be used when the user asks to \\\"derive tests\\\". Turn documented intent into a test-coverage map.",
+      "category": "Product Management"
+    },
+    {
+      "id": "discover",
+      "name": "discover",
+      "description": "This skill should be used when the user asks to \\\"discover\\\". Run a full product discovery cycle.",
+      "category": "Product Management"
+    },
+    {
+      "id": "document-app",
+      "name": "document-app",
+      "description": "This skill should be used when the user asks to \\\"document app\\\". Reverse-engineer an AI-built codebase into the system documents reviewers and auditors need.",
+      "category": "Product Management"
+    },
+    {
+      "id": "draft-nda",
+      "name": "draft-nda",
+      "description": "This skill should be used when the user asks to \\\"draft nda\\\". Draft a detailed Non-Disclosure Agreement between two parties covering information types, jurisdiction, and clauses needing legal review.",
+      "category": "Product Management"
+    },
+    {
+      "id": "dummy-dataset",
+      "name": "dummy-dataset",
+      "description": "This skill should be used when the user asks to \\\"dummy dataset\\\". Generate realistic dummy datasets for testing with customizable columns, constraints, and output formats (CSV, JSON, SQL, Python.",
+      "category": "Product Management"
+    },
+    {
+      "id": "generate-data",
+      "name": "generate-data",
+      "description": "This skill should be used when the user asks to \\\"generate data\\\". Generate realistic dummy datasets for testing.",
+      "category": "Product Management"
+    },
+    {
+      "id": "grammar-check",
+      "name": "grammar-check",
+      "description": "Identify grammar, logical, and flow errors in text and suggest targeted fixes without rewriting the entire text. Use when proofreading content, checking writing quality, or reviewing a draft.",
+      "category": "Product Management"
+    },
+    {
+      "id": "growth-loops",
+      "name": "growth-loops",
+      "description": "This skill should be used when the user asks to \\\"growth loops\\\". Identify growth loops (flywheels) for sustainable traction.",
+      "category": "Product Management"
+    },
+    {
+      "id": "growth-strategy",
+      "name": "growth-strategy",
+      "description": "This skill should be used when the user asks to \\\"growth strategy\\\". Design sustainable growth mechanisms.",
+      "category": "Product Management"
+    },
+    {
+      "id": "gtm-motions",
+      "name": "gtm-motions",
+      "description": "This skill should be used when the user asks to \\\"gtm motions\\\". Identify the best GTM motions and tools across 7 motion types: Inbound, Outbound, Paid Digital, Community, Partners, ABM, and PLG.",
+      "category": "Product Management"
+    },
+    {
+      "id": "gtm-strategy",
+      "name": "gtm-strategy",
+      "description": "This skill should be used when the user asks to \\\"gtm strategy\\\". Create a go-to-market strategy covering marketing channels, messaging, success metrics, and launch timeline.",
+      "category": "Product Management"
+    },
+    {
+      "id": "ideal-customer-profile",
+      "name": "ideal-customer-profile",
+      "description": "This skill should be used when the user asks to \\\"ideal customer profile\\\". Identify the Ideal Customer Profile (ICP) from research data with demographics, behaviors, JTBD, and needs.",
+      "category": "Product Management"
+    },
+    {
+      "id": "identify-assumptions-existing",
+      "name": "identify-assumptions-existing",
+      "description": "This skill should be used when the user asks to \\\"identify assumptions existing\\\". Identify risky assumptions for a feature idea in an existing product across Value, Usability, Viability.",
+      "category": "Product Management"
+    },
+    {
+      "id": "identify-assumptions-new",
+      "name": "identify-assumptions-new",
+      "description": "This skill should be used when the user asks to \\\"identify assumptions new\\\". Identify risky assumptions for a new product idea across 8 risk categories including Go-to-Market, Strategy, and Team.",
+      "category": "Product Management"
+    },
+    {
+      "id": "intended-vs-implemented",
+      "name": "intended-vs-implemented",
+      "description": "This skill should be used when the user asks to \\\"intended vs implemented\\\". The method for finding the gap between what a system is supposed to do and what the code actually does.",
+      "category": "Product Management"
+    },
+    {
+      "id": "interview",
+      "name": "interview",
+      "description": "This skill should be used when the user asks to \\\"interview\\\". Prepare a customer interview script or summarize an interview transcript into structured insights.",
+      "category": "Product Management"
+    },
+    {
+      "id": "interview-script",
+      "name": "interview-script",
+      "description": "This skill should be used when the user asks to \\\"interview script\\\". Create a structured customer interview script with JTBD probing questions, warm-up, core exploration, and wrap-up sections.",
+      "category": "Product Management"
+    },
+    {
+      "id": "job-stories",
+      "name": "job-stories",
+      "description": "This skill should be used when the user asks to \\\"job stories\\\". Create job stories using the 'When [situation], I want to [motivation], so I can [outcome]' format with detailed acceptance criteria.",
+      "category": "Product Management"
+    },
+    {
+      "id": "lean-canvas",
+      "name": "lean-canvas",
+      "description": "This skill should be used when the user asks to \\\"lean canvas\\\". Generate a Lean Canvas with problem, solution, metrics, cost structure, UVP, unfair advantage, channels, segments, and revenue.",
+      "category": "Product Management"
+    },
+    {
+      "id": "market-product",
+      "name": "market-product",
+      "description": "This skill should be used when the user asks to \\\"market product\\\". Brainstorm marketing ideas, positioning, value prop statements, and product names.",
+      "category": "Product Management"
+    },
+    {
+      "id": "market-scan",
+      "name": "market-scan",
+      "description": "This skill should be used when the user asks to \\\"market scan\\\". Comprehensive macro environment analysis.",
+      "category": "Product Management"
+    },
+    {
+      "id": "market-segments",
+      "name": "market-segments",
+      "description": "This skill should be used when the user asks to \\\"market segments\\\". Identify 3-5 potential customer segments with demographics, JTBD, and product fit analysis.",
+      "category": "Product Management"
+    },
+    {
+      "id": "market-sizing",
+      "name": "market-sizing",
+      "description": "This skill should be used when the user asks to \\\"market sizing\\\". Estimate market size using TAM, SAM, and SOM with top-down and bottom-up approaches.",
+      "category": "Product Management"
+    },
+    {
+      "id": "meeting-notes",
+      "name": "meeting-notes",
+      "description": "This skill should be used when the user asks to \\\"meeting notes\\\". Summarize a meeting transcript into structured notes with decisions, action items, and follow-ups.",
+      "category": "Product Management"
+    },
+    {
+      "id": "metrics-dashboard",
+      "name": "metrics-dashboard",
+      "description": "This skill should be used when the user asks to \\\"metrics dashboard\\\". Define and design a product metrics dashboard with key metrics, data sources, visualization types, and alert thresholds.",
+      "category": "Product Management"
+    },
+    {
+      "id": "monetization-strategy",
+      "name": "monetization-strategy",
+      "description": "Brainstorm 3-5 monetization strategies with audience fit, risks, and validation experiments. Use when exploring revenue models, evaluating pricing strategies, or deciding how to monetize a product.",
+      "category": "Product Management"
+    },
+    {
+      "id": "north-star",
+      "name": "north-star",
+      "description": "This skill should be used when the user asks to \\\"north star\\\". Define your North Star Metric and supporting input metrics.",
+      "category": "Product Management"
+    },
+    {
+      "id": "north-star-metric",
+      "name": "north-star-metric",
+      "description": "This skill should be used when the user asks to \\\"north star metric\\\". Define a North Star Metric and 3-5 supporting input metrics that form a metrics constellation.",
+      "category": "Product Management"
+    },
+    {
+      "id": "opportunity-solution-tree",
+      "name": "opportunity-solution-tree",
+      "description": "This skill should be used when the user asks to \\\"opportunity solution tree\\\". Build an Opportunity Solution Tree (OST) to structure product discovery.",
+      "category": "Product Management"
+    },
+    {
+      "id": "outcome-roadmap",
+      "name": "outcome-roadmap",
+      "description": "This skill should be used when the user asks to \\\"outcome roadmap\\\". Transform an output-focused roadmap into an outcome-focused one that communicates strategic intent.",
+      "category": "Product Management"
+    },
+    {
+      "id": "performance-audit-static",
+      "name": "performance-audit-static",
+      "description": "This skill should be used when the user asks to \\\"performance audit static\\\". Static performance audit of AI-built code.",
+      "category": "Product Management"
+    },
+    {
+      "id": "pestle-analysis",
+      "name": "pestle-analysis",
+      "description": "This skill should be used when the user asks to \\\"pestle analysis\\\". Perform a PESTLE analysis covering Political, Economic, Social, Technological, Legal, and Environmental factors.",
+      "category": "Product Management"
+    },
+    {
+      "id": "plan-launch",
+      "name": "plan-launch",
+      "description": "This skill should be used when the user asks to \\\"plan launch\\\". Create a full go-to-market strategy.",
+      "category": "Product Management"
+    },
+    {
+      "id": "plan-okrs",
+      "name": "plan-okrs",
+      "description": "This skill should be used when the user asks to \\\"plan okrs\\\". Brainstorm team-level OKRs aligned with company objectives.",
+      "category": "Product Management"
+    },
+    {
+      "id": "pm-competitor-analysis",
+      "name": "pm-competitor-analysis",
+      "description": "This skill should be used when the user asks to \\\"pm competitor analysis\\\". Analyze competitors with strengths, weaknesses, and differentiation opportunities.",
+      "category": "Product Management"
+    },
+    {
+      "id": "pm-marketing-ideas",
+      "name": "pm-marketing-ideas",
+      "description": "This skill should be used when the user asks to \\\"pm marketing ideas\\\". Generate 5 creative, cost-effective marketing ideas with channels, messaging, and engagement rationale.",
+      "category": "Product Management"
+    },
+    {
+      "id": "pm-pricing",
+      "name": "pm-pricing",
+      "description": "This skill should be used when the user asks to \\\"pm pricing\\\". Design a pricing strategy.",
+      "category": "Product Management"
+    },
+    {
+      "id": "pm-pricing-strategy",
+      "name": "pm-pricing-strategy",
+      "description": "This skill should be used when the user asks to \\\"pm pricing strategy\\\". Analyze and design pricing strategies including pricing models, competitive pricing analysis, willingness-to-pay estimation.",
+      "category": "Product Management"
+    },
+    {
+      "id": "porters-five-forces",
+      "name": "porters-five-forces",
+      "description": "This skill should be used when the user asks to \\\"porters five forces\\\". Perform Porter's Five Forces analysis.",
+      "category": "Product Management"
+    },
+    {
+      "id": "positioning-ideas",
+      "name": "positioning-ideas",
+      "description": "This skill should be used when the user asks to \\\"positioning ideas\\\". Brainstorm product positioning ideas differentiated from competitors.",
+      "category": "Product Management"
+    },
+    {
+      "id": "pre-mortem",
+      "name": "pre-mortem",
+      "description": "This skill should be used when the user asks to \\\"pre mortem\\\". Run a pre-mortem risk analysis on a PRD or launch plan.",
+      "category": "Product Management"
+    },
+    {
+      "id": "prioritization-frameworks",
+      "name": "prioritization-frameworks",
+      "description": "This skill should be used when the user asks to \\\"prioritization frameworks\\\". Reference guide to 9 prioritization frameworks with formulas, when-to-use guidance, and templates.",
+      "category": "Product Management"
+    },
+    {
+      "id": "prioritize-assumptions",
+      "name": "prioritize-assumptions",
+      "description": "This skill should be used when the user asks to \\\"prioritize assumptions\\\". Prioritize assumptions using an Impact \u00d7 Risk matrix and suggest experiments for each.",
+      "category": "Product Management"
+    },
+    {
+      "id": "prioritize-features",
+      "name": "prioritize-features",
+      "description": "This skill should be used when the user asks to \\\"prioritize features\\\". Prioritize a backlog of feature ideas based on impact, effort, risk, and strategic alignment with top 5 recommendations.",
+      "category": "Product Management"
+    },
+    {
+      "id": "privacy-policy",
+      "name": "privacy-policy",
+      "description": "This skill should be used when the user asks to \\\"privacy policy\\\". Draft a detailed privacy policy covering data types, jurisdiction, GDPR and compliance considerations, and clauses needing legal.",
+      "category": "Product Management"
+    },
+    {
+      "id": "product-name",
+      "name": "product-name",
+      "description": "Brainstorm 5 unique, memorable product names with rationale aligned to brand values and target audience. Use when naming a new product, rebranding, or exploring product name ideas.",
+      "category": "Product Management"
+    },
+    {
+      "id": "product-strategy",
+      "name": "product-strategy",
+      "description": "This skill should be used when the user asks to \\\"product strategy\\\". Create a comprehensive product strategy using the 9-section Product Strategy Canvas.",
+      "category": "Product Management"
+    },
+    {
+      "id": "product-vision",
+      "name": "product-vision",
+      "description": "This skill should be used when the user asks to \\\"product vision\\\". Brainstorm an inspiring, achievable, and emotional product vision that motivates teams and aligns stakeholders.",
+      "category": "Product Management"
+    },
+    {
+      "id": "proofread",
+      "name": "proofread",
+      "description": "This skill should be used when the user asks to \\\"proofread\\\". Check grammar, logic, and flow in any text.",
+      "category": "Product Management"
+    },
+    {
+      "id": "red-team-prd",
+      "name": "red-team-prd",
+      "description": "This skill should be used when the user asks to \\\"red team prd\\\". Red-team a PRD, roadmap, or strategy.",
+      "category": "Product Management"
+    },
+    {
+      "id": "release-notes",
+      "name": "release-notes",
+      "description": "This skill should be used when the user asks to \\\"release notes\\\". Generate user-facing release notes from tickets, PRDs, or changelogs.",
+      "category": "Product Management"
+    },
+    {
+      "id": "research-users",
+      "name": "research-users",
+      "description": "This skill should be used when the user asks to \\\"research users\\\". Comprehensive user research.",
+      "category": "Product Management"
+    },
+    {
+      "id": "retro",
+      "name": "retro",
+      "description": "This skill should be used when the user asks to \\\"retro\\\". Facilitate a structured sprint retrospective.",
+      "category": "Product Management"
+    },
+    {
+      "id": "review-resume",
+      "name": "review-resume",
+      "description": "This skill should be used when the user asks to \\\"review resume\\\". Comprehensive PM resume review and tailoring against 10 best practices including XYZ+S formula, keyword optimization, job-specific.",
+      "category": "Product Management"
+    },
+    {
+      "id": "security-audit-static",
+      "name": "security-audit-static",
+      "description": "This skill should be used when the user asks to \\\"security audit static\\\". Static security audit of AI-built code.",
+      "category": "Product Management"
+    },
+    {
+      "id": "sentiment-analysis",
+      "name": "sentiment-analysis",
+      "description": "This skill should be used when the user asks to \\\"sentiment analysis\\\". Analyze user feedback data to identify segments with sentiment scores, JTBD, and product satisfaction insights.",
+      "category": "Product Management"
+    },
+    {
+      "id": "setup-metrics",
+      "name": "setup-metrics",
+      "description": "This skill should be used when the user asks to \\\"setup metrics\\\". Design a product metrics dashboard with North Star metric, input metrics, health metrics, and alert thresholds.",
+      "category": "Product Management"
+    },
+    {
+      "id": "ship-check",
+      "name": "ship-check",
+      "description": "This skill should be used when the user asks to \\\"ship check\\\". Turn a vibe-coded repo into a reviewer-ready shipping packet.",
+      "category": "Product Management"
+    },
+    {
+      "id": "shipping-artifacts",
+      "name": "shipping-artifacts",
+      "description": "This skill should be used when the user asks to \\\"shipping artifacts\\\". The durable documentation set that makes an AI-built (vibe-coded) app reviewable before shipping.",
+      "category": "Product Management"
+    },
+    {
+      "id": "sprint",
+      "name": "sprint",
+      "description": "This skill should be used when the user asks to \\\"sprint\\\". Sprint lifecycle.",
+      "category": "Product Management"
+    },
+    {
+      "id": "sprint-plan",
+      "name": "sprint-plan",
+      "description": "This skill should be used when the user asks to \\\"sprint plan\\\". Plan a sprint with capacity estimation, story selection, dependency mapping, and risk identification.",
+      "category": "Product Management"
+    },
+    {
+      "id": "sql-queries",
+      "name": "sql-queries",
+      "description": "This skill should be used when the user asks to \\\"sql queries\\\". Generate SQL queries from natural language descriptions.",
+      "category": "Product Management"
+    },
+    {
+      "id": "stakeholder-map",
+      "name": "stakeholder-map",
+      "description": "This skill should be used when the user asks to \\\"stakeholder map\\\". Build a stakeholder map using a power/interest grid, identify communication strategies per quadrant, and generate a communication.",
+      "category": "Product Management"
+    },
+    {
+      "id": "startup-canvas",
+      "name": "startup-canvas",
+      "description": "This skill should be used when the user asks to \\\"startup canvas\\\". Generate a Startup Canvas combining Product Strategy (9 sections) and Business Model (costs + revenue) for a new product.",
+      "category": "Product Management"
+    },
+    {
+      "id": "strategy",
+      "name": "strategy",
+      "description": "This skill should be used when the user asks to \\\"strategy\\\". Create a comprehensive product strategy using the 9-section Strategy Canvas.",
+      "category": "Product Management"
+    },
+    {
+      "id": "strategy-red-team",
+      "name": "strategy-red-team",
+      "description": "This skill should be used when the user asks to \\\"strategy red team\\\". Red-team a PRD, roadmap, or strategy by attacking its load-bearing assumptions before reality does.",
+      "category": "Product Management"
+    },
+    {
+      "id": "summarize-interview",
+      "name": "summarize-interview",
+      "description": "This skill should be used when the user asks to \\\"summarize interview\\\". Summarize a customer interview transcript into a structured template with JTBD, satisfaction signals, and action items.",
+      "category": "Product Management"
+    },
+    {
+      "id": "summarize-meeting",
+      "name": "summarize-meeting",
+      "description": "This skill should be used when the user asks to \\\"summarize meeting\\\". Summarize a meeting transcript into structured notes with date, participants, topic, key decisions, summary points, and action.",
+      "category": "Product Management"
+    },
+    {
+      "id": "swot-analysis",
+      "name": "swot-analysis",
+      "description": "This skill should be used when the user asks to \\\"swot analysis\\\". Perform a detailed SWOT analysis.",
+      "category": "Product Management"
+    },
+    {
+      "id": "tailor-resume",
+      "name": "tailor-resume",
+      "description": "This skill should be used when the user asks to \\\"tailor resume\\\". Tailor a PM resume to a specific job description.",
+      "category": "Product Management"
+    },
+    {
+      "id": "test-scenarios",
+      "name": "test-scenarios",
+      "description": "This skill should be used when the user asks to \\\"test scenarios\\\". Create comprehensive test scenarios from user stories with test objectives, starting conditions, user roles, step-by-step actions.",
+      "category": "Product Management"
+    },
+    {
+      "id": "transform-roadmap",
+      "name": "transform-roadmap",
+      "description": "This skill should be used when the user asks to \\\"transform roadmap\\\". Convert a feature-based roadmap into an outcome-focused roadmap that communicates strategic intent.",
+      "category": "Product Management"
+    },
+    {
+      "id": "triage-requests",
+      "name": "triage-requests",
+      "description": "This skill should be used when the user asks to \\\"triage requests\\\". Analyze, categorize, and prioritize a batch of feature requests from customers or stakeholders.",
+      "category": "Product Management"
+    },
+    {
+      "id": "user-personas",
+      "name": "user-personas",
+      "description": "This skill should be used when the user asks to \\\"user personas\\\". Create refined user personas from research data.",
+      "category": "Product Management"
+    },
+    {
+      "id": "user-segmentation",
+      "name": "user-segmentation",
+      "description": "This skill should be used when the user asks to \\\"user segmentation\\\". Segment users from feedback data based on behavior, JTBD, and needs.",
+      "category": "Product Management"
+    },
+    {
+      "id": "user-stories",
+      "name": "user-stories",
+      "description": "This skill should be used when the user asks to \\\"user stories\\\". Create user stories following the 3 C's (Card, Conversation, Confirmation) and INVEST criteria with descriptions, design links.",
+      "category": "Product Management"
+    },
+    {
+      "id": "value-prop-statements",
+      "name": "value-prop-statements",
+      "description": "Generate value proposition statements for marketing, sales, and onboarding from existing value propositions. Use when writing marketing copy, creating sales messaging, or crafting onboarding messages.",
+      "category": "Product Management"
+    },
+    {
+      "id": "value-proposition",
+      "name": "value-proposition",
+      "description": "This skill should be used when the user asks to \\\"value proposition\\\". Design a detailed value proposition using a 6-part JTBD template.",
+      "category": "Product Management"
+    },
+    {
+      "id": "write-prd",
+      "name": "write-prd",
+      "description": "This skill should be used when the user asks to \\\"write prd\\\". Create a comprehensive Product Requirements Document from a feature idea or problem statement.",
+      "category": "Product Management"
+    },
+    {
+      "id": "write-query",
+      "name": "write-query",
+      "description": "This skill should be used when the user asks to \\\"write query\\\". Generate SQL queries from natural language.",
+      "category": "Product Management"
+    },
+    {
+      "id": "write-stories",
+      "name": "write-stories",
+      "description": "This skill should be used when the user asks to \\\"write stories\\\". Break a feature into backlog items.",
+      "category": "Product Management"
+    },
+    {
+      "id": "wwas",
+      "name": "wwas",
+      "description": "This skill should be used when the user asks to \\\"wwas\\\". Create product backlog items in Why-What-Acceptance format.",
+      "category": "Product Management"
     },
     {
       "id": "10-andruia-skill-smith",

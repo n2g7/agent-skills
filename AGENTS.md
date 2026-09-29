@@ -23,6 +23,7 @@ Resolve skills from the first path that exists:
 
 ```bash
 bash scripts/sync-from-antigravity.sh    # pull new upstream skills
+python3 scripts/import-pm-skills.py    # vendor phuryn/pm-skills
 python3 scripts/ensure-lazy-load.py    # enforce on-demand loading
 python3 _catalog/regenerate.py         # refresh catalog
 ```

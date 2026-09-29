@@ -102,6 +102,7 @@ Reports land in `_security/skillspector/` (`static-summary.md`, `high-critical.t
 - **[Antigravity Awesome Skills](https://github.com/sickn33/antigravity-awesome-skills)** — source library (MIT). Install upstream directly with `npx antigravity-awesome-skills` if you want their npm installer and plugin bundles.
 - **[Apple coreai-models](https://github.com/apple/coreai-models)** — Core AI skills (`working-with-coreai`, `model-authoring`, `model-compression-exploration`), BSD-3-Clause.
 - **[Anthropic plugin-dev](https://github.com/anthropics/claude-code/tree/main/plugins/plugin-dev)** — Claude Code plugin toolkit (`agent-development`, `command-development`, `hook-development`, `mcp-integration`, `plugin-settings`, `plugin-structure`, `skill-development`, `create-plugin`, `plugin-validator`, `skill-reviewer`, `plugin-dev-agent-creator`). Plugin README claims MIT; see `SOURCE.md` in each skill folder.
+- **[PM Skills Marketplace](https://github.com/phuryn/pm-skills)** — Pawel Huryn's product-management workflows (MIT). Imported as on-demand skills with `source_repo: phuryn/pm-skills`. Folder clashes are prefixed `pm-` (`pm-competitor-analysis`, `pm-marketing-ideas`, `pm-pricing-strategy`, `pm-pricing`). See `SOURCE.md` in each imported folder.
 - **This repo** — snapshot + `_catalog/`, `skill-recommender`, lazy-load enforcement, Cloud Agent submodule docs.
 
 Thank you to the Antigravity community for building and maintaining an incredible open skill library.
