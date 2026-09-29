@@ -1,35 +1,35 @@
 {
-  "total": 2257,
+  "total": 2614,
   "categories": {
-    "General & Miscellaneous": 709,
-    "Automation & Integrations": 211,
-    "AI & LLM": 140,
-    "Azure": 121,
-    "Security & Pentesting": 113,
-    "Productivity & Workflow": 108,
+    "General & Miscellaneous": 872,
+    "Automation & Integrations": 220,
+    "AI & LLM": 157,
+    "Security & Pentesting": 140,
+    "Productivity & Workflow": 138,
+    "Azure": 129,
+    "Backend & API": 107,
+    "SEO & Marketing": 105,
     "Product Management": 103,
-    "SEO & Marketing": 100,
-    "Backend & API": 95,
-    "Frontend & UI": 80,
-    "DevOps & CI/CD": 60,
-    "Database": 55,
-    "Languages: Python": 37,
-    "Testing & QA": 35,
-    "Architecture & Design Patterns": 34,
-    "Mobile": 31,
+    "DevOps & CI/CD": 92,
+    "Frontend & UI": 81,
+    "Database": 59,
+    "Languages: Python": 39,
+    "Testing & QA": 37,
+    "Architecture & Design Patterns": 36,
+    "Mobile": 33,
+    "AWS": 30,
+    "Media & Creative": 25,
+    "Observability & Monitoring": 24,
     "Languages: TypeScript/JavaScript": 23,
-    "AWS": 20,
-    "Observability & Monitoring": 20,
-    "Git & Version Control": 18,
-    "Media & Creative": 18,
-    "Cloudflare": 16,
-    "Legal & Compliance": 16,
+    "Cloudflare": 21,
+    "Git & Version Control": 19,
+    "Google Cloud": 19,
+    "Legal & Compliance": 18,
+    "Business & Startup": 16,
     "Apple HIG & Design": 14,
-    "Business & Startup": 14,
     "Odoo & ERP": 13,
     "Game Development": 10,
     "Data & Analytics": 9,
-    "Google Cloud": 9,
     "Languages: Java/Kotlin": 8,
     "Languages: Rust": 8,
     "Blockchain & Web3": 3,
@@ -63,6 +63,12 @@
       "category": "AI & LLM"
     },
     {
+      "id": "agent-evals",
+      "name": "agent-evals",
+      "description": "Build automated evaluation suites for AI agents using golden datasets,",
+      "category": "AI & LLM"
+    },
+    {
       "id": "agent-evaluation",
       "name": "agent-evaluation",
       "description": "Testing and benchmarking LLM agents including behavioral testing,",
@@ -90,6 +96,12 @@
       "id": "agent-memory-systems",
       "name": "agent-memory-systems",
       "description": "Memory is the cornerstone of intelligent agents. Without it, every",
+      "category": "AI & LLM"
+    },
+    {
+      "id": "agent-observability",
+      "name": "agent-observability",
+      "description": "Instrument AI agents with tracing, token metrics, latency, and cost visibility.",
       "category": "AI & LLM"
     },
     {
@@ -177,6 +189,12 @@
       "category": "AI & LLM"
     },
     {
+      "id": "ai-coding-agent-guardrails",
+      "name": "ai-coding-agent-guardrails",
+      "description": "Secure AI coding agents (Claude Code, Cursor, Codex, Copilot) with permission",
+      "category": "AI & LLM"
+    },
+    {
       "id": "ai-engineer",
       "name": "ai-engineer",
       "description": "Build production-ready LLM applications, advanced RAG systems, and intelligent agents. Implements vector search, multimodal AI, agent orchestration, and enterprise AI integrations.",
@@ -192,6 +210,12 @@
       "id": "ai-native-cli",
       "name": "ai-native-cli",
       "description": "Design spec with 98 rules for building CLI tools that AI agents can safely use. Covers structured JSON output, error handling, input contracts, safety guardrails, exit codes, and agent self-description.",
+      "category": "AI & LLM"
+    },
+    {
+      "id": "ai-sre-incident-response",
+      "name": "ai-sre-incident-response",
+      "description": "Build AI-focused SRE incident response practices for LLM outages, degraded",
       "category": "AI & LLM"
     },
     {
@@ -429,9 +453,33 @@
       "category": "AI & LLM"
     },
     {
+      "id": "hunt-llm-ai",
+      "name": "hunt-llm-ai",
+      "description": "Hunt LLM/AI feature bugs",
+      "category": "AI & LLM"
+    },
+    {
       "id": "hybrid-search-implementation",
       "name": "hybrid-search-implementation",
       "description": "Combine vector and keyword search for improved retrieval. Use when implementing RAG systems, building search engines, or when neither approach alone provides sufficient recall.",
+      "category": "AI & LLM"
+    },
+    {
+      "id": "idea-evaluator",
+      "name": "idea-evaluator",
+      "description": "Evaluates an idea by hosting a multi-turn debate between a Pro and Con agent, delivering a final verdict on whether it's worth pursuing.",
+      "category": "AI & LLM"
+    },
+    {
+      "id": "idea-evaluator/idea-evaluator-con",
+      "name": "idea-evaluator-con",
+      "description": "The Con Agent persona for idea evaluation. Critiques an idea by identifying potential flaws, risks, and market challenges.",
+      "category": "AI & LLM"
+    },
+    {
+      "id": "idea-evaluator/idea-evaluator-pro",
+      "name": "idea-evaluator-pro",
+      "description": "The Pro Agent persona for idea evaluation. Logically supports an idea, arguing for its market fit, feasibility, and potential.",
       "category": "AI & LLM"
     },
     {
@@ -489,6 +537,12 @@
       "category": "AI & LLM"
     },
     {
+      "id": "llm-caching",
+      "name": "llm-caching",
+      "description": "Implement multi-layer LLM caching with exact match, semantic similarity,",
+      "category": "AI & LLM"
+    },
+    {
       "id": "llm-council",
       "name": "llm-council",
       "description": "Run Fireworks-hosted open-weight model councils that compare responses and synthesize a final answer.",
@@ -498,6 +552,12 @@
       "id": "llm-evaluation",
       "name": "llm-evaluation",
       "description": "Master comprehensive evaluation strategies for LLM applications, from automated metrics to human evaluation and A/B testing.",
+      "category": "AI & LLM"
+    },
+    {
+      "id": "llm-fine-tuning",
+      "name": "llm-fine-tuning",
+      "description": "Set up infrastructure for fine-tuning LLMs with QLoRA, LoRA, and full",
       "category": "AI & LLM"
     },
     {
@@ -546,6 +606,12 @@
       "id": "loopy",
       "name": "loopy",
       "description": "Discover, find, compare, audit, repair, adapt, craft, run, debrief, and prepare repeatable AI-agent loops for publication.",
+      "category": "AI & LLM"
+    },
+    {
+      "id": "mac-mini-llm-lab",
+      "name": "mac-mini-llm-lab",
+      "description": "Configure a Mac mini as a reliable local LLM server with remote access,",
       "category": "AI & LLM"
     },
     {
@@ -621,9 +687,21 @@
       "category": "AI & LLM"
     },
     {
+      "id": "multi-tenant-llm-hosting",
+      "name": "multi-tenant-llm-hosting",
+      "description": "Design secure, multi-tenant LLM hosting platforms with tenant isolation,",
+      "category": "AI & LLM"
+    },
+    {
       "id": "odw",
       "name": "odw",
       "description": "Dynamic multi-agent workflows \u2014 plan first, then orchestrate parallel agents with adversarial verification via the local odw daemon. Use when the user asks for a \"workflow\", says \"ultracode\", or hands you a task spanning many files/items that benefits from parallel agents.",
+      "category": "AI & LLM"
+    },
+    {
+      "id": "ollama-stack",
+      "name": "ollama-stack",
+      "description": "Run local LLM workloads with Ollama, Open WebUI, and GPU-aware tuning",
       "category": "AI & LLM"
     },
     {
@@ -753,6 +831,18 @@
       "category": "AI & LLM"
     },
     {
+      "id": "rag-infrastructure",
+      "name": "rag-infrastructure",
+      "description": "Build and operate Retrieval-Augmented Generation (RAG) infrastructure",
+      "category": "AI & LLM"
+    },
+    {
+      "id": "rag-observability-evals",
+      "name": "rag-observability-evals",
+      "description": "Monitor and evaluate RAG systems with retrieval quality metrics, groundedness",
+      "category": "AI & LLM"
+    },
+    {
       "id": "recursive-context-pruning-token-budgeting",
       "name": "recursive-context-pruning-token-budgeting",
       "description": "Optimizes AI agent performance by pruning redundant context, managing token usage, and enforcing ultra-concise, direct-to-value responses.",
@@ -801,6 +891,12 @@
       "category": "AI & LLM"
     },
     {
+      "id": "system-prompt-lookup",
+      "name": "system-prompt-lookup",
+      "description": "Checks what a shipped AI product's system prompt and tool schema actually say, by reading a dated archive of captured prompts instead of recalling them. Use before asserting or accepting any claim about an agent's instructions.",
+      "category": "AI & LLM"
+    },
+    {
       "id": "taisly-social-media-posting",
       "name": "taisly-social-media-posting",
       "description": "Use Taisly Agent Kit to prepare and publish approved short-form video posts across TikTok, Instagram Reels, YouTube Shorts, X, and Facebook.",
@@ -834,6 +930,12 @@
       "id": "unship",
       "name": "unship",
       "description": "Compare AI agent-made UI variants locally in a real app, then keep one and clean up unused temporary code.",
+      "category": "AI & LLM"
+    },
+    {
+      "id": "using-agent-skills",
+      "name": "using-agent-skills",
+      "description": "Meta-skill for discovering and invoking the right agent skill for the",
       "category": "AI & LLM"
     },
     {
@@ -897,6 +999,12 @@
       "category": "AWS"
     },
     {
+      "id": "aws-cloudtrail",
+      "name": "aws-cloudtrail",
+      "description": "Configure AWS CloudTrail for audit logging. Set up organization trails",
+      "category": "AWS"
+    },
+    {
       "id": "aws-cost-cleanup",
       "name": "aws-cost-cleanup",
       "description": "Automated cleanup of unused AWS resources to reduce costs",
@@ -909,9 +1017,39 @@
       "category": "AWS"
     },
     {
+      "id": "aws-cost-optimization",
+      "name": "aws-cost-optimization",
+      "description": "Reduce AWS spend with rightsizing, autoscaling, commitment planning,",
+      "category": "AWS"
+    },
+    {
       "id": "aws-cost-optimizer",
       "name": "aws-cost-optimizer",
       "description": "Comprehensive AWS cost analysis and optimization recommendations using AWS CLI and Cost Explorer",
+      "category": "AWS"
+    },
+    {
+      "id": "aws-ec2",
+      "name": "aws-ec2",
+      "description": "Manage EC2 instances, AMIs, and auto-scaling groups. Configure security",
+      "category": "AWS"
+    },
+    {
+      "id": "aws-ecs-fargate",
+      "name": "aws-ecs-fargate",
+      "description": "Deploy containers on ECS and Fargate. Configure task definitions, services,",
+      "category": "AWS"
+    },
+    {
+      "id": "aws-iam",
+      "name": "aws-iam",
+      "description": "Manage IAM users, roles, and policies. Implement least-privilege access",
+      "category": "AWS"
+    },
+    {
+      "id": "aws-lambda",
+      "name": "aws-lambda",
+      "description": "Build and deploy serverless functions on AWS Lambda. Configure triggers,",
       "category": "AWS"
     },
     {
@@ -924,6 +1062,24 @@
       "id": "aws-penetration-testing",
       "name": "aws-penetration-testing",
       "description": "Provide comprehensive techniques for penetration testing AWS cloud environments. Covers IAM enumeration, privilege escalation, SSRF to metadata endpoint, S3 bucket exploitation, Lambda code extraction, and persistence techniques for red team operations.",
+      "category": "AWS"
+    },
+    {
+      "id": "aws-rds",
+      "name": "aws-rds",
+      "description": "Provision and manage RDS databases. Configure backups, replication, and",
+      "category": "AWS"
+    },
+    {
+      "id": "aws-s3",
+      "name": "aws-s3",
+      "description": "Configure S3 buckets, policies, and lifecycle rules. Implement versioning,",
+      "category": "AWS"
+    },
+    {
+      "id": "aws-secrets-manager",
+      "name": "aws-secrets-manager",
+      "description": "Store and rotate secrets in AWS Secrets Manager.",
       "category": "AWS"
     },
     {
@@ -948,6 +1104,12 @@
       "id": "aws-sst-development",
       "name": "aws-sst-development",
       "description": "SST v4 (Ion) expert for managing AWS resources as code with the Pulumi-backed framework.",
+      "category": "AWS"
+    },
+    {
+      "id": "aws-vpc",
+      "name": "aws-vpc",
+      "description": "Design and implement VPCs and networking. Configure subnets, route tables,",
       "category": "AWS"
     },
     {
@@ -1275,6 +1437,12 @@
       "category": "Architecture & Design Patterns"
     },
     {
+      "id": "understand-project-yylo",
+      "name": "understand-project-yylo",
+      "description": "Inspect the current product architecture, dependencies, and validation",
+      "category": "Architecture & Design Patterns"
+    },
+    {
       "id": "wordpress-theme-development",
       "name": "wordpress-theme-development",
       "description": "WordPress theme development workflow covering theme architecture, template hierarchy, custom post types, block editor support, responsive design, and WordPress 7.0 features: DataViews, Pattern Editing, Navigation Overlays, and admin refresh.",
@@ -1284,6 +1452,12 @@
       "id": "workflow-orchestration-patterns",
       "name": "workflow-orchestration-patterns",
       "description": "Master workflow orchestration architecture with Temporal, covering fundamental design decisions, resilience patterns, and best practices for building reliable distributed systems.",
+      "category": "Architecture & Design Patterns"
+    },
+    {
+      "id": "zero-trust",
+      "name": "zero-trust",
+      "description": "Implement zero-trust network architecture. Configure identity-based access,",
       "category": "Architecture & Design Patterns"
     },
     {
@@ -1389,6 +1563,18 @@
       "category": "Automation & Integrations"
     },
     {
+      "id": "api-integration-architect",
+      "name": "api-integration-architect",
+      "description": "Design, implement, debug, and optimize API integrations with expert-level",
+      "category": "Automation & Integrations"
+    },
+    {
+      "id": "apify-integration-development",
+      "name": "apify-integration-development",
+      "description": "Curated upstream guidance for Apify Integration Development; use when the workflow matches the user goal.",
+      "category": "Automation & Integrations"
+    },
+    {
       "id": "appium-skill",
       "name": "appium-skill",
       "description": "Generates production-grade Appium mobile automation scripts for Android and iOS in Java, Python, or JavaScript. Supports real device and emulator testing locally and on TestMu AI cloud with 100+ real devices.",
@@ -1398,6 +1584,12 @@
       "id": "apple-notes-search",
       "name": "apple-notes-search",
       "description": "Semantic + keyword search and connection-discovery across the user's own Apple Notes via the apple-notes MCP server. Use when the user wants to find, recall, or synthesize something from their notes, or surface non-obvious bridges/related notes. macOS, on-device.",
+      "category": "Automation & Integrations"
+    },
+    {
+      "id": "architecture-review",
+      "name": "architecture-review",
+      "description": "Review repository architecture using Ontoly Software Graph and MCP capabilities.",
       "category": "Automation & Integrations"
     },
     {
@@ -1416,6 +1608,12 @@
       "id": "audit-agent-run-evidence",
       "name": "audit-agent-run-evidence",
       "description": "Use when an agent, harness, gateway, MCP workflow, or multi-step automation claims completion and the available traces, checkpoints, approvals, tool calls, or deployment records must be judged without trusting self-reported success.",
+      "category": "Automation & Integrations"
+    },
+    {
+      "id": "audit-logging",
+      "name": "audit-logging",
+      "description": "Implement centralized audit logging and SIEM integration. Configure log",
       "category": "Automation & Integrations"
     },
     {
@@ -1518,6 +1716,12 @@
       "id": "changelog-automation",
       "name": "changelog-automation",
       "description": "Automate changelog generation from commits, PRs, and releases following Keep a Changelog format. Use when setting up release workflows, generating release notes, or standardizing commit conventions.",
+      "category": "Automation & Integrations"
+    },
+    {
+      "id": "circleci",
+      "name": "circleci",
+      "description": "Configure CircleCI workflows and orbs for continuous integration and",
       "category": "Automation & Integrations"
     },
     {
@@ -1869,6 +2073,12 @@
       "category": "Automation & Integrations"
     },
     {
+      "id": "jev-use",
+      "name": "jev-use",
+      "description": "Route enumerable judgment steps - did it work, which option, how risky, is this safe to run - to the Jev judgment model through the jev_judge and jev_gate MCP tools, batched into one call per state.",
+      "category": "Automation & Integrations"
+    },
+    {
       "id": "jira-automation",
       "name": "jira-automation",
       "description": "Automate Jira tasks via Rube MCP (Composio): issues, projects, sprints, boards, comments, users. Always search tools first for current schemas.",
@@ -1962,6 +2172,12 @@
       "id": "mcp-builder-ms",
       "name": "mcp-builder-ms",
       "description": "Use this skill when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
+      "category": "Automation & Integrations"
+    },
+    {
+      "id": "mcp-dependency-drift-audit",
+      "name": "mcp-dependency-drift-audit",
+      "description": "Statically audit MCP configs for mutable npm/npx package references before approval or CI, without executing discovered MCP servers.",
       "category": "Automation & Integrations"
     },
     {
@@ -2157,6 +2373,12 @@
       "category": "Automation & Integrations"
     },
     {
+      "id": "omentir-linkedin-outreach",
+      "name": "omentir-linkedin-outreach",
+      "description": "Run LinkedIn prospecting and outreach through the Omentir MCP server: find people, score fit, draft messages, and check campaigns. Never signs into LinkedIn.",
+      "category": "Automation & Integrations"
+    },
+    {
       "id": "one-drive-automation",
       "name": "one-drive-automation",
       "description": "Automate OneDrive file management, search, uploads, downloads, sharing, permissions, and folder operations via Rube MCP (Composio). Always search tools first for current schemas.",
@@ -2310,6 +2532,12 @@
       "id": "sentry-automation",
       "name": "sentry-automation",
       "description": "Automate Sentry tasks via Rube MCP (Composio): manage issues/events, configure alerts, track releases, monitor projects and teams. Always search tools first for current schemas.",
+      "category": "Automation & Integrations"
+    },
+    {
+      "id": "serply-search-mcp",
+      "name": "serply-search-mcp",
+      "description": "Search Google, Bing, Google News and Google Scholar, and read public pages, with the Serply MCP server. Use when the user chooses Serply or its connected tools for current information and source verification.",
       "category": "Automation & Integrations"
     },
     {
@@ -2727,6 +2955,12 @@
       "category": "Azure"
     },
     {
+      "id": "azure-aks",
+      "name": "azure-aks",
+      "description": "Deploy and manage Azure Kubernetes Service clusters. Configure node pools,",
+      "category": "Azure"
+    },
+    {
       "id": "azure-appconfiguration-java",
       "name": "azure-appconfiguration-java",
       "description": "Azure App Configuration SDK for Java. Centralized application configuration management with key-value settings, feature flags, and snapshots.",
@@ -2829,6 +3063,12 @@
       "category": "Azure"
     },
     {
+      "id": "azure-devops",
+      "name": "azure-devops",
+      "description": "Set up Azure Pipelines for CI/CD, configure build and release pipelines,",
+      "category": "Azure"
+    },
+    {
       "id": "azure-eventgrid-dotnet",
       "name": "azure-eventgrid-dotnet",
       "description": "Azure Event Grid SDK for .NET. Client library for publishing and consuming events with Azure Event Grid. Use for event-driven architectures, pub/sub messaging, CloudEvents, and EventGridEvents.",
@@ -2883,6 +3123,12 @@
       "category": "Azure"
     },
     {
+      "id": "azure-functions-devsec",
+      "name": "azure-functions-devsec",
+      "description": "Build serverless applications on Azure Functions. Configure triggers,",
+      "category": "Azure"
+    },
+    {
       "id": "azure-identity-dotnet",
       "name": "azure-identity-dotnet",
       "description": "Azure Identity SDK for .NET. Authentication library for Azure SDK clients using Microsoft Entra ID. Use for DefaultAzureCredential, managed identity, service principals, and developer credentials.",
@@ -2910,6 +3156,12 @@
       "id": "azure-identity-ts",
       "name": "azure-identity-ts",
       "description": "Authenticate to Azure services with various credential types.",
+      "category": "Azure"
+    },
+    {
+      "id": "azure-keyvault",
+      "name": "azure-keyvault",
+      "description": "Manage secrets and certificates in Azure Key Vault. Configure access",
       "category": "Azure"
     },
     {
@@ -3045,6 +3297,12 @@
       "category": "Azure"
     },
     {
+      "id": "azure-monitor-audit",
+      "name": "azure-monitor-audit",
+      "description": "Configure Azure Monitor and Activity Log for auditing. Set up diagnostic",
+      "category": "Azure"
+    },
+    {
       "id": "azure-monitor-ingestion-java",
       "name": "azure-monitor-ingestion-java",
       "description": "Azure Monitor Ingestion SDK for Java. Send custom logs to Azure Monitor via Data Collection Rules (DCR) and Data Collection Endpoints (DCE).",
@@ -3090,6 +3348,12 @@
       "id": "azure-monitor-query-py",
       "name": "azure-monitor-query-py",
       "description": "Azure Monitor Query SDK for Python. Use for querying Log Analytics workspaces and Azure Monitor metrics.",
+      "category": "Azure"
+    },
+    {
+      "id": "azure-networking",
+      "name": "azure-networking",
+      "description": "Configure Azure VNets, NSGs, and Azure Firewall. Implement hub-spoke",
       "category": "Azure"
     },
     {
@@ -3207,6 +3471,12 @@
       "category": "Azure"
     },
     {
+      "id": "azure-sql",
+      "name": "azure-sql",
+      "description": "Provision Azure SQL Database and Cosmos DB. Configure security, backups,",
+      "category": "Azure"
+    },
+    {
       "id": "azure-storage-blob-java",
       "name": "azure-storage-blob-java",
       "description": "Build blob storage applications using the Azure Storage Blob SDK for Java.",
@@ -3267,6 +3537,12 @@
       "category": "Azure"
     },
     {
+      "id": "azure-vms",
+      "name": "azure-vms",
+      "description": "Manage Azure Virtual Machines and scale sets. Configure availability",
+      "category": "Azure"
+    },
+    {
       "id": "azure-web-pubsub-ts",
       "name": "azure-web-pubsub-ts",
       "description": "Real-time messaging with WebSocket connections and pub/sub patterns.",
@@ -3282,6 +3558,12 @@
       "id": "2slides-ppt-generator",
       "name": "2slides-ppt-generator",
       "description": "AI-powered presentation generation via the 2slides API \u2014 create slides from text, match a reference image style, summarize documents into decks, add AI voice narration, and export pages/audio. Use for any \\\"make slides\\\", \\\"create a deck\\\", or \\\"slides from this document\\\" request.",
+      "category": "Backend & API"
+    },
+    {
+      "id": "agent-memory-discipline",
+      "name": "agent-memory-discipline",
+      "description": "Rules for when an agent should recall from long-term memory before acting and when it should save decisions, corrections and failures afterwards. Works with any memory backend.",
       "category": "Backend & API"
     },
     {
@@ -3444,6 +3726,12 @@
       "id": "convex",
       "name": "convex",
       "description": "Convex reactive backend expert: schema design, TypeScript functions, real-time subscriptions, auth, file storage, scheduling, and deployment.",
+      "category": "Backend & API"
+    },
+    {
+      "id": "convex-backend",
+      "name": "convex-backend",
+      "description": "Build reactive backends with Convex functions, schema validation, auth",
       "category": "Backend & API"
     },
     {
@@ -3621,9 +3909,51 @@
       "category": "Backend & API"
     },
     {
+      "id": "huggingface-datasets",
+      "name": "huggingface-datasets",
+      "description": "Use this skill for Hugging Face Dataset Viewer API workflows that fetch",
+      "category": "Backend & API"
+    },
+    {
       "id": "huggingface-tool-builder",
       "name": "huggingface-tool-builder",
       "description": "Use this skill when the user wants to build tool/scripts or achieve a task where using data from the Hugging Face API would help. This is especially useful when chaining or combining API calls or the task will be repeated/automated.",
+      "category": "Backend & API"
+    },
+    {
+      "id": "hunt-fintech-graphql",
+      "name": "hunt-fintech-graphql",
+      "description": "Hunt fintech-specific GraphQL vulnerabilities",
+      "category": "Backend & API"
+    },
+    {
+      "id": "hunt-graphql",
+      "name": "hunt-graphql",
+      "description": "Hunting skill for graphql vulnerabilities.",
+      "category": "Backend & API"
+    },
+    {
+      "id": "hunt-grpc",
+      "name": "hunt-grpc",
+      "description": "Hunt gRPC vulnerabilities",
+      "category": "Backend & API"
+    },
+    {
+      "id": "hunt-laravel",
+      "name": "hunt-laravel",
+      "description": "Hunt Laravel specific vulnerabilities",
+      "category": "Backend & API"
+    },
+    {
+      "id": "hunt-spa-api",
+      "name": "hunt-spa-api",
+      "description": "Discover a single-page-app's hidden backend API from its public JS bundle,",
+      "category": "Backend & API"
+    },
+    {
+      "id": "hunt-ssti",
+      "name": "hunt-ssti",
+      "description": "Hunt server-side template injection (SSTI) across Jinja2 (Flask/Django),",
       "category": "Backend & API"
     },
     {
@@ -3642,6 +3972,12 @@
       "id": "laravel-development-workflow",
       "name": "laravel-development-workflow",
       "description": "Build and fix existing Laravel applications through root-cause diagnosis, repository-native implementation, regression coverage, and risk-based verification.",
+      "category": "Backend & API"
+    },
+    {
+      "id": "llm-cost-optimization",
+      "name": "llm-cost-optimization",
+      "description": "Reduce LLM API and infrastructure costs through model selection, prompt",
       "category": "Backend & API"
     },
     {
@@ -3702,6 +4038,12 @@
       "id": "nodejs-backend-patterns",
       "name": "nodejs-backend-patterns",
       "description": "Comprehensive guidance for building scalable, maintainable, and production-ready Node.js backend applications with modern frameworks, architectural patterns, and best practices.",
+      "category": "Backend & API"
+    },
+    {
+      "id": "nsfw-ai-spicyapi",
+      "name": "nsfw-ai-spicyapi",
+      "description": "Generate adult (18+) images, image-to-video clips and image edits through the SpicyAPI API, with a cost quote before every paid run and adults-only / consent rules.",
       "category": "Backend & API"
     },
     {
@@ -3849,6 +4191,12 @@
       "category": "Backend & API"
     },
     {
+      "id": "youtube-transcript-skills",
+      "name": "youtube-transcript-skills",
+      "description": "Fetch YouTube video transcripts, search videos/channels, browse channels, and extract playlists via the getyoutubetranscript.com API - free tier, no card required.",
+      "category": "Backend & API"
+    },
+    {
       "id": "blockchain-developer",
       "name": "blockchain-developer",
       "description": "Build production-ready Web3 applications, smart contracts, and decentralized systems. Implements DeFi protocols, NFT platforms, DAOs, and enterprise blockchain integrations.",
@@ -3870,6 +4218,12 @@
       "id": "business-analyst",
       "name": "business-analyst",
       "description": "Master modern business analysis with AI-powered analytics, real-time dashboards, and data-driven insights. Build comprehensive KPI frameworks, predictive models, and strategic recommendations.",
+      "category": "Business & Startup"
+    },
+    {
+      "id": "identity-access-management",
+      "name": "identity-access-management",
+      "description": "Set up and manage SSO, SCIM provisioning, and MFA for startup teams using",
       "category": "Business & Startup"
     },
     {
@@ -3945,6 +4299,12 @@
       "category": "Business & Startup"
     },
     {
+      "id": "startup-it-troubleshooting",
+      "name": "startup-it-troubleshooting",
+      "description": "Practical IT troubleshooting playbooks for small teams without dedicated",
+      "category": "Business & Startup"
+    },
+    {
       "id": "startup-metrics-framework",
       "name": "startup-metrics-framework",
       "description": "Comprehensive guide to tracking, calculating, and optimizing key performance metrics for different startup business models from seed through Series A.",
@@ -3954,6 +4314,12 @@
       "id": "agents-sdk",
       "name": "agents-sdk",
       "description": "Build, debug, or review Cloudflare Agents SDK applications using the agents package.",
+      "category": "Cloudflare"
+    },
+    {
+      "id": "cdn-setup",
+      "name": "cdn-setup",
+      "description": "Configure CDNs for content delivery. Set up CloudFront, Cloudflare, and",
       "category": "Cloudflare"
     },
     {
@@ -3981,15 +4347,39 @@
       "category": "Cloudflare"
     },
     {
+      "id": "cloudflare-pages",
+      "name": "cloudflare-pages",
+      "description": "Deploy static sites and full-stack apps on Cloudflare Pages with previews,",
+      "category": "Cloudflare"
+    },
+    {
+      "id": "cloudflare-r2",
+      "name": "cloudflare-r2",
+      "description": "Manage Cloudflare R2 buckets, lifecycle, and signed URLs. Use for low-egress",
+      "category": "Cloudflare"
+    },
+    {
       "id": "cloudflare-security-audit",
       "name": "cloudflare-security-audit",
       "description": "Audit authorized codebases for exploitable vulnerabilities using scoped reconnaissance, adversarial review, validation, and structured reporting.",
       "category": "Cloudflare"
     },
     {
+      "id": "cloudflare-workers",
+      "name": "cloudflare-workers",
+      "description": "Build and deploy edge functions with Cloudflare Workers and Wrangler.",
+      "category": "Cloudflare"
+    },
+    {
       "id": "cloudflare-workers-expert",
       "name": "cloudflare-workers-expert",
       "description": "Expert in Cloudflare Workers and the Edge Computing ecosystem. Covers Wrangler, KV, D1, Durable Objects, and R2 storage.",
+      "category": "Cloudflare"
+    },
+    {
+      "id": "cloudflare-zero-trust",
+      "name": "cloudflare-zero-trust",
+      "description": "Protect internal apps with Cloudflare Access, device posture, and Zero",
       "category": "Cloudflare"
     },
     {
@@ -4113,6 +4503,12 @@
       "category": "Database"
     },
     {
+      "id": "asset-inventory",
+      "name": "asset-inventory",
+      "description": "Maintain IT asset inventory and configuration management database. Track",
+      "category": "Database"
+    },
+    {
       "id": "backend-dev-guidelines",
       "name": "backend-dev-guidelines",
       "description": "You are a senior backend engineer operating production-grade services under strict architectural and reliability constraints. Use when routes, controllers, services, repositories, express middleware, or prisma database access.",
@@ -4158,6 +4554,12 @@
       "id": "database-architect",
       "name": "database-architect",
       "description": "Expert database architect specializing in data layer design from scratch, technology selection, schema modeling, and scalable database architectures.",
+      "category": "Database"
+    },
+    {
+      "id": "database-backups",
+      "name": "database-backups",
+      "description": "Implement database backup strategies. Configure automated backups, retention,",
       "category": "Database"
     },
     {
@@ -4263,6 +4665,12 @@
       "category": "Database"
     },
     {
+      "id": "mysql",
+      "name": "mysql",
+      "description": "Administer MySQL/MariaDB databases. Configure replication and optimize",
+      "category": "Database"
+    },
+    {
       "id": "neon-object-storage",
       "name": "neon-object-storage",
       "description": "S3-compatible object storage that branches with your Neon project, so files and the database stay in sync across every branch.",
@@ -4296,6 +4704,12 @@
       "id": "odoo-migration-helper",
       "name": "odoo-migration-helper",
       "description": "Step-by-step guide for migrating Odoo custom modules between versions (v14\u2192v15\u2192v16\u2192v17). Covers API changes, deprecated methods, and view migration.",
+      "category": "Database"
+    },
+    {
+      "id": "planetscale",
+      "name": "planetscale",
+      "description": "Operate MySQL-compatible databases on PlanetScale with branching workflows,",
       "category": "Database"
     },
     {
@@ -4473,6 +4887,18 @@
       "category": "DevOps & CI/CD"
     },
     {
+      "id": "argocd-gitops",
+      "name": "argocd-gitops",
+      "description": "Implement GitOps with ArgoCD for declarative Kubernetes deployments.",
+      "category": "DevOps & CI/CD"
+    },
+    {
+      "id": "arm-templates",
+      "name": "arm-templates",
+      "description": "Deploy Azure resources with ARM templates and Bicep. Create modular deployments",
+      "category": "DevOps & CI/CD"
+    },
+    {
       "id": "azd-deployment",
       "name": "azd-deployment",
       "description": "Deploy containerized frontend + backend applications to Azure Container Apps with remote builds, managed identity, and idempotent infrastructure.",
@@ -4494,6 +4920,12 @@
       "id": "bats-testing-patterns",
       "name": "bats-testing-patterns",
       "description": "Master Bash Automated Testing System (Bats) for comprehensive shell script testing. Use when writing tests for shell scripts, CI/CD pipelines, or requiring test-driven development of shell utilities.",
+      "category": "DevOps & CI/CD"
+    },
+    {
+      "id": "blue-green-deploy",
+      "name": "blue-green-deploy",
+      "description": "Configure zero-downtime deployment strategies including blue-green, canary,",
       "category": "DevOps & CI/CD"
     },
     {
@@ -4521,9 +4953,27 @@
       "category": "DevOps & CI/CD"
     },
     {
+      "id": "cloudformation",
+      "name": "cloudformation",
+      "description": "Deploy AWS resources with CloudFormation templates. Create stacks, use",
+      "category": "DevOps & CI/CD"
+    },
+    {
       "id": "code-review-ai-ai-review",
       "name": "code-review-ai-ai-review",
       "description": "You are an expert AI-powered code review specialist combining automated static analysis, intelligent pattern recognition, and modern DevOps practices. Leverage AI tools (GitHub Copilot, Qodo, GPT-5, C",
+      "category": "DevOps & CI/CD"
+    },
+    {
+      "id": "container-hardening",
+      "name": "container-hardening",
+      "description": "Secure Docker images and container runtime configurations.",
+      "category": "DevOps & CI/CD"
+    },
+    {
+      "id": "container-registries",
+      "name": "container-registries",
+      "description": "Manage container registries including ECR, ACR, GCR, and Docker Hub.",
       "category": "DevOps & CI/CD"
     },
     {
@@ -4563,9 +5013,21 @@
       "category": "DevOps & CI/CD"
     },
     {
+      "id": "devops-pipeline-builder",
+      "name": "devops-pipeline-builder",
+      "description": "Design and implement CI/CD pipelines, Docker configurations, deployment",
+      "category": "DevOps & CI/CD"
+    },
+    {
       "id": "devops-troubleshooter",
       "name": "devops-troubleshooter",
       "description": "Expert DevOps troubleshooter specializing in rapid incident response, advanced debugging, and modern observability.",
+      "category": "DevOps & CI/CD"
+    },
+    {
+      "id": "docker-compose",
+      "name": "docker-compose",
+      "description": "Define and run multi-container Docker applications using Docker Compose.",
       "category": "DevOps & CI/CD"
     },
     {
@@ -4575,9 +5037,21 @@
       "category": "DevOps & CI/CD"
     },
     {
+      "id": "docker-management",
+      "name": "docker-management",
+      "description": "Build, optimize, and troubleshoot Docker containers and images.",
+      "category": "DevOps & CI/CD"
+    },
+    {
       "id": "e2e-testing",
       "name": "e2e-testing",
       "description": "End-to-end testing workflow with Playwright for browser automation, visual regression, cross-browser testing, and CI/CD integration.",
+      "category": "DevOps & CI/CD"
+    },
+    {
+      "id": "elk-stack",
+      "name": "elk-stack",
+      "description": "Deploy and manage the ELK Stack (Elasticsearch, Logstash, Kibana) for",
       "category": "DevOps & CI/CD"
     },
     {
@@ -4590,6 +5064,12 @@
       "id": "expo-deployment",
       "name": "expo-deployment",
       "description": "Deploy Expo apps to production",
+      "category": "DevOps & CI/CD"
+    },
+    {
+      "id": "github-actions",
+      "name": "github-actions",
+      "description": "Build, test, and deploy applications using GitHub Actions workflows.",
       "category": "DevOps & CI/CD"
     },
     {
@@ -4611,6 +5091,12 @@
       "category": "DevOps & CI/CD"
     },
     {
+      "id": "gitlab-ci",
+      "name": "gitlab-ci",
+      "description": "Configure GitLab CI/CD pipelines and runners for automated building,",
+      "category": "DevOps & CI/CD"
+    },
+    {
       "id": "gitlab-ci-patterns",
       "name": "gitlab-ci-patterns",
       "description": "Comprehensive GitLab CI/CD pipeline patterns for automated testing, building, and deployment.",
@@ -4623,15 +5109,45 @@
       "category": "DevOps & CI/CD"
     },
     {
+      "id": "gpu-kubernetes-operations",
+      "name": "gpu-kubernetes-operations",
+      "description": "Operate GPU-backed Kubernetes clusters for AI inference and training",
+      "category": "DevOps & CI/CD"
+    },
+    {
       "id": "helm-chart-scaffolding",
       "name": "helm-chart-scaffolding",
       "description": "Comprehensive guidance for creating, organizing, and managing Helm charts for packaging and deploying Kubernetes applications.",
       "category": "DevOps & CI/CD"
     },
     {
+      "id": "helm-charts",
+      "name": "helm-charts",
+      "description": "Create, manage, and deploy Helm charts for Kubernetes package management.",
+      "category": "DevOps & CI/CD"
+    },
+    {
       "id": "huggingface-spaces",
       "name": "huggingface-spaces",
       "description": "Build, deploy, and maintain applications on Hugging Face Spaces \u2014 Gradio / Docker / Static SDKs, ZeroGPU and dedicated hardware, model loading, debugging, buckets, inference providers, community grants.",
+      "category": "DevOps & CI/CD"
+    },
+    {
+      "id": "hunt-cicd",
+      "name": "hunt-cicd",
+      "description": "Hunt CI/CD pipeline vulnerabilities",
+      "category": "DevOps & CI/CD"
+    },
+    {
+      "id": "hunt-k8s",
+      "name": "hunt-k8s",
+      "description": "Hunt Kubernetes & Docker",
+      "category": "DevOps & CI/CD"
+    },
+    {
+      "id": "jenkins",
+      "name": "jenkins",
+      "description": "Create and manage Jenkins CI/CD pipelines, configure agents, manage plugins,",
       "category": "DevOps & CI/CD"
     },
     {
@@ -4665,15 +5181,51 @@
       "category": "DevOps & CI/CD"
     },
     {
+      "id": "kubernetes-hardening",
+      "name": "kubernetes-hardening",
+      "description": "Implement Kubernetes security contexts, Pod Security Standards, and network",
+      "category": "DevOps & CI/CD"
+    },
+    {
+      "id": "kubernetes-ops",
+      "name": "kubernetes-ops",
+      "description": "Deploy, scale, and manage Kubernetes workloads.",
+      "category": "DevOps & CI/CD"
+    },
+    {
       "id": "kubestellar-console",
       "name": "kubestellar-console",
       "description": "Multi-cluster Kubernetes dashboard with AI-powered operations via MCP server and 10+ built-in agent skills",
       "category": "DevOps & CI/CD"
     },
     {
+      "id": "kustomize",
+      "name": "kustomize",
+      "description": "Customize Kubernetes manifests without templating using Kustomize.",
+      "category": "DevOps & CI/CD"
+    },
+    {
       "id": "linkerd-patterns",
       "name": "linkerd-patterns",
       "description": "Production patterns for Linkerd service mesh - the lightweight, security-first service mesh for Kubernetes.",
+      "category": "DevOps & CI/CD"
+    },
+    {
+      "id": "llm-gateway",
+      "name": "llm-gateway",
+      "description": "Deploy an API gateway for LLM traffic with load balancing, rate limiting,",
+      "category": "DevOps & CI/CD"
+    },
+    {
+      "id": "llm-inference-scaling",
+      "name": "llm-inference-scaling",
+      "description": "Auto-scale LLM inference clusters on Kubernetes using KEDA, custom GPU",
+      "category": "DevOps & CI/CD"
+    },
+    {
+      "id": "llmops-platform-engineering",
+      "name": "llmops-platform-engineering",
+      "description": "Build production LLMOps platforms with CI/CD, model promotion workflows,",
       "category": "DevOps & CI/CD"
     },
     {
@@ -4686,6 +5238,12 @@
       "id": "mise-configurator",
       "name": "mise-configurator",
       "description": "Generate production-ready mise.toml setups for local development, CI/CD pipelines, and toolchain standardization.",
+      "category": "DevOps & CI/CD"
+    },
+    {
+      "id": "model-serving-kubernetes",
+      "name": "model-serving-kubernetes",
+      "description": "Deploy ML models on Kubernetes with KServe (formerly KFServing) and NVIDIA",
       "category": "DevOps & CI/CD"
     },
     {
@@ -4710,6 +5268,18 @@
       "id": "odoo-docker-deployment",
       "name": "odoo-docker-deployment",
       "description": "Production-ready Docker and docker-compose setup for Odoo with PostgreSQL, persistent volumes, environment-based configuration, and Nginx reverse proxy.",
+      "category": "DevOps & CI/CD"
+    },
+    {
+      "id": "openclaw-deployment-hardening",
+      "name": "openclaw-deployment-hardening",
+      "description": "Secure OpenClaw deployments with preflight hardening checks, CI/CD guardrails,",
+      "category": "DevOps & CI/CD"
+    },
+    {
+      "id": "opentofu-migration",
+      "name": "opentofu-migration",
+      "description": "Migrate from Terraform to OpenTofu with state compatibility, provider",
       "category": "DevOps & CI/CD"
     },
     {
@@ -4767,6 +5337,18 @@
       "category": "DevOps & CI/CD"
     },
     {
+      "id": "terraform-aws",
+      "name": "terraform-aws",
+      "description": "Provision AWS infrastructure with Terraform. Create modules, manage state,",
+      "category": "DevOps & CI/CD"
+    },
+    {
+      "id": "terraform-azure",
+      "name": "terraform-azure",
+      "description": "Provision Azure infrastructure with Terraform. Configure providers, manage",
+      "category": "DevOps & CI/CD"
+    },
+    {
       "id": "terraform-infrastructure",
       "name": "terraform-infrastructure",
       "description": "Terraform infrastructure as code workflow for provisioning cloud resources, creating reusable modules, and managing infrastructure at scale.",
@@ -4791,15 +5373,45 @@
       "category": "DevOps & CI/CD"
     },
     {
+      "id": "vector-database-ops",
+      "name": "vector-database-ops",
+      "description": "Deploy, manage, and optimize vector databases for AI applications.",
+      "category": "DevOps & CI/CD"
+    },
+    {
       "id": "vercel-cli-with-tokens",
       "name": "vercel-cli-with-tokens",
       "description": "Deploy and manage projects on Vercel using token-based authentication. Use when working with Vercel CLI using access tokens rather than interactive login \u2014 e.g. \\\"deploy to vercel\\\", \\\"set up vercel\\\", \\\"add environment variables to vercel\\\".",
       "category": "DevOps & CI/CD"
     },
     {
+      "id": "vercel-deployments",
+      "name": "vercel-deployments",
+      "description": "Deploy frontend and full-stack apps on Vercel with previews, edge functions,",
+      "category": "DevOps & CI/CD"
+    },
+    {
+      "id": "vllm-server",
+      "name": "vllm-server",
+      "description": "Deploy and manage vLLM for high-throughput LLM inference. Configure continuous",
+      "category": "DevOps & CI/CD"
+    },
+    {
+      "id": "waf-setup",
+      "name": "waf-setup",
+      "description": "Deploy and tune Web Application Firewalls. Configure rules for OWASP",
+      "category": "DevOps & CI/CD"
+    },
+    {
       "id": "3d-web-experience",
       "name": "3d-web-experience",
       "description": "Expert in building 3D experiences for the web - Three.js, React",
+      "category": "Frontend & UI"
+    },
+    {
+      "id": "anti-slop-design",
+      "name": "anti-slop-design",
+      "description": "Autonomous Principal Design Technologist. Cures vibe-coded software from AI frontend slop using curated token archetypes and 7-axis quality gating.",
       "category": "Frontend & UI"
     },
     {
@@ -5355,6 +5967,12 @@
       "category": "General & Miscellaneous"
     },
     {
+      "id": "access-review",
+      "name": "access-review",
+      "description": "Conduct periodic access reviews and certifications. Implement access",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "accesslint-diff",
       "name": "accesslint-diff",
       "description": "Diff a live page's accessibility violations against a baseline \u2014 by default compares uncommitted changes (stash-based), or pass --branch [<name>] to diff against a branch. Reports only new violations introduced, violations fixed, and pre-existing count. Use `scan` for a full audit with no diffing.",
@@ -5439,15 +6057,33 @@
       "category": "General & Miscellaneous"
     },
     {
+      "id": "ai-inference-service-mesh",
+      "name": "ai-inference-service-mesh",
+      "description": "Use service mesh patterns for AI inference traffic management, mTLS,",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "ai-loop",
       "name": "ai-loop",
       "description": "Runs a bounded spec-build-review development loop with explicit scope, stop conditions, and human approval gates for risky or ambiguous work.",
       "category": "General & Miscellaneous"
     },
     {
+      "id": "ai-pipeline-orchestration",
+      "name": "ai-pipeline-orchestration",
+      "description": "Orchestrate AI/ML pipelines for data ingestion, model training, batch",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "ai-product",
       "name": "ai-product",
       "description": "Every product will be AI-powered. The question is whether you'll",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "ai-red-teaming",
+      "name": "ai-red-teaming",
+      "description": "Run structured AI red team exercises for jailbreak resistance, data exfiltration",
       "category": "General & Miscellaneous"
     },
     {
@@ -5472,6 +6108,12 @@
       "id": "airflow-dag-patterns",
       "name": "airflow-dag-patterns",
       "description": "Build production Apache Airflow DAGs with best practices for operators, sensors, testing, and deployment. Use when creating data pipelines, orchestrating workflows, or scheduling batch jobs.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "alerting-oncall",
+      "name": "alerting-oncall",
+      "description": "Set up alerting rules, configure on-call rotations, and manage incident",
       "category": "General & Miscellaneous"
     },
     {
@@ -5595,6 +6237,12 @@
       "category": "General & Miscellaneous"
     },
     {
+      "id": "apify-generate-output-schema",
+      "name": "apify-generate-output-schema",
+      "description": "Generate output schemas (dataset_schema.json, output_schema.json, key_value_store_schema.json)",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "apify-lead-generation",
       "name": "apify-lead-generation",
       "description": "Scrape leads from multiple platforms using Apify Actors.",
@@ -5610,6 +6258,12 @@
       "id": "apify-trend-analysis",
       "name": "apify-trend-analysis",
       "description": "Discover and track emerging trends across Google Trends, Instagram, Facebook, YouTube, and TikTok to inform content strategy.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "apk-redteam-pipeline",
+      "name": "apk-redteam-pipeline",
+      "description": "End-to-end Android APK red-team pipeline",
       "category": "General & Miscellaneous"
     },
     {
@@ -5640,6 +6294,12 @@
       "id": "article-illustrations",
       "name": "article-illustrations",
       "description": "Generate hand-drawn 16:9 article illustrations with the Grav character IP, sparse annotations, and absurd but clear visual metaphors.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "artifact-yylo",
+      "name": "artifact-yylo",
+      "description": "Capture and retrieve durable YYLO Ledger artifact Records with intentional",
       "category": "General & Miscellaneous"
     },
     {
@@ -5733,6 +6393,12 @@
       "category": "General & Miscellaneous"
     },
     {
+      "id": "backup-recovery",
+      "name": "backup-recovery",
+      "description": "Implement backup and recovery strategies. Configure rsync, Restic, and",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "bash-linux",
       "name": "bash-linux",
       "description": "Bash/Linux terminal patterns. Critical commands, piping, error handling, scripting. Use when working on macOS or Linux systems.",
@@ -5742,6 +6408,12 @@
       "id": "bazel-build-optimization",
       "name": "bazel-build-optimization",
       "description": "Optimize Bazel builds for large-scale monorepos. Use when configuring Bazel, implementing remote execution, or optimizing build performance for enterprise codebases.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "bb-methodology",
+      "name": "bb-methodology",
+      "description": "Use at the START of any bug bounty hunting session, when switching targets,",
       "category": "General & Miscellaneous"
     },
     {
@@ -5772,6 +6444,12 @@
       "id": "binary-analysis-patterns",
       "name": "binary-analysis-patterns",
       "description": "Comprehensive patterns and techniques for analyzing compiled binaries, understanding assembly code, and reconstructing program logic.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "block-storage",
+      "name": "block-storage",
+      "description": "Manage block storage volumes and LVM. Configure cloud block storage and",
       "category": "General & Miscellaneous"
     },
     {
@@ -5847,6 +6525,12 @@
       "category": "General & Miscellaneous"
     },
     {
+      "id": "bugcrowd-reporting",
+      "name": "bugcrowd-reporting",
+      "description": "Bugcrowd-specific reporting tactics complementing report-writing",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "build",
       "name": "build",
       "description": "build",
@@ -5862,6 +6546,12 @@
       "id": "bullmq-specialist",
       "name": "bullmq-specialist",
       "description": "BullMQ expert for Redis-backed job queues, background processing,",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "business-continuity",
+      "name": "business-continuity",
+      "description": "Develop business continuity plans and impact analysis. Implement BCP",
       "category": "General & Miscellaneous"
     },
     {
@@ -5901,6 +6591,12 @@
       "category": "General & Miscellaneous"
     },
     {
+      "id": "career-ops",
+      "name": "career-ops",
+      "description": "Multi-CLI job-search command center: evaluate offers, scan portals,",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "carrier-relationship-management",
       "name": "carrier-relationship-management",
       "description": "Codified expertise for managing carrier portfolios, negotiating freight rates, tracking carrier performance, allocating freight, and maintaining strategic carrier relationships.",
@@ -5910,6 +6606,18 @@
       "id": "case-review",
       "name": "case-review",
       "description": "Quality-gate review of a reverse-engineering or assessment case package: scope readiness, Evidence-to-Finding-to-Path traceability, work-item coverage, timeline consistency, and artifact hashes.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "change-management",
+      "name": "change-management",
+      "description": "Implement change management processes. Configure CAB reviews, change",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "chatexport-need-miner",
+      "name": "chatexport-need-miner",
+      "description": "Mines offline Telegram Desktop chat exports (result.json) for unmet market needs and product opportunities using chunked streaming and verbatim quote grounding. Trigger phrases: mine chat export, telegram result.json, find unmet needs, analyze telegram chat.",
       "category": "General & Miscellaneous"
     },
     {
@@ -5934,6 +6642,12 @@
       "id": "cirq",
       "name": "cirq",
       "description": "Cirq is Google Quantum AI's open-source framework for designing, simulating, and running quantum circuits on quantum computers and simulators.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "cis-benchmarks",
+      "name": "cis-benchmarks",
+      "description": "Audit and remediate CIS benchmark violations.",
       "category": "General & Miscellaneous"
     },
     {
@@ -6066,6 +6780,12 @@
       "id": "codebase-cleanup-tech-debt",
       "name": "codebase-cleanup-tech-debt",
       "description": "You are a technical debt expert specializing in identifying, quantifying, and prioritizing technical debt in software projects. Analyze the codebase to uncover debt, assess its impact, and create acti",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "codebase-onboarding",
+      "name": "codebase-onboarding",
+      "description": "Onboard a developer to a repository using Ontoly graph summaries. Use",
       "category": "General & Miscellaneous"
     },
     {
@@ -6213,9 +6933,27 @@
       "category": "General & Miscellaneous"
     },
     {
+      "id": "connection-auth-rules",
+      "name": "connection-auth-rules",
+      "description": "Build a Connection Auth Rules for a Monte Carlo connection type. Fetches",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "constant-time-analysis",
       "name": "constant-time-analysis",
       "description": "Analyze cryptographic code to detect operations that leak secret data through execution timing variations.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "constraint-driven-development",
+      "name": "constraint-driven-development",
+      "description": "Write the project quality bar as enforced CONSTRAINTS.md so agents stop",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "container-scanning",
+      "name": "container-scanning",
+      "description": "Scan container images for vulnerabilities using Trivy, Grype, and cloud-native",
       "category": "General & Miscellaneous"
     },
     {
@@ -6417,6 +7155,12 @@
       "category": "General & Miscellaneous"
     },
     {
+      "id": "dali-short-address-commissioner",
+      "name": "dali-short-address-commissioner",
+      "description": "Commissions DALI and DALI-2 (IEC 62386) lighting buses: short-address assignment (0-63), 24-bit binary search collision resolution, groups, and DT8 color control. Trigger phrases: commission dali, dali short address, dali collision resolution, dali bus addressing, dali-2 setup.",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "data-engineer",
       "name": "data-engineer",
       "description": "Build scalable data pipelines, modern data warehouses, and real-time streaming architectures. Implements Apache Spark, dbt, Airflow, and cloud-native data platforms.",
@@ -6450,6 +7194,12 @@
       "id": "dbt-transformation-patterns",
       "name": "dbt-transformation-patterns",
       "description": "Production-ready patterns for dbt (data build tool) including model organization, testing strategies, documentation, and incremental processing.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "de-ai-writer",
+      "name": "de-ai-writer",
+      "description": "Chinese AI-smell removal engine: 35 Chinese AI-tell patterns (\u8d4b\u80fd/\u95ed\u73af), AI-smell scoring, de-AI rewriting, style clone. Use when a Chinese draft reads machine-written or the user asks \u53bbAI\u5473.",
       "category": "General & Miscellaneous"
     },
     {
@@ -6522,6 +7272,18 @@
       "id": "delegating-to-agents",
       "name": "delegating-to-agents",
       "description": "Delegate bounded work to other AI agents while preserving context, ownership, and progress checks.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "dependency-analysis",
+      "name": "dependency-analysis",
+      "description": "Analyze internal and package dependencies using Ontoly graph traversal.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "dependency-scanning",
+      "name": "dependency-scanning",
+      "description": "Scan package dependencies for known vulnerabilities using Snyk, Dependabot,",
       "category": "General & Miscellaneous"
     },
     {
@@ -6849,6 +7611,12 @@
       "category": "General & Miscellaneous"
     },
     {
+      "id": "devcontainers-nix",
+      "name": "devcontainers-nix",
+      "description": "Create reproducible development environments with Dev Containers, Nix",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "developer-advocacy",
       "name": "developer-advocacy",
       "description": "When the user wants to do developer advocacy activities including conference talks, live coding, podcasts, and building in public.",
@@ -6897,6 +7665,12 @@
       "category": "General & Miscellaneous"
     },
     {
+      "id": "disaster-recovery",
+      "name": "disaster-recovery",
+      "description": "Implement disaster recovery strategies and runbooks. Configure RPO/RTO",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "dispatch",
       "name": "dispatch",
       "description": "Delegate tasks to OpenAI Codex CLI and Google Antigravity CLI from Claude Code with topic-aware sessions",
@@ -6924,6 +7698,12 @@
       "id": "ditto",
       "name": "ditto",
       "description": "Use when a user asks to mine or update a private, evidence-backed work profile from local Claude Code, Codex, Copilot CLI, or OpenCode sessions.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "dns-management",
+      "name": "dns-management",
+      "description": "Configure DNS zones and records. Manage Route53, Cloud DNS, and self-hosted",
       "category": "General & Miscellaneous"
     },
     {
@@ -7047,6 +7827,12 @@
       "category": "General & Miscellaneous"
     },
     {
+      "id": "enterprise-vpn-attack",
+      "name": "enterprise-vpn-attack",
+      "description": "External SSL VPN / remote-access appliance attack matrix",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "entropy-box",
       "name": "entropy-box",
       "description": "Entropy Box knowledge-compiler for embodied-AI: turns bounded requirements into grounded workflows via Solution Consult, Search, Lookup, and Evidence. Do not use it to control physical robots.",
@@ -7056,6 +7842,12 @@
       "id": "environment-setup-guide",
       "name": "environment-setup-guide",
       "description": "Guide developers through setting up development environments with proper tools, dependencies, and configurations",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "eol-resistor-calculator",
+      "name": "eol-resistor-calculator",
+      "description": "Calculates and validates end-of-line (EOL, SEOL, DEOL, TEOL) resistor loops for intrusion alarm panels (Honeywell, DSC, Paradox, Bosch) with wire gauge drop and state tables. Trigger phrases: eol resistor, deol wiring, alarm zone resistor, calculate end of line, double eol tamper.",
       "category": "General & Miscellaneous"
     },
     {
@@ -7077,9 +7869,21 @@
       "category": "General & Miscellaneous"
     },
     {
+      "id": "esl-price-sync",
+      "name": "esl-price-sync",
+      "description": "Synchronizes retail prices between ERP/POS systems and Electronic Shelf Labels (SES-imagotag, ZKONG, Pricer, Hanshow, SOLUM) with delta watermarking, idempotency, and battery modeling. Trigger phrases: esl price sync, electronic shelf labels, zkong sync, ses imagotag price, ghost pricing audit.",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "event-store-design",
       "name": "event-store-design",
       "description": "Design and implement event stores for event-sourced systems. Use when building event sourcing infrastructure, choosing event store technologies, or implementing event persistence patterns.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "evidence-hygiene",
+      "name": "evidence-hygiene",
+      "description": "Evidence-capture and PoC-redaction discipline for bug-bounty submissions",
       "category": "General & Miscellaneous"
     },
     {
@@ -7116,6 +7920,12 @@
       "id": "fact-check-x-complete",
       "name": "fact-check-x-complete",
       "description": "Compare claims from one or more AI answers, verify their citations against public primary sources, and produce an evidence-linked fact-check report without installing a bundled browser runtime.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "fact-check-x-unified",
+      "name": "fact-check-x-unified",
+      "description": "Fact-Check-X \u6d41\u7a0b\u7f16\u6392\u80fd\u529b\uff0c\u4f9d\u6b21\u7ec4\u7ec7\u5404\u65b9\u7b54\u6848\u6c47\u603b\u3001\u5404\u65b9\u7b54\u6848\u805a\u5408\uff08\u672a\u6838\u9a8c\uff09\u3001\u6743\u5a01\u6838\u9a8c\u540e\u7684\u6700\u7ec8\u7b54\u6848\u548c\u5404\u65b9\u7b54\u6848\u6d4b\u8bc4\uff0c\u751f\u6210\u53ef\u6253\u5f00\u3001\u53ef\u5ba1\u8ba1\u3001\u53ef\u8fc1\u79fb\u7684\u9636\u6bb5\u4ea7\u7269\u4e0e\u5b8c\u6574\u62a5\u544a\u5305\u3002",
       "category": "General & Miscellaneous"
     },
     {
@@ -7167,6 +7977,12 @@
       "category": "General & Miscellaneous"
     },
     {
+      "id": "feature-flags",
+      "name": "feature-flags",
+      "description": "Implement feature flags for progressive feature rollout using LaunchDarkly,",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "feature-tracking",
       "name": "feature-tracking",
       "description": "Maintain durable feature-level memory across AI coding sessions with lightweight Markdown tracks for status, source-of-truth docs, decisions, risks, and changes.",
@@ -7212,6 +8028,12 @@
       "id": "finishing-a-development-branch",
       "name": "finishing-a-development-branch",
       "description": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "firewall-config",
+      "name": "firewall-config",
+      "description": "Configure iptables, nftables, and cloud firewalls. Implement network",
       "category": "General & Miscellaneous"
     },
     {
@@ -7311,9 +8133,75 @@
       "category": "General & Miscellaneous"
     },
     {
+      "id": "geo-citability",
+      "name": "geo-citability",
+      "description": "AI citability scoring and optimization.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "geo-compare",
+      "name": "geo-compare",
+      "description": "Monthly delta tracking and progress reporting for GEO clients.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "geo-content",
+      "name": "geo-content",
+      "description": "Content quality and E-E-A-T assessment for AI citability \u2014 evaluate experience,",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "geo-crawlers",
+      "name": "geo-crawlers",
+      "description": "AI crawler access analysis.",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "geo-fundamentals",
       "name": "geo-fundamentals",
       "description": "Generative Engine Optimization for AI search engines (ChatGPT, Claude, Perplexity).",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "geo-llmstxt",
+      "name": "geo-llmstxt",
+      "description": "Analyzes and generates llms.txt files -- the emerging standard for helping",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "geo-platform-optimizer",
+      "name": "geo-platform-optimizer",
+      "description": "Platform-specific AI search optimization \u2014 audit and optimize for Google",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "geo-proposal",
+      "name": "geo-proposal",
+      "description": "Auto-generate a professional, client-ready GEO service proposal from",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "geo-prospect",
+      "name": "geo-prospect",
+      "description": "CRM-lite for managing GEO agency prospects and clients.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "geo-report",
+      "name": "geo-report",
+      "description": "Generate a professional, client-facing GEO report combining all audit",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "geo-report-pdf",
+      "name": "geo-report-pdf",
+      "description": "Generate a professional PDF report from a GEO audit using pandoc + Chrome",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "geo-schema",
+      "name": "geo-schema",
+      "description": "Schema.org structured data audit and generation optimized for AI discoverability",
       "category": "General & Miscellaneous"
     },
     {
@@ -7365,6 +8253,18 @@
       "category": "General & Miscellaneous"
     },
     {
+      "id": "google-no-code",
+      "name": "google-no-code",
+      "description": "Design Google Forms and wire Apps Script triggers (onFormSubmit) for email alerts, spreadsheet logging, and dynamic questions \u2014 no code editor required.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "gpu-server-management",
+      "name": "gpu-server-management",
+      "description": "Set up and manage NVIDIA GPU servers for AI workloads",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "graceful-shutdown",
       "name": "graceful-shutdown",
       "description": "Implement graceful shutdown for servers and workers: drain connections, finish in-flight work, release resources, and exit cleanly on SIGTERM/SIGINT.",
@@ -7398,6 +8298,12 @@
       "id": "hasdata-cli",
       "name": "hasdata-cli",
       "description": "Command-line access to search, scraping, and structured web data.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "hashicorp-vault",
+      "name": "hashicorp-vault",
+      "description": "Manage secrets and PKI with HashiCorp Vault.",
       "category": "General & Miscellaneous"
     },
     {
@@ -7473,9 +8379,201 @@
       "category": "General & Miscellaneous"
     },
     {
+      "id": "hunt-aspnet",
+      "name": "hunt-aspnet",
+      "description": "Hunt ASP.NET-specific surface",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "hunt-ato",
+      "name": "hunt-ato",
+      "description": "Hunt account takeover taxonomy",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "hunt-brute-force",
+      "name": "hunt-brute-force",
+      "description": "Hunt Missing/Weak Rate Limiting",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "hunt-captcha-bypass",
+      "name": "hunt-captcha-bypass",
+      "description": "Hunt CAPTCHA Bypass",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "hunt-clickjacking",
+      "name": "hunt-clickjacking",
+      "description": "Hunt Clickjacking",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "hunt-cloud-misconfig",
+      "name": "hunt-cloud-misconfig",
+      "description": "Hunt cloud / infrastructure misconfigurations.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "hunt-cors",
+      "name": "hunt-cors",
+      "description": "Hunt CORS Misconfiguration",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "hunt-deserialization",
+      "name": "hunt-deserialization",
+      "description": "Hunt Insecure Deserialization",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "hunt-dom",
+      "name": "hunt-dom",
+      "description": "Hunt client-side DOM vulnerabilities",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "hunt-exceptional-conditions",
+      "name": "hunt-exceptional-conditions",
+      "description": "Hunt mishandling of exceptional conditions",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "hunt-file-upload",
+      "name": "hunt-file-upload",
+      "description": "Hunt file upload bugs",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "hunt-forgot-password",
+      "name": "hunt-forgot-password",
+      "description": "Hunt Forgot Password / Account Recovery Authentication Flaws",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "hunt-host-header",
+      "name": "hunt-host-header",
+      "description": "Hunt Host Header Injection",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "hunt-html-injection",
+      "name": "hunt-html-injection",
+      "description": "Hunt HTML Injection",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "hunt-http-smuggling",
+      "name": "hunt-http-smuggling",
+      "description": "Hunt HTTP request smuggling (CL.TE, TE.CL, H2.CL, H2.TE).",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "hunt-jwt-crypto",
+      "name": "hunt-jwt-crypto",
+      "description": "Hunt JWT cryptographic failures",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "hunt-ldap",
+      "name": "hunt-ldap",
+      "description": "Hunt LDAP Injection and XPath Injection",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "hunt-lfi",
+      "name": "hunt-lfi",
+      "description": "Hunt Local File Inclusion (LFI), Remote File Inclusion (RFI), and Path",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "hunt-mfa-bypass",
+      "name": "hunt-mfa-bypass",
+      "description": "Hunt MFA / 2FA bypass",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "hunt-nextjs",
+      "name": "hunt-nextjs",
+      "description": "Hunt Next.js specific vulnerabilities",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "hunt-nodejs",
+      "name": "hunt-nodejs",
+      "description": "Hunt Node.js specific vulnerabilities",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "hunt-nosqli",
+      "name": "hunt-nosqli",
+      "description": "Hunt NoSQL Injection",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "hunt-ntlm-info",
+      "name": "hunt-ntlm-info",
+      "description": "Hunt NTLM/Negotiate information disclosure on internet-reachable IIS/SharePoint/Exchange.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "hunt-open-redirect",
+      "name": "hunt-open-redirect",
+      "description": "Hunt Open Redirect",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "hunt-saml",
+      "name": "hunt-saml",
+      "description": "Hunt SAML / SSO attacks.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "hunt-session",
+      "name": "hunt-session",
+      "description": "Hunt Session Management vulnerabilities",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "hunt-sharepoint",
+      "name": "hunt-sharepoint",
+      "description": "Hunt Microsoft SharePoint Server (2013/2016/2019/Subscription Edition)",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "hunt-source-leak",
+      "name": "hunt-source-leak",
+      "description": "Hunt source code and build artifact leakage",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "hunt-springboot",
+      "name": "hunt-springboot",
+      "description": "Hunt Spring Boot specific vulnerabilities",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "hunt-tls-network",
+      "name": "hunt-tls-network",
+      "description": "Hunt TLS/SSL and DNS misconfigurations",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "hunt-websocket",
+      "name": "hunt-websocket",
+      "description": "Hunt WebSocket vulnerabilities",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "hybrid-cloud-networking",
       "name": "hybrid-cloud-networking",
       "description": "Configure secure, high-performance connectivity between on-premises and cloud environments using VPN, Direct Connect, and ExpressRoute.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "i-have-adhd",
+      "name": "i-have-adhd",
+      "description": "Shape output for ADHD readers: next action first, numbered steps, restated",
       "category": "General & Miscellaneous"
     },
     {
@@ -7533,6 +8631,12 @@
       "category": "General & Miscellaneous"
     },
     {
+      "id": "incident-management",
+      "name": "incident-management",
+      "description": "Implement incident management processes and escalation procedures. Configure",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "incident-response-incident-response",
       "name": "incident-response-incident-response",
       "description": "Use when working with incident response incident response",
@@ -7587,6 +8691,12 @@
       "category": "General & Miscellaneous"
     },
     {
+      "id": "interview-me",
+      "name": "interview-me",
+      "description": "Draw out what the user actually wants with one-question-at-a-time interviews",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "interview-style-doc-building",
       "name": "interview-style-doc-building",
       "description": "Build structured strategy documents by asking one question at a time and patching the file.",
@@ -7635,6 +8745,12 @@
       "category": "General & Miscellaneous"
     },
     {
+      "id": "jev-social",
+      "name": "jev-social",
+      "description": "Run read-only, browser-grounded Instagram, TikTok, or LinkedIn research through Jev routing and socai CLI, returning source-linked evidence and reports.",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "json-canvas",
       "name": "json-canvas",
       "description": "Create and edit JSON Canvas files (.canvas) with nodes, edges, groups, and connections. Use when working with .canvas files, creating visual canvases, mind maps, flowcharts, or when the user mentions Canvas files in Obsidian.",
@@ -7668,6 +8784,12 @@
       "id": "lead-magnets",
       "name": "lead-magnets",
       "description": "Plan and optimize lead magnets for email capture and lead generation. Use when designing gated content, checklists, templates, downloadable resources, or other offers that convert visitors into subscribers.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "ledger-tasks-yylo",
+      "name": "ledger-tasks-yylo",
+      "description": "Use YYLO Ledger task management: create, list, search, get, mark, update,",
       "category": "General & Miscellaneous"
     },
     {
@@ -7761,9 +8883,27 @@
       "category": "General & Miscellaneous"
     },
     {
+      "id": "linux-administration",
+      "name": "linux-administration",
+      "description": "System administration for Linux servers. Manage packages, services, and",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "linux-hardening",
+      "name": "linux-hardening",
+      "description": "Apply CIS benchmarks and secure Linux servers.",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "liuguang-banlan-ui",
       "name": "liuguang-banlan-ui",
       "description": "Builds two parameterized UI modes\u2014\u6d41\u5149\u6ea2\u5f69\u767d (iridescent white) and \u4e94\u5f69\u6591\u6593\u9ed1 (colorful black)\u2014with OKLCH, WebGL/CSS fallback, vision gating, screenshot QA, and total/per-color intensity reports. Use when a UI request names either mode or needs measured color parameters.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "load-balancing",
+      "name": "load-balancing",
+      "description": "Configure load balancers and traffic distribution. Implement health checks",
       "category": "General & Miscellaneous"
     },
     {
@@ -7803,6 +8943,12 @@
       "category": "General & Miscellaneous"
     },
     {
+      "id": "loki-logging",
+      "name": "loki-logging",
+      "description": "Configure Grafana Loki for log aggregation and analysis.",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "longbridge-content",
       "name": "longbridge-content",
       "description": "Latest news articles, regulatory filings, community discussion topics for listed stocks, and SEC EDGAR filing analysis (10-K/10-Q/8-K/proxy/Form 4) via Longbridge.",
@@ -7818,6 +8964,12 @@
       "id": "lookdev",
       "name": "lookdev",
       "description": "Human-in-the-loop web studio to tune AI-generated output by eye. Stand up a local interactive studio (sliders, pickers, drag handles) or an inline edit/highlight/comment annotation studio for prose & media, instead of guessing values or shipping a static comparison grid.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "m365-entra-attack",
+      "name": "m365-entra-attack",
+      "description": "Microsoft 365 / Entra ID red-team attack chain",
       "category": "General & Miscellaneous"
     },
     {
@@ -7854,6 +9006,36 @@
       "id": "maintain-codex-wiki",
       "name": "maintain-codex-wiki",
       "description": "Maintain a review-first engineering wiki with provenance, citation-aware queries, explicit capture and promotion, and deterministic checks.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "makepad-2-0-animation",
+      "name": "makepad-2-0-animation",
+      "description": "Makepad 2.0 guidance for animation; use when building or debugging Makepad UI code.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "makepad-2-0-dsl",
+      "name": "makepad-2-0-dsl",
+      "description": "Makepad 2.0 guidance for dsl; use when building or debugging Makepad UI code.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "makepad-2-0-events",
+      "name": "makepad-2-0-events",
+      "description": "Makepad 2.0 guidance for events; use when building or debugging Makepad UI code.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "makepad-2-0-layout",
+      "name": "makepad-2-0-layout",
+      "description": "Makepad 2.0 guidance for layout; use when building or debugging Makepad UI code.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "makepad-2-0-widgets",
+      "name": "makepad-2-0-widgets",
+      "description": "Makepad 2.0 guidance for widgets; use when building or debugging Makepad UI code.",
       "category": "General & Miscellaneous"
     },
     {
@@ -7947,6 +9129,12 @@
       "category": "General & Miscellaneous"
     },
     {
+      "id": "marlin-bed-leveling",
+      "name": "marlin-bed-leveling",
+      "description": "Calibrates Marlin 2.x 3D printer firmware bed leveling: Unified Bed Leveling (UBL), Bilinear ABL, M420 S1 post-homing, Z-probe offsets, G26 mesh prints, and EEPROM slots. Trigger phrases: marlin bed leveling, ubl calibration, m420 s1, z probe offset, g29 bed level, first layer adhesion.",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "matematico-tao",
       "name": "matematico-tao",
       "description": "Matem\u00e1tico ultra-avan\u00e7ado inspirado em Terence Tao. An\u00e1lise rigorosa de c\u00f3digo e arquitetura com teoria matem\u00e1tica profunda: teoria da informa\u00e7\u00e3o, teoria dos grafos, complexidade computacional, \u00e1lgebra linear, an\u00e1lise estoc\u00e1stica, teoria das categorias, probabilidade bayesiana e l\u00f3gica formal.",
@@ -7956,6 +9144,18 @@
       "id": "mathguard",
       "name": "mathguard",
       "description": "Math-heavy escalation for n >= 10^6 \u2014 Bloom, HyperLogLog, Count-Min, MinHash/LSH, FFT, JL projection, sweep line. Use when classical O(n log n) is the floor and approximate or math wins.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "mdm-device-management",
+      "name": "mdm-device-management",
+      "description": "Manage and secure company devices with MDM solutions",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "meeting-distiller-pro",
+      "name": "meeting-distiller-pro",
+      "description": "Transform messy meeting notes and transcripts into structured action",
       "category": "General & Miscellaneous"
     },
     {
@@ -7989,6 +9189,18 @@
       "category": "General & Miscellaneous"
     },
     {
+      "id": "meteora-dlmm-pool-screening",
+      "name": "meteora-dlmm-pool-screening",
+      "description": "Screen and rank Meteora DLMM pools for LP quality using public Meteora APIs (fee/TVL, bin step, organic score). Read-only: never deploys, swaps, or signs.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "mid-engagement-ir-detection",
+      "name": "mid-engagement-ir-detection",
+      "description": "Methodology for detecting client SOC patches, attacker activity, and",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "minimalist-ui",
       "name": "minimalist-ui",
       "description": "Use when creating clean editorial interfaces with warm monochrome palettes, crisp borders, restrained motion, and flat bento layouts.",
@@ -8004,6 +9216,18 @@
       "id": "moatmri",
       "name": "moatmri",
       "description": "Analyze AI disruption pressure across a business, map competitive exposure, and produce a 90-day defensive action plan.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "model-registry-governance",
+      "name": "model-registry-governance",
+      "description": "Establish model registry standards, governance controls, metadata schemas,",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "mongodb",
+      "name": "mongodb",
+      "description": "Administer MongoDB databases. Configure replica sets, sharding, and backups.",
       "category": "General & Miscellaneous"
     },
     {
@@ -8085,15 +9309,51 @@
       "category": "General & Miscellaneous"
     },
     {
+      "id": "nexrad-mosaic-access",
+      "name": "nexrad-mosaic-access",
+      "description": "Access official NOAA/NCEP MRMS radar and multisensor composites for a region and time; validate product, grid, domain, quality, timestamp, and provenance.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "nexrad-mosaic-construction",
+      "name": "nexrad-mosaic-construction",
+      "description": "Construct a quality-aware NEXRAD multi-radar mosaic from aligned single-site products with explicit coverage, beam geometry, quality weighting, overlap resolution, and provenance.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "nexrad-product-access",
+      "name": "nexrad-product-access",
+      "description": "Discover and access NEXRAD data for a selected radar site, time, product, or Level II moment using completed archive volumes, real-time chunks, or supported Level III sources with metadata validation.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "nexrad-radar-visualization",
+      "name": "nexrad-radar-visualization",
+      "description": "Plot NEXRAD Level II/III site scans and decoded radar mosaics with correct radar geometry, map grids, units, quality masks, timestamps, and provenance.",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "nextjs-best-practices",
       "name": "nextjs-best-practices",
       "description": "Next.js App Router principles. Server Components, data fetching, routing patterns.",
       "category": "General & Miscellaneous"
     },
     {
+      "id": "nfs-storage",
+      "name": "nfs-storage",
+      "description": "Configure NFS servers and clients. Implement network file sharing for",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "nft-standards",
       "name": "nft-standards",
       "description": "Master ERC-721 and ERC-1155 NFT standards, metadata best practices, and advanced NFT features.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "noaa-radar-satellite-fetching",
+      "name": "noaa-radar-satellite-fetching",
+      "description": "Retrieve NOAA NEXRAD and GOES products from public cloud archives using verified site, product, channel, sector, and scan-time selection.",
       "category": "General & Miscellaneous"
     },
     {
@@ -8127,6 +9387,12 @@
       "category": "General & Miscellaneous"
     },
     {
+      "id": "object-storage",
+      "name": "object-storage",
+      "description": "Configure object storage with S3, GCS, and MinIO. Implement lifecycle",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "obsidian-cli",
       "name": "obsidian-cli",
       "description": "Use the Obsidian CLI to read, create, search, and manage vault content, or to develop and debug Obsidian plugins and themes from the command line.",
@@ -8151,9 +9417,21 @@
       "category": "General & Miscellaneous"
     },
     {
+      "id": "offensive-osint",
+      "name": "offensive-osint",
+      "description": "Operational arsenal for authorized external red-team and bug-bounty recon.",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "offers",
       "name": "offers",
       "description": "When the user wants to design, construct, or improve an offer \u2014 the thing they actually sell \u2014 including value framing, bonus stacking, guarantee design, scarcity/urgency, naming, and payment structure.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "okta-attack",
+      "name": "okta-attack",
+      "description": "Okta-as-IdP red-team attack chain",
       "category": "General & Miscellaneous"
     },
     {
@@ -8181,15 +9459,33 @@
       "category": "General & Miscellaneous"
     },
     {
+      "id": "oneroster-csv-validator",
+      "name": "oneroster-csv-validator",
+      "description": "Validates 1EdTech / IMS Global OneRoster v1.1 and v1.2 CSV roster sets: manifest integrity, bulk vs delta strictness, foreign key references, and encoding sanitization. Trigger phrases: oneroster csv validator, validate oneroster zip, clever roster error, oneroster sourcedid.",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "openapi-spec-generator",
       "name": "openapi-spec-generator",
       "description": "Generate complete, production-ready OpenAPI 3.x and Swagger 2.0 specifications from natural language descriptions, code, or partial specs.",
       "category": "General & Miscellaneous"
     },
     {
+      "id": "openclaw-local-mac-mini",
+      "name": "openclaw-local-mac-mini",
+      "description": "Set up OpenClaw locally and run it reliably on a Mac mini for private,",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "opencode-delegate",
       "name": "opencode-delegate",
       "description": "Delegate coding tasks to the OpenCode CLI only when the user explicitly",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "openshift",
+      "name": "openshift",
+      "description": "Manage Red Hat OpenShift clusters and deployments.",
       "category": "General & Miscellaneous"
     },
     {
@@ -8214,6 +9510,12 @@
       "id": "orchestrate-batch-refactor",
       "name": "orchestrate-batch-refactor",
       "description": "Plan and execute large refactors with dependency-aware work packets and parallel analysis.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "osint-methodology",
+      "name": "osint-methodology",
+      "description": "Comprehensive OSINT methodology for external red-team operations and",
       "category": "General & Miscellaneous"
     },
     {
@@ -8277,6 +9579,12 @@
       "category": "General & Miscellaneous"
     },
     {
+      "id": "performance-tuning",
+      "name": "performance-tuning",
+      "description": "Optimize Linux system performance. Configure kernel parameters, analyze",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "permission-manager",
       "name": "permission-manager",
       "description": "Manage opencode permissions: review always-allow lists, suggest safe read-only commands, configure permission patterns",
@@ -8301,15 +9609,39 @@
       "category": "General & Miscellaneous"
     },
     {
+      "id": "plan-ledger-tasks-yylo",
+      "name": "plan-ledger-tasks-yylo",
+      "description": "Create a concise Product Development Requirement and one or more implementation-sized",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "platform-engineering",
+      "name": "platform-engineering",
+      "description": "Build internal developer platforms (IDPs) with self-service infrastructure,",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "plotly",
       "name": "plotly",
       "description": "Interactive visualization library. Use when you need hover info, zoom, pan, or web-embeddable charts. Best for dashboards, exploratory analysis, and presentations. For static publication figures use matplotlib or scientific-visualization.",
       "category": "General & Miscellaneous"
     },
     {
+      "id": "podman",
+      "name": "podman",
+      "description": "Manage containers using Podman, the daemonless container engine.",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "poka-yoke",
       "name": "poka-yoke",
       "description": "Mistake-proof code, config and process: make the wrong action impossible or self-announcing rather than documented.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "policy-as-code",
+      "name": "policy-as-code",
+      "description": "Implement policy as code with OPA, Sentinel, and Kyverno. Automate policy",
       "category": "General & Miscellaneous"
     },
     {
@@ -8340,6 +9672,12 @@
       "id": "postgresql-cli",
       "name": "postgresql-cli",
       "description": "PostgreSQL interactive terminal (psql) reference and usage guide.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "postgresql-devsec",
+      "name": "postgresql-devsec",
+      "description": "Administer PostgreSQL databases. Configure replication, backups, and",
       "category": "General & Miscellaneous"
     },
     {
@@ -8463,9 +9801,21 @@
       "category": "General & Miscellaneous"
     },
     {
+      "id": "prometheus-grafana",
+      "name": "prometheus-grafana",
+      "description": "Set up metrics collection and visualization with Prometheus and Grafana.",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "prompt-engineer",
       "name": "prompt-engineer",
       "description": "Transforms user prompts into optimized prompts using frameworks (RTF, RISEN, Chain of Thought, RODES, Chain of Density, RACE, RISE, STAR, SOAP, CLEAR, GROW)",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "prompt-injection-defense",
+      "name": "prompt-injection-defense",
+      "description": "Defend AI systems against prompt injection and indirect prompt attacks",
       "category": "General & Miscellaneous"
     },
     {
@@ -8517,6 +9867,12 @@
       "category": "General & Miscellaneous"
     },
     {
+      "id": "radar-satellite-analysis",
+      "name": "radar-satellite-analysis",
+      "description": "Interpret weather radar and satellite observations by validating product metadata and geometry, deriving storm and cloud structures, tracking evolution, and quantifying uncertainty.",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "radare2",
       "name": "radare2",
       "description": "Drive the radare2 CLI for binary reconnaissance, disassembly, analysis, function locating, export, and lightweight patching (r2/rabin2/rasm2/radiff2) without a GUI.",
@@ -8526,6 +9882,12 @@
       "id": "radix-ui-design-system",
       "name": "radix-ui-design-system",
       "description": "Build accessible design systems with Radix UI primitives. Headless component customization, theming strategies, and compound component patterns for production-grade UI libraries.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "ralph-loop-yylo",
+      "name": "ralph-loop-yylo",
+      "description": "Execute exactly one explicitly assigned YYLO Ledger task through the",
       "category": "General & Miscellaneous"
     },
     {
@@ -8559,6 +9921,12 @@
       "category": "General & Miscellaneous"
     },
     {
+      "id": "recon-scope-triage",
+      "name": "recon-scope-triage",
+      "description": "Triage ASM/recon output for ownership before testing",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "recsys-pipeline-architect",
       "name": "recsys-pipeline-architect",
       "description": "Designs composable recommendation, ranking, and feed pipelines using the six-stage Source\u2192Hydrator\u2192Filter\u2192Scorer\u2192Selector\u2192SideEffect framework",
@@ -8577,9 +9945,33 @@
       "category": "General & Miscellaneous"
     },
     {
+      "id": "redis",
+      "name": "redis",
+      "description": "Configure Redis for caching and data storage. Set up clustering, persistence,",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "redteam-mindset",
+      "name": "redteam-mindset",
+      "description": "Red-team operator discipline",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "redteam-report-template",
+      "name": "redteam-report-template",
+      "description": "Client-facing red-team deliverable format",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "rehabilitation-analyzer",
       "name": "rehabilitation-analyzer",
       "description": "\u5206\u6790\u5eb7\u590d\u8bad\u7ec3\u6570\u636e\u3001\u8bc6\u522b\u5eb7\u590d\u6a21\u5f0f\u3001\u8bc4\u4f30\u5eb7\u590d\u8fdb\u5c55\uff0c\u5e76\u63d0\u4f9b\u4e2a\u6027\u5316\u5eb7\u590d\u5efa\u8bae",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "report-writing",
+      "name": "report-writing",
+      "description": "Bug bounty report writing for H1/Bugcrowd/Intigriti/Immunefi",
       "category": "General & Miscellaneous"
     },
     {
@@ -8592,6 +9984,12 @@
       "id": "research-prompt",
       "name": "research-prompt",
       "description": "Turn vague research needs into one precise deep-research prompt with context and output criteria.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "resumable-implementation-contracts",
+      "name": "resumable-implementation-contracts",
+      "description": "Create repository-based execution contracts for multi-session implementation work, with stable task IDs, evidence, checkpoints, and exact resume state.",
       "category": "General & Miscellaneous"
     },
     {
@@ -8616,6 +10014,12 @@
       "id": "reverse-engineering",
       "name": "reverse-engineering",
       "description": "General reverse-engineering methodology for compiled, obfuscated, packed, or virtualized targets: GDB, Frida, angr, Unicorn, and Qiling workflows across languages and platforms, with anti-analysis countermeasures.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "reverse-proxy",
+      "name": "reverse-proxy",
+      "description": "Configure nginx and Traefik as reverse proxies. Implement SSL termination",
       "category": "General & Miscellaneous"
     },
     {
@@ -8661,6 +10065,12 @@
       "category": "General & Miscellaneous"
     },
     {
+      "id": "runbook-creation",
+      "name": "runbook-creation",
+      "description": "Create operational runbooks and standard operating procedures. Document",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "saga-orchestration",
       "name": "saga-orchestration",
       "description": "Patterns for managing distributed transactions and long-running business processes.",
@@ -8697,6 +10107,12 @@
       "category": "General & Miscellaneous"
     },
     {
+      "id": "sbom-supply-chain",
+      "name": "sbom-supply-chain",
+      "description": "Generate, sign, and verify SBOMs and provenance attestations to secure",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "scala-pro",
       "name": "scala-pro",
       "description": "Master enterprise-grade Scala development with functional programming, distributed systems, and big data processing. Expert in Apache Pekko, Akka, Spark, ZIO/Cats Effect, and reactive architectures.",
@@ -8727,6 +10143,12 @@
       "category": "General & Miscellaneous"
     },
     {
+      "id": "semantic-versioning",
+      "name": "semantic-versioning",
+      "description": "Automate versioning and changelog generation using semantic versioning",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "senior-architect",
       "name": "senior-architect",
       "description": "Complete toolkit for senior architect with modern tools and best practices.",
@@ -8736,6 +10158,12 @@
       "id": "senior-fullstack",
       "name": "senior-fullstack",
       "description": "Complete toolkit for senior fullstack with modern tools and best practices.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "service-mesh",
+      "name": "service-mesh",
+      "description": "Implement Istio and Linkerd service meshes. Configure mTLS, traffic management,",
       "category": "General & Miscellaneous"
     },
     {
@@ -8847,6 +10275,12 @@
       "category": "General & Miscellaneous"
     },
     {
+      "id": "sops-encryption",
+      "name": "sops-encryption",
+      "description": "Encrypt files and configs with Mozilla SOPS.",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "source-driven-development",
       "name": "source-driven-development",
       "description": "Grounds every implementation decision in official documentation. Use when you want authoritative, source-cited code free from outdated patterns. Use when building with any framework or library where correctness matters.",
@@ -8883,6 +10317,12 @@
       "category": "General & Miscellaneous"
     },
     {
+      "id": "sre-dashboards",
+      "name": "sre-dashboards",
+      "description": "Design and operationalize SRE dashboards that surface reliability, latency,",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "sred-project-organizer",
       "name": "sred-project-organizer",
       "description": "Take a list of projects and their related documentation, and organize them into the SRED format for submission.",
@@ -8892,6 +10332,18 @@
       "id": "sred-work-summary",
       "name": "sred-work-summary",
       "description": "Go back through the previous year of work and create a Notion doc that groups relevant links into projects that can then be documented as SRED projects.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "ssh-configuration",
+      "name": "ssh-configuration",
+      "description": "Configure SSH servers and clients securely. Manage keys, tunnels, and",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "ssl-tls-management",
+      "name": "ssl-tls-management",
+      "description": "Manage SSL/TLS certificates with Let's Encrypt and internal PKI. Configure",
       "category": "General & Miscellaneous"
     },
     {
@@ -9009,6 +10461,18 @@
       "category": "General & Miscellaneous"
     },
     {
+      "id": "supply-chain-attack-recon",
+      "name": "supply-chain-attack-recon",
+      "description": "External recon for software supply-chain attack surface",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "supply-chain-attack-response",
+      "name": "supply-chain-attack-response",
+      "description": "Detect, respond to, and prevent software supply chain attacks on package",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "survey-generator",
       "name": "survey-generator",
       "description": "Generate source-backed AI/ML survey paper artifacts with curated bibliographies and Fireworks/Kimi HTML rendering.",
@@ -9018,6 +10482,12 @@
       "id": "swift-concurrency-expert",
       "name": "swift-concurrency-expert",
       "description": "Review and fix Swift concurrency issues such as actor isolation and Sendable violations.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "systemd-services",
+      "name": "systemd-services",
+      "description": "Create and manage systemd services and timers. Configure service dependencies",
       "category": "General & Miscellaneous"
     },
     {
@@ -9087,6 +10557,12 @@
       "category": "General & Miscellaneous"
     },
     {
+      "id": "threat-modeling",
+      "name": "threat-modeling",
+      "description": "Conduct threat modeling using STRIDE methodology. Identify threats, assess",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "to-issues",
       "name": "to-issues",
       "description": "Break a plan, spec, or PRD into independently-grabbable issues on the project issue tracker using tracer-bullet vertical slices.",
@@ -9111,6 +10587,42 @@
       "category": "General & Miscellaneous"
     },
     {
+      "id": "traderspy-market-briefing",
+      "name": "traderspy-market-briefing",
+      "description": "Crypto market briefing from live TraderSpy data: majors, funding, open interest, top-trader lean, fresh AI signals and screener movers. Use for \\\"what's happening in crypto\\\" or a recap.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "traderspy-market-screener",
+      "name": "traderspy-market-screener",
+      "description": "Scan the most-traded crypto futures pairs for up to 3 technical conditions in one TraderSpy call, compare coins, and backtest what followed a condition. Use for \\\"which coins are oversold\\\".",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "traderspy-position-check",
+      "name": "traderspy-position-check",
+      "description": "Health-check crypto futures positions the user describes, with TraderSpy data: liquidation and stop distance, multi-timeframe read, funding and top-trader side. Reports only; never tells the user to close or add.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "traderspy-smart-money",
+      "name": "traderspy-smart-money",
+      "description": "Track what top crypto futures traders hold on Binance, Hyperliquid, Bybit and OKX with TraderSpy: elite leaderboard, positions, trader profiles and history. Use for \\\"what are whales doing\\\".",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "traderspy-technical-analysis",
+      "name": "traderspy-technical-analysis",
+      "description": "Read one crypto futures pair with TraderSpy: 19 indicators on up to 3 timeframes in one call, key levels, funding, open interest and positioning. Use for \\\"analyse BTC\\\" or \\\"is SOL oversold\\\".",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "traderspy-trading-signals",
+      "name": "traderspy-trading-signals",
+      "description": "Fetch and explain TraderSpy's AI crypto futures signals: entry, take-profit ladder, stop, triggers, status against the live price, and how recent signals resolved. Use for \\\"latest signals\\\".",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "train-sentence-transformers",
       "name": "train-sentence-transformers",
       "description": "Train or fine-tune SentenceTransformer, CrossEncoder, and SparseEncoder models for retrieval, similarity, clustering, classification, reranking, and related embedding tasks.",
@@ -9126,6 +10638,12 @@
       "id": "travel-planner",
       "name": "travel-planner",
       "description": "\u65c5\u884c/\u884c\u7a0b\u89c4\u5212\u9700\u6c42\u65f6\u4f7f\u7528:\u89c4\u5212\u53bb\u67d0\u5730\u65c5\u884c\u3001X\u5929X\u57ce\u3001\u5e26\u8001\u4eba\u5b69\u5b50\u3001\u81ea\u9a7e\u3001\u5047\u671f\u5b89\u6392\u7b49\u3002\u4ea7\u51fa\u9010\u65e5\u884c\u7a0b\u8868\u3001\u9884\u7b97\u4f30\u7b97(\u7ecf\u6d4e/\u8212\u9002/\u5962\u534e\u4e09\u6863)\u3001\u4ea4\u901a\u4f4f\u5bbf\u5efa\u8bae\u3001\u666f\u70b9\u7f8e\u98df\u6e05\u5355\u3002\u5fc5\u987b\u5148\u95ee\u9884\u7b97,\u9884\u7b97\u672a\u786e\u8ba4\u53ea\u8f93\u51fa\u95ee\u9898\u6e05\u5355;\u4e8b\u5b9e\u6570\u636e\u5e26\u6765\u6e90\u548c\u67e5\u8be2\u65e5\u671f\u3002",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "triage-validation",
+      "name": "triage-validation",
+      "description": "Finding validation before writing any report",
       "category": "General & Miscellaneous"
     },
     {
@@ -9285,6 +10803,12 @@
       "category": "General & Miscellaneous"
     },
     {
+      "id": "user-management",
+      "name": "user-management",
+      "description": "Manage users, groups, and permissions on Linux systems. Configure sudo",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "user-thoughts",
       "name": "user-thoughts",
       "description": ">-",
@@ -9387,6 +10911,12 @@
       "category": "General & Miscellaneous"
     },
     {
+      "id": "vmware-vcenter-attack",
+      "name": "vmware-vcenter-attack",
+      "description": "VMware vSphere / vCenter Server external attack matrix",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "voice-agents",
       "name": "voice-agents",
       "description": "Voice agents represent the frontier of AI interaction - humans",
@@ -9396,6 +10926,12 @@
       "id": "voice-ai-development",
       "name": "voice-ai-development",
       "description": "Expert in building voice AI applications - from real-time voice",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "vpn-setup",
+      "name": "vpn-setup",
+      "description": "Configure WireGuard, OpenVPN, and cloud VPNs. Implement secure remote",
       "category": "General & Miscellaneous"
     },
     {
@@ -9423,6 +10959,42 @@
       "category": "General & Miscellaneous"
     },
     {
+      "id": "weather-data-lifecycle-management",
+      "name": "weather-data-lifecycle-management",
+      "description": "Manage ownership, retention, and cleanup of downloaded weather data across one-shot jobs, interactive viewers, caches, failures, and cancellation.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "weather-data-reproducibility",
+      "name": "weather-data-reproducibility",
+      "description": "Record and verify provenance manifests for weather-data inputs and derived artifacts, including object identity, selections, software versions, transformations, and hashes.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "weather-model-data-fetching",
+      "name": "weather-model-data-fetching",
+      "description": "Retrieve numerical weather prediction data from public AWS S3 and HTTP archives using GRIB2 inventories, byte ranges, Herbie, provider fallbacks, and verified caching.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "weather-model-run-discovery",
+      "name": "weather-model-run-discovery",
+      "description": "Resolve the newest complete numerical weather prediction cycle and forecast objects across provider mirrors without downloading full payloads.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "weather-observation-fetching",
+      "name": "weather-observation-fetching",
+      "description": "Retrieve surface and upper-air weather observations from authoritative APIs and archives with station identity, time, units, and quality flags preserved.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "weather-pipeline-performance-diagnosis",
+      "name": "weather-pipeline-performance-diagnosis",
+      "description": "Diagnose slow weather-data workflows by measuring discovery, transfer, parsing, scientific processing, and rendering separately before changing code.",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "web-perf",
       "name": "web-perf",
       "description": "Audit, diagnose, or optimize website loading and interaction performance, Core Web Vitals, and Lighthouse performance scores.",
@@ -9438,6 +11010,12 @@
       "id": "web-scraper",
       "name": "web-scraper",
       "description": "Web scraping inteligente multi-estrategia. Extrai dados estruturados de paginas web (tabelas, listas, precos). Paginacao, monitoramento e export CSV/JSON.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "web2-recon",
+      "name": "web2-recon",
+      "description": "Web2 recon pipeline",
       "category": "General & Miscellaneous"
     },
     {
@@ -9501,9 +11079,21 @@
       "category": "General & Miscellaneous"
     },
     {
+      "id": "wiki-yylo",
+      "name": "wiki-yylo",
+      "description": "Use YYLO Ledger wiki Records as durable project knowledge. Search before",
+      "category": "General & Miscellaneous"
+    },
+    {
       "id": "windows-ad",
       "name": "windows-ad",
       "description": "Authorized Active Directory and Windows identity attacks: Kerberos abuse, AD CS escalation, BloodHound path analysis, NTLM relay, and domain privilege-escalation research.",
+      "category": "General & Miscellaneous"
+    },
+    {
+      "id": "windows-server",
+      "name": "windows-server",
+      "description": "Administer Windows Server systems. Manage IIS, Active Directory, and",
       "category": "General & Miscellaneous"
     },
     {
@@ -9645,6 +11235,12 @@
       "category": "Git & Version Control"
     },
     {
+      "id": "git-workflow",
+      "name": "git-workflow",
+      "description": "Implement Git branching strategies, PR workflows, and release management",
+      "category": "Git & Version Control"
+    },
+    {
       "id": "git-workflow-and-versioning",
       "name": "git-workflow-and-versioning",
       "description": "Structures git workflow practices. Use when making any code change. Use when committing, branching, resolving conflicts, or when you need to organize work across multiple parallel streams.",
@@ -9711,6 +11307,12 @@
       "category": "Google Cloud"
     },
     {
+      "id": "cloud-iam-deep",
+      "name": "cloud-iam-deep",
+      "description": "Cloud IAM red-team attack chain across AWS, Azure, GCP",
+      "category": "Google Cloud"
+    },
+    {
       "id": "cost-optimization",
       "name": "cost-optimization",
       "description": "Strategies and patterns for optimizing cloud costs across AWS, Azure, and GCP.",
@@ -9729,9 +11331,57 @@
       "category": "Google Cloud"
     },
     {
+      "id": "firebase-app-platform",
+      "name": "firebase-app-platform",
+      "description": "Build and operate apps on Firebase using Auth, Firestore, Cloud Functions,",
+      "category": "Google Cloud"
+    },
+    {
+      "id": "gcp-audit-logs",
+      "name": "gcp-audit-logs",
+      "description": "Configure GCP Cloud Audit Logs for compliance. Set up log routing and",
+      "category": "Google Cloud"
+    },
+    {
+      "id": "gcp-cloud-functions",
+      "name": "gcp-cloud-functions",
+      "description": "Deploy serverless functions on Google Cloud Functions. Configure triggers",
+      "category": "Google Cloud"
+    },
+    {
       "id": "gcp-cloud-run",
       "name": "gcp-cloud-run",
       "description": "Specialized skill for building production-ready serverless",
+      "category": "Google Cloud"
+    },
+    {
+      "id": "gcp-cloud-sql",
+      "name": "gcp-cloud-sql",
+      "description": "Provision Cloud SQL and Spanner databases. Configure high availability,",
+      "category": "Google Cloud"
+    },
+    {
+      "id": "gcp-compute",
+      "name": "gcp-compute",
+      "description": "Manage Compute Engine instances and instance templates. Configure managed",
+      "category": "Google Cloud"
+    },
+    {
+      "id": "gcp-gke",
+      "name": "gcp-gke",
+      "description": "Deploy and manage Google Kubernetes Engine clusters. Configure node pools,",
+      "category": "Google Cloud"
+    },
+    {
+      "id": "gcp-networking",
+      "name": "gcp-networking",
+      "description": "Configure VPCs, firewall rules, and Cloud NAT. Implement shared VPC and",
+      "category": "Google Cloud"
+    },
+    {
+      "id": "gcp-secret-manager",
+      "name": "gcp-secret-manager",
+      "description": "Secure secrets in Google Cloud Secret Manager. Configure IAM policies,",
       "category": "Google Cloud"
     },
     {
@@ -9744,6 +11394,12 @@
       "id": "multi-cloud-architecture",
       "name": "multi-cloud-architecture",
       "description": "Decision framework and patterns for architecting applications across AWS, Azure, and GCP.",
+      "category": "Google Cloud"
+    },
+    {
+      "id": "terraform-gcp",
+      "name": "terraform-gcp",
+      "description": "Provision GCP infrastructure with Terraform. Configure providers and",
       "category": "Google Cloud"
     },
     {
@@ -9897,6 +11553,12 @@
       "category": "Languages: Python"
     },
     {
+      "id": "lintlang-audit",
+      "name": "lintlang-audit",
+      "description": "Audit named agent instructions, tool definitions, and supported Python prompts with local LintLang checks; return finding codes and locations without changing files.",
+      "category": "Languages: Python"
+    },
+    {
       "id": "m365-agents-py",
       "name": "m365-agents-py",
       "description": "Microsoft 365 Agents SDK for Python. Build multichannel agents for Teams/M365/Copilot Studio with aiohttp hosting, AgentApplication routing, streaming responses, and MSAL-based auth.",
@@ -9996,6 +11658,12 @@
       "id": "seaborn",
       "name": "seaborn",
       "description": "Seaborn is a Python visualization library for creating publication-quality statistical graphics. Use this skill for dataset-oriented plotting, multivariate analysis, automatic statistical estimation, and complex multi-panel figures with minimal code.",
+      "category": "Languages: Python"
+    },
+    {
+      "id": "since-cutoff",
+      "name": "since-cutoff",
+      "description": "Find which APIs of a project's pinned Python dependencies changed after the model's training cutoff, where the code uses them, and write short AGENTS.md or CLAUDE.md notes.",
       "category": "Languages: Python"
     },
     {
@@ -10281,9 +11949,21 @@
       "category": "Legal & Compliance"
     },
     {
+      "id": "fedramp-compliance",
+      "name": "fedramp-compliance",
+      "description": "Implement FedRAMP requirements for federal cloud services. Configure",
+      "category": "Legal & Compliance"
+    },
+    {
       "id": "fixing-accessibility",
       "name": "fixing-accessibility",
       "description": "Audit and fix HTML accessibility issues including ARIA labels, keyboard navigation, focus management, color contrast, and form errors. Use when adding interactive controls, forms, dialogs, or reviewing WCAG compliance.",
+      "category": "Legal & Compliance"
+    },
+    {
+      "id": "gdpr-compliance",
+      "name": "gdpr-compliance",
+      "description": "Implement GDPR data protection requirements. Configure consent management,",
       "category": "Legal & Compliance"
     },
     {
@@ -10335,6 +12015,12 @@
       "category": "Legal & Compliance"
     },
     {
+      "id": "beatra-ai-video-studio",
+      "name": "beatra-ai-video-studio",
+      "description": "Install and use the official Beatra AI Video Studio package, pinned by digest, for paid text-to-video, image-to-video, and video edit or extend jobs on the hosted Beatra service.",
+      "category": "Media & Creative"
+    },
+    {
       "id": "daily-gift",
       "name": "daily-gift",
       "description": "Relationship-aware daily gift engine with five-stage creative pipeline \u2014 editorial judgment, synthesis, concept generation, visual strategy, and rendering in H5, image, or video",
@@ -10350,6 +12036,12 @@
       "id": "fal-upscale",
       "name": "fal-upscale",
       "description": "Upscale and enhance image and video resolution using AI",
+      "category": "Media & Creative"
+    },
+    {
+      "id": "film-crew",
+      "name": "film-crew",
+      "description": "Turn a one-line AI video idea into a shot list and per-shot, model-ready prompts via a film crew (director, DP, gaffer, editor, script supervisor). Also fixes failing video prompts and diagnoses bad clips before a reroll. Works with Wan, LTX, Kling, Veo, Seedance, Hailuo, Runway.",
       "category": "Media & Creative"
     },
     {
@@ -10386,6 +12078,36 @@
       "id": "remotion",
       "name": "remotion",
       "description": "Generate walkthrough videos from Stitch projects using Remotion with smooth transitions, zooming, and text overlays",
+      "category": "Media & Creative"
+    },
+    {
+      "id": "remotion-captions",
+      "name": "remotion-captions",
+      "description": "Transcribing, displaying and animating captions",
+      "category": "Media & Creative"
+    },
+    {
+      "id": "remotion-create",
+      "name": "remotion-create",
+      "description": "Create a new Remotion video",
+      "category": "Media & Creative"
+    },
+    {
+      "id": "remotion-docs",
+      "name": "remotion-docs",
+      "description": "Search Remotion documentation",
+      "category": "Media & Creative"
+    },
+    {
+      "id": "remotion-interactivity",
+      "name": "remotion-interactivity",
+      "description": "Structure Remotion markup for interactivity",
+      "category": "Media & Creative"
+    },
+    {
+      "id": "remotion-render",
+      "name": "remotion-render",
+      "description": "Export a Remotion video",
       "category": "Media & Creative"
     },
     {
@@ -10473,6 +12195,12 @@
       "category": "Mobile"
     },
     {
+      "id": "expo-animation",
+      "name": "expo-animation",
+      "description": "Curated upstream guidance for Expo Animation; use when the workflow matches the user goal.",
+      "category": "Mobile"
+    },
+    {
       "id": "expo-api-routes",
       "name": "expo-api-routes",
       "description": "Guidelines for creating API routes in Expo Router with EAS Hosting",
@@ -10518,6 +12246,12 @@
       "id": "ios-debugger-agent",
       "name": "ios-debugger-agent",
       "description": "Debug the current iOS project on a booted simulator with XcodeBuildMCP.",
+      "category": "Mobile"
+    },
+    {
+      "id": "ios-redteam-pipeline",
+      "name": "ios-redteam-pipeline",
+      "description": "End-to-end iOS red-team pipeline",
       "category": "Mobile"
     },
     {
@@ -10629,9 +12363,21 @@
       "category": "Mobile"
     },
     {
+      "id": "datadog",
+      "name": "datadog",
+      "description": "Implement Datadog monitoring and APM for infrastructure and applications.",
+      "category": "Observability & Monitoring"
+    },
+    {
       "id": "design-it/command-center-ui",
       "name": "command-center-ui",
       "description": "Web and App implementation guide for Command Center UI. Trigger when user wants monitoring systems, enterprise dashboards, NOCs, and global maps.",
+      "category": "Observability & Monitoring"
+    },
+    {
+      "id": "ebpf-observability",
+      "name": "ebpf-observability",
+      "description": "Use eBPF for deep kernel-level observability \u2014 trace syscalls, network",
       "category": "Observability & Monitoring"
     },
     {
@@ -10689,6 +12435,12 @@
       "category": "Observability & Monitoring"
     },
     {
+      "id": "new-relic",
+      "name": "new-relic",
+      "description": "Configure New Relic observability platform for infrastructure and application",
+      "category": "Observability & Monitoring"
+    },
+    {
       "id": "observability-and-instrumentation",
       "name": "observability-and-instrumentation",
       "description": "Instruments code so production behavior is visible and diagnosable. Use when adding logging, metrics, tracing, or alerting. Use when shipping any feature that runs in production and you need evidence it works.",
@@ -10710,6 +12462,12 @@
       "id": "observability-monitoring-slo-implement",
       "name": "observability-monitoring-slo-implement",
       "description": "You are an SLO (Service Level Objective) expert specializing in implementing reliability standards and error budget-based engineering practices. Design comprehensive SLO frameworks, establish meaningful SLIs, and create monitoring systems that balance reliability with feature velocity.",
+      "category": "Observability & Monitoring"
+    },
+    {
+      "id": "opentelemetry",
+      "name": "opentelemetry",
+      "description": "Instrument applications and infrastructure with OpenTelemetry for unified",
       "category": "Observability & Monitoring"
     },
     {
@@ -11505,6 +13263,12 @@
       "category": "Productivity & Workflow"
     },
     {
+      "id": "bug-bounty",
+      "name": "bug-bounty",
+      "description": "Complete bug bounty workflow",
+      "category": "Productivity & Workflow"
+    },
+    {
       "id": "cc-skill-continuous-learning",
       "name": "cc-skill-continuous-learning",
       "description": "Development skill from everything-claude-code",
@@ -11613,6 +13377,42 @@
       "category": "Productivity & Workflow"
     },
     {
+      "id": "eas-app-stores",
+      "name": "eas-app-stores",
+      "description": "Curated upstream guidance for Eas App Stores; use when the workflow matches the user goal.",
+      "category": "Productivity & Workflow"
+    },
+    {
+      "id": "eas-hosting",
+      "name": "eas-hosting",
+      "description": "Curated upstream guidance for Eas Hosting; use when the workflow matches the user goal.",
+      "category": "Productivity & Workflow"
+    },
+    {
+      "id": "eas-observe",
+      "name": "eas-observe",
+      "description": "Curated upstream guidance for Eas Observe; use when the workflow matches the user goal.",
+      "category": "Productivity & Workflow"
+    },
+    {
+      "id": "eas-simulator",
+      "name": "eas-simulator",
+      "description": "Curated upstream guidance for Eas Simulator; use when the workflow matches the user goal.",
+      "category": "Productivity & Workflow"
+    },
+    {
+      "id": "eas-workflows",
+      "name": "eas-workflows",
+      "description": "Curated upstream guidance for Eas Workflows; use when the workflow matches the user goal.",
+      "category": "Productivity & Workflow"
+    },
+    {
+      "id": "electron-drive-skill",
+      "name": "electron-drive-skill",
+      "description": "Launch the project's Electron app on a scratch profile and drive it: click, type, screenshot, run renderer or main-process code, read logs. Use to verify UI changes end to end.",
+      "category": "Productivity & Workflow"
+    },
+    {
       "id": "emotional-arc-designer",
       "name": "emotional-arc-designer",
       "description": "One sentence - what this skill does and when to invoke it",
@@ -11667,9 +13467,105 @@
       "category": "Productivity & Workflow"
     },
     {
+      "id": "hf-cli",
+      "name": "hf-cli",
+      "description": "Curated upstream guidance for Hf Cli; use when the workflow matches the user goal.",
+      "category": "Productivity & Workflow"
+    },
+    {
+      "id": "huggingface-community-evals",
+      "name": "huggingface-community-evals",
+      "description": "Curated upstream guidance for Huggingface Community Evals; use when the workflow matches the user goal.",
+      "category": "Productivity & Workflow"
+    },
+    {
       "id": "humanize-chinese",
       "name": "humanize-chinese",
       "description": "Detect and rewrite AI-like Chinese text with a practical workflow for scoring, humanization, academic AIGC reduction, and style conversion. Use when the user asks to \u53bbAI\u5473, \u964dAIGC, \u53bb\u9664AI\u75d5\u8ff9, \u8bba\u6587\u964d\u91cd, \u77e5\u7f51\u68c0\u6d4b, \u7ef4\u666e\u68c0\u6d4b, humanize chinese, detect AI text, or make Chinese text sound more natural.",
+      "category": "Productivity & Workflow"
+    },
+    {
+      "id": "hunt-auth-bypass",
+      "name": "hunt-auth-bypass",
+      "description": "Hunting skill for auth bypass vulnerabilities.",
+      "category": "Productivity & Workflow"
+    },
+    {
+      "id": "hunt-business-logic",
+      "name": "hunt-business-logic",
+      "description": "Hunting skill for business logic vulnerabilities.",
+      "category": "Productivity & Workflow"
+    },
+    {
+      "id": "hunt-cache-poison",
+      "name": "hunt-cache-poison",
+      "description": "Hunting skill for cache poison vulnerabilities.",
+      "category": "Productivity & Workflow"
+    },
+    {
+      "id": "hunt-csrf",
+      "name": "hunt-csrf",
+      "description": "Hunting skill for csrf vulnerabilities.",
+      "category": "Productivity & Workflow"
+    },
+    {
+      "id": "hunt-dispatch",
+      "name": "hunt-dispatch",
+      "description": "Skill-set loader for /hunt orchestrator.",
+      "category": "Productivity & Workflow"
+    },
+    {
+      "id": "hunt-idor",
+      "name": "hunt-idor",
+      "description": "Hunting skill for idor vulnerabilities. Built from 26 public bug bounty",
+      "category": "Productivity & Workflow"
+    },
+    {
+      "id": "hunt-misc",
+      "name": "hunt-misc",
+      "description": "Hunting skill for misc vulnerabilities. Built from 225 public bug bounty",
+      "category": "Productivity & Workflow"
+    },
+    {
+      "id": "hunt-oauth",
+      "name": "hunt-oauth",
+      "description": "Hunting skill for oauth vulnerabilities. Built from 19 public bug bounty",
+      "category": "Productivity & Workflow"
+    },
+    {
+      "id": "hunt-race-condition",
+      "name": "hunt-race-condition",
+      "description": "Hunting skill for race condition vulnerabilities.",
+      "category": "Productivity & Workflow"
+    },
+    {
+      "id": "hunt-rce",
+      "name": "hunt-rce",
+      "description": "Hunting skill for rce vulnerabilities. Built from 67 public bug bounty",
+      "category": "Productivity & Workflow"
+    },
+    {
+      "id": "hunt-sqli",
+      "name": "hunt-sqli",
+      "description": "Hunting skill for sqli vulnerabilities.",
+      "category": "Productivity & Workflow"
+    },
+    {
+      "id": "hunt-ssrf",
+      "name": "hunt-ssrf",
+      "description": "Hunting skill for ssrf vulnerabilities.",
+      "category": "Productivity & Workflow"
+    },
+    {
+      "id": "hunt-subdomain",
+      "name": "hunt-subdomain",
+      "description": "Hunting skill for subdomain takeover vulnerabilities.",
+      "category": "Productivity & Workflow"
+    },
+    {
+      "id": "hunt-xxe",
+      "name": "hunt-xxe",
+      "description": "Hunting skill for xxe vulnerabilities.",
       "category": "Productivity & Workflow"
     },
     {
@@ -11751,6 +13647,24 @@
       "category": "Productivity & Workflow"
     },
     {
+      "id": "longbridge-derivatives",
+      "name": "longbridge-derivatives",
+      "description": "Curated upstream guidance for Longbridge Derivatives; use when the workflow matches the user goal.",
+      "category": "Productivity & Workflow"
+    },
+    {
+      "id": "longbridge-quant",
+      "name": "longbridge-quant",
+      "description": "Curated upstream guidance for Longbridge Quant; use when the workflow matches the user goal.",
+      "category": "Productivity & Workflow"
+    },
+    {
+      "id": "longbridge-research",
+      "name": "longbridge-research",
+      "description": "Curated upstream guidance for Longbridge Research; use when the workflow matches the user goal.",
+      "category": "Productivity & Workflow"
+    },
+    {
       "id": "loss-aversion-designer",
       "name": "loss-aversion-designer",
       "description": "One sentence - what this skill does and when to invoke it",
@@ -11772,6 +13686,12 @@
       "id": "ml-pipeline-workflow",
       "name": "ml-pipeline-workflow",
       "description": "Complete end-to-end MLOps pipeline orchestration from data preparation through model deployment.",
+      "category": "Productivity & Workflow"
+    },
+    {
+      "id": "monte-carlo-context-detection",
+      "name": "monte-carlo-context-detection",
+      "description": "Route data-related requests to the right Monte Carlo skill or workflow.",
       "category": "Productivity & Workflow"
     },
     {
@@ -11892,6 +13812,12 @@
       "id": "scientific-writing",
       "name": "scientific-writing",
       "description": "This is the core skill for the deep research and writing tool\u2014combining AI-driven deep research with well-formatted written outputs. Every document produced is backed by comprehensive literature search and verified citations through the research-lookup skill.",
+      "category": "Productivity & Workflow"
+    },
+    {
+      "id": "score-eval",
+      "name": "score-eval",
+      "description": "Imported skill `score-eval` from upstream source.",
       "category": "Productivity & Workflow"
     },
     {
@@ -12057,6 +13983,12 @@
       "category": "Productivity & Workflow"
     },
     {
+      "id": "workflow-yylo",
+      "name": "workflow-yylo",
+      "description": "Create and maintain validated YYLO Ledger workflow Records while keeping",
+      "category": "Productivity & Workflow"
+    },
+    {
       "id": "workorai",
       "name": "workorai",
       "description": "WorkorAI talent-marketplace skill: candidates search jobs and manage applications; employers run the job lifecycle and get ranked candidate matches with white-box fit explanations.",
@@ -12066,6 +13998,12 @@
       "id": "writing-great-skills",
       "name": "writing-great-skills",
       "description": "Reference for writing and editing skills well \u2014 the vocabulary and principles that make a skill predictable.",
+      "category": "Productivity & Workflow"
+    },
+    {
+      "id": "writing-guidelines",
+      "name": "writing-guidelines",
+      "description": "Curated upstream guidance for Writing Guidelines; use when the workflow matches the user goal.",
       "category": "Productivity & Workflow"
     },
     {
@@ -12267,6 +14205,24 @@
       "category": "SEO & Marketing"
     },
     {
+      "id": "geo-audit",
+      "name": "geo-audit",
+      "description": "Full website GEO+SEO audit with parallel subagent delegation.",
+      "category": "SEO & Marketing"
+    },
+    {
+      "id": "geo-brand-mentions",
+      "name": "geo-brand-mentions",
+      "description": "Brand mention and authority scanner for AI visibility.",
+      "category": "SEO & Marketing"
+    },
+    {
+      "id": "geo-technical",
+      "name": "geo-technical",
+      "description": "Technical SEO audit with GEO-specific checks \u2014 crawlability, indexability,",
+      "category": "SEO & Marketing"
+    },
+    {
       "id": "github-presence",
       "name": "github-presence",
       "description": "When the user wants to optimize their GitHub profile, README, or project discoverability. Trigger phrases include \"GitHub README,\" \"README optimization,\" \"GitHub profile,\" \"GitHub stars,\" \"GitHub discoverability,\" \"awesome lists,\" or \"GitHub marketing.",
@@ -12324,6 +14280,12 @@
       "id": "marketing-ideas",
       "name": "marketing-ideas",
       "description": "Provide proven marketing strategies and growth ideas for SaaS and software products, prioritized using a marketing feasibility scoring system.",
+      "category": "SEO & Marketing"
+    },
+    {
+      "id": "marketing-mindset",
+      "name": "marketing-mindset",
+      "description": "Use when a user asks how to win first customers, whether doing X will produce Y, how to write an ad or judge a marketing test \u2014 a marketer's decision framework, not a tactic library.",
       "category": "SEO & Marketing"
     },
     {
@@ -12474,6 +14436,12 @@
       "id": "seo-aeo-meta-description-generator",
       "name": "seo-aeo-meta-description-generator",
       "description": "Writes 3 title tag variants and 3 meta description variants per page with SERP preview, OG tags, and Twitter Card tags. Activate when the user wants to write meta tags, title tags, or social sharing tags for any page.",
+      "category": "SEO & Marketing"
+    },
+    {
+      "id": "seo-aeo-orchestrator",
+      "name": "seo-aeo-orchestrator",
+      "description": "Runs an audit-first SEO/AEO growth workflow from project discovery through implementation, foundational content, measurement setup, deployment verification, and optional weekly monitoring.",
       "category": "SEO & Marketing"
     },
     {
@@ -12717,9 +14685,21 @@
       "category": "Security & Pentesting"
     },
     {
+      "id": "ai-agent-security",
+      "name": "ai-agent-security",
+      "description": "Secure AI agents against prompt injection, tool abuse, and data exfiltration",
+      "category": "Security & Pentesting"
+    },
+    {
       "id": "ai-engineering-toolkit",
       "name": "ai-engineering-toolkit",
       "description": "6 production-ready AI engineering workflows: prompt evaluation (8-dimension scoring), context budget planning, RAG pipeline design, agent security audit (65-point checklist), eval harness building, and product sense coaching.",
+      "category": "Security & Pentesting"
+    },
+    {
+      "id": "ai-security-hardening",
+      "name": "ai-security-hardening",
+      "description": "Harden AI/LLM deployments against prompt injection, data exfiltration,",
       "category": "Security & Pentesting"
     },
     {
@@ -12825,6 +14805,12 @@
       "category": "Security & Pentesting"
     },
     {
+      "id": "code-review-sensei",
+      "name": "code-review-sensei",
+      "description": "Expert code reviewer that catches bugs, security issues, performance",
+      "category": "Security & Pentesting"
+    },
+    {
       "id": "codebase-audit-pre-push",
       "name": "codebase-audit-pre-push",
       "description": "Deep audit before GitHub push: removes junk files, dead code, security holes, and optimization issues. Checks every file line-by-line for production readiness.",
@@ -12840,6 +14826,12 @@
       "id": "cyber-audit",
       "name": "cyber-audit",
       "description": "Run read-only exposure checks for security advisories and write a structured local audit report.",
+      "category": "Security & Pentesting"
+    },
+    {
+      "id": "dast-scanning",
+      "name": "dast-scanning",
+      "description": "Perform dynamic application security testing with OWASP ZAP, Burp Suite,",
       "category": "Security & Pentesting"
     },
     {
@@ -12939,6 +14931,48 @@
       "category": "Security & Pentesting"
     },
     {
+      "id": "hipaa-compliance",
+      "name": "hipaa-compliance",
+      "description": "Implement HIPAA security and privacy rules. Configure PHI protections",
+      "category": "Security & Pentesting"
+    },
+    {
+      "id": "hunt-api-misconfig",
+      "name": "hunt-api-misconfig",
+      "description": "Hunt API security misconfiguration",
+      "category": "Security & Pentesting"
+    },
+    {
+      "id": "hunt-rag-vector",
+      "name": "hunt-rag-vector",
+      "description": "Hunt vector-store / embedding-layer weaknesses in RAG pipelines (OWASP",
+      "category": "Security & Pentesting"
+    },
+    {
+      "id": "hunt-shadow-api",
+      "name": "hunt-shadow-api",
+      "description": "Hunt shadow / zombie / undocumented API surface (OWASP API9 Improper",
+      "category": "Security & Pentesting"
+    },
+    {
+      "id": "hunt-xss",
+      "name": "hunt-xss",
+      "description": "Hunting skill for xss vulnerabilities.",
+      "category": "Security & Pentesting"
+    },
+    {
+      "id": "incident-response",
+      "name": "incident-response",
+      "description": "Handle security incidents with IR playbooks and procedures.",
+      "category": "Security & Pentesting"
+    },
+    {
+      "id": "iso27001-compliance",
+      "name": "iso27001-compliance",
+      "description": "Implement ISO 27001 Information Security Management System. Configure",
+      "category": "Security & Pentesting"
+    },
+    {
       "id": "laravel-expert",
       "name": "laravel-expert",
       "description": "Senior Laravel Engineer role for production-grade, maintainable, and idiomatic Laravel solutions. Focuses on clean architecture, security, performance, and modern standards (Laravel 10/11+).",
@@ -12960,6 +14994,12 @@
       "id": "linux-shell-scripting",
       "name": "linux-shell-scripting",
       "description": "Provide production-ready shell script templates for common Linux system administration tasks including backups, monitoring, user management, log analysis, and automation. These scripts serve as building blocks for security operations and penetration testing environments.",
+      "category": "Security & Pentesting"
+    },
+    {
+      "id": "llm-app-security",
+      "name": "llm-app-security",
+      "description": "Secure LLM-powered applications with input validation, output controls,",
       "category": "Security & Pentesting"
     },
     {
@@ -12993,6 +15033,18 @@
       "category": "Security & Pentesting"
     },
     {
+      "id": "mcp-server-security",
+      "name": "mcp-server-security",
+      "description": "Secure Model Context Protocol (MCP) servers with transport encryption,",
+      "category": "Security & Pentesting"
+    },
+    {
+      "id": "meme-coin-audit",
+      "name": "meme-coin-audit",
+      "description": "Meme coin and token security audit",
+      "category": "Security & Pentesting"
+    },
+    {
       "id": "metasploit-framework",
       "name": "metasploit-framework",
       "description": "\u26a0\ufe0f AUTHORIZED USE ONLY > This skill is for educational purposes or authorized security assessments only. > You must have explicit, written permission from the system owner before using this tool. > Misuse of this tool is illegal and strictly prohibited.",
@@ -13008,6 +15060,12 @@
       "id": "mobile-security-coder",
       "name": "mobile-security-coder",
       "description": "Expert in secure mobile coding practices specializing in input validation, WebView security, and mobile-specific security patterns.",
+      "category": "Security & Pentesting"
+    },
+    {
+      "id": "model-supply-chain-security",
+      "name": "model-supply-chain-security",
+      "description": "Secure the AI model supply chain with artifact signing, provenance attestation,",
       "category": "Security & Pentesting"
     },
     {
@@ -13041,6 +15099,12 @@
       "category": "Security & Pentesting"
     },
     {
+      "id": "openclaw-security-hardening",
+      "name": "openclaw-security-hardening",
+      "description": "Harden OpenClaw self-hosted environments with baseline host controls,",
+      "category": "Security & Pentesting"
+    },
+    {
       "id": "ot-ics",
       "name": "ot-ics",
       "description": "Authorized OT/ICS security assessment: Purdue-model zoning review, PLC/SCADA exposure, industrial protocol discovery, and passive-first evaluation discipline.",
@@ -13056,6 +15120,18 @@
       "id": "pci-compliance",
       "name": "pci-compliance",
       "description": "Master PCI DSS (Payment Card Industry Data Security Standard) compliance for secure payment processing and handling of cardholder data.",
+      "category": "Security & Pentesting"
+    },
+    {
+      "id": "pci-dss-compliance",
+      "name": "pci-dss-compliance",
+      "description": "Implement PCI DSS requirements for payment card data. Configure cardholder",
+      "category": "Security & Pentesting"
+    },
+    {
+      "id": "penetration-testing",
+      "name": "penetration-testing",
+      "description": "Perform basic penetration testing and security assessments.",
       "category": "Security & Pentesting"
     },
     {
@@ -13119,9 +15195,21 @@
       "category": "Security & Pentesting"
     },
     {
+      "id": "saas-security-posture",
+      "name": "saas-security-posture",
+      "description": "Audit and harden your SaaS tool stack",
+      "category": "Security & Pentesting"
+    },
+    {
       "id": "sast-configuration",
       "name": "sast-configuration",
       "description": "Static Application Security Testing (SAST) tool setup, configuration, and custom rule creation for comprehensive security scanning across multiple programming languages.",
+      "category": "Security & Pentesting"
+    },
+    {
+      "id": "sast-scanning",
+      "name": "sast-scanning",
+      "description": "Perform static application security testing with tools like Semgrep,",
       "category": "Security & Pentesting"
     },
     {
@@ -13137,6 +15225,12 @@
       "category": "Security & Pentesting"
     },
     {
+      "id": "security-arsenal",
+      "name": "security-arsenal",
+      "description": "Security payloads, bypass tables, wordlists, gf pattern names, always-rejected",
+      "category": "Security & Pentesting"
+    },
+    {
       "id": "security-audit",
       "name": "security-audit",
       "description": "Comprehensive security auditing workflow covering web application testing, API security, penetration testing, vulnerability scanning, and security hardening.",
@@ -13146,6 +15240,12 @@
       "id": "security-auditor",
       "name": "security-auditor",
       "description": "Expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks.",
+      "category": "Security & Pentesting"
+    },
+    {
+      "id": "security-automation",
+      "name": "security-automation",
+      "description": "Automate security workflows and remediation. Build security pipelines,",
       "category": "Security & Pentesting"
     },
     {
@@ -13239,6 +15339,12 @@
       "category": "Security & Pentesting"
     },
     {
+      "id": "soc2-compliance",
+      "name": "soc2-compliance",
+      "description": "Implement SOC 2 Trust Services Criteria. Configure security, availability,",
+      "category": "Security & Pentesting"
+    },
+    {
       "id": "solidity-security",
       "name": "solidity-security",
       "description": "Master smart contract security best practices, vulnerability prevention, and secure Solidity development patterns.",
@@ -13305,6 +15411,12 @@
       "category": "Security & Pentesting"
     },
     {
+      "id": "vendor-management",
+      "name": "vendor-management",
+      "description": "Implement vendor risk management programs. Assess third-party security",
+      "category": "Security & Pentesting"
+    },
+    {
       "id": "vibers-code-review",
       "name": "vibers-code-review",
       "description": "Human review workflow for AI-generated GitHub projects with spec-based feedback, security review, and follow-up PRs from the Vibers service.",
@@ -13317,15 +15429,33 @@
       "category": "Security & Pentesting"
     },
     {
+      "id": "vulnerability-scanning",
+      "name": "vulnerability-scanning",
+      "description": "Scan systems and dependencies for CVEs and security vulnerabilities.",
+      "category": "Security & Pentesting"
+    },
+    {
       "id": "web-security-testing",
       "name": "web-security-testing",
       "description": "Web application security testing workflow for OWASP Top 10 vulnerabilities including injection, XSS, authentication flaws, and access control issues.",
       "category": "Security & Pentesting"
     },
     {
+      "id": "web3-audit",
+      "name": "web3-audit",
+      "description": "Smart contract security audit",
+      "category": "Security & Pentesting"
+    },
+    {
       "id": "wifi-wireless",
       "name": "wifi-wireless",
       "description": "Authorized wireless security assessment: Wi-Fi capture, WPA handshake analysis, rogue AP detection research, and lab-only deauthentication testing.",
+      "category": "Security & Pentesting"
+    },
+    {
+      "id": "windows-hardening",
+      "name": "windows-hardening",
+      "description": "Harden Windows servers per security baselines and CIS benchmarks. Configure",
       "category": "Security & Pentesting"
     },
     {
@@ -13479,6 +15609,12 @@
       "category": "Testing & QA"
     },
     {
+      "id": "saas-pricing-strategist",
+      "name": "saas-pricing-strategist",
+      "description": "Design, optimize, and test pricing strategies for SaaS products using",
+      "category": "Testing & QA"
+    },
+    {
       "id": "semgrep-rule-variant-creator",
       "name": "semgrep-rule-variant-creator",
       "description": "Creates language variants of existing Semgrep rules. Use when porting a Semgrep rule to specified target languages. Takes an existing rule and target languages as input, produces independent rule+test directories for each language.",
@@ -13548,6 +15684,12 @@
       "id": "test-guard",
       "name": "test-guard",
       "description": "Review generated or changed test code against universal testing rules before it ships or is presented for approval.",
+      "category": "Testing & QA"
+    },
+    {
+      "id": "testdriver-e2e-testing",
+      "name": "testdriver-e2e-testing",
+      "description": "Build E2E tests with TestDriver.ai, the AI code reviewer that runs every pull request in a real desktop sandbox, finds bugs, and builds regression tests",
       "category": "Testing & QA"
     },
     {

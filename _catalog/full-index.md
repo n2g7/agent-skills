@@ -1,6 +1,6 @@
 # Full Skills Index (Alphabetical)
 
-2257 skills.
+2614 skills.
 
 | Skill ID | Category | Description (truncated) |
 |----------|----------|-------------------------|
@@ -14,6 +14,7 @@
 | `ab-test-setup` | Testing & QA | Structured guide for setting up A/B tests with mandatory gates for hypothesis, metrics, and execution readiness. |
 | `ab-testing` | Testing & QA | When the user wants to plan, design, or implement an A/B test or experiment, or build a growth experimentation program. |
 | `acceptance-orchestrator` | General & Miscellaneous | Use when a coding task should be driven end-to-end from issue intake through implementation, review, deployment, and   |
+| `access-review` | General & Miscellaneous | Conduct periodic access reviews and certifications. Implement access |
 | `accessibility-compliance-accessibility-audit` | Legal & Compliance | You are an accessibility expert specializing in WCAG compliance, inclusive design, and assistive technology compatibi  |
 | `accesslint-audit` | Automation & Integrations | Find and fix WCAG 2.2 accessibility issues. Two modes — report (sweep a codebase or page, produce a prioritized writt  |
 | `accesslint-diff` | General & Miscellaneous | Diff a live page's accessibility violations against a baseline — by default compares uncommitted changes (stash-based  |
@@ -34,14 +35,17 @@
 | `aegisops-ai` | DevOps & CI/CD | Autonomous DevSecOps & FinOps Guardrails. Orchestrates Gemini 3 Flash to audit Linux Kernel patches, Terraform cost d  |
 | `agent-creator` | AI & LLM | Create custom AI subagents with proper plugin structure, persona generation, and companion routing skills. |
 | `agent-development` | AI & LLM | This skill should be used when the user asks to "create an agent", "add an agent", "write a subagent", "agent frontma  |
+| `agent-evals` | AI & LLM | Build automated evaluation suites for AI agents using golden datasets, |
 | `agent-evaluation` | AI & LLM | Testing and benchmarking LLM agents including behavioral testing, |
 | `agent-evaluation-reporting` | AI & LLM | Use when summarizing agent evaluations where autonomous, assisted, failed, timed-out, or invalid outcomes must remain  |
 | `agent-framework-azure-ai-py` | Azure | Build persistent agents on Azure AI Foundry using the Microsoft Agent Framework Python SDK. |
 | `agent-harness-fault-injection` | Automation & Integrations | Use when an agent workflow needs deterministic recovery evidence for sandbox, MCP/tool, worker, checkpoint, memory, o  |
 | `agent-manager-skill` | AI & LLM | Manage multiple local CLI agents via tmux sessions (start/stop/monitor/assign) with cron-friendly scheduling. |
 | `agent-memory` | AI & LLM | A hybrid memory system that provides persistent, searchable knowledge management for AI agents. |
+| `agent-memory-discipline` | Backend & API | Rules for when an agent should recall from long-term memory before acting and when it should save decisions, correcti  |
 | `agent-memory-mcp` | Automation & Integrations | A hybrid memory system that provides persistent, searchable knowledge management for AI agents (Architecture, Pattern  |
 | `agent-memory-systems` | AI & LLM | Memory is the cornerstone of intelligent agents. Without it, every |
+| `agent-observability` | AI & LLM | Instrument AI agents with tracing, token metrics, latency, and cost visibility. |
 | `agent-orchestration-improve-agent` | AI & LLM | Systematic improvement of existing agents through performance analysis, prompt engineering, and continuous iteration. |
 | `agent-orchestration-multi-agent-optimize` | AI & LLM | Optimize multi-agent systems with coordinated profiling, workload distribution, and cost-aware orchestration. Use whe  |
 | `agent-orchestrator` | AI & LLM | Meta-skill que orquestra todos os agentes do ecossistema. Scan automatico de skills, match por capacidades, coordenac  |
@@ -72,23 +76,31 @@
 | `agy-auto` | Security & Pentesting | Configure agy-auto PreToolUse security gate to run Antigravity CLI (agy) unattended with layered policy controls inst  |
 | `agy-delegate` | General & Miscellaneous | Delegate coding tasks to the Google Antigravity CLI (`agy`) only when |
 | `ai-agent-development` | AI & LLM | AI agent development workflow for building autonomous agents, multi-agent systems, and agent orchestration with CrewA  |
+| `ai-agent-security` | Security & Pentesting | Secure AI agents against prompt injection, tool abuse, and data exfiltration |
 | `ai-agents-architect` | General & Miscellaneous | Expert in designing and building autonomous AI agents. Masters tool |
 | `ai-analyzer` | General & Miscellaneous | AI驱动的综合健康分析系统，整合多维度健康数据、识别异常模式、预测健康风险、提供个性化建议。支持智能问答和AI健康报告生成。 |
+| `ai-coding-agent-guardrails` | AI & LLM | Secure AI coding agents (Claude Code, Cursor, Codex, Copilot) with permission |
 | `ai-dev-jobs-mcp` | Automation & Integrations | Search 8,400+ AI and ML jobs across 489 companies, inspect listings and employers, match roles, and view salary and m  |
 | `ai-engineer` | AI & LLM | Build production-ready LLM applications, advanced RAG systems, and intelligent agents. Implements vector search, mult  |
 | `ai-engineering-toolkit` | Security & Pentesting | 6 production-ready AI engineering workflows: prompt evaluation (8-dimension scoring), context budget planning, RAG pi  |
+| `ai-inference-service-mesh` | General & Miscellaneous | Use service mesh patterns for AI inference traffic management, mTLS, |
 | `ai-loop` | General & Miscellaneous | Runs a bounded spec-build-review development loop with explicit scope, stop conditions, and human approval gates for   |
 | `ai-md` | Legal & Compliance | Convert human-written CLAUDE.md into AI-native structured-label format. Battle-tested across 4 models. Same rules, fe  |
 | `ai-ml` | AI & LLM | AI and machine learning workflow covering LLM application development, RAG implementation, agent architecture, ML pip  |
 | `ai-native-cli` | AI & LLM | Design spec with 98 rules for building CLI tools that AI agents can safely use. Covers structured JSON output, error   |
+| `ai-pipeline-orchestration` | General & Miscellaneous | Orchestrate AI/ML pipelines for data ingestion, model training, batch |
 | `ai-product` | General & Miscellaneous | Every product will be AI-powered. The question is whether you'll |
+| `ai-red-teaming` | General & Miscellaneous | Run structured AI red team exercises for jailbreak resistance, data exfiltration |
+| `ai-security-hardening` | Security & Pentesting | Harden AI/LLM deployments against prompt injection, data exfiltration, |
 | `ai-seo` | SEO & Marketing | Optimize content for AI search and LLM citations across AI Overviews, ChatGPT, Perplexity, Claude, Gemini, and simila  |
+| `ai-sre-incident-response` | AI & LLM | Build AI-focused SRE incident response practices for LLM outages, degraded |
 | `ai-studio-image` | General & Miscellaneous | Geracao de imagens humanizadas via Google AI Studio (Gemini). Fotos realistas estilo influencer ou educacional com il  |
 | `ai-wrapper-product` | General & Miscellaneous | Expert in building products that wrap AI APIs (OpenAI, Anthropic, |
 | `aider-delegate` | General & Miscellaneous | Delegate coding tasks to Aider (`aider`) only when the user explicitly |
 | `airflow-dag-patterns` | General & Miscellaneous | Build production Apache Airflow DAGs with best practices for operators, sensors, testing, and deployment. Use when cr  |
 | `airtable-automation` | Automation & Integrations | Automate Airtable tasks via Rube MCP (Composio): records, bases, tables, fields, views. Always search tools first for  |
 | `akf-trust-metadata` | Legal & Compliance | The AI native file format. EXIF for AI — stamps every file with trust scores, source provenance, and compliance metad  |
+| `alerting-oncall` | General & Miscellaneous | Set up alerting rules, configure on-call rotations, and manage incident |
 | `algolia-search` | General & Miscellaneous | Expert patterns for Algolia search implementation, indexing |
 | `algorithmic-art` | General & Miscellaneous | Algorithmic philosophies are computational aesthetic movements that are then expressed through code. Output .md files  |
 | `alpha-vantage` | General & Miscellaneous | Access 20+ years of global financial data: equities, options, forex, crypto, commodities, economic indicators, and 50  |
@@ -119,6 +131,7 @@
 | `anti-deception` | General & Miscellaneous | Use before responding to pressure for agreement, manufactured urgency, authority appeals, or requests to certify unsu  |
 | `anti-reversing-techniques` | Security & Pentesting | AUTHORIZED USE ONLY: This skill contains dual-use security techniques. Before proceeding with any bypass or analysis:  |
 | `anti-sleep` | Automation & Integrations | Keep a Mac awake with caffeinate during long builds, downloads, or supervised automation runs. |
+| `anti-slop-design` | Frontend & UI | Autonomous Principal Design Technologist. Cures vibe-coded software from AI frontend slop using curated token archety  |
 | `anti-sycophancy` | Productivity & Workflow | Eliminate sycophantic agreement patterns in AI responses. Load via /skill anti-sycophancy. |
 | `anti-ui-slop` | General & Miscellaneous | Stop coding agents from shipping generic UI. Extend the product's design system, use UIZZE evidence only when useful,  |
 | `antigravity-agent-manager` | AI & LLM | Configure and orchestrate parallel agents using the standalone Antigravity 2.0 Agent Manager and Antigravity IDE. |
@@ -138,6 +151,7 @@
 | `api-endpoint-builder` | Security & Pentesting | Builds production-ready REST API endpoints with validation, error handling, authentication, and documentation. Follow  |
 | `api-fuzzing-bug-bounty` | Security & Pentesting | Provide comprehensive techniques for testing REST, SOAP, and GraphQL APIs during bug bounty hunting and penetration t  |
 | `api-integration` | Automation & Integrations | Designs event-driven architectures, webhook systems, API chaining flows, ETL pipelines, and integration patterns betw  |
+| `api-integration-architect` | Automation & Integrations | Design, implement, debug, and optimize API integrations with expert-level |
 | `api-onboarding` | Backend & API | Reduce time-to-first-API-call (TTFAC) by optimizing every step of the developer onboarding journey. This skill covers  |
 | `api-patterns` | Backend & API | API design principles and decision-making. REST vs GraphQL vs tRPC selection, response formats, versioning, pagination. |
 | `api-rate-limit-handler` | Backend & API | Implement bounded, idempotency-aware API throttling, backoff, and retry handling for 429 and transient 5xx responses. |
@@ -153,11 +167,14 @@
 | `apify-competitor-intelligence` | General & Miscellaneous | Analyze competitor strategies, content, pricing, ads, and market positioning across Google Maps, Booking.com, Faceboo  |
 | `apify-content-analytics` | Data & Analytics | Track engagement metrics, measure campaign ROI, and analyze content performance across Instagram, Facebook, YouTube,   |
 | `apify-ecommerce` | General & Miscellaneous | Extract product data, prices, reviews, and seller information from any e-commerce platform using Apify's E-commerce S  |
+| `apify-generate-output-schema` | General & Miscellaneous | Generate output schemas (dataset_schema.json, output_schema.json, key_value_store_schema.json) |
 | `apify-influencer-discovery` | SEO & Marketing | Find and evaluate influencers for brand partnerships, verify authenticity, and track collaboration performance across  |
+| `apify-integration-development` | Automation & Integrations | Curated upstream guidance for Apify Integration Development; use when the workflow matches the user goal. |
 | `apify-lead-generation` | General & Miscellaneous | Scrape leads from multiple platforms using Apify Actors. |
 | `apify-market-research` | General & Miscellaneous | Analyze market conditions, geographic opportunities, pricing, consumer behavior, and product validation across Google  |
 | `apify-trend-analysis` | General & Miscellaneous | Discover and track emerging trends across Google Trends, Instagram, Facebook, YouTube, and TikTok to inform content s  |
 | `apify-ultimate-scraper` | Productivity & Workflow | AI-driven data extraction from 55+ Actors across all major platforms. This skill automatically selects the best Actor  |
+| `apk-redteam-pipeline` | General & Miscellaneous | End-to-end Android APK red-team pipeline |
 | `apk-reverse` | Languages: Java/Kotlin | Android APK reverse engineering: unpacking, Java decompilation, smali modification, repacking and signing, Frida dyna  |
 | `app-builder` | General & Miscellaneous | Main application building orchestrator. Creates full-stack applications from natural language requests. Determines pr  |
 | `app-builder/templates` | General & Miscellaneous | Project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 template  |
@@ -173,13 +190,18 @@
 | `architecture` | Architecture & Design Patterns | Architectural decision-making framework. Requirements analysis, trade-off evaluation, ADR documentation. Use when mak  |
 | `architecture-decision-records` | Architecture & Design Patterns | Comprehensive patterns for creating, maintaining, and managing Architecture Decision Records (ADRs) that capture the   |
 | `architecture-patterns` | Backend & API | Master proven backend architecture patterns including Clean Architecture, Hexagonal Architecture, and Domain-Driven D  |
+| `architecture-review` | Automation & Integrations | Review repository architecture using Ontoly Software Graph and MCP capabilities. |
+| `argocd-gitops` | DevOps & CI/CD | Implement GitOps with ArgoCD for declarative Kubernetes deployments. |
 | `arm-cortex-expert` | General & Miscellaneous | Senior embedded software engineer specializing in firmware and driver development for ARM Cortex-M microcontrollers (  |
+| `arm-templates` | DevOps & CI/CD | Deploy Azure resources with ARM templates and Bicep. Create modular deployments |
 | `arrowspace` | General & Miscellaneous | Spectral vector search using graph Laplacian eigenstructure. Use when cosine/L2 similarity misses latent structure in  |
 | `article-illustrations` | General & Miscellaneous | Generate hand-drawn 16:9 article illustrations with the Grav character IP, sparse annotations, and absurd but clear v  |
+| `artifact-yylo` | General & Miscellaneous | Capture and retrieve durable YYLO Ledger artifact Records with intentional |
 | `asana-automation` | Automation & Integrations | Automate Asana tasks via Rube MCP (Composio): tasks, projects, sections, teams, workspaces. Always search tools first  |
 | `ask-copilot` | General & Miscellaneous | Use GitHub Copilot CLI in non-interactive mode to ask questions, review code, or generate snippets without manual int  |
 | `ask-matt` | Productivity & Workflow | Ask which skill or flow fits your situation. A router over the user-invoked skills in this repo. |
 | `ask-questions-if-underspecified` | General & Miscellaneous | Clarify requirements before implementing. Use when serious doubts arise. |
+| `asset-inventory` | Database | Maintain IT asset inventory and configuration management database. Track |
 | `astro` | Architecture & Design Patterns | Build content-focused websites with Astro — zero JS by default, islands architecture, multi-framework components, and  |
 | `astropy` | Languages: Python | Astropy is the core Python package for astronomy, providing essential functionality for astronomical research and dat  |
 | `async-python-patterns` | Languages: Python | Comprehensive guidance for implementing asynchronous Python applications using asyncio, concurrent programming patter  |
@@ -191,6 +213,7 @@
 | `audio-transcriber` | Automation & Integrations | Transform audio recordings into professional Markdown documentation with intelligent summaries using LLM integration |
 | `audit-agent-run-evidence` | Automation & Integrations | Use when an agent, harness, gateway, MCP workflow, or multi-step automation claims completion and the available trace  |
 | `audit-context-building` | General & Miscellaneous | Enables ultra-granular, line-by-line code analysis to build deep architectural context before vulnerability or bug fi  |
+| `audit-logging` | Automation & Integrations | Implement centralized audit logging and SIEM integration. Configure log |
 | `audit-skills` | Security & Pentesting | Expert security auditor for AI Skills and Bundles. Performs non-intrusive static analysis to identify malicious patte  |
 | `auri-core` | General & Miscellaneous | Auri: assistente de voz inteligente (Alexa + Claude claude-opus-4-20250805). Visao do produto, persona Vitoria Neural  |
 | `auth-implementation-patterns` | General & Miscellaneous | Build secure, scalable authentication and authorization systems using industry-standard patterns and modern best prac  |
@@ -205,15 +228,25 @@
 | `awareness-stage-mapper` | Productivity & Workflow | One sentence - what this skill does and when to invoke it |
 | `aws-agentic-ai` | AWS | AWS Bedrock AgentCore comprehensive expert for deploying and managing AI agents at scale. Use when working with any A  |
 | `aws-cdk-development` | AWS | AWS Cloud Development Kit (CDK) expert for building cloud infrastructure with TypeScript/Python. |
+| `aws-cloudtrail` | AWS | Configure AWS CloudTrail for audit logging. Set up organization trails |
 | `aws-cost-cleanup` | AWS | Automated cleanup of unused AWS resources to reduce costs |
 | `aws-cost-operations` | AWS | AWS cost optimization, monitoring, and operational excellence expert. Use when analyzing AWS bills, estimating costs,  |
+| `aws-cost-optimization` | AWS | Reduce AWS spend with rightsizing, autoscaling, commitment planning, |
 | `aws-cost-optimizer` | AWS | Comprehensive AWS cost analysis and optimization recommendations using AWS CLI and Cost Explorer |
+| `aws-ec2` | AWS | Manage EC2 instances, AMIs, and auto-scaling groups. Configure security |
+| `aws-ecs-fargate` | AWS | Deploy containers on ECS and Fargate. Configure task definitions, services, |
+| `aws-iam` | AWS | Manage IAM users, roles, and policies. Implement least-privilege access |
+| `aws-lambda` | AWS | Build and deploy serverless functions on AWS Lambda. Configure triggers, |
 | `aws-mcp-setup` | AWS | Configure AWS MCP servers for documentation search and API access. Use when setting up AWS MCP, configuring AWS docum  |
 | `aws-penetration-testing` | AWS | Provide comprehensive techniques for penetration testing AWS cloud environments. Covers IAM enumeration, privilege es  |
+| `aws-rds` | AWS | Provision and manage RDS databases. Configure backups, replication, and |
+| `aws-s3` | AWS | Configure S3 buckets, policies, and lifecycle rules. Implement versioning, |
+| `aws-secrets-manager` | AWS | Store and rotate secrets in AWS Secrets Manager. |
 | `aws-serverless` | AWS | Specialized skill for building production-ready serverless |
 | `aws-serverless-eda` | AWS | AWS serverless and event-driven architecture expert based on Well-Architected Framework. Use when building serverless  |
 | `aws-skills` | AWS | AWS development with infrastructure automation and cloud architecture patterns |
 | `aws-sst-development` | AWS | SST v4 (Ion) expert for managing AWS resources as code with the Pulumi-backed framework. |
+| `aws-vpc` | AWS | Design and implement VPCs and networking. Configure subnets, route tables, |
 | `awt-e2e-testing` | Frontend & UI | AI-powered E2E web testing — eyes and hands for AI coding tools. Declarative YAML scenarios, Playwright execution, vi  |
 | `ax-extract-workflow` | AI & LLM | Reconstruct workflow behind a past coding-agent artifact using local ax sessions/commits/skills/tool traces. Use when  |
 | `axiom` | General & Miscellaneous | First-principles assumption auditor. Classifies each hidden assumption (fact / convention / belief / interest-driven)  |
@@ -246,6 +279,7 @@
 | `azure-ai-voicelive-java` | Azure | Azure AI VoiceLive SDK for Java. Real-time bidirectional voice conversations with AI assistants using WebSocket. |
 | `azure-ai-voicelive-py` | Azure | Build real-time voice AI applications with bidirectional WebSocket communication. |
 | `azure-ai-voicelive-ts` | Azure | Azure AI Voice Live SDK for JavaScript/TypeScript. Build real-time voice AI applications with bidirectional WebSocket  |
+| `azure-aks` | Azure | Deploy and manage Azure Kubernetes Service clusters. Configure node pools, |
 | `azure-appconfiguration-java` | Azure | Azure App Configuration SDK for Java. Centralized application configuration management with key-value settings, featu  |
 | `azure-appconfiguration-py` | Azure | Azure App Configuration SDK for Python. Use for centralized configuration management, feature flags, and dynamic sett  |
 | `azure-appconfiguration-ts` | Azure | Centralized configuration management with feature flags and dynamic refresh. |
@@ -263,6 +297,7 @@
 | `azure-cosmos-ts` | Azure | Azure Cosmos DB JavaScript/TypeScript SDK (@azure/cosmos) for data plane operations. Use for CRUD operations on docum  |
 | `azure-data-tables-java` | Azure | Build table storage applications using the Azure Tables SDK for Java. Works with both Azure Table Storage and Cosmos   |
 | `azure-data-tables-py` | Azure | Azure Tables SDK for Python (Storage and Cosmos DB). Use for NoSQL key-value storage, entity CRUD, and batch operations. |
+| `azure-devops` | Azure | Set up Azure Pipelines for CI/CD, configure build and release pipelines, |
 | `azure-eventgrid-dotnet` | Azure | Azure Event Grid SDK for .NET. Client library for publishing and consuming events with Azure Event Grid. Use for even  |
 | `azure-eventgrid-java` | Azure | Build event-driven applications with Azure Event Grid SDK for Java. Use when publishing events, implementing pub/sub   |
 | `azure-eventgrid-py` | Azure | Azure Event Grid SDK for Python. Use for publishing events, handling CloudEvents, and event-driven architectures. |
@@ -272,11 +307,13 @@
 | `azure-eventhub-rust` | Azure | Azure Event Hubs SDK for Rust. Use for sending and receiving events, streaming data ingestion. |
 | `azure-eventhub-ts` | Azure | High-throughput event streaming and real-time data ingestion. |
 | `azure-functions` | Azure | Expert patterns for Azure Functions development including isolated |
+| `azure-functions-devsec` | Azure | Build serverless applications on Azure Functions. Configure triggers, |
 | `azure-identity-dotnet` | Azure | Azure Identity SDK for .NET. Authentication library for Azure SDK clients using Microsoft Entra ID. Use for DefaultAz  |
 | `azure-identity-java` | Azure | Authenticate Java applications with Azure services using Microsoft Entra ID (Azure AD). |
 | `azure-identity-py` | Azure | Azure Identity SDK for Python authentication. Use for DefaultAzureCredential, managed identity, service principals, a  |
 | `azure-identity-rust` | Azure | Azure Identity SDK for Rust authentication. Use for DeveloperToolsCredential, ManagedIdentityCredential, ClientSecret  |
 | `azure-identity-ts` | Azure | Authenticate to Azure services with various credential types. |
+| `azure-keyvault` | Azure | Manage secrets and certificates in Azure Key Vault. Configure access |
 | `azure-keyvault-certificates-rust` | Azure | Azure Key Vault Certificates SDK for Rust. Use for creating, importing, and managing certificates. |
 | `azure-keyvault-keys-rust` | Azure | Azure Key Vault Keys SDK for Rust. Use for creating, managing, and using cryptographic keys. Triggers: "keyvault keys  |
 | `azure-keyvault-keys-ts` | Azure | Manage cryptographic keys using Azure Key Vault Keys SDK for JavaScript (@azure/keyvault-keys). Use when creating, en  |
@@ -299,6 +336,7 @@
 | `azure-mgmt-mongodbatlas-dotnet` | Azure | Manage MongoDB Atlas Organizations as Azure ARM resources with unified billing through Azure Marketplace. |
 | `azure-mgmt-weightsandbiases-dotnet` | Azure | Azure Weights & Biases SDK for .NET. ML experiment tracking and model management via Azure Marketplace. Use for creat  |
 | `azure-microsoft-playwright-testing-ts` | Azure | Run Playwright tests at scale with cloud-hosted browsers and integrated Azure portal reporting. |
+| `azure-monitor-audit` | Azure | Configure Azure Monitor and Activity Log for auditing. Set up diagnostic |
 | `azure-monitor-ingestion-java` | Azure | Azure Monitor Ingestion SDK for Java. Send custom logs to Azure Monitor via Data Collection Rules (DCR) and Data Coll  |
 | `azure-monitor-ingestion-py` | Azure | Azure Monitor Ingestion SDK for Python. Use for sending custom logs to Log Analytics workspace via Logs Ingestion API. |
 | `azure-monitor-opentelemetry-exporter-java` | Azure | Azure Monitor OpenTelemetry Exporter for Java. Export OpenTelemetry traces, metrics, and logs to Azure Monitor/Applic  |
@@ -307,6 +345,7 @@
 | `azure-monitor-opentelemetry-ts` | Azure | Auto-instrument Node.js applications with distributed tracing, metrics, and logs. |
 | `azure-monitor-query-java` | Azure | Azure Monitor Query SDK for Java. Execute Kusto queries against Log Analytics workspaces and query metrics from Azure  |
 | `azure-monitor-query-py` | Azure | Azure Monitor Query SDK for Python. Use for querying Log Analytics workspaces and Azure Monitor metrics. |
+| `azure-networking` | Azure | Configure Azure VNets, NSGs, and Azure Firewall. Implement hub-spoke |
 | `azure-postgres-ts` | Azure | Connect to Azure Database for PostgreSQL Flexible Server from Node.js/TypeScript using the pg (node-postgres) package. |
 | `azure-resource-manager-cosmosdb-dotnet` | Azure | Azure Resource Manager SDK for Cosmos DB in .NET. |
 | `azure-resource-manager-durabletask-dotnet` | Azure | Azure Resource Manager SDK for Durable Task Scheduler in .NET. |
@@ -326,6 +365,7 @@
 | `azure-servicebus-rust` | Azure | Azure Service Bus library for Rust. Send and receive messages using queues, topics, and subscriptions. Triggers: "ser  |
 | `azure-servicebus-ts` | Azure | Enterprise messaging with queues, topics, and subscriptions. |
 | `azure-speech-to-text-rest-py` | Azure | Azure Speech to Text REST API for short audio (Python). Use for simple speech recognition of audio files up to 60 sec  |
+| `azure-sql` | Azure | Provision Azure SQL Database and Cosmos DB. Configure security, backups, |
 | `azure-storage-blob-java` | Azure | Build blob storage applications using the Azure Storage Blob SDK for Java. |
 | `azure-storage-blob-py` | Azure | Azure Blob Storage SDK for Python. Use for uploading, downloading, listing blobs, managing containers, and blob lifec  |
 | `azure-storage-blob-rust` | Azure | Azure Blob Storage SDK for Rust. Use for uploading, downloading, and managing blobs and containers. |
@@ -336,6 +376,7 @@
 | `azure-storage-queue-py` | Azure | Azure Queue Storage SDK for Python. Use for reliable message queuing, task distribution, and asynchronous processing. |
 | `azure-storage-queue-rust` | Azure | Azure Queue Storage library for Rust. Send, receive, and manage queue messages. Triggers: "queue storage rust", "Queu  |
 | `azure-storage-queue-ts` | Azure | Azure Queue Storage JavaScript/TypeScript SDK (@azure/storage-queue) for message queue operations. Use for sending, r  |
+| `azure-vms` | Azure | Manage Azure Virtual Machines and scale sets. Configure availability |
 | `azure-web-pubsub-ts` | Azure | Real-time messaging with WebSocket connections and pub/sub patterns. |
 | `babysit-pr` | General & Miscellaneous | Babysit a pull request through its bot review rounds: verify, fix, reply, |
 | `backend-architect` | Backend & API | Expert backend architect specializing in scalable API design, microservices architecture, and distributed systems. |
@@ -343,6 +384,7 @@
 | `backend-development-feature-development` | Backend & API | Orchestrate end-to-end backend feature development from requirements to deployment. Use when coordinating multi-phase  |
 | `backend-security-coder` | Security & Pentesting | Expert in secure backend coding practices specializing in input validation, authentication, and API security. Use PRO  |
 | `backtesting-frameworks` | General & Miscellaneous | Build robust, production-grade backtesting systems that avoid common pitfalls and produce reliable strategy performan  |
+| `backup-recovery` | General & Miscellaneous | Implement backup and recovery strategies. Configure rsync, Restic, and |
 | `bamboohr-automation` | Automation & Integrations | Automate BambooHR tasks via Rube MCP (Composio): employees, time-off, benefits, dependents, employee updates. Always   |
 | `basecamp-automation` | Automation & Integrations | Automate Basecamp project management, to-dos, messages, people, and to-do list organization via Rube MCP (Composio).   |
 | `baseline-ui` | Frontend & UI | Validates animation durations, enforces typography scale, checks component accessibility, and prevents layout anti-pa  |
@@ -353,10 +395,12 @@
 | `bats-testing-patterns` | DevOps & CI/CD | Master Bash Automated Testing System (Bats) for comprehensive shell script testing. Use when writing tests for shell   |
 | `battlecard` | Product Management | This skill should be used when the user asks to \"battlecard\". Create a sales-ready competitive battlecard. |
 | `bazel-build-optimization` | General & Miscellaneous | Optimize Bazel builds for large-scale monorepos. Use when configuring Bazel, implementing remote execution, or optimi  |
+| `bb-methodology` | General & Miscellaneous | Use at the START of any bug bounty hunting session, when switching targets, |
 | `bdi-mental-states` | Automation & Integrations | This skill should be used when the user asks to "model agent mental states", "implement BDI architecture", "create be  |
 | `bdistill-behavioral-xray` | Backend & API | X-ray any AI model's behavioral patterns — refusal boundaries, hallucination tendencies, reasoning style, formatting   |
 | `bdistill-knowledge-extraction` | Backend & API | Extract structured domain knowledge from AI models in-session or from local open-source models via Ollama. No API key  |
 | `beachhead-segment` | Product Management | This skill should be used when the user asks to \"beachhead segment\". Identify the first beachhead market segment fo  |
+| `beatra-ai-video-studio` | Media & Creative | Install and use the official Beatra AI Video Studio package, pinned by digest, for paid text-to-video, image-to-video  |
 | `beautiful-prose` | General & Miscellaneous | A hard-edged writing style contract for timeless, forceful English prose without modern AI tics. Use when users ask f  |
 | `before-you-build` | General & Miscellaneous | Review product risk before coding by checking demand, alternatives, channels, switching costs, and failure signals. |
 | `behavioral-modes` | General & Miscellaneous | AI operational modes (brainstorm, implement, debug, review, teach, ship, orchestrate). Use to adapt behavior based on  |
@@ -368,9 +412,11 @@
 | `binary-diff` | Database | Cross-version binary symbol migration: diff updated binaries, recover function names without PDBs, and propagate anno  |
 | `biopython` | Database | Biopython is a comprehensive set of freely available Python tools for biological computation. It provides functionali  |
 | `bitbucket-automation` | Automation & Integrations | Automate Bitbucket repositories, pull requests, branches, issues, and workspace management via Rube MCP (Composio). A  |
+| `block-storage` | General & Miscellaneous | Manage block storage volumes and LVM. Configure cloud block storage and |
 | `blockchain-developer` | Blockchain & Web3 | Build production-ready Web3 applications, smart contracts, and decentralized systems. Implements DeFi protocols, NFT   |
 | `blockrun` | General & Miscellaneous | BlockRun works with Claude Code and Google Antigravity. |
 | `blog-writing-guide` | Productivity & Workflow | This skill enforces Sentry's blog writing standards across every post — whether you're helping an engineer write thei  |
+| `blue-green-deploy` | DevOps & CI/CD | Configure zero-downtime deployment strategies including blue-green, canary, |
 | `blueprint` | AI & LLM | Turn a one-line objective into a step-by-step construction plan any coding agent can execute cold. Each step has a se  |
 | `boost-asio-pro` | General & Miscellaneous | Use when writing asynchronous C++ networking code with Boost.Asio or standalone Asio — TCP/UDP servers and clients, S  |
 | `box-automation` | Automation & Integrations | Automate Box operations including file upload/download, content search, folder management, collaboration, metadata qu  |
@@ -404,8 +450,10 @@
 | `browser-extension-reverse` | General & Miscellaneous | Authorized reverse engineering of Chrome/Firefox extensions: manifest analysis, background workers, content scripts,   |
 | `browser-harness` | Automation & Integrations | Drive an existing browser through CDP for authenticated, visual, or interactive web automation. |
 | `browser-testing-with-devtools` | Automation & Integrations | Test browser apps with Chrome DevTools MCP by inspecting live DOM, console logs, network traffic, screenshots, access  |
+| `bug-bounty` | Productivity & Workflow | Complete bug bounty workflow |
 | `bug-hunt-swarm` | AI & LLM | Parallel read-only multi-agent root-cause investigation for bugs, regressions, crashes, flaky behavior, or unexplaine  |
 | `bug-hunter` | General & Miscellaneous | Systematically finds and fixes bugs using proven debugging techniques. Traces from symptoms to root cause, implements  |
+| `bugcrowd-reporting` | General & Miscellaneous | Bugcrowd-specific reporting tactics complementing report-writing |
 | `bugs-are-annoying` | Security & Pentesting | Adversarial code auditor that hunts down bugs, logic errors, and security flaws. Use for deep correctness passes, not  |
 | `build` | General & Miscellaneous | build |
 | `building-native-ui` | Mobile | Complete guide for building beautiful apps with Expo Router. Covers fundamentals, styling, components, navigation, an  |
@@ -416,6 +464,7 @@
 | `burp-suite-testing` | Security & Pentesting | Execute comprehensive web application security testing using Burp Suite's integrated toolset, including HTTP traffic   |
 | `burpsuite-project-parser` | Security & Pentesting | Searches and explores Burp Suite project files (.burp) from the command line. Use when searching response headers or   |
 | `business-analyst` | Business & Startup | Master modern business analysis with AI-powered analytics, real-time dashboards, and data-driven insights. Build comp  |
+| `business-continuity` | General & Miscellaneous | Develop business continuity plans and impact analysis. Implement BCP |
 | `business-model` | Product Management | Generate a Business Model Canvas with all 9 building blocks. Use when creating a business model, documenting how a bu  |
 | `busybox-on-windows` | General & Miscellaneous | How to use a Win32 build of BusyBox to run many of the standard UNIX command line tools on Windows. |
 | `buywhere-product-catalog` | Automation & Integrations | Use BuyWhere's MCP and API surfaces to add product search, price comparison, and deal discovery to AI shopping agents. |
@@ -429,6 +478,7 @@
 | `calendly-automation` | Automation & Integrations | Automate Calendly scheduling, event management, invitee tracking, availability checks, and organization administratio  |
 | `canva-automation` | SEO & Marketing | Automate Canva tasks via Rube MCP (Composio): designs, exports, folders, brand templates, autofill. Always search too  |
 | `canvas-design` | General & Miscellaneous | These are instructions for creating design philosophies - aesthetic movements that are then EXPRESSED VISUALLY. Outpu  |
+| `career-ops` | General & Miscellaneous | Multi-CLI job-search command center: evaluate offers, scan portals, |
 | `carrier-relationship-management` | General & Miscellaneous | Codified expertise for managing carrier portfolios, negotiating freight rates, tracking carrier performance, allocati  |
 | `case-review` | General & Miscellaneous | Quality-gate review of a reverse-engineering or assessment case package: scope readiness, Evidence-to-Finding-to-Path  |
 | `cc-skill-backend-patterns` | Database | Backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express  |
@@ -440,16 +490,21 @@
 | `cc-skill-security-review` | Security & Pentesting | This skill ensures all code follows security best practices and identifies potential vulnerabilities. Use when implem  |
 | `cc-skill-strategic-compact` | Productivity & Workflow | Development skill from everything-claude-code |
 | `cdk-patterns` | Languages: Python | Common AWS CDK patterns and constructs for building cloud infrastructure with TypeScript, Python, or Java. Use when d  |
+| `cdn-setup` | Cloudflare | Configure CDNs for content delivery. Set up CloudFront, Cloudflare, and |
+| `change-management` | General & Miscellaneous | Implement change management processes. Configure CAB reviews, change |
 | `changelog-automation` | Automation & Integrations | Automate changelog generation from commits, PRs, and releases following Keep a Changelog format. Use when setting up   |
 | `changelog-updates` | Productivity & Workflow | Create release notes and product updates that developers actually read and care about. This skill covers changelog fo  |
 | `chat-widget` | Data & Analytics | Build a real-time support chat system with a floating widget for users and an admin dashboard for support staff. Use   |
+| `chatexport-need-miner` | General & Miscellaneous | Mines offline Telegram Desktop chat exports (result.json) for unmet market needs and product opportunities using chun  |
 | `check-identity-pack` | General & Miscellaneous | Run an AFP 100-point or AUSTRAC safe-harbour identity check over a set of documents, and report exactly what's missin  |
 | `chrome-extension-developer` | General & Miscellaneous | Expert in building Chrome Extensions using Manifest V3. Covers background scripts, service workers, content scripts,   |
 | `churn-prevention` | General & Miscellaneous | Reduce voluntary and involuntary churn with cancel flows, save offers, dunning, win-back tactics, and retention strat  |
 | `ci-cd-and-automation` | DevOps & CI/CD | Automates CI/CD pipeline setup. Use when setting up or modifying build and deployment pipelines. Use when you need to  |
 | `cicd-automation-workflow-automate` | DevOps & CI/CD | You are a workflow automation expert specializing in creating efficient CI/CD pipelines, GitHub Actions workflows, an  |
+| `circleci` | Automation & Integrations | Configure CircleCI workflows and orbs for continuous integration and |
 | `circleci-automation` | Automation & Integrations | Automate CircleCI tasks via Rube MCP (Composio): trigger pipelines, monitor workflows/jobs, retrieve artifacts and te  |
 | `cirq` | General & Miscellaneous | Cirq is Google Quantum AI's open-source framework for designing, simulating, and running quantum circuits on quantum   |
+| `cis-benchmarks` | General & Miscellaneous | Audit and remediate CIS benchmark violations. |
 | `citation-management` | General & Miscellaneous | Manage citations systematically throughout the research and writing process. |
 | `ckw-design` | Frontend & UI | Frontend design entry point: direction, design system, visual philosophy. Use whenever building or touching the look   |
 | `claimable-postgres` | Database | Provision instant temporary Postgres databases via Claimable Postgres by Neon (pg.new). No login or credit card requi  |
@@ -477,14 +532,20 @@
 | `closed-loop-delivery` | General & Miscellaneous | Use when a coding task must be completed against explicit acceptance criteria with minimal user re-intervention acros  |
 | `cloud-architect` | Google Cloud | Expert cloud architect specializing in AWS/Azure/GCP multi-cloud infrastructure design, advanced IaC (Terraform/OpenT  |
 | `cloud-devops` | Google Cloud | Cloud infrastructure and DevOps workflow covering AWS, Azure, GCP, Kubernetes, Terraform, CI/CD, monitoring, and clou  |
+| `cloud-iam-deep` | Google Cloud | Cloud IAM red-team attack chain across AWS, Azure, GCP |
 | `cloud-k8s` | DevOps & CI/CD | Authorized cloud, container, and Kubernetes security assessment: metadata SSRF, IAM misconfiguration, container escap  |
 | `cloud-penetration-testing` | AWS | Conduct comprehensive security assessments of cloud infrastructure across Microsoft Azure, Amazon Web Services (AWS),  |
 | `cloudflare` | Cloudflare | Discover and choose Cloudflare products for apps, APIs, AI agents, storage, networking, and security. Use for archite  |
 | `cloudflare-email-service` | Cloudflare | Implement or troubleshoot Cloudflare Email Sending and Email Routing integrations and their delivery configuration. |
 | `cloudflare-one` | Cloudflare | Design, configure, troubleshoot, or review Cloudflare One Zero Trust and SASE deployments. Use cloudflare-one-migrati  |
 | `cloudflare-one-migrations` | Cloudflare | Assess and plan migrations from existing VPN, SWG, or SASE platforms to Cloudflare One, including policy mapping, par  |
+| `cloudflare-pages` | Cloudflare | Deploy static sites and full-stack apps on Cloudflare Pages with previews, |
+| `cloudflare-r2` | Cloudflare | Manage Cloudflare R2 buckets, lifecycle, and signed URLs. Use for low-egress |
 | `cloudflare-security-audit` | Cloudflare | Audit authorized codebases for exploitable vulnerabilities using scoped reconnaissance, adversarial review, validatio  |
+| `cloudflare-workers` | Cloudflare | Build and deploy edge functions with Cloudflare Workers and Wrangler. |
 | `cloudflare-workers-expert` | Cloudflare | Expert in Cloudflare Workers and the Edge Computing ecosystem. Covers Wrangler, KV, D1, Durable Objects, and R2 storage. |
+| `cloudflare-zero-trust` | Cloudflare | Protect internal apps with Cloudflare Access, device posture, and Zero |
+| `cloudformation` | DevOps & CI/CD | Deploy AWS resources with CloudFormation templates. Create stacks, use |
 | `cloudformation-best-practices` | General & Miscellaneous | CloudFormation template optimization, nested stacks, drift detection, and production-ready patterns. Use when writing  |
 | `cmux` | AI & LLM | Control cmux workspaces, panes, surfaces, and agent sessions safely from macOS terminal workflows. |
 | `co-marketing` | SEO & Marketing | When the user wants to find co-marketing partners, plan joint campaigns, or brainstorm partnership opportunities. |
@@ -501,6 +562,7 @@
 | `code-review-and-quality` | AI & LLM | Conducts multi-axis code review. Use before merging any change. Use when reviewing code written by yourself, another   |
 | `code-review-checklist` | Security & Pentesting | Comprehensive checklist for conducting thorough code reviews covering functionality, security, performance, and maint  |
 | `code-review-excellence` | General & Miscellaneous | Transform code reviews from gatekeeping to knowledge sharing through constructive feedback, systematic analysis, and   |
+| `code-review-sensei` | Security & Pentesting | Expert code reviewer that catches bugs, security issues, performance |
 | `code-reviewer` | General & Miscellaneous | Elite code review expert specializing in modern AI-powered code |
 | `code-showcase-core-components` | General & Miscellaneous | Core component library and design system patterns. Use when building UI, using design tokens, or working with the com  |
 | `code-showcase-react-ui-patterns` | Frontend & UI | Modern React UI patterns for loading states, error handling, and data fetching. Use when building UI components, hand  |
@@ -513,6 +575,7 @@
 | `codebase-cleanup-refactor-clean` | General & Miscellaneous | You are a code refactoring expert specializing in clean code principles, SOLID design patterns, and modern software e  |
 | `codebase-cleanup-tech-debt` | General & Miscellaneous | You are a technical debt expert specializing in identifying, quantifying, and prioritizing technical debt in software  |
 | `codebase-design` | Productivity & Workflow | Shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interface, find  |
+| `codebase-onboarding` | General & Miscellaneous | Onboard a developer to a repository using Ontoly graph summaries. Use |
 | `codebase-to-wordpress-converter` | SEO & Marketing | Expert skill for converting any codebase (React/HTML/Next.js) into a pixel-perfect, SEO-optimized, and dynamic WordPr  |
 | `codex-delegate` | General & Miscellaneous | Delegate coding tasks to the OpenAI Codex CLI only when the user explicitly |
 | `codex-fable5` | General & Miscellaneous | Apply Fable-inspired discipline to Codex work: inspect first, track goals and findings, ground conclusions in evidenc  |
@@ -551,7 +614,12 @@
 | `conductor-status` | General & Miscellaneous | Display project status, active tracks, and next actions |
 | `conductor-validator` | General & Miscellaneous | Validates Conductor project artifacts for completeness, |
 | `confluence-automation` | Automation & Integrations | Automate Confluence page creation, content search, space management, labels, and hierarchy navigation via Rube MCP (C  |
+| `connection-auth-rules` | General & Miscellaneous | Build a Connection Auth Rules for a Monte Carlo connection type. Fetches |
 | `constant-time-analysis` | General & Miscellaneous | Analyze cryptographic code to detect operations that leak secret data through execution timing variations. |
+| `constraint-driven-development` | General & Miscellaneous | Write the project quality bar as enforced CONSTRAINTS.md so agents stop |
+| `container-hardening` | DevOps & CI/CD | Secure Docker images and container runtime configurations. |
+| `container-registries` | DevOps & CI/CD | Manage container registries including ECR, ACR, GCR, and Docker Hub. |
+| `container-scanning` | General & Miscellaneous | Scan container images for vulnerabilities using Trivy, Grype, and cloud-native |
 | `container-security-hardening` | DevOps & CI/CD | Harden Docker/container images and runtime deployments with secure base images, non-root users, CVE scanning, SBOM/si  |
 | `content-creator` | SEO & Marketing | Professional-grade brand voice analysis, SEO optimization, and platform-specific content frameworks. |
 | `content-marketer` | SEO & Marketing | Elite content marketing strategist specializing in AI-powered content creation, omnichannel distribution, SEO optimiz  |
@@ -573,6 +641,7 @@
 | `conversation-memory` | AI & LLM | Persistent memory systems for LLM conversations including |
 | `convertkit-automation` | Automation & Integrations | Automate ConvertKit (Kit) tasks via Rube MCP (Composio): manage subscribers, tags, broadcasts, and broadcast stats. A  |
 | `convex` | Backend & API | Convex reactive backend expert: schema design, TypeScript functions, real-time subscriptions, auth, file storage, sch  |
+| `convex-backend` | Backend & API | Build reactive backends with Convex functions, schema validation, auth |
 | `copilot-delegate` | General & Miscellaneous | Delegate coding tasks to the GitHub Copilot CLI (`copilot`) only when |
 | `copilot-sdk` | Automation & Integrations | Build applications that programmatically interact with GitHub Copilot. The SDK wraps the Copilot CLI via JSON-RPC, pr  |
 | `copy-editing` | SEO & Marketing | You are an expert copy editor specializing in marketing and conversion copy. Your goal is to systematically improve e  |
@@ -620,6 +689,8 @@
 | `daily` | General & Miscellaneous | Documentation and capabilities reference for Daily |
 | `daily-gift` | Media & Creative | Relationship-aware daily gift engine with five-stage creative pipeline — editorial judgment, synthesis, concept gener  |
 | `daily-news-report` | General & Miscellaneous | Scrapes content based on a preset URL list, filters high-quality technical information, and generates daily Markdown   |
+| `dali-short-address-commissioner` | General & Miscellaneous | Commissions DALI and DALI-2 (IEC 62386) lighting buses: short-address assignment (0-63), 24-bit binary search collisi  |
+| `dast-scanning` | Security & Pentesting | Perform dynamic application security testing with OWASP ZAP, Burp Suite, |
 | `data-engineer` | General & Miscellaneous | Build scalable data pipelines, modern data warehouses, and real-time streaming architectures. Implements Apache Spark  |
 | `data-engineering-data-driven-feature` | General & Miscellaneous | Build features guided by data insights, A/B testing, and continuous measurement using specialized agents for analysis  |
 | `data-engineering-data-pipeline` | Architecture & Design Patterns | You are a data pipeline architecture expert specializing in scalable, reliable, and cost-effective data pipelines for  |
@@ -630,6 +701,7 @@
 | `database` | Database | Database development and operations workflow covering SQL, NoSQL, database design, migrations, optimization, and data  |
 | `database-admin` | Automation & Integrations | Expert database administrator specializing in modern cloud databases, automation, and reliability engineering. |
 | `database-architect` | Database | Expert database architect specializing in data layer design from scratch, technology selection, schema modeling, and   |
+| `database-backups` | Database | Implement database backup strategies. Configure automated backups, retention, |
 | `database-cloud-optimization-cost-optimize` | Google Cloud | You are a cloud cost optimization expert specializing in reducing infrastructure expenses while maintaining performan  |
 | `database-design` | Database | Database design principles and decision-making. Schema design, indexing strategy, ORM selection, serverless databases. |
 | `database-migration` | Database | Master database schema and data migrations across ORMs (Sequelize, TypeORM, Prisma), including rollback strategies an  |
@@ -637,6 +709,7 @@
 | `database-migrations-sql-migrations` | Database | SQL database migrations with zero-downtime strategies for PostgreSQL, MySQL, and SQL Server. Focus on data integrity   |
 | `database-optimizer` | Database | Expert database optimizer specializing in modern performance tuning, query optimization, and scalable architectures. |
 | `database-security` | Security & Pentesting | Authorized database security assessment across PostgreSQL, MySQL, MSSQL, MongoDB, and Redis: exposure, authorization   |
+| `datadog` | Observability & Monitoring | Implement Datadog monitoring and APM for infrastructure and applications. |
 | `datadog-automation` | Automation & Integrations | Automate Datadog tasks via Rube MCP (Composio): query metrics, search logs, manage monitors/dashboards, create events  |
 | `dbos-golang` | Languages: Go | Guide for building reliable, fault-tolerant Go applications with DBOS durable workflows. Use when adding DBOS to exis  |
 | `dbos-python` | Languages: Python | Guide for building reliable, fault-tolerant Python applications with DBOS durable workflows. Use when adding DBOS to   |
@@ -645,6 +718,7 @@
 | `ddd-context-mapping` | Automation & Integrations | Map relationships between bounded contexts and define integration contracts using DDD context mapping patterns. |
 | `ddd-strategic-design` | Architecture & Design Patterns | Design DDD strategic artifacts including subdomains, bounded contexts, and ubiquitous language for complex business d  |
 | `ddd-tactical-patterns` | Architecture & Design Patterns | Apply DDD tactical patterns in code using entities, value objects, aggregates, repositories, and domain events with e  |
+| `de-ai-writer` | General & Miscellaneous | Chinese AI-smell removal engine: 35 Chinese AI-tell patterns (赋能/闭环), AI-smell scoring, de-AI rewriting, style clone.  |
 | `debate-review` | DevOps & CI/CD | Two-model debate review of a GitHub PR, GitLab MR, Azure DevOps PR, or |
 | `debug-buttercup` | General & Miscellaneous | All pods run in namespace crs. Use when pods in the crs namespace are in CrashLoopBackOff, OOMKilled, or restarting,   |
 | `debugger` | Testing & QA | Debugging specialist for errors, test failures, and unexpected |
@@ -660,7 +734,9 @@
 | `defuddle` | General & Miscellaneous | Extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation to save tokens. Use  |
 | `delegate-setup` | General & Miscellaneous | Configure approved delegation lanes across installed implementer CLIs, |
 | `delegating-to-agents` | General & Miscellaneous | Delegate bounded work to other AI agents while preserving context, ownership, and progress checks. |
+| `dependency-analysis` | General & Miscellaneous | Analyze internal and package dependencies using Ontoly graph traversal. |
 | `dependency-management-deps-audit` | Security & Pentesting | You are a dependency security expert specializing in vulnerability scanning, license compliance, and supply chain sec  |
+| `dependency-scanning` | General & Miscellaneous | Scan package dependencies for known vulnerabilities using Snyk, Dependabot, |
 | `dependency-upgrade` | General & Miscellaneous | Master major dependency version upgrades, compatibility analysis, staged upgrade strategies, and comprehensive testin  |
 | `deploy-to-vercel` | DevOps & CI/CD | Deploy applications and websites to Vercel. Use when the user requests deployment actions like \"deploy my app\", \"d  |
 | `deployment-engineer` | DevOps & CI/CD | Expert deployment engineer specializing in modern CI/CD pipelines, GitOps workflows, and advanced deployment automation. |
@@ -731,6 +807,7 @@
 | `deterministic-design` | General & Miscellaneous | Render the UI and prove it's balanced + usable: a deterministic layout audit (centroid / optical-center / pixel-oracl  |
 | `dev-to-hashnode` | General & Miscellaneous | When the user wants to publish on Dev.to, Hashnode, or other developer blogging platforms. Trigger phrases include "D  |
 | `devcontainer-setup` | Languages: Python | Creates devcontainers with Claude Code, language-specific tooling (Python/Node/Rust/Go), and persistent volumes. Use   |
+| `devcontainers-nix` | General & Miscellaneous | Create reproducible development environments with Dev Containers, Nix |
 | `developer-advocacy` | General & Miscellaneous | When the user wants to do developer advocacy activities including conference talks, live coding, podcasts, and buildi  |
 | `developer-audience-context` | SEO & Marketing | When the user wants to establish or update their developer audience context. Also use when starting any other develop  |
 | `developer-churn` | General & Miscellaneous | When the user wants to understand, reduce, or recover from developer churn. Trigger phrases include "why developers l  |
@@ -742,6 +819,7 @@
 | `developer-signup-flow` | Backend & API | Design frictionless signup experiences for developers including GitHub OAuth, API key generation, and onboarding pers  |
 | `development` | Frontend & UI | Comprehensive web, mobile, and backend development workflow bundling frontend, backend, full-stack, and mobile develo  |
 | `devops-deploy` | DevOps & CI/CD | DevOps e deploy de aplicacoes — Docker, CI/CD com GitHub Actions, AWS Lambda, SAM, Terraform, infraestrutura como cod  |
+| `devops-pipeline-builder` | DevOps & CI/CD | Design and implement CI/CD pipelines, Docker configurations, deployment |
 | `devops-troubleshooter` | DevOps & CI/CD | Expert DevOps troubleshooter specializing in rapid incident response, advanced debugging, and modern observability. |
 | `devrel-content` | General & Miscellaneous | When the user wants to create technical content for developers including blog posts, tutorials, and documentation. |
 | `diagnose-android-overheating` | General & Miscellaneous | Use when diagnosing Android overheating, idle heat, thermal throttling, charging or radio heat, or abnormal battery d  |
@@ -750,6 +828,7 @@
 | `diary` | General & Miscellaneous | Unified Diary System: A context-preserving automated logger for multi-project development. |
 | `differential-review` | Security & Pentesting | Security-focused code review for PRs, commits, and diffs. |
 | `digital-forensics` | General & Miscellaneous | Authorized digital forensics: memory dumps, disk timelines, PCAP investigation, artifact triage, and incident-respons  |
+| `disaster-recovery` | General & Miscellaneous | Implement disaster recovery strategies and runbooks. Configure RPO/RTO |
 | `discord-automation` | Automation & Integrations | Automate Discord tasks via Rube MCP (Composio): messages, channels, roles, webhooks, reactions. Always search tools f  |
 | `discord-bot-architect` | Productivity & Workflow | Specialized skill for building production-ready Discord bots. |
 | `discover` | Product Management | This skill should be used when the user asks to \"discover\". Run a full product discovery cycle. |
@@ -762,9 +841,12 @@
 | `django-access-review` | Backend & API | django-access-review |
 | `django-perf-review` | Database | Django performance code review. Use when asked to "review Django performance", "find N+1 queries", "optimize Django",  |
 | `django-pro` | Backend & API | Master Django 5.x with async views, DRF, Celery, and Django Channels. Build scalable web applications with proper arc  |
+| `dns-management` | General & Miscellaneous | Configure DNS zones and records. Manage Route53, Cloud DNS, and self-hosted |
 | `doc-coauthoring` | Productivity & Workflow | This skill provides a structured workflow for guiding users through collaborative document creation. Act as an active  |
 | `doc2math` | General & Miscellaneous | Convert narrative technical documents into grounded Mathematical Problem Specifications with variables, constraints,   |
+| `docker-compose` | DevOps & CI/CD | Define and run multi-container Docker applications using Docker Compose. |
 | `docker-expert` | DevOps & CI/CD | You are an advanced Docker containerization expert with comprehensive, practical knowledge of container optimization,  |
+| `docker-management` | DevOps & CI/CD | Build, optimize, and troubleshoot Docker containers and images. |
 | `docs-architect` | Architecture & Design Patterns | Creates comprehensive technical documentation from existing codebases. Analyzes architecture, design patterns, and im  |
 | `docs-as-marketing` | SEO & Marketing | Transform documentation into a powerful marketing channel that attracts, converts, and retains developers. |
 | `docs-generator` | Security & Pentesting | Generate technical deliverables from completed analysis: reverse-engineering reports, penetration-test reports, CTF w  |
@@ -797,14 +879,22 @@
 | `e2e-testing` | DevOps & CI/CD | End-to-end testing workflow with Playwright for browser automation, visual regression, cross-browser testing, and CI/  |
 | `e2e-testing-patterns` | Testing & QA | Build reliable, fast, and maintainable end-to-end test suites that provide confidence to ship code quickly and catch   |
 | `earllm-build` | Languages: Java/Kotlin | Build, maintain, and extend the EarLLM One Android project — a Kotlin/Compose app that connects Bluetooth earbuds to   |
+| `eas-app-stores` | Productivity & Workflow | Curated upstream guidance for Eas App Stores; use when the workflow matches the user goal. |
+| `eas-hosting` | Productivity & Workflow | Curated upstream guidance for Eas Hosting; use when the workflow matches the user goal. |
+| `eas-observe` | Productivity & Workflow | Curated upstream guidance for Eas Observe; use when the workflow matches the user goal. |
+| `eas-simulator` | Productivity & Workflow | Curated upstream guidance for Eas Simulator; use when the workflow matches the user goal. |
 | `eas-update-insights` | General & Miscellaneous | Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the sp  |
+| `eas-workflows` | Productivity & Workflow | Curated upstream guidance for Eas Workflows; use when the workflow matches the user goal. |
+| `ebpf-observability` | Observability & Monitoring | Use eBPF for deep kernel-level observability — trace syscalls, network |
 | `ecl-harness-engineer` | AI & LLM | Create or audit ECL Agent Harness infrastructure: AGENTS.md, change tracking, repository guidance, lint checks, CI ga  |
 | `edr-bypass-re` | General & Miscellaneous | Reverse engineer EDR internals (user-mode hook tables, ETW, AMSI) and study bypass techniques such as direct syscalls  |
 | `effective-agent-skills` | AI & LLM | Author and review high-quality agent skills with triggers, progressive disclosure, and safety notes. |
 | `efficient-web-research` | General & Miscellaneous | Protocol for token-efficient web research. Use when accessing URLs, GitHub repos, or running search queries. Prevents  |
 | `ejentum-reasoning-harness` | Automation & Integrations | MCP server exposing four cognitive harness modes (reasoning, code, anti-deception, memory). Each call returns an engi  |
 | `electron-development` | Architecture & Design Patterns | Master Electron desktop app development with secure IPC, contextIsolation, preload scripts, multi-process architectur  |
+| `electron-drive-skill` | Productivity & Workflow | Launch the project's Electron app on a scratch profile and drive it: click, type, screenshot, run renderer or main-pr  |
 | `elixir-pro` | General & Miscellaneous | Write idiomatic Elixir code with OTP patterns, supervision trees, and Phoenix LiveView. Masters concurrency, fault to  |
+| `elk-stack` | DevOps & CI/CD | Deploy and manage the ELK Stack (Elasticsearch, Logstash, Kibana) for |
 | `elon-musk` | General & Miscellaneous | Agente que simula Elon Musk com profundidade psicologica e comunicacional de alta fidelidade. Ativado para: \"fale co  |
 | `email-issue-fixer` | General & Miscellaneous | Fix small email mistakes without touching the writer's voice, and strip tracking parameters from links on request. Al  |
 | `email-security` | Security & Pentesting | Authorized email security review: phishing analysis, SPF/DKIM/DMARC header authentication, BEC pattern investigation,  |
@@ -818,8 +908,10 @@
 | `employment-contract-templates` | General & Miscellaneous | Templates and patterns for creating legally sound employment documentation including contracts, offer letters, and HR  |
 | `energy-procurement` | General & Miscellaneous | Codified expertise for electricity and gas procurement, tariff optimisation, demand charge management, renewable PPA   |
 | `enhance-prompt` | General & Miscellaneous | Transforms vague UI ideas into polished, Stitch-optimized prompts. Enhances specificity, adds UI/UX keywords, injects  |
+| `enterprise-vpn-attack` | General & Miscellaneous | External SSL VPN / remote-access appliance attack matrix |
 | `entropy-box` | General & Miscellaneous | Entropy Box knowledge-compiler for embodied-AI: turns bounded requirements into grounded workflows via Solution Consu  |
 | `environment-setup-guide` | General & Miscellaneous | Guide developers through setting up development environments with proper tools, dependencies, and configurations |
+| `eol-resistor-calculator` | General & Miscellaneous | Calculates and validates end-of-line (EOL, SEOL, DEOL, TEOL) resistor loops for intrusion alarm panels (Honeywell, DS  |
 | `error-debugging-error-analysis` | Observability & Monitoring | You are an expert error analysis specialist with deep expertise in debugging distributed systems, analyzing productio  |
 | `error-debugging-error-trace` | Observability & Monitoring | You are an error tracking and observability expert specializing in implementing comprehensive error monitoring soluti  |
 | `error-debugging-multi-agent-review` | AI & LLM | Use when working with error debugging multi agent review |
@@ -828,17 +920,20 @@
 | `error-diagnostics-error-trace` | Observability & Monitoring | You are an error tracking and observability expert specializing in implementing comprehensive error monitoring soluti  |
 | `error-diagnostics-smart-debug` | General & Miscellaneous | Use when working with error diagnostics smart debug |
 | `error-handling-patterns` | General & Miscellaneous | Build resilient applications with robust error handling strategies that gracefully handle failures and provide excell  |
+| `esl-price-sync` | General & Miscellaneous | Synchronizes retail prices between ERP/POS systems and Electronic Shelf Labels (SES-imagotag, ZKONG, Pricer, Hanshow,  |
 | `ethical-hacking-methodology` | Security & Pentesting | Master the complete penetration testing lifecycle from reconnaissance through reporting. This skill covers the five s  |
 | `evaluation` | AI & LLM | Build evaluation frameworks for agent systems. Use when testing agent performance systematically, validating context   |
 | `event-sourcing-architect` | Architecture & Design Patterns | Expert in event sourcing, CQRS, and event-driven architecture patterns. Masters event store design, projection buildi  |
 | `event-staffing-compliance` | Automation & Integrations | Assess worker-classification and compliance risk for temporary event staffing in the US and Canada — W-2 vs 1099, mis  |
 | `event-staffing-ordering` | SEO & Marketing | Order W-2 compliant temporary event staff for conventions, trade shows, festivals, concerts, sporting events, and bra  |
 | `event-store-design` | General & Miscellaneous | Design and implement event stores for event-sourced systems. Use when building event sourcing infrastructure, choosin  |
+| `evidence-hygiene` | General & Miscellaneous | Evidence-capture and PoC-redaction discipline for bug-bounty submissions |
 | `evolution` | Productivity & Workflow | This skill enables makepad-skills to self-improve continuously during development. |
 | `exa-search` | Backend & API | Semantic search, similar content discovery, and structured research using Exa API. Use when you need semantic/embeddi  |
 | `examprep-ai` | General & Miscellaneous | Exam preparation assistant that converts syllabi, past papers, or notes into a ranked High Score Roadmap. Covers theo  |
 | `executing-plans` | General & Miscellaneous | Use when you have a written implementation plan to execute in a separate session with review checkpoints |
 | `explain-like-socrates` | General & Miscellaneous | Explains concepts using Socratic-style dialogue. Use when the user asks to explain, teach or help understand a concep  |
+| `expo-animation` | Mobile | Curated upstream guidance for Expo Animation; use when the workflow matches the user goal. |
 | `expo-api-routes` | Mobile | Guidelines for creating API routes in Expo Router with EAS Hosting |
 | `expo-brownfield` | Frontend & UI | Integrate Expo and React Native into an existing native iOS or Android app. Use when the user mentions brownfield, em  |
 | `expo-cicd-workflows` | DevOps & CI/CD | Helps understand and write EAS workflow YAML files for Expo projects. Use this skill when the user asks about CI/CD o  |
@@ -854,6 +949,7 @@
 | `extract-document-data` | General & Miscellaneous | Extract structured, grounded fields from documents — values cite their page, missing values abstain instead of halluc  |
 | `fable-safe-prompt` | General & Miscellaneous | Rewrite allowed prompts to reduce false-positive safety triggers without bypassing policy or changing intent. |
 | `fact-check-x-complete` | General & Miscellaneous | Compare claims from one or more AI answers, verify their citations against public primary sources, and produce an evi  |
+| `fact-check-x-unified` | General & Miscellaneous | Fact-Check-X 流程编排能力，依次组织各方答案汇总、各方答案聚合（未核验）、权威核验后的最终答案和各方答案测评，生成可打开、可审计、可迁移的阶段产物与完整报告包。 |
 | `faf-context` | General & Miscellaneous | Get your project to 100% ✪ AI-readiness, fast — the AI auto-detects your stack and only asks for what it can't know (  |
 | `faf-expert` | Automation & Integrations | Advanced .faf (Foundational AI-context Format) specialist. IANA-registered format, MCP server config, championship sc  |
 | `faf-go` | Automation & Integrations | Guided interview to Gold Code (100% AI-Readiness). Use when helping users improve their .faf file through questions.   |
@@ -873,8 +969,10 @@
 | `favicon` | General & Miscellaneous | Generate favicons from a source image |
 | `fda-food-safety-auditor` | Legal & Compliance | Expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventiv  |
 | `fda-medtech-compliance-auditor` | Legal & Compliance | Expert AI auditor for Medical Device (SaMD) compliance, IEC 62304, and 21 CFR Part 820. Reviews DHFs, technical files  |
+| `feature-flags` | General & Miscellaneous | Implement feature flags for progressive feature rollout using LaunchDarkly, |
 | `feature-tracking` | General & Miscellaneous | Maintain durable feature-level memory across AI coding sessions with lightweight Markdown tracks for status, source-o  |
 | `fedora-hyprland-installer` | General & Miscellaneous | Install, configure, verify, repair, update, and uninstall Hyprland on Fedora Linux with GPU-aware detection (NVIDIA/A  |
+| `fedramp-compliance` | Legal & Compliance | Implement FedRAMP requirements for federal cloud services. Configure |
 | `ffuf-claude-skill` | Productivity & Workflow | Web fuzzing with ffuf |
 | `ffuf-web-fuzzing` | Security & Pentesting | Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, a  |
 | `figma-automation` | Automation & Integrations | Automate Figma tasks via Rube MCP (Composio): files, components, design tokens, comments, exports. Always search tool  |
@@ -882,12 +980,15 @@
 | `file-path-traversal` | General & Miscellaneous | Identify and exploit file path traversal (directory traversal) vulnerabilities that allow attackers to read arbitrary  |
 | `file-uploads` | General & Miscellaneous | Expert at handling file uploads and cloud storage. Covers S3, |
 | `filesystem-context` | General & Miscellaneous | Use for file-based context management, dynamic context discovery, and reducing context window bloat. Offload context   |
+| `film-crew` | Media & Creative | Turn a one-line AI video idea into a shot list and per-shot, model-ready prompts via a film crew (director, DP, gaffe  |
 | `find-bugs` | Security & Pentesting | Find bugs, security vulnerabilities, and code quality issues in local branch changes. Use when asked to review change  |
 | `find-complementary-founders` | AI & LLM | Use when an owner explicitly asks for a cofounder or project partner, or explicitly says they need a complementary bu  |
 | `find-matching-tenders` | General & Miscellaneous | Find open AU/NZ government tenders matching what a company does, ranked by fit with why and gap analysis. Use when th  |
 | `finishing-a-development-branch` | General & Miscellaneous | Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides comple  |
 | `firebase` | Google Cloud | Firebase gives you a complete backend in minutes - auth, database, |
+| `firebase-app-platform` | Google Cloud | Build and operate apps on Firebase using Auth, Firestore, Cloud Functions, |
 | `firecrawl-scraper` | Backend & API | Deep web scraping, screenshots, PDF parsing, and website crawling using Firecrawl API. Use when you need deep content  |
+| `firewall-config` | General & Miscellaneous | Configure iptables, nftables, and cloud firewalls. Implement network |
 | `firmware-analyst` | Security & Pentesting | Expert firmware analyst specializing in embedded systems, IoT security, and hardware reverse engineering. |
 | `firmware-pentest` | Security & Pentesting | Firmware penetration testing following the OWASP FSTM nine-stage flow: extraction, EMBA automation, Firmadyne/QEMU em  |
 | `fitness-analyzer` | General & Miscellaneous | 分析运动数据、识别运动模式、评估健身进展，并提供个性化训练建议。支持与慢性病数据的关联分析。 |
@@ -954,8 +1055,16 @@
 | `game-development/pc-games` | Game Development | PC and console game development principles. Engine selection, platform features, optimization strategies. |
 | `game-development/vr-ar` | Game Development | VR/AR development principles. Comfort, interaction, performance requirements. |
 | `game-development/web-games` | Game Development | Web browser game development principles. Framework selection, WebGPU, optimization, PWA. |
+| `gcp-audit-logs` | Google Cloud | Configure GCP Cloud Audit Logs for compliance. Set up log routing and |
+| `gcp-cloud-functions` | Google Cloud | Deploy serverless functions on Google Cloud Functions. Configure triggers |
 | `gcp-cloud-run` | Google Cloud | Specialized skill for building production-ready serverless |
+| `gcp-cloud-sql` | Google Cloud | Provision Cloud SQL and Spanner databases. Configure high availability, |
+| `gcp-compute` | Google Cloud | Manage Compute Engine instances and instance templates. Configure managed |
+| `gcp-gke` | Google Cloud | Deploy and manage Google Kubernetes Engine clusters. Configure node pools, |
+| `gcp-networking` | Google Cloud | Configure VPCs, firewall rules, and Cloud NAT. Implement shared VPC and |
+| `gcp-secret-manager` | Google Cloud | Secure secrets in Google Cloud Secret Manager. Configure IAM policies, |
 | `gdb-cli` | General & Miscellaneous | GDB debugging assistant for AI agents - analyze core dumps, debug live processes, investigate crashes and deadlocks w  |
+| `gdpr-compliance` | Legal & Compliance | Implement GDPR data protection requirements. Configure consent management, |
 | `gdpr-data-handling` | Legal & Compliance | Practical implementation guide for GDPR-compliant data processing, consent management, and privacy controls. |
 | `gemini-api-dev` | Backend & API | The Gemini API provides access to Google's most advanced AI models. Key capabilities include: |
 | `gemini-api-integration` | Automation & Integrations | Use when integrating Google Gemini API into projects. Covers model selection, multimodal inputs, streaming, function   |
@@ -966,7 +1075,21 @@
 | `geminiignore-finops` | General & Miscellaneous | Configure and optimize .geminiignore files for AI context window efficiency and token cost reduction (FinOps). |
 | `generate-data` | Product Management | This skill should be used when the user asks to \"generate data\". Generate realistic dummy datasets for testing. |
 | `generate-nanobanana` | Media & Creative | Generate and edit images/video with Google's Gemini media models (Nano Banana 2/Pro, Gemini Omni Flash), with cost-ap  |
+| `geo-audit` | SEO & Marketing | Full website GEO+SEO audit with parallel subagent delegation. |
+| `geo-brand-mentions` | SEO & Marketing | Brand mention and authority scanner for AI visibility. |
+| `geo-citability` | General & Miscellaneous | AI citability scoring and optimization. |
+| `geo-compare` | General & Miscellaneous | Monthly delta tracking and progress reporting for GEO clients. |
+| `geo-content` | General & Miscellaneous | Content quality and E-E-A-T assessment for AI citability — evaluate experience, |
+| `geo-crawlers` | General & Miscellaneous | AI crawler access analysis. |
 | `geo-fundamentals` | General & Miscellaneous | Generative Engine Optimization for AI search engines (ChatGPT, Claude, Perplexity). |
+| `geo-llmstxt` | General & Miscellaneous | Analyzes and generates llms.txt files -- the emerging standard for helping |
+| `geo-platform-optimizer` | General & Miscellaneous | Platform-specific AI search optimization — audit and optimize for Google |
+| `geo-proposal` | General & Miscellaneous | Auto-generate a professional, client-ready GEO service proposal from |
+| `geo-prospect` | General & Miscellaneous | CRM-lite for managing GEO agency prospects and clients. |
+| `geo-report` | General & Miscellaneous | Generate a professional, client-facing GEO report combining all audit |
+| `geo-report-pdf` | General & Miscellaneous | Generate a professional PDF report from a GEO audit using pandoc + Chrome |
+| `geo-schema` | General & Miscellaneous | Schema.org structured data audit and generation optimized for AI discoverability |
+| `geo-technical` | SEO & Marketing | Technical SEO audit with GEO-specific checks — crawlability, indexability, |
 | `geoffrey-hinton` | General & Miscellaneous | Agente que simula Geoffrey Hinton — Godfather of Deep Learning, Prêmio Turing 2018, criador do backpropagation e das   |
 | `gh-attach` | General & Miscellaneous | Upload and download GitHub user-attachments (screenshots, PDFs, zips, videos) from the terminal; use when asked to at  |
 | `gh-image` | General & Miscellaneous | Upload local images to GitHub and get canonical user-attachments embed URLs; use when asked to attach a screenshot to  |
@@ -980,8 +1103,10 @@
 | `git-pr-workflows-onboard` | Automation & Integrations | You are an **expert onboarding specialist and knowledge transfer architect** with deep experience in remote-first org  |
 | `git-pr-workflows-pr-enhance` | Git & Version Control | You are a PR optimization expert specializing in creating high-quality pull requests that facilitate efficient code r  |
 | `git-pushing` | Git & Version Control | Stage all changes, create a conventional commit, and push to the remote branch. Use when explicitly asks to push chan  |
+| `git-workflow` | Git & Version Control | Implement Git branching strategies, PR workflows, and release management |
 | `git-workflow-and-versioning` | Git & Version Control | Structures git workflow practices. Use when making any code change. Use when committing, branching, resolving conflic  |
 | `github` | Backend & API | Use the `gh` CLI for issues, pull requests, Actions runs, and GitHub API queries. |
+| `github-actions` | DevOps & CI/CD | Build, test, and deploy applications using GitHub Actions workflows. |
 | `github-actions-advanced` | DevOps & CI/CD | Design, debug, and harden GitHub Actions CI/CD workflows, including reusable workflows, matrix builds, self-hosted ru  |
 | `github-actions-debugger` | Productivity & Workflow | Specialized skill for diagnosing, analyzing, and fixing failing GitHub Actions workflows by parsing run logs and pipe  |
 | `github-actions-templates` | Productivity & Workflow | Production-ready GitHub Actions workflow patterns for testing, building, and deploying applications. |
@@ -990,6 +1115,7 @@
 | `github-presence` | SEO & Marketing | When the user wants to optimize their GitHub profile, README, or project discoverability. Trigger phrases include "Gi  |
 | `github-workflow-automation` | DevOps & CI/CD | Patterns for automating GitHub workflows with AI assistance, inspired by [Gemini CLI](https://github.com/google-gemin  |
 | `gitlab-automation` | Automation & Integrations | Automate GitLab project management, issues, merge requests, pipelines, branches, and user operations via Rube MCP (Co  |
+| `gitlab-ci` | DevOps & CI/CD | Configure GitLab CI/CD pipelines and runners for automated building, |
 | `gitlab-ci-patterns` | DevOps & CI/CD | Comprehensive GitLab CI/CD pipeline patterns for automated testing, building, and deployment. |
 | `gitops-workflow` | DevOps & CI/CD | Complete guide to implementing GitOps workflows with ArgoCD and Flux for automated Kubernetes deployments. |
 | `glasser` | Automation & Integrations | Search, inspect, and run third-party data APIs through one CLI when the environment has no suitable integration. |
@@ -1009,10 +1135,13 @@
 | `google-calendar-automation` | Automation & Integrations | Lightweight Google Calendar integration with standalone OAuth authentication. No MCP server required. |
 | `google-docs-automation` | Automation & Integrations | Lightweight Google Docs integration with standalone OAuth authentication. No MCP server required. |
 | `google-drive-automation` | Automation & Integrations | Lightweight Google Drive integration with standalone OAuth authentication. No MCP server required. Full read/write ac  |
+| `google-no-code` | General & Miscellaneous | Design Google Forms and wire Apps Script triggers (onFormSubmit) for email alerts, spreadsheet logging, and dynamic q  |
 | `google-sheets-automation` | Automation & Integrations | Lightweight Google Sheets integration with standalone OAuth authentication. No MCP server required. Full read/write a  |
 | `google-slides-automation` | Automation & Integrations | Lightweight Google Slides integration with standalone OAuth authentication. No MCP server required. Full read/write a  |
 | `googlesheets-automation` | Automation & Integrations | Automate Google Sheets operations (read, write, format, filter, manage spreadsheets) via Rube MCP (Composio). Read/wr  |
 | `gpt-taste` | Frontend & UI | Use when generating elite GSAP-heavy frontend pages with strict AIDA structure, wide hero typography, and gapless ben  |
+| `gpu-kubernetes-operations` | DevOps & CI/CD | Operate GPU-backed Kubernetes clusters for AI inference and training |
+| `gpu-server-management` | General & Miscellaneous | Set up and manage NVIDIA GPU servers for AI workloads |
 | `graceful-shutdown` | General & Miscellaneous | Implement graceful shutdown for servers and workers: drain connections, finish in-flight work, release resources, and  |
 | `grafana-dashboards` | Observability & Monitoring | Create and manage production-ready Grafana dashboards for comprehensive system observability. |
 | `grammar-check` | Product Management | Identify grammar, logical, and flow errors in text and suggest targeted fixes without rewriting the entire text. Use   |
@@ -1034,13 +1163,16 @@
 | `hardware-security` | Security & Pentesting | Authorized hardware and embedded interface security research: UART/JTAG discovery, debug-pad triage, secure-boot over  |
 | `hasdata` | General & Miscellaneous | Use HasData APIs for web scraping and structured web data extraction. |
 | `hasdata-cli` | General & Miscellaneous | Command-line access to search, scraping, and structured web data. |
+| `hashicorp-vault` | General & Miscellaneous | Manage secrets and PKI with HashiCorp Vault. |
 | `haskell-pro` | General & Miscellaneous | Expert Haskell engineer specializing in advanced type systems, pure |
 | `headline-psychologist` | Productivity & Workflow | One sentence - what this skill does and when to invoke it |
 | `health-trend-analyzer` | General & Miscellaneous | 分析一段时间内健康数据的趋势和模式。关联药物、症状、生命体征、化验结果和其他健康指标的变化。识别令人担忧的趋势、改善情况，并提供数据驱动的洞察。当用户询问健康趋势、模式、随时间的变化或"我的健康状况有什么变化？"时使用。支持多维度分析  |
 | `helium-mcp` | Automation & Integrations | Connect to Helium's MCP server for news research, media bias analysis, balanced perspectives, stock/options data, and  |
 | `hello` | Productivity & Workflow | Describe what this skill does and when to use it. Include keywords that help agents identify relevant tasks. |
 | `helm-chart-scaffolding` | DevOps & CI/CD | Comprehensive guidance for creating, organizing, and managing Helm charts for packaging and deploying Kubernetes appl  |
+| `helm-charts` | DevOps & CI/CD | Create, manage, and deploy Helm charts for Kubernetes package management. |
 | `helpdesk-automation` | Automation & Integrations | Automate HelpDesk tasks via Rube MCP (Composio): list tickets, manage views, use canned responses, and configure cust  |
+| `hf-cli` | Productivity & Workflow | Curated upstream guidance for Hf Cli; use when the workflow matches the user goal. |
 | `hf-cloud-aws-context-discovery` | AWS | Discover the effective local AWS profile, region, account, and caller identity before any AWS task without exposing c  |
 | `hf-mcp` | Automation & Integrations | Use Hugging Face Hub via MCP server tools. Search models, datasets, Spaces, papers. Get repo details, fetch documenta  |
 | `hf-mem` | General & Miscellaneous | Hugging Face CLI to estimate the required memory to load Safetensors or GGUF model weights for inference from the Hug  |
@@ -1060,6 +1192,7 @@
 | `hig-project-context` | Apple HIG & Design | Create or update a shared Apple design context document that other HIG skills use to tailor guidance. |
 | `hig-technologies` | Apple HIG & Design | Check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information   |
 | `high-end-visual-design` | General & Miscellaneous | Use when designing expensive agency-grade interfaces with premium fonts, spatial rhythm, soft depth, and fluid microi  |
+| `hipaa-compliance` | Security & Pentesting | Implement HIPAA security and privacy rules. Configure PHI protections |
 | `hono` | Cloudflare | Build ultra-fast web APIs and full-stack apps with Hono — runs on Cloudflare Workers, Deno, Bun, Node.js, and any Win  |
 | `hook-development` | Automation & Integrations | This skill should be used when the user asks to "create a hook", "add a PreToolUse/PostToolUse/Stop hook", "validate   |
 | `hosted-agents` | General & Miscellaneous | Build background agents in sandboxed environments. Use for hosted coding agents, sandboxed VMs, Modal sandboxes, and   |
@@ -1082,6 +1215,8 @@
 | `hugging-face-trackio` | Languages: Python | Track ML experiments with Trackio using Python logging, alerts, and CLI metric retrieval. |
 | `hugging-face-vision-trainer` | AI & LLM | Train or fine-tune vision models on Hugging Face Jobs for detection, classification, and SAM or SAM2 segmentation. |
 | `huggingface-best` | General & Miscellaneous | Use when the user asks about finding the best, top, or recommended model for a task, wants to know what AI model to u  |
+| `huggingface-community-evals` | Productivity & Workflow | Curated upstream guidance for Huggingface Community Evals; use when the workflow matches the user goal. |
+| `huggingface-datasets` | Backend & API | Use this skill for Hugging Face Dataset Viewer API workflows that fetch |
 | `huggingface-local-models` | General & Miscellaneous | Use to select models to run locally with llama.cpp and GGUF on CPU, Mac Metal, CUDA, or ROCm. Covers finding GGUFs, q  |
 | `huggingface-lora-space-builder` | General & Miscellaneous | Build and publish a Gradio demo on Hugging Face Spaces for a user-provided LoRA. |
 | `huggingface-spaces` | DevOps & CI/CD | Build, deploy, and maintain applications on Hugging Face Spaces — Gradio / Docker / Static SDKs, ZeroGPU and dedicate  |
@@ -1089,20 +1224,83 @@
 | `huggingface-zerogpu` | General & Miscellaneous | AI demos and GPU compute with Gradio Spaces and Hugging Face Spaces ZeroGPU. |
 | `hugo-to-markdown` | General & Miscellaneous | Convert Hugo documentation sites and Hugo-managed content into standard Markdown. |
 | `humanize-chinese` | Productivity & Workflow | Detect and rewrite AI-like Chinese text with a practical workflow for scoring, humanization, academic AIGC reduction,  |
+| `hunt-api-misconfig` | Security & Pentesting | Hunt API security misconfiguration |
+| `hunt-aspnet` | General & Miscellaneous | Hunt ASP.NET-specific surface |
+| `hunt-ato` | General & Miscellaneous | Hunt account takeover taxonomy |
+| `hunt-auth-bypass` | Productivity & Workflow | Hunting skill for auth bypass vulnerabilities. |
+| `hunt-brute-force` | General & Miscellaneous | Hunt Missing/Weak Rate Limiting |
+| `hunt-business-logic` | Productivity & Workflow | Hunting skill for business logic vulnerabilities. |
+| `hunt-cache-poison` | Productivity & Workflow | Hunting skill for cache poison vulnerabilities. |
+| `hunt-captcha-bypass` | General & Miscellaneous | Hunt CAPTCHA Bypass |
+| `hunt-cicd` | DevOps & CI/CD | Hunt CI/CD pipeline vulnerabilities |
+| `hunt-clickjacking` | General & Miscellaneous | Hunt Clickjacking |
+| `hunt-cloud-misconfig` | General & Miscellaneous | Hunt cloud / infrastructure misconfigurations. |
+| `hunt-cors` | General & Miscellaneous | Hunt CORS Misconfiguration |
+| `hunt-csrf` | Productivity & Workflow | Hunting skill for csrf vulnerabilities. |
+| `hunt-deserialization` | General & Miscellaneous | Hunt Insecure Deserialization |
+| `hunt-dispatch` | Productivity & Workflow | Skill-set loader for /hunt orchestrator. |
+| `hunt-dom` | General & Miscellaneous | Hunt client-side DOM vulnerabilities |
+| `hunt-exceptional-conditions` | General & Miscellaneous | Hunt mishandling of exceptional conditions |
+| `hunt-file-upload` | General & Miscellaneous | Hunt file upload bugs |
+| `hunt-fintech-graphql` | Backend & API | Hunt fintech-specific GraphQL vulnerabilities |
+| `hunt-forgot-password` | General & Miscellaneous | Hunt Forgot Password / Account Recovery Authentication Flaws |
+| `hunt-graphql` | Backend & API | Hunting skill for graphql vulnerabilities. |
+| `hunt-grpc` | Backend & API | Hunt gRPC vulnerabilities |
+| `hunt-host-header` | General & Miscellaneous | Hunt Host Header Injection |
+| `hunt-html-injection` | General & Miscellaneous | Hunt HTML Injection |
+| `hunt-http-smuggling` | General & Miscellaneous | Hunt HTTP request smuggling (CL.TE, TE.CL, H2.CL, H2.TE). |
+| `hunt-idor` | Productivity & Workflow | Hunting skill for idor vulnerabilities. Built from 26 public bug bounty |
+| `hunt-jwt-crypto` | General & Miscellaneous | Hunt JWT cryptographic failures |
+| `hunt-k8s` | DevOps & CI/CD | Hunt Kubernetes & Docker |
+| `hunt-laravel` | Backend & API | Hunt Laravel specific vulnerabilities |
+| `hunt-ldap` | General & Miscellaneous | Hunt LDAP Injection and XPath Injection |
+| `hunt-lfi` | General & Miscellaneous | Hunt Local File Inclusion (LFI), Remote File Inclusion (RFI), and Path |
+| `hunt-llm-ai` | AI & LLM | Hunt LLM/AI feature bugs |
+| `hunt-mfa-bypass` | General & Miscellaneous | Hunt MFA / 2FA bypass |
+| `hunt-misc` | Productivity & Workflow | Hunting skill for misc vulnerabilities. Built from 225 public bug bounty |
+| `hunt-nextjs` | General & Miscellaneous | Hunt Next.js specific vulnerabilities |
+| `hunt-nodejs` | General & Miscellaneous | Hunt Node.js specific vulnerabilities |
+| `hunt-nosqli` | General & Miscellaneous | Hunt NoSQL Injection |
+| `hunt-ntlm-info` | General & Miscellaneous | Hunt NTLM/Negotiate information disclosure on internet-reachable IIS/SharePoint/Exchange. |
+| `hunt-oauth` | Productivity & Workflow | Hunting skill for oauth vulnerabilities. Built from 19 public bug bounty |
+| `hunt-open-redirect` | General & Miscellaneous | Hunt Open Redirect |
+| `hunt-race-condition` | Productivity & Workflow | Hunting skill for race condition vulnerabilities. |
+| `hunt-rag-vector` | Security & Pentesting | Hunt vector-store / embedding-layer weaknesses in RAG pipelines (OWASP |
+| `hunt-rce` | Productivity & Workflow | Hunting skill for rce vulnerabilities. Built from 67 public bug bounty |
+| `hunt-saml` | General & Miscellaneous | Hunt SAML / SSO attacks. |
+| `hunt-session` | General & Miscellaneous | Hunt Session Management vulnerabilities |
+| `hunt-shadow-api` | Security & Pentesting | Hunt shadow / zombie / undocumented API surface (OWASP API9 Improper |
+| `hunt-sharepoint` | General & Miscellaneous | Hunt Microsoft SharePoint Server (2013/2016/2019/Subscription Edition) |
+| `hunt-source-leak` | General & Miscellaneous | Hunt source code and build artifact leakage |
+| `hunt-spa-api` | Backend & API | Discover a single-page-app's hidden backend API from its public JS bundle, |
+| `hunt-springboot` | General & Miscellaneous | Hunt Spring Boot specific vulnerabilities |
+| `hunt-sqli` | Productivity & Workflow | Hunting skill for sqli vulnerabilities. |
+| `hunt-ssrf` | Productivity & Workflow | Hunting skill for ssrf vulnerabilities. |
+| `hunt-ssti` | Backend & API | Hunt server-side template injection (SSTI) across Jinja2 (Flask/Django), |
+| `hunt-subdomain` | Productivity & Workflow | Hunting skill for subdomain takeover vulnerabilities. |
+| `hunt-tls-network` | General & Miscellaneous | Hunt TLS/SSL and DNS misconfigurations |
+| `hunt-websocket` | General & Miscellaneous | Hunt WebSocket vulnerabilities |
+| `hunt-xss` | Security & Pentesting | Hunting skill for xss vulnerabilities. |
+| `hunt-xxe` | Productivity & Workflow | Hunting skill for xxe vulnerabilities. |
 | `hybrid-cloud-architect` | Google Cloud | Expert hybrid cloud architect specializing in complex multi-cloud solutions across AWS/Azure/GCP and private clouds (  |
 | `hybrid-cloud-networking` | General & Miscellaneous | Configure secure, high-performance connectivity between on-premises and cloud environments using VPN, Direct Connect,  |
 | `hybrid-search-implementation` | AI & LLM | Combine vector and keyword search for improved retrieval. Use when implementing RAG systems, building search engines,  |
 | `hyperexecute-skill` | Testing & QA | Operates HyperExecute end-to-end for TestMu AI/LambdaTest cloud test execution: analyze projects, create YAML, valida  |
+| `i-have-adhd` | General & Miscellaneous | Shape output for ADHD readers: next action first, numbered steps, restated |
 | `i18n-localization` | General & Miscellaneous | Internationalization and localization patterns. Detecting hardcoded strings, managing translations, locale files, RTL  |
 | `iconsax-library` | Productivity & Workflow | Extensive icon library and AI-driven icon generation skill for premium UI/UX design. |
 | `ida-reverse` | Automation & Integrations | Reverse engineer binaries with IDA Pro: decompilation, disassembly, data-flow tracking, cross-references, and IDA MCP  |
 | `idea-autopsy` | Testing & QA | Autopsy a business idea before you build it: kill-list check, five hard filters, a free-AI one-prompt test, live ad-m  |
 | `idea-darwin` | General & Miscellaneous | Darwinian idea evolution engine — toss rough ideas onto an evolution island, let them compete, crossbreed, and mutate  |
+| `idea-evaluator` | AI & LLM | Evaluates an idea by hosting a multi-turn debate between a Pro and Con agent, delivering a final verdict on whether i  |
+| `idea-evaluator/idea-evaluator-con` | AI & LLM | The Con Agent persona for idea evaluation. Critiques an idea by identifying potential flaws, risks, and market challe  |
+| `idea-evaluator/idea-evaluator-pro` | AI & LLM | The Pro Agent persona for idea evaluation. Logically supports an idea, arguing for its market fit, feasibility, and p  |
 | `idea-os` | General & Miscellaneous | Five-phase pipeline (triage → clarify → research → PRD → plan) that turns a raw idea into four linked files: clarifyi  |
 | `idea-refine` | Testing & QA | Refines raw ideas into sharp, actionable concepts through structured divergent and convergent thinking. Use when an i  |
 | `ideal-customer-profile` | Product Management | This skill should be used when the user asks to \"ideal customer profile\". Identify the Ideal Customer Profile (ICP)  |
 | `identify-assumptions-existing` | Product Management | This skill should be used when the user asks to \"identify assumptions existing\". Identify risky assumptions for a f  |
 | `identify-assumptions-new` | Product Management | This skill should be used when the user asks to \"identify assumptions new\". Identify risky assumptions for a new pr  |
+| `identity-access-management` | Business & Startup | Set up and manage SSO, SCIM provisioning, and MFA for startup teams using |
 | `identity-federation` | General & Miscellaneous | Authorized assessment of federated identity systems: SAML, OIDC, OAuth2 flows, SSO misconfiguration, and token-confus  |
 | `identity-mirror` | Productivity & Workflow | One sentence - what this skill does and when to invoke it |
 | `idor-testing` | General & Miscellaneous | Provide systematic methodologies for identifying and exploiting Insecure Direct Object Reference (IDOR) vulnerabiliti  |
@@ -1113,7 +1311,9 @@
 | `imagen` | Productivity & Workflow | AI image generation skill powered by Google Gemini, enabling seamless visual content creation for UI placeholders, do  |
 | `implement` | General & Miscellaneous | Implement a piece of work based on a PRD or set of issues. |
 | `improve-codebase-architecture` | Architecture & Design Patterns | Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one y  |
+| `incident-management` | General & Miscellaneous | Implement incident management processes and escalation procedures. Configure |
 | `incident-responder` | Observability & Monitoring | Expert SRE incident responder specializing in rapid problem resolution, modern observability, and comprehensive incid  |
+| `incident-response` | Security & Pentesting | Handle security incidents with IR playbooks and procedures. |
 | `incident-response-incident-response` | General & Miscellaneous | Use when working with incident response incident response |
 | `incident-response-smart-fix` | Observability & Monitoring | [Extended thinking: This workflow implements a sophisticated debugging and resolution pipeline that leverages AI-assi  |
 | `incident-runbook-templates` | General & Miscellaneous | Production-ready templates for incident response runbooks covering detection, triage, mitigation, resolution, and com  |
@@ -1135,12 +1335,15 @@
 | `internal-comms-community` | Productivity & Workflow | To write internal communications, use this skill for: |
 | `interview` | Product Management | This skill should be used when the user asks to \"interview\". Prepare a customer interview script or summarize an in  |
 | `interview-coach` | General & Miscellaneous | Full job search coaching system — JD decoding, resume, storybank, mock interviews, transcript analysis, comp negotiat  |
+| `interview-me` | General & Miscellaneous | Draw out what the user actually wants with one-question-at-a-time interviews |
 | `interview-script` | Product Management | This skill should be used when the user asks to \"interview script\". Create a structured customer interview script w  |
 | `interview-style-doc-building` | General & Miscellaneous | Build structured strategy documents by asking one question at a time and patching the file. |
 | `invariant-guard` | General & Miscellaneous | Correctness-first: forces writing the function contract, loop invariant, termination argument, and edge cases BEFORE   |
 | `inventory-demand-planning` | Productivity & Workflow | Codified expertise for demand forecasting, safety stock optimisation, replenishment planning, and promotional lift es  |
 | `ios-debugger-agent` | Mobile | Debug the current iOS project on a booted simulator with XcodeBuildMCP. |
 | `ios-developer` | Automation & Integrations | Develop native iOS applications with Swift/SwiftUI. Masters iOS 18, SwiftUI, UIKit integration, Core Data, networking  |
+| `ios-redteam-pipeline` | Mobile | End-to-end iOS red-team pipeline |
+| `iso27001-compliance` | Security & Pentesting | Implement ISO 27001 Information Security Management System. Configure |
 | `issues` | General & Miscellaneous | Interact with GitHub issues - create, list, and view issues. |
 | `istio-traffic-management` | General & Miscellaneous | Comprehensive guide to Istio traffic management for production service mesh deployments. |
 | `it-manager-hospital` | General & Miscellaneous | World-class Hospital IT Management Advisor specializing in clinical safety, digital maturity (HIMSS/ONA/JCI), and HIS  |
@@ -1152,7 +1355,10 @@
 | `javascript-pro` | Languages: TypeScript/JavaScript | Master modern JavaScript with ES6+, async patterns, and Node.js APIs. Handles promises, event loops, and browser/Node  |
 | `javascript-testing-patterns` | Languages: TypeScript/JavaScript | Comprehensive guide for implementing robust testing strategies in JavaScript/TypeScript applications using modern tes  |
 | `javascript-typescript-typescript-scaffold` | Frontend & UI | You are a TypeScript project architecture expert specializing in scaffolding production-ready Node.js and frontend ap  |
+| `jenkins` | DevOps & CI/CD | Create and manage Jenkins CI/CD pipelines, configure agents, manage plugins, |
 | `jest-skill` | Automation & Integrations | Generates Jest unit and integration tests in JavaScript or TypeScript. Covers mocking, snapshots, async testing, and   |
+| `jev-social` | General & Miscellaneous | Run read-only, browser-grounded Instagram, TikTok, or LinkedIn research through Jev routing and socai CLI, returning   |
+| `jev-use` | Automation & Integrations | Route enumerable judgment steps - did it work, which option, how risky, is this safe to run - to the Jev judgment mod  |
 | `jira-automation` | Automation & Integrations | Automate Jira tasks via Rube MCP (Composio): issues, projects, sprints, boards, comments, users. Always search tools   |
 | `job-stories` | Product Management | This skill should be used when the user asks to \"job stories\". Create job stories using the 'When [situation], I wa  |
 | `jobgpt` | Automation & Integrations | Job search automation, auto apply, resume generation, application tracking, salary intelligence, and recruiter outrea  |
@@ -1175,7 +1381,10 @@
 | `kpi-dashboard-design` | Business & Startup | Comprehensive patterns for designing effective Key Performance Indicator (KPI) dashboards that drive business decisions. |
 | `kubernetes-architect` | DevOps & CI/CD | Expert Kubernetes architect specializing in cloud-native infrastructure, advanced GitOps workflows (ArgoCD/Flux), and  |
 | `kubernetes-deployment` | DevOps & CI/CD | Kubernetes deployment workflow for container orchestration, Helm charts, service mesh, and production-ready K8s confi  |
+| `kubernetes-hardening` | DevOps & CI/CD | Implement Kubernetes security contexts, Pod Security Standards, and network |
+| `kubernetes-ops` | DevOps & CI/CD | Deploy, scale, and manage Kubernetes workloads. |
 | `kubestellar-console` | DevOps & CI/CD | Multi-cluster Kubernetes dashboard with AI-powered operations via MCP server and 10+ built-in agent skills |
+| `kustomize` | DevOps & CI/CD | Customize Kubernetes manifests without templating using Kustomize. |
 | `lambda-lang` | AI & LLM | Native agent-to-agent language for compact multi-agent messaging. A shared tongue agents speak directly, not a transl  |
 | `lambdatest-agent-skills` | Automation & Integrations | Production-grade test automation skills for 46 frameworks across E2E, unit, mobile, BDD, visual, and cloud testing in  |
 | `landing-page-generator` | SEO & Marketing | Generates high-converting Next.js/React landing pages with Tailwind CSS. Uses PAS, AIDA, and BAB frameworks for optim  |
@@ -1191,6 +1400,7 @@
 | `lead-magnets` | General & Miscellaneous | Plan and optimize lead magnets for email capture and lead generation. Use when designing gated content, checklists, t  |
 | `lean-canvas` | Product Management | This skill should be used when the user asks to \"lean canvas\". Generate a Lean Canvas with problem, solution, metri  |
 | `learn` | Productivity & Workflow | Help a user learn a topic through adaptive tutoring, lesson planning, practice, retrieval checks, explanations, study  |
+| `ledger-tasks-yylo` | General & Miscellaneous | Use YYLO Ledger task management: create, list, search, get, mark, update, |
 | `legacy-modernizer` | General & Miscellaneous | Refactor legacy codebases, migrate outdated frameworks, and implement gradual modernization. Handles technical debt,   |
 | `legal-advisor` | Legal & Compliance | Draft privacy policies, terms of service, disclaimers, and legal notices. Creates GDPR-compliant texts, cookie polici  |
 | `leiloeiro-avaliacao` | General & Miscellaneous | Avaliacao pericial de imoveis em leilao. Valor de mercado, liquidacao forcada, ABNT NBR 14653, metodos comparativo/re  |
@@ -1219,20 +1429,31 @@
 | `linkedin-profile-optimizer` | SEO & Marketing | High-intent expert for LinkedIn profile checks, authority building, and SEO optimization. Invoke to audit, rewrite, a  |
 | `linkerd-patterns` | DevOps & CI/CD | Production patterns for Linkerd service mesh - the lightweight, security-first service mesh for Kubernetes. |
 | `lint-and-validate` | General & Miscellaneous | MANDATORY: Run appropriate validation tools after EVERY code change. Do not finish a task until the code is error-free. |
+| `lintlang-audit` | Languages: Python | Audit named agent instructions, tool definitions, and supported Python prompts with local LintLang checks; return fin  |
+| `linux-administration` | General & Miscellaneous | System administration for Linux servers. Manage packages, services, and |
+| `linux-hardening` | General & Miscellaneous | Apply CIS benchmarks and secure Linux servers. |
 | `linux-privilege-escalation` | Security & Pentesting | Execute systematic privilege escalation assessments on Linux systems to identify and exploit misconfigurations, vulne  |
 | `linux-shell-scripting` | Security & Pentesting | Provide production-ready shell script templates for common Linux system administration tasks including backups, monit  |
 | `linux-troubleshooting` | Productivity & Workflow | Linux system troubleshooting workflow for diagnosing and resolving system issues, performance problems, and service f  |
 | `liuguang-banlan-ui` | General & Miscellaneous | Builds two parameterized UI modes—流光溢彩白 (iridescent white) and 五彩斑斓黑 (colorful black)—with OKLCH, WebGL/CSS fallback,  |
 | `llm-app-patterns` | AI & LLM | Production-ready patterns for building LLM applications, inspired by [Dify](https://github.com/langgenius/dify) and i  |
+| `llm-app-security` | Security & Pentesting | Secure LLM-powered applications with input validation, output controls, |
 | `llm-application-dev-ai-assistant` | AI & LLM | You are an AI assistant development expert specializing in creating intelligent conversational interfaces, chatbots,   |
 | `llm-application-dev-langchain-agent` | AI & LLM | You are an expert LangChain agent developer specializing in production-grade AI systems using LangChain 0.1+ and Lang  |
 | `llm-application-dev-prompt-optimize` | AI & LLM | You are an expert prompt engineer specializing in crafting effective prompts for LLMs through advanced techniques inc  |
+| `llm-caching` | AI & LLM | Implement multi-layer LLM caching with exact match, semantic similarity, |
+| `llm-cost-optimization` | Backend & API | Reduce LLM API and infrastructure costs through model selection, prompt |
 | `llm-council` | AI & LLM | Run Fireworks-hosted open-weight model councils that compare responses and synthesize a final answer. |
 | `llm-evaluation` | AI & LLM | Master comprehensive evaluation strategies for LLM applications, from automated metrics to human evaluation and A/B t  |
+| `llm-fine-tuning` | AI & LLM | Set up infrastructure for fine-tuning LLMs with QLoRA, LoRA, and full |
+| `llm-gateway` | DevOps & CI/CD | Deploy an API gateway for LLM traffic with load balancing, rate limiting, |
+| `llm-inference-scaling` | DevOps & CI/CD | Auto-scale LLM inference clusters on Kubernetes using KEDA, custom GPU |
 | `llm-ops` | AI & LLM | LLM Operations -- RAG, embeddings, vector databases, fine-tuning, prompt engineering avancado, custos de LLM, evals d  |
 | `llm-prompt-optimizer` | AI & LLM | Use when improving prompts for any LLM. Applies proven prompt engineering techniques to boost output quality, reduce   |
 | `llm-security` | Security & Pentesting | Authorized security assessment of LLM applications and AI agents: prompt injection, tool abuse, RAG exposure, memory   |
 | `llm-structured-output` | AI & LLM | Get reliable JSON, enums, and typed objects from LLMs using response_format, tool_use, and schema-constrained decodin  |
+| `llmops-platform-engineering` | DevOps & CI/CD | Build production LLMOps platforms with CI/CD, model promotion workflows, |
+| `load-balancing` | General & Miscellaneous | Configure load balancers and traffic distribution. Implement health checks |
 | `local-legal-seo-audit` | SEO & Marketing | Audit and improve local SEO for law firms, attorneys, forensic experts and legal/professional services sites with loc  |
 | `local-llm-expert` | AI & LLM | Master local LLM inference, model selection, VRAM optimization, and local deployment using Ollama, llama.cpp, vLLM, a  |
 | `logic-diff` | General & Miscellaneous | Compare two code versions for semantic equivalence via semi-formal tracing of both versions side-by-side. |
@@ -1242,11 +1463,15 @@
 | `logic-locate` | General & Miscellaneous | Locate the root cause of a CONFIRMED failure via backward-then-forward semi-formal tracing. |
 | `logic-review` | General & Miscellaneous | Find logic bugs in a single file or function via semi-formal execution tracing (Premises → Trace → Divergence → Trigg  |
 | `logistics-exception-management` | General & Miscellaneous | Codified expertise for handling freight exceptions, shipment delays, damages, losses, and carrier disputes. Informed   |
+| `loki-logging` | General & Miscellaneous | Configure Grafana Loki for log aggregation and analysis. |
 | `loki-mode` | AI & LLM | Version 2.35.0 \| PRD to Production \| Zero Human Intervention > Research-enhanced: OpenAI SDK, DeepMind, Anthropic,   |
 | `longbridge` | AI & LLM | 125+ agent skills for Longbridge Securities — real-time quotes, charts, fundamentals, portfolio analysis, options, an  |
 | `longbridge-content` | General & Miscellaneous | Latest news articles, regulatory filings, community discussion topics for listed stocks, and SEC EDGAR filing analysi  |
+| `longbridge-derivatives` | Productivity & Workflow | Curated upstream guidance for Longbridge Derivatives; use when the workflow matches the user goal. |
 | `longbridge-fundamentals` | General & Miscellaneous | Financial statements, business segments, dividends, valuation multiples (PE/PB/PS), industry comparison, operating da  |
 | `longbridge-market-data` | Security & Pentesting | Real-time quotes, K-line charts, order book, trade ticks, intraday capital flow, market sentiment temperature, tradin  |
+| `longbridge-quant` | Productivity & Workflow | Curated upstream guidance for Longbridge Quant; use when the workflow matches the user goal. |
+| `longbridge-research` | Productivity & Workflow | Curated upstream guidance for Longbridge Research; use when the workflow matches the user goal. |
 | `lookdev` | General & Miscellaneous | Human-in-the-loop web studio to tune AI-generated output by eye. Stand up a local interactive studio (sliders, picker  |
 | `lookdev-auto` | Media & Creative | Automated visual tuning: a vision or video model rates rendered variants in a loop. Render several labeled variants i  |
 | `loop-library` | AI & LLM | Find, compare, adapt, and design bounded AI-agent feedback loops with explicit checks, stop rules, guardrails, and ha  |
@@ -1257,6 +1482,8 @@
 | `m365-agents-dotnet` | Languages: C#/.NET | Microsoft 365 Agents SDK for .NET. Build multichannel agents for Teams/M365/Copilot Studio with ASP.NET Core hosting,  |
 | `m365-agents-py` | Languages: Python | Microsoft 365 Agents SDK for Python. Build multichannel agents for Teams/M365/Copilot Studio with aiohttp hosting, Ag  |
 | `m365-agents-ts` | Languages: TypeScript/JavaScript | Microsoft 365 Agents SDK for TypeScript/Node.js. |
+| `m365-entra-attack` | General & Miscellaneous | Microsoft 365 / Entra ID red-team attack chain |
+| `mac-mini-llm-lab` | AI & LLM | Configure a Mac mini as a reliable local LLM server with remote access, |
 | `machine-learning-ops-ml-pipeline` | General & Miscellaneous | Design and implement a complete ML pipeline for: $ARGUMENTS |
 | `macos-menubar-tuist-app` | Mobile | Build, refactor, or review SwiftUI macOS menubar apps that use Tuist. |
 | `macos-reverse` | Security & Pentesting | Authorized macOS and Mach-O reverse engineering: codesign inspection, Objective-C/Swift recovery, endpoint-security s  |
@@ -1272,6 +1499,11 @@
 | `maintain-codex-wiki` | General & Miscellaneous | Maintain a review-first engineering wiki with provenance, citation-aware queries, explicit capture and promotion, and  |
 | `make-automation` | Automation & Integrations | Automate Make (Integromat) tasks via Rube MCP (Composio): operations, enums, language and timezone lookups. Always se  |
 | `make-me-an-expert` | Productivity & Workflow | This skill should be used when the user says "make me an expert in", "/make me an expert in", "continue expert pack",  |
+| `makepad-2-0-animation` | General & Miscellaneous | Makepad 2.0 guidance for animation; use when building or debugging Makepad UI code. |
+| `makepad-2-0-dsl` | General & Miscellaneous | Makepad 2.0 guidance for dsl; use when building or debugging Makepad UI code. |
+| `makepad-2-0-events` | General & Miscellaneous | Makepad 2.0 guidance for events; use when building or debugging Makepad UI code. |
+| `makepad-2-0-layout` | General & Miscellaneous | Makepad 2.0 guidance for layout; use when building or debugging Makepad UI code. |
+| `makepad-2-0-widgets` | General & Miscellaneous | Makepad 2.0 guidance for widgets; use when building or debugging Makepad UI code. |
 | `makepad-animation` | General & Miscellaneous | CRITICAL: Use for Makepad animation system. Triggers on: makepad animation, makepad animator, makepad hover, makepad   |
 | `makepad-basics` | General & Miscellaneous | CRITICAL: Use for Makepad getting started and app structure. Triggers on: makepad, makepad getting started, makepad t  |
 | `makepad-deployment` | DevOps & CI/CD | CRITICAL: Use for Makepad packaging and deployment. Triggers on: deploy, package, APK, IPA, 打包, 部署, cargo-packager, c  |
@@ -1296,6 +1528,7 @@
 | `market-sizing` | Product Management | This skill should be used when the user asks to \"market sizing\". Estimate market size using TAM, SAM, and SOM with   |
 | `market-sizing-analysis` | Business & Startup | Comprehensive market sizing methodologies for calculating Total Addressable Market (TAM), Serviceable Available Marke  |
 | `marketing-ideas` | SEO & Marketing | Provide proven marketing strategies and growth ideas for SaaS and software products, prioritized using a marketing fe  |
+| `marketing-mindset` | SEO & Marketing | Use when a user asks how to win first customers, whether doing X will produce Y, how to write an ad or judge a market  |
 | `marketing-plan` | SEO & Marketing | When the user needs a comprehensive marketing plan for a client, a company they advise, or their own product. |
 | `marketing-psychology` | SEO & Marketing | Apply behavioral science and mental models to marketing decisions, prioritized using a psychological leverage and fea  |
 | `marketplace-rbac-audit` | General & Miscellaneous | Audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state trans  |
@@ -1310,17 +1543,23 @@
 | `markstream-vue2` | Frontend & UI | Integrate markstream-vue2 into Vue 2.6 or 2.7 with correct Composition API decisions, CSS, streaming state, optional   |
 | `markstream-vue2-cli` | Frontend & UI | Integrate markstream-vue2 into Vue CLI or Webpack 4 with export-map-safe CSS, CDN worker fallbacks, and conservative   |
 | `markstream-vue2-vite` | Frontend & UI | Integrate markstream-vue2 into Vue 2 plus Vite with bundled worker imports, CSS ordering, Composition API compatibili  |
+| `marlin-bed-leveling` | General & Miscellaneous | Calibrates Marlin 2.x 3D printer firmware bed leveling: Unified Bed Leveling (UBL), Bilinear ABL, M420 S1 post-homing  |
 | `matematico-tao` | General & Miscellaneous | Matemático ultra-avançado inspirado em Terence Tao. Análise rigorosa de código e arquitetura com teoria matemática pr  |
 | `mathguard` | General & Miscellaneous | Math-heavy escalation for n >= 10^6 — Bloom, HyperLogLog, Count-Min, MinHash/LSH, FFT, JL projection, sweep line. Use  |
 | `matplotlib` | Languages: Python | Matplotlib is Python's foundational visualization library for creating static, animated, and interactive plots. |
 | `maxia` | Automation & Integrations | Connect to MAXIA AI-to-AI marketplace on Solana. Discover, buy, sell AI services. Earn USDC. 13 MCP tools, A2A protoc  |
 | `mcp-builder` | Automation & Integrations | Create MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed  |
 | `mcp-builder-ms` | Automation & Integrations | Use this skill when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/  |
+| `mcp-dependency-drift-audit` | Automation & Integrations | Statically audit MCP configs for mutable npm/npx package references before approval or CI, without executing discover  |
 | `mcp-integration` | Automation & Integrations | This skill should be used when the user asks to "add MCP server", "integrate MCP", "configure MCP in plugin", "use .m  |
+| `mcp-server-security` | Security & Pentesting | Secure Model Context Protocol (MCP) servers with transport encryption, |
 | `mcp-tool-developer` | Automation & Integrations | Build Model Context Protocol (MCP) servers and tools from scratch. Full-stack MCP development with TypeScript/Python,  |
 | `md2video-audio` | Media & Creative | Convert Markdown documents into narrated MP4 videos with synchronized visuals and voice narration. |
+| `mdm-device-management` | General & Miscellaneous | Manage and secure company devices with MDM solutions |
 | `mdpr-skill` | Productivity & Workflow | Review MDPR Markdown presentation workflows with semantic hints, visual checks, and deterministic renderer boundaries. |
+| `meeting-distiller-pro` | General & Miscellaneous | Transform messy meeting notes and transcripts into structured action |
 | `meeting-notes` | Product Management | This skill should be used when the user asks to \"meeting notes\". Summarize a meeting transcript into structured not  |
+| `meme-coin-audit` | Security & Pentesting | Meme coin and token security audit |
 | `memory-forensics` | General & Miscellaneous | Comprehensive techniques for acquiring, analyzing, and extracting artifacts from memory dumps for incident response a  |
 | `memory-safety-patterns` | General & Miscellaneous | Cross-language patterns for memory-safe programming including RAII, ownership, smart pointers, and resource management. |
 | `memory-systems` | General & Miscellaneous | Design short-term, long-term, and graph-based memory architectures. Use when building agents that must persist across  |
@@ -1329,11 +1568,13 @@
 | `mermaid-expert` | General & Miscellaneous | Create Mermaid diagrams for flowcharts, sequences, ERDs, and architectures. Masters syntax for all diagram types and   |
 | `mesh-memory` | Automation & Integrations | Self-hosted semantic memory for AI agents via MCP. Save worklogs, decisions, and notes, then recall them across sessi  |
 | `metasploit-framework` | Security & Pentesting | ⚠️ AUTHORIZED USE ONLY > This skill is for educational purposes or authorized security assessments only. > You must h  |
+| `meteora-dlmm-pool-screening` | General & Miscellaneous | Screen and rank Meteora DLMM pools for LP quality using public Meteora APIs (fee/TVL, bin step, organic score). Read-  |
 | `metrics-dashboard` | Product Management | This skill should be used when the user asks to \"metrics dashboard\". Define and design a product metrics dashboard   |
 | `micro-saas-launcher` | Business & Startup | Expert in launching small, focused SaaS products fast - the indie |
 | `microservices-patterns` | Architecture & Design Patterns | Master microservices architecture patterns including service boundaries, inter-service communication, data management  |
 | `microsoft-azure-webjobs-extensions-authentication-events-dotnet` | Azure | Microsoft Entra Authentication Events SDK for .NET. Azure Functions triggers for custom authentication extensions. |
 | `microsoft-teams-automation` | Automation & Integrations | Automate Microsoft Teams tasks via Rube MCP (Composio): send messages, manage channels, create meetings, handle chats  |
+| `mid-engagement-ir-detection` | General & Miscellaneous | Methodology for detecting client SOC patches, attacker activity, and |
 | `minecraft-bukkit-pro` | Game Development | Master Minecraft server plugin development with Bukkit, Spigot, and Paper APIs. |
 | `minimalist-ui` | General & Miscellaneous | Use when creating clean editorial interfaces with warm monochrome palettes, crisp borders, restrained motion, and fla  |
 | `miro-automation` | Automation & Integrations | Automate Miro tasks via Rube MCP (Composio): boards, items, sticky notes, frames, sharing, connectors. Always search   |
@@ -1351,12 +1592,16 @@
 | `mock-hunter` | AI & LLM | Audit a live web page in five phases (catalog, click, trace, classify, report) to identify mock data, hardcoded value  |
 | `model-authoring` | AI & LLM | Empirical rules for authoring PyTorch models for on-device execution on Apple platforms, covering energy-efficient in  |
 | `model-compression-exploration` | AI & LLM | Systematically explore weight compression configurations (quantization and palettization) for a PyTorch model using c  |
+| `model-registry-governance` | General & Miscellaneous | Establish model registry standards, governance controls, metadata schemas, |
+| `model-serving-kubernetes` | DevOps & CI/CD | Deploy ML models on Kubernetes with KServe (formerly KFServing) and NVIDIA |
+| `model-supply-chain-security` | Security & Pentesting | Secure the AI model supply chain with artifact signing, provenance attestation, |
 | `modellix` | Backend & API | Integrate the Modellix API/CLI for async AI image, video, and speech generation or transcription (model run --wait, t  |
 | `modern-javascript-patterns` | Languages: TypeScript/JavaScript | Comprehensive guide for mastering modern JavaScript (ES6+) features, functional programming patterns, and best practi  |
 | `molykit` | AI & LLM | CRITICAL: Use for MolyKit AI chat toolkit. Triggers on: BotClient, OpenAI, SSE streaming, AI chat, molykit, PlatformS  |
 | `monday-automation` | Automation & Integrations | Automate Monday.com work management including boards, items, columns, groups, subitems, and updates via Rube MCP (Com  |
 | `monetization` | Business & Startup | Estrategia e implementacao de monetizacao para produtos digitais - Stripe, subscriptions, pricing experiments, freemi  |
 | `monetization-strategy` | Product Management | Brainstorm 3-5 monetization strategies with audience fit, risks, and validation experiments. Use when exploring reven  |
+| `mongodb` | General & Miscellaneous | Administer MongoDB databases. Configure replica sets, sharding, and backups. |
 | `monopoly` | Backend & API | MONOPOLY is a Senior System Design Engineer skill for architecting, reviewing, and scaling systems. Triggers on reque  |
 | `monopoly/patterns` | General & Miscellaneous | Reference document for monopoly patterns. |
 | `monopoly/scale-benchmarks` | General & Miscellaneous | Reference document for monopoly scale-benchmarks. |
@@ -1366,6 +1611,7 @@
 | `monorepo-management` | General & Miscellaneous | Build efficient, scalable monorepos that enable code sharing, consistent tooling, and atomic changes across multiple   |
 | `monte-carlo-analyze-root-cause` | AI & LLM | Investigate data incidents and find root causes using Monte Carlo's observability data. Guides the agent through syst  |
 | `monte-carlo-asset-health` | General & Miscellaneous | Check the health of a data table/asset using Monte Carlo. Activates on "how is table X", "check health of X", "is X h  |
+| `monte-carlo-context-detection` | Productivity & Workflow | Route data-related requests to the right Monte Carlo skill or workflow. |
 | `monte-carlo-monitor-creation` | DevOps & CI/CD | Guides creation of Monte Carlo monitors via MCP tools, producing monitors-as-code YAML for CI/CD deployment. |
 | `monte-carlo-monitoring-advisor` | AI & LLM | Analyze data coverage, create monitors for warehouse tables and AI agents. Covers coverage gaps, use-case analysis, d  |
 | `monte-carlo-performance-diagnosis` | Observability & Monitoring | Diagnoses pipeline performance issues -- slow jobs, expensive queries, latency trends -- using Monte Carlo's cross-pl  |
@@ -1386,6 +1632,8 @@
 | `multi-cloud-architecture` | Google Cloud | Decision framework and patterns for architecting applications across AWS, Azure, and GCP. |
 | `multi-platform-apps-multi-platform` | DevOps & CI/CD | Build and deploy the same feature consistently across web, mobile, and desktop platforms using API-first architecture  |
 | `multi-source-search` | General & Miscellaneous | Cross-validate web research and produce an offline-checkable evidence ledger with explicit source diversity, confiden  |
+| `multi-tenant-llm-hosting` | AI & LLM | Design secure, multi-tenant LLM hosting platforms with tenant isolation, |
+| `mysql` | Database | Administer MySQL/MariaDB databases. Configure replication and optimize |
 | `n8n-agents` | Automation & Integrations | Design n8n AI agents, chains, classifiers, extractors, tool calling, memory, RAG, structured output, and human-review  |
 | `n8n-binary-and-data` | Automation & Integrations | Handle n8n files and binary data across uploads, downloads, transforms, multimodal inputs, agent tools, and chat surf  |
 | `n8n-code-javascript` | Automation & Integrations | Write JavaScript code in n8n Code nodes. Use when writing JavaScript in n8n, using $input/$json/$node syntax, making   |
@@ -1414,15 +1662,22 @@
 | `network-engineer` | Security & Pentesting | Expert network engineer specializing in modern cloud networking, security architectures, and performance optimization. |
 | `networkx` | Languages: Python | NetworkX is a Python package for creating, manipulating, and analyzing complex networks and graphs. |
 | `new-rails-project` | General & Miscellaneous | Create a new Rails project |
+| `new-relic` | Observability & Monitoring | Configure New Relic observability platform for infrastructure and application |
 | `newman-cicd-integration` | DevOps & CI/CD | Generate ready-to-use CI/CD pipeline configurations that install and run Newman for automated API testing. |
 | `news-sentiment-engine` | General & Miscellaneous | Multi-source RSS news aggregation with Claude-powered sentiment analysis and structured briefing output |
+| `nexrad-mosaic-access` | General & Miscellaneous | Access official NOAA/NCEP MRMS radar and multisensor composites for a region and time; validate product, grid, domain  |
+| `nexrad-mosaic-construction` | General & Miscellaneous | Construct a quality-aware NEXRAD multi-radar mosaic from aligned single-site products with explicit coverage, beam ge  |
+| `nexrad-product-access` | General & Miscellaneous | Discover and access NEXRAD data for a selected radar site, time, product, or Level II moment using completed archive   |
+| `nexrad-radar-visualization` | General & Miscellaneous | Plot NEXRAD Level II/III site scans and decoded radar mosaics with correct radar geometry, map grids, units, quality   |
 | `nextjs-app-router-patterns` | Frontend & UI | Comprehensive patterns for Next.js 14+ App Router architecture, Server Components, and modern full-stack React develo  |
 | `nextjs-best-practices` | General & Miscellaneous | Next.js App Router principles. Server Components, data fetching, routing patterns. |
 | `nextjs-on-cloudflare` | Cloudflare | Build, migrate, and deploy Next.js apps on Cloudflare Workers with vinext. Use when starting a Next.js project on Clo  |
 | `nextjs-seo-indexing` | SEO & Marketing | Fix SEO indexing issues, crawl budget problems, and Search Console coverage errors for Next.js apps. Covers canonical  |
 | `nextjs-supabase-auth` | Automation & Integrations | Expert integration of Supabase Auth with Next.js App Router |
+| `nfs-storage` | General & Miscellaneous | Configure NFS servers and clients. Implement network file sharing for |
 | `nft-standards` | General & Miscellaneous | Master ERC-721 and ERC-1155 NFT standards, metadata best practices, and advanced NFT features. |
 | `nika` | Productivity & Workflow | Runs repeatable AI work as checked, budgeted workflow files. |
+| `noaa-radar-satellite-fetching` | General & Miscellaneous | Retrieve NOAA NEXRAD and GOES products from public cloud archives using verified site, product, channel, sector, and   |
 | `nodejs-backend-patterns` | Backend & API | Comprehensive guidance for building scalable, maintainable, and production-ready Node.js backend applications with mo  |
 | `nodejs-best-practices` | Security & Pentesting | Node.js development principles and decision-making. Framework selection, async patterns, security, and architecture.   |
 | `north-star` | Product Management | This skill should be used when the user asks to \"north star\". Define your North Star Metric and supporting input me  |
@@ -1433,8 +1688,10 @@
 | `notebooklm` | General & Miscellaneous | Interact with Google NotebookLM to query documentation with Gemini's source-grounded answers. Each question opens a f  |
 | `notion-automation` | Automation & Integrations | Automate Notion tasks via Rube MCP (Composio): pages, databases, blocks, comments, users. Always search tools first f  |
 | `notion-template-business` | General & Miscellaneous | Expert in building and selling Notion templates as a business - not |
+| `nsfw-ai-spicyapi` | Backend & API | Generate adult (18+) images, image-to-video clips and image edits through the SpicyAPI API, with a cost quote before   |
 | `nutrition-analyzer` | General & Miscellaneous | 分析营养数据、识别营养模式、评估营养状况，并提供个性化营养建议。支持与运动、睡眠、慢性病数据的关联分析。 |
 | `nx-workspace-patterns` | General & Miscellaneous | Configure and optimize Nx monorepo workspaces. Use when setting up Nx, configuring project boundaries, optimizing bui  |
+| `object-storage` | General & Miscellaneous | Configure object storage with S3, GCS, and MinIO. Implement lifecycle |
 | `objection-preemptor` | Productivity & Workflow | One sentence - what this skill does and when to invoke it |
 | `observability-and-instrumentation` | Observability & Monitoring | Instruments code so production behavior is visible and diagnosable. Use when adding logging, metrics, tracing, or ale  |
 | `observability-engineer` | Observability & Monitoring | Build production-ready monitoring, logging, and tracing systems. Implements comprehensive observability strategies, S  |
@@ -1470,21 +1727,32 @@
 | `odoo-woocommerce-bridge` | Backend & API | Sync Odoo with WooCommerce: products, inventory, orders, and customers via WooCommerce REST API and Odoo external API. |
 | `odoo-xml-views-builder` | Odoo & ERP | Expert at building Odoo XML views: Form, List, Kanban, Search, Calendar, and Graph. Generates correct XML for Odoo 14  |
 | `odw` | AI & LLM | Dynamic multi-agent workflows — plan first, then orchestrate parallel agents with adversarial verification via the lo  |
+| `offensive-osint` | General & Miscellaneous | Operational arsenal for authorized external red-team and bug-bounty recon. |
 | `offers` | General & Miscellaneous | When the user wants to design, construct, or improve an offer — the thing they actually sell — including value framin  |
 | `office-productivity` | Automation & Integrations | Office productivity workflow covering document creation, spreadsheet automation, presentation generation, and integra  |
+| `okta-attack` | General & Miscellaneous | Okta-as-IdP red-team attack chain |
+| `ollama-stack` | AI & LLM | Run local LLM workloads with Ollama, Open WebUI, and GPU-aware tuning |
+| `omentir-linkedin-outreach` | Automation & Integrations | Run LinkedIn prospecting and outreach through the Omentir MCP server: find people, score fit, draft messages, and che  |
 | `omp-delegate` | General & Miscellaneous | Delegate coding tasks to Oh My Pi (`omp`) only when the user explicitly |
 | `on-call-handoff-patterns` | General & Miscellaneous | Effective patterns for on-call shift transitions, ensuring continuity, context transfer, and reliable incident respon  |
 | `onboarding` | General & Miscellaneous | When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. |
 | `onboarding-cro` | General & Miscellaneous | You are an expert in user onboarding and activation. Your goal is to help users reach their \"aha moment\" as quickly  |
 | `onboarding-psychologist` | Productivity & Workflow | One sentence - what this skill does and when to invoke it |
 | `one-drive-automation` | Automation & Integrations | Automate OneDrive file management, search, uploads, downloads, sharing, permissions, and folder operations via Rube M  |
+| `oneroster-csv-validator` | General & Miscellaneous | Validates 1EdTech / IMS Global OneRoster v1.1 and v1.2 CSV roster sets: manifest integrity, bulk vs delta strictness,  |
 | `ontoly-software-graph` | Automation & Integrations | Use Ontoly's deterministic Software Graph, MCP server, and agent skills for architecture review, request tracing, imp  |
 | `open-dynamic-workflows` | AI & LLM | Plan, orchestrate, and adversarially verify parallel AI coding agents with a dynamic multi-agent workflow engine. |
 | `open-source-marketing` | SEO & Marketing | When the user wants to market an open source project authentically. Trigger phrases include "open source marketing,"   |
 | `openapi-spec-generation` | Backend & API | Generate and maintain OpenAPI 3.1 specifications from code, design-first specs, and validation patterns. Use when cre  |
 | `openapi-spec-generator` | General & Miscellaneous | Generate complete, production-ready OpenAPI 3.x and Swagger 2.0 specifications from natural language descriptions, co  |
+| `openclaw-deployment-hardening` | DevOps & CI/CD | Secure OpenClaw deployments with preflight hardening checks, CI/CD guardrails, |
 | `openclaw-github-repo-commander` | Productivity & Workflow | 7-stage super workflow for GitHub repo audit, cleanup, PR review, and competitor analysis |
+| `openclaw-local-mac-mini` | General & Miscellaneous | Set up OpenClaw locally and run it reliably on a Mac mini for private, |
+| `openclaw-security-hardening` | Security & Pentesting | Harden OpenClaw self-hosted environments with baseline host controls, |
 | `opencode-delegate` | General & Miscellaneous | Delegate coding tasks to the OpenCode CLI only when the user explicitly |
+| `openshift` | General & Miscellaneous | Manage Red Hat OpenShift clusters and deployments. |
+| `opentelemetry` | Observability & Monitoring | Instrument applications and infrastructure with OpenTelemetry for unified |
+| `opentofu-migration` | DevOps & CI/CD | Migrate from Terraform to OpenTofu with state compatibility, provider |
 | `opportunity-solution-tree` | Product Management | This skill should be used when the user asks to \"opportunity solution tree\". Build an Opportunity Solution Tree (OS  |
 | `optim-agent` | AI & LLM | Guide agent-driven parameter optimization for configurable systems with measurable objectives. Use for HPO, inference  |
 | `options-flow-analyzer` | General & Miscellaneous | Real vs lottery call separation for options P/C ratio analysis — prevents signal inversion from deep OTM noise |
@@ -1493,6 +1761,7 @@
 | `orchestrate` | General & Miscellaneous | Coordinate focused subagents on substantial work, keep their ownership non-overlapping, and integrate verified result  |
 | `orchestrate-batch-refactor` | General & Miscellaneous | Plan and execute large refactors with dependency-aware work packets and parallel analysis. |
 | `os-scripting` | Automation & Integrations | Operating system and shell scripting troubleshooting workflow for Linux, macOS, and Windows. Covers bash scripting, s  |
+| `osint-methodology` | General & Miscellaneous | Comprehensive OSINT methodology for external red-team operations and |
 | `oss-hunter` | General & Miscellaneous | Automatically hunt for high-impact OSS contribution opportunities in trending repositories. |
 | `osterwalder-canvas-architect` | AI & LLM | Iterative consultant agent for building and validating logically consistent 9-block Business Model Canvases. |
 | `ot-ics` | Security & Pentesting | Authorized OT/ICS security assessment: Purdue-model zoning review, PLC/SCADA exposure, industrial protocol discovery,  |
@@ -1513,9 +1782,11 @@
 | `paypal-integration` | Automation & Integrations | Master PayPal payment integration including Express Checkout, IPN handling, recurring billing, and refund workflows. |
 | `paywall-upgrade-cro` | General & Miscellaneous | You are an expert in in-app paywalls and upgrade flows. Your goal is to convert free users to paid, or upgrade users   |
 | `pci-compliance` | Security & Pentesting | Master PCI DSS (Payment Card Industry Data Security Standard) compliance for secure payment processing and handling o  |
+| `pci-dss-compliance` | Security & Pentesting | Implement PCI DSS requirements for payment card data. Configure cardholder |
 | `pdf` | Languages: Python | This guide covers essential PDF processing operations using Python libraries and command-line tools. For advanced fea  |
 | `pdf-conversion-router` | AI & LLM | Use when converting a PDF into another format such as Markdown, HTML, text, JSON, DOCX, or structured notes and the a  |
 | `pdf-official` | Languages: Python | This guide covers essential PDF processing operations using Python libraries and command-line tools. For advanced fea  |
+| `penetration-testing` | Security & Pentesting | Perform basic penetration testing and security assessments. |
 | `pentest-checklist` | Security & Pentesting | Provide a comprehensive checklist for planning, executing, and following up on penetration tests. Ensure thorough pre  |
 | `pentest-commands` | Security & Pentesting | Provide a comprehensive command reference for penetration testing tools including network scanning, exploitation, pas  |
 | `pentest-tools` | Security & Pentesting | Operate 20+ penetration-testing tools (Nmap, Nuclei, SQLMap, FFUF, Hashcat, and more) through structured workflows wi  |
@@ -1528,6 +1799,7 @@
 | `performance-profiling` | General & Miscellaneous | Performance profiling principles. Measurement, analysis, and optimization techniques. |
 | `performance-testing-review-ai-review` | DevOps & CI/CD | You are an expert AI-powered code review specialist combining automated static analysis, intelligent pattern recognit  |
 | `performance-testing-review-multi-agent-review` | AI & LLM | Use when working with performance testing review multi agent review |
+| `performance-tuning` | General & Miscellaneous | Optimize Linux system performance. Configure kernel parameters, analyze |
 | `permission-manager` | General & Miscellaneous | Manage opencode permissions: review always-allow lists, suggest safe read-only commands, configure permission patterns |
 | `personal-tool-builder` | General & Miscellaneous | Expert in building custom tools that solve your own problems first. |
 | `pestle-analysis` | Product Management | This skill should be used when the user asks to \"pestle analysis\". Perform a PESTLE analysis covering Political, Ec  |
@@ -1543,10 +1815,13 @@
 | `pitch-psychologist` | Productivity & Workflow | One sentence - what this skill does and when to invoke it |
 | `plaid-fintech` | Automation & Integrations | Expert patterns for Plaid API integration including Link token |
 | `plan-launch` | Product Management | This skill should be used when the user asks to \"plan launch\". Create a full go-to-market strategy. |
+| `plan-ledger-tasks-yylo` | General & Miscellaneous | Create a concise Product Development Requirement and one or more implementation-sized |
 | `plan-okrs` | Product Management | This skill should be used when the user asks to \"plan okrs\". Brainstorm team-level OKRs aligned with company object  |
 | `plan-writing` | Productivity & Workflow | Structured task planning with clear breakdowns, dependencies, and verification criteria. Use when implementing featur  |
+| `planetscale` | Database | Operate MySQL-compatible databases on PlanetScale with branching workflows, |
 | `planning-and-task-breakdown` | Productivity & Workflow | Breaks work into ordered tasks. Use when you have a spec or clear requirements and need to break work into implementa  |
 | `planning-with-files` | Productivity & Workflow | Work like Manus: Use persistent markdown files as your \"working memory on disk.\ |
+| `platform-engineering` | General & Miscellaneous | Build internal developer platforms (IDPs) with self-service infrastructure, |
 | `playwright-java` | Languages: Java/Kotlin | Scaffold, write, debug, and enhance enterprise-grade Playwright E2E tests in Java using Page Object Model, JUnit 5, A  |
 | `playwright-skill` | Testing & QA | IMPORTANT - Path Resolution: This skill can be installed in different locations (plugin system, manual installation,   |
 | `plotly` | General & Miscellaneous | Interactive visualization library. Use when you need hover info, zoom, pan, or web-embeddable charts. Best for dashbo  |
@@ -1559,8 +1834,10 @@
 | `pm-pricing` | Product Management | This skill should be used when the user asks to \"pm pricing\". Design a pricing strategy. |
 | `pm-pricing-strategy` | Product Management | This skill should be used when the user asks to \"pm pricing strategy\". Analyze and design pricing strategies includ  |
 | `podcast-generation` | Backend & API | Generate real audio narratives from text content using Azure OpenAI's Realtime API. |
+| `podman` | General & Miscellaneous | Manage containers using Podman, the daemonless container engine. |
 | `poka-yoke` | General & Miscellaneous | Mistake-proof code, config and process: make the wrong action impossible or self-announcing rather than documented. |
 | `polars` | Backend & API | Fast in-memory DataFrame library for datasets that fit in RAM. Use when pandas is too slow but data still fits in mem  |
+| `policy-as-code` | General & Miscellaneous | Implement policy as code with OPA, Sentinel, and Kyverno. Automate policy |
 | `polis-protocol` | General & Miscellaneous | Coordinate multi-vendor AI agents as a self-improving team — a learning router assigns work by track record and citiz  |
 | `polis-protocol-a-self-optimizing-city-of-agents` | General & Miscellaneous | Polis Protocol: A Self-Optimizing City of Agents |
 | `popup-cro` | SEO & Marketing | Create and optimize popups, modals, overlays, slide-ins, and banners to increase conversions without harming user exp  |
@@ -1571,6 +1848,7 @@
 | `postgres-readonly-queries` | Database | Execute safe read-only SQL queries against PostgreSQL databases with multi-connection support and defense-in-depth wr  |
 | `postgresql` | General & Miscellaneous | Design a PostgreSQL-specific schema. Covers best-practices, data types, indexing, constraints, performance patterns,   |
 | `postgresql-cli` | General & Miscellaneous | PostgreSQL interactive terminal (psql) reference and usage guide. |
+| `postgresql-devsec` | General & Miscellaneous | Administer PostgreSQL databases. Configure replication, backups, and |
 | `postgresql-optimization` | Database | PostgreSQL database optimization workflow for query tuning, indexing strategies, performance analysis, and production  |
 | `posthog-automation` | Automation & Integrations | Automate PostHog tasks via Rube MCP (Composio): events, feature flags, projects, user profiles, annotations. Always s  |
 | `postman-collection-generator` | Backend & API | Generate complete, import-ready Postman Collection v2.1 JSON files from natural language API descriptions or cURL com  |
@@ -1623,10 +1901,12 @@
 | `project-state-governor` | General & Miscellaneous | Govern evidence-backed canonical project state across sessions, branches, reviews, and research cycles without invent  |
 | `projection-patterns` | Architecture & Design Patterns | Build read models and projections from event streams. Use when implementing CQRS read sides, building materialized vi  |
 | `prometheus-configuration` | General & Miscellaneous | Complete guide to Prometheus setup, metric collection, scrape configuration, and recording rules. |
+| `prometheus-grafana` | General & Miscellaneous | Set up metrics collection and visualization with Prometheus and Grafana. |
 | `prompt-caching` | AI & LLM | Caching strategies for LLM prompts including Anthropic prompt |
 | `prompt-engineer` | General & Miscellaneous | Transforms user prompts into optimized prompts using frameworks (RTF, RISEN, Chain of Thought, RODES, Chain of Densit  |
 | `prompt-engineering` | AI & LLM | Expert guide on prompt engineering patterns, best practices, and optimization techniques. Use when user wants to impr  |
 | `prompt-engineering-patterns` | AI & LLM | Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability. |
+| `prompt-injection-defense` | General & Miscellaneous | Defend AI systems against prompt injection and indirect prompt attacks |
 | `prompt-library` | General & Miscellaneous | A comprehensive collection of battle-tested prompts inspired by [awesome-chatgpt-prompts](https://github.com/f/awesom  |
 | `proofread` | Product Management | This skill should be used when the user asks to \"proofread\". Check grammar, logic, and flow in any text. |
 | `protect-mcp-governance` | Automation & Integrations | Agent governance skill for MCP tool calls — Cedar policy authoring, shadow-to-enforce rollout, and Ed25519 receipt ve  |
@@ -1657,11 +1937,15 @@
 | `quality-nonconformance` | General & Miscellaneous | Codified expertise for quality control, non-conformance investigation, root cause analysis, corrective action, and su  |
 | `quant-analyst` | General & Miscellaneous | Build financial models, backtest trading strategies, and analyze market data. Implements risk metrics, portfolio opti  |
 | `quit-sponsor` | AI & LLM | Helps an AI agent provide non-judgmental, evidence-informed quit-smoking support with user-consented tracking, cravin  |
+| `radar-satellite-analysis` | General & Miscellaneous | Interpret weather radar and satellite observations by validating product metadata and geometry, deriving storm and cl  |
 | `radare2` | General & Miscellaneous | Drive the radare2 CLI for binary reconnaissance, disassembly, analysis, function locating, export, and lightweight pa  |
 | `radio-sdr` | Security & Pentesting | Authorized RF/SDR security research: signal identification, replay-feasibility study in shielded labs, and wireless p  |
 | `radix-ui-design-system` | General & Miscellaneous | Build accessible design systems with Radix UI primitives. Headless component customization, theming strategies, and c  |
 | `rag-engineer` | AI & LLM | Expert in building Retrieval-Augmented Generation systems. Masters |
 | `rag-implementation` | Database | RAG (Retrieval-Augmented Generation) implementation workflow covering embedding selection, vector database setup, chu  |
+| `rag-infrastructure` | AI & LLM | Build and operate Retrieval-Augmented Generation (RAG) infrastructure |
+| `rag-observability-evals` | AI & LLM | Monitor and evaluate RAG systems with retrieval quality metrics, groundedness |
+| `ralph-loop-yylo` | General & Miscellaneous | Execute exactly one explicitly assigned YYLO Ledger task through the |
 | `rayden-code` | Frontend & UI | Generate React code with Rayden UI components using correct props, tokens, and premium layout patterns |
 | `rayden-use` | Automation & Integrations | Build and maintain Rayden UI components and screens in Figma via Figma MCP with full design token enforcement |
 | `rclone-cli` | Productivity & Workflow | Rclone command-line cloud storage manager reference and usage guide. Use this skill whenever the user mentions rclone  |
@@ -1681,6 +1965,7 @@
 | `readme` | General & Miscellaneous | You are an expert technical writer creating comprehensive project documentation. Your goal is to write a README.md th  |
 | `recallmax` | General & Miscellaneous | FREE — God-tier long-context memory for AI agents. Injects 500K-1M clean tokens, auto-summarizes with tone/intent pre  |
 | `receiving-code-review` | General & Miscellaneous | Code review requires technical evaluation, not emotional performance. |
+| `recon-scope-triage` | General & Miscellaneous | Triage ASM/recon output for ownership before testing |
 | `recsys-pipeline-architect` | General & Miscellaneous | Designs composable recommendation, ranking, and feed pipelines using the six-stage Source→Hydrator→Filter→Scorer→Sele  |
 | `recursive-context-pruning-token-budgeting` | AI & LLM | Optimizes AI agent performance by pruning redundant context, managing token usage, and enforcing ultra-concise, direc  |
 | `red-team-prd` | Product Management | This skill should be used when the user asks to \"red team prd\". Red-team a PRD, roadmap, or strategy. |
@@ -1688,7 +1973,10 @@
 | `red-team-tools` | Security & Pentesting | Implement proven methodologies and tool workflows from top security researchers for effective reconnaissance, vulnera  |
 | `reddit-automation` | Automation & Integrations | Automate Reddit tasks via Rube MCP (Composio): search subreddits, create posts, manage comments, and browse top conte  |
 | `redesign-existing-projects` | General & Miscellaneous | Use when upgrading existing websites or apps by auditing generic UI patterns and applying premium design fixes withou  |
+| `redis` | General & Miscellaneous | Configure Redis for caching and data storage. Set up clustering, persistence, |
 | `redis-cli` | Productivity & Workflow | Redis command-line interface (redis-cli) reference and usage guide. Use this skill whenever the user mentions redis-c  |
+| `redteam-mindset` | General & Miscellaneous | Red-team operator discipline |
+| `redteam-report-template` | General & Miscellaneous | Client-facing red-team deliverable format |
 | `reference-builder` | Backend & API | Creates exhaustive technical references and API documentation. Generates comprehensive parameter listings, configurat  |
 | `referral-program` | SEO & Marketing | You are an expert in viral growth and referral marketing with access to referral program data and third-party tools.   |
 | `rehabilitation-analyzer` | General & Miscellaneous | 分析康复训练数据、识别康复模式、评估康复进展，并提供个性化康复建议 |
@@ -1696,12 +1984,19 @@
 | `remote-gpu-trainer` | DevOps & CI/CD | Deploy, monitor, and debug long GPU jobs on RENTED/remote instances (AutoDL, RunPod, vast.ai, Lambda, Slurm, K8s): te  |
 | `remotion` | Media & Creative | Generate walkthrough videos from Stitch projects using Remotion with smooth transitions, zooming, and text overlays |
 | `remotion-best-practices` | Frontend & UI | Best practices for Remotion - Video creation in React |
+| `remotion-captions` | Media & Creative | Transcribing, displaying and animating captions |
+| `remotion-create` | Media & Creative | Create a new Remotion video |
+| `remotion-docs` | Media & Creative | Search Remotion documentation |
+| `remotion-interactivity` | Media & Creative | Structure Remotion markup for interactivity |
+| `remotion-render` | Media & Creative | Export a Remotion video |
 | `render-automation` | Automation & Integrations | Automate Render tasks via Rube MCP (Composio): services, deployments, projects. Always search tools first for current  |
 | `repo-maintainer` | Git & Version Control | Audit and repair repository hygiene across artifacts, dependencies, CI, docs, Git state, and code-quality signals. Us  |
+| `report-writing` | General & Miscellaneous | Bug bounty report writing for H1/Bugcrowd/Intigriti/Immunefi |
 | `requesting-code-review` | General & Miscellaneous | Use when completing tasks, implementing major features, or before merging to verify work meets requirements |
 | `research-prompt` | General & Miscellaneous | Turn vague research needs into one precise deep-research prompt with context and output criteria. |
 | `research-users` | Product Management | This skill should be used when the user asks to \"research users\". Comprehensive user research. |
 | `resolving-merge-conflicts` | Git & Version Control | Use when you need to resolve an in-progress git merge/rebase conflict. |
+| `resumable-implementation-contracts` | General & Miscellaneous | Create repository-based execution contracts for multi-session implementation work, with stable task IDs, evidence, ch  |
 | `resume-ats-review` | General & Miscellaneous | Analyze an attached resume or CV PDF, produce a heuristic ATS score with category breakdowns, and give prioritized fi  |
 | `retro` | Product Management | This skill should be used when the user asks to \"retro\". Facilitate a structured sprint retrospective. |
 | `returns-reverse-logistics` | General & Miscellaneous | Codified expertise for returns authorisation, receipt and inspection, disposition decisions, refund processing, fraud  |
@@ -1709,6 +2004,7 @@
 | `reverse-engineer` | General & Miscellaneous | Expert reverse engineer specializing in binary analysis, disassembly, decompilation, and software analysis. Masters I  |
 | `reverse-engineering` | General & Miscellaneous | General reverse-engineering methodology for compiled, obfuscated, packed, or virtualized targets: GDB, Frida, angr, U  |
 | `reverse-engineering/dsl-vm-reverse` | Languages: TypeScript/JavaScript | Reverse JavaScript-based custom DSL/VM interpreters and risk-control engines: identify IIFE/switch-based opcode dispa  |
+| `reverse-proxy` | General & Miscellaneous | Configure nginx and Traefik as reverse proxies. Implement SSL termination |
 | `review-and-simplify-changes` | Git & Version Control | Review a git diff or explicit file scope for reuse, code quality, efficiency, clarity, and standards issues, then opt  |
 | `review-animations` | General & Miscellaneous | Use when reviewing animation and motion code against a strict craft, performance, accessibility, and interaction-qual  |
 | `review-multi-agent-orchestration` | AI & LLM | Use when a supervisor, swarm, graph, planner-worker system, or parallel agent workflow needs review for task boundari  |
@@ -1730,10 +2026,13 @@
 | `run-deep-swe` | AI & LLM | Run reproducible DeepSWE coding-agent benchmark evaluations through OpenRouter and mini-swe-agent. |
 | `runapi-cli` | Media & Creative | Generate AI images, videos, and music/audio from agents using the RunAPI CLI. |
 | `runaway-guard` | Data & Analytics | Cost-safety discipline for paid AI / inference APIs: treat $-cost as a third complexity dimension alongside time and   |
+| `runbook-creation` | General & Miscellaneous | Create operational runbooks and standard operating procedures. Document |
 | `rust-async-patterns` | Languages: Rust | Master Rust async programming with Tokio, async traits, error handling, and concurrent patterns. Use when building as  |
 | `rust-pro` | Languages: Rust | Master Rust 1.75+ with modern async patterns, advanced type system features, and production-ready systems programming. |
 | `saas-multi-tenant` | Security & Pentesting | Design and implement multi-tenant SaaS architectures with row-level security, tenant-scoped queries, shared-schema is  |
 | `saas-mvp-launcher` | Architecture & Design Patterns | Use when planning or building a SaaS MVP from scratch. Provides a structured roadmap covering tech stack, architectur  |
+| `saas-pricing-strategist` | Testing & QA | Design, optimize, and test pricing strategies for SaaS products using |
+| `saas-security-posture` | Security & Pentesting | Audit and harden your SaaS tool stack |
 | `saga-orchestration` | General & Miscellaneous | Patterns for managing distributed transactions and long-running business processes. |
 | `sales-automator` | General & Miscellaneous | Draft cold emails, follow-ups, and proposal templates. Creates pricing pages, case studies, and sales scripts. Use PR  |
 | `sales-enablement` | General & Miscellaneous | Create sales collateral such as decks, one-pagers, objection docs, demo scripts, playbooks, and proposal templates. U  |
@@ -1746,7 +2045,9 @@
 | `sandbox-stable` | Cloudflare | Build or maintain Cloudflare Sandbox apps on the stable @cloudflare/sandbox package. Use sandbox-next for preview app  |
 | `sankhya-dashboard-html-jsp-custom-best-pratices` | Database | This skill should be used when the user asks for patterns, best practices, creation, or fixing of Sankhya dashboards   |
 | `sast-configuration` | Security & Pentesting | Static Application Security Testing (SAST) tool setup, configuration, and custom rule creation for comprehensive secu  |
+| `sast-scanning` | Security & Pentesting | Perform static application security testing with tools like Semgrep, |
 | `satori` | General & Miscellaneous | Clinically informed wisdom companion blending psychology and philosophy into a structured thinking partner |
+| `sbom-supply-chain` | General & Miscellaneous | Generate, sign, and verify SBOMs and provenance attestations to secure |
 | `scala-pro` | General & Miscellaneous | Master enterprise-grade Scala development with functional programming, distributed systems, and big data processing.   |
 | `scanning-tools` | Security & Pentesting | Master essential security scanning tools for network discovery, vulnerability assessment, web application testing, wi  |
 | `scanpy` | Languages: Python | Scanpy is a scalable Python toolkit for analyzing single-cell RNA-seq data, built on AnnData. Apply this skill for co  |
@@ -1755,6 +2056,7 @@
 | `schema-markup-generator` | Business & Startup | Generate and implement JSON-LD structured data for web apps, blogs, FAQs, and SaaS sites. Supports WebSite, SoftwareA  |
 | `scientific-writing` | Productivity & Workflow | This is the core skill for the deep research and writing tool—combining AI-driven deep research with well-formatted w  |
 | `scikit-learn` | Languages: Python | Machine learning in Python with scikit-learn. Use for classification, regression, clustering, model evaluation, and M  |
+| `score-eval` | Productivity & Workflow | Imported skill `score-eval` from upstream source. |
 | `screen-adverse-media` | Observability & Monitoring | Screen a person or organisation for adverse media coverage, PEP status, and sanctions exposure — corroboration-gated,  |
 | `screen-reader-testing` | General & Miscellaneous | Practical guide to testing web applications with screen readers for comprehensive accessibility validation. |
 | `screenshots` | SEO & Marketing | Generate marketing screenshots of your app using Playwright. Use when the user wants to create screenshots for Produc  |
@@ -1765,9 +2067,11 @@
 | `search-specialist` | General & Miscellaneous | Expert web researcher using advanced search techniques and |
 | `secrets-management` | DevOps & CI/CD | Secure secrets management practices for CI/CD pipelines using Vault, AWS Secrets Manager, and other tools. |
 | `security-and-hardening` | Security & Pentesting | Hardens code against vulnerabilities. Use when handling user input, authentication, data storage, or external integra  |
+| `security-arsenal` | Security & Pentesting | Security payloads, bypass tables, wordlists, gf pattern names, always-rejected |
 | `security-audit` | Security & Pentesting | Comprehensive security auditing workflow covering web application testing, API security, penetration testing, vulnera  |
 | `security-audit-static` | Product Management | This skill should be used when the user asks to \"security audit static\". Static security audit of AI-built code. |
 | `security-auditor` | Security & Pentesting | Expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks. |
+| `security-automation` | Security & Pentesting | Automate security workflows and remediation. Build security pipelines, |
 | `security-bluebook-builder` | Security & Pentesting | Build a minimal but real security policy for sensitive apps. The output is a single, coherent Blue Book document usin  |
 | `security-compliance-compliance-check` | Security & Pentesting | You are a compliance expert specializing in regulatory requirements for software systems including GDPR, HIPAA, SOC2,  |
 | `security-requirement-extraction` | Security & Pentesting | Derive security requirements from threat models and business context. Use when translating threats into actionable re  |
@@ -1782,6 +2086,7 @@
 | `segment-automation` | Automation & Integrations | Automate Segment tasks via Rube MCP (Composio): track events, identify users, manage groups, page views, aliases, bat  |
 | `segment-cdp` | General & Miscellaneous | Expert patterns for Segment Customer Data Platform including |
 | `selenium-skill` | Automation & Integrations | Generates production-grade Selenium WebDriver automation scripts and tests in Java, Python, JavaScript, C#, Ruby, or   |
+| `semantic-versioning` | General & Miscellaneous | Automate versioning and changelog generation using semantic versioning |
 | `semgrep-rule-creator` | Security & Pentesting | Creates custom Semgrep rules for detecting security vulnerabilities, bug patterns, and code patterns. Use when writin  |
 | `semgrep-rule-variant-creator` | Testing & QA | Creates language variants of existing Semgrep rules. Use when porting a Semgrep rule to specified target languages. T  |
 | `sendgrid-automation` | SEO & Marketing | Automate SendGrid email delivery workflows including marketing campaigns (Single Sends), contact and list management,  |
@@ -1798,6 +2103,7 @@
 | `seo-aeo-keyword-research` | SEO & Marketing | Researches and prioritises SEO keywords with AEO question queries, difficulty tiers, cannibalization checks, and a co  |
 | `seo-aeo-landing-page-writer` | SEO & Marketing | Writes complete, structured landing pages optimized for SEO ranking, AEO citation, and visitor conversion. Activate w  |
 | `seo-aeo-meta-description-generator` | SEO & Marketing | Writes 3 title tag variants and 3 meta description variants per page with SERP preview, OG tags, and Twitter Card tag  |
+| `seo-aeo-orchestrator` | SEO & Marketing | Runs an audit-first SEO/AEO growth workflow from project discovery through implementation, foundational content, meas  |
 | `seo-aeo-schema-generator` | SEO & Marketing | Generates valid JSON-LD structured data for 10 schema types with rich result eligibility validation and implementatio  |
 | `seo-audit` | SEO & Marketing | Diagnose and audit SEO issues affecting crawlability, indexation, rankings, and organic performance. |
 | `seo-authority-builder` | SEO & Marketing | Analyzes content for E-E-A-T signals and suggests improvements to |
@@ -1827,7 +2133,9 @@
 | `seo-structure-architect` | SEO & Marketing | Analyzes and optimizes content structure including header hierarchy, suggests schema markup, and internal linking opp  |
 | `seo-technical` | Security & Pentesting | Audit technical SEO across crawlability, indexability, security, URLs, mobile, Core Web Vitals, structured data, Java  |
 | `sequence-psychologist` | Productivity & Workflow | One sentence - what this skill does and when to invoke it |
+| `serply-search-mcp` | Automation & Integrations | Search Google, Bing, Google News and Google Scholar, and read public pages, with the Serply MCP server. Use when the   |
 | `server-management` | Observability & Monitoring | Server management principles and decision-making. Process management, monitoring strategy, and scaling decisions. Tea  |
+| `service-mesh` | General & Miscellaneous | Implement Istio and Linkerd service meshes. Configure mTLS, traffic management, |
 | `service-mesh-expert` | Security & Pentesting | Expert service mesh architect specializing in Istio, Linkerd, and cloud-native networking patterns. Masters traffic m  |
 | `service-mesh-observability` | Observability & Monitoring | Complete guide to observability patterns for Istio, Linkerd, and service mesh deployments. |
 | `setup-help` | General & Miscellaneous | Walk a user through setup or installation one step at a time with the remaining steps visible. |
@@ -1851,6 +2159,7 @@
 | `signup-flow-cro` | General & Miscellaneous | You are an expert in optimizing signup and registration flows. Your goal is to reduce friction, increase completion r  |
 | `similarity-search-patterns` | General & Miscellaneous | Implement efficient similarity search with vector databases. Use when building semantic search, implementing nearest   |
 | `simplify-code` | General & Miscellaneous | Review a diff for clarity and safe simplifications, then optionally apply low-risk fixes. |
+| `since-cutoff` | Languages: Python | Find which APIs of a project's pinned Python dependencies changed after the model's training cutoff, where the code u  |
 | `site-architecture` | Architecture & Design Patterns | Plan or restructure website hierarchy, navigation, URL patterns, breadcrumbs, and internal linking. Use when mapping   |
 | `skill-audit` | Security & Pentesting | Pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. |
 | `skill-check` | Productivity & Workflow | Validate Claude Code skills against the agentskills specification. Catches structural, semantic, and naming issues be  |
@@ -1885,6 +2194,7 @@
 | `smartui-skill` | Testing & QA | Generates SmartUI visual regression test configurations for screenshot comparison on TestMu AI cloud. Framework-agnos  |
 | `smtp-penetration-testing` | Security & Pentesting | Conduct comprehensive security assessments of SMTP (Simple Mail Transfer Protocol) servers to identify vulnerabilitie  |
 | `snowflake-development` | Security & Pentesting | Comprehensive Snowflake development assistant covering SQL best practices, data pipeline design (Dynamic Tables, Stre  |
+| `soc2-compliance` | Security & Pentesting | Implement SOC 2 Trust Services Criteria. Configure security, availability, |
 | `social-content` | General & Miscellaneous | You are an expert social media strategist with direct access to a scheduling platform that publishes to all major soc  |
 | `social-metadata-hardening` | General & Miscellaneous | Fix social sharing previews so URLs render as rich cards on Facebook, LinkedIn, X/Twitter, WhatsApp, Telegram, and mo  |
 | `social-orchestrator` | General & Miscellaneous | Orquestrador unificado de canais sociais — coordena Instagram, Telegram e WhatsApp em um unico fluxo de trabalho. Pub  |
@@ -1893,6 +2203,7 @@
 | `socialclaw` | Backend & API | Agent-first social media publishing skill — schedule and publish posts across 13 platforms (X, LinkedIn, Instagram, F  |
 | `software-architecture` | Architecture & Design Patterns | Guide for quality focused software architecture. This skill should be used when users want to write code, design arch  |
 | `solidity-security` | Security & Pentesting | Master smart contract security best practices, vulnerability prevention, and secure Solidity development patterns. |
+| `sops-encryption` | General & Miscellaneous | Encrypt files and configs with Mozilla SOPS. |
 | `source-driven-development` | General & Miscellaneous | Grounds every implementation decision in official documentation. Use when you want authoritative, source-cited code f  |
 | `spark-optimization` | General & Miscellaneous | Optimize Apache Spark jobs with partitioning, caching, shuffle optimization, and memory tuning. Use when improving Sp  |
 | `spec-driven-development` | General & Miscellaneous | Creates specs before coding. Use when starting a new project, feature, or significant change and no specification exi  |
@@ -1912,10 +2223,13 @@
 | `sqlmap-database-pentesting` | Database | Provide systematic methodologies for automated SQL injection detection and exploitation using SQLMap. |
 | `square-automation` | Automation & Integrations | Automate Square tasks via Rube MCP (Composio): payments, orders, invoices, locations. Always search tools first for c  |
 | `squirrel` | Productivity & Workflow | Full-cycle AI coding skill: plans, builds, tests, lints, fixes bugs, and writes production-grade docs. Auto-detects p  |
+| `sre-dashboards` | General & Miscellaneous | Design and operationalize SRE dashboards that surface reliability, latency, |
 | `sred-project-organizer` | General & Miscellaneous | Take a list of projects and their related documentation, and organize them into the SRED format for submission. |
 | `sred-work-summary` | General & Miscellaneous | Go back through the previous year of work and create a Notion doc that groups relevant links into projects that can t  |
+| `ssh-configuration` | General & Miscellaneous | Configure SSH servers and clients securely. Manage keys, tunnels, and |
 | `ssh-penetration-testing` | Security & Pentesting | Conduct comprehensive SSH security assessments including enumeration, credential attacks, vulnerability exploitation,  |
 | `sshepherd` | DevOps & CI/CD | Zero-knowledge SSH ops CLI — server health checks, docker/systemd control, log tailing, Postgres introspection, and d  |
+| `ssl-tls-management` | General & Miscellaneous | Manage SSL/TLS certificates with Let's Encrypt and internal PKI. Configure |
 | `stability-ai` | General & Miscellaneous | Geracao de imagens via Stability AI (SD3.5, Ultra, Core). Text-to-image, img2img, inpainting, upscale, remove-bg, sea  |
 | `stakeholder-map` | Product Management | This skill should be used when the user asks to \"stakeholder map\". Build a stakeholder map using a power/interest g  |
 | `startup-analyst` | Business & Startup | Expert startup business analyst specializing in market sizing, financial modeling, competitive analysis, and strategi  |
@@ -1924,6 +2238,7 @@
 | `startup-business-analyst-market-opportunity` | Business & Startup | Generate comprehensive market opportunity analysis with TAM/SAM/SOM |
 | `startup-canvas` | Product Management | This skill should be used when the user asks to \"startup canvas\". Generate a Startup Canvas combining Product Strat  |
 | `startup-financial-modeling` | Business & Startup | Build comprehensive 3-5 year financial models with revenue projections, cost structures, cash flow analysis, and scen  |
+| `startup-it-troubleshooting` | Business & Startup | Practical IT troubleshooting playbooks for small teams without dedicated |
 | `startup-metrics-framework` | Business & Startup | Comprehensive guide to tracking, calculating, and optimizing key performance metrics for different startup business m  |
 | `statsmodels` | Languages: Python | Statsmodels is Python's premier library for statistical modeling, providing tools for estimation, inference, and diag  |
 | `ste-writing` | General & Miscellaneous | Rewrite prose (docs, READMEs, PR descriptions, error messages, release notes, comments — never code) into ASD-STE100   |
@@ -1963,6 +2278,8 @@
 | `super-code/swift` | General & Miscellaneous | Language-specific super-code guidelines for swift. |
 | `super-code/typescript` | Languages: TypeScript/JavaScript | Language-specific super-code guidelines for typescript. |
 | `superpowers-lab` | General & Miscellaneous | Lab environment for Claude superpowers |
+| `supply-chain-attack-recon` | General & Miscellaneous | External recon for software supply-chain attack surface |
+| `supply-chain-attack-response` | General & Miscellaneous | Detect, respond to, and prevent software supply chain attacks on package |
 | `supply-chain-risk-auditor` | Security & Pentesting | Identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surfac  |
 | `supply-chain-security` | DevOps & CI/CD | Software supply-chain security assessment: SBOM generation, SCA scanning, CI/CD pipeline review, container image audi  |
 | `survey-generator` | General & Miscellaneous | Generate source-backed AI/ML survey paper artifacts with curated bibliographies and Fireworks/Kimi HTML rendering. |
@@ -1975,7 +2292,9 @@
 | `swiftui-view-refactor` | Mobile | Refactor SwiftUI views into smaller components with stable, explicit data flow. |
 | `swot-analysis` | Product Management | This skill should be used when the user asks to \"swot analysis\". Perform a detailed SWOT analysis. |
 | `sympy` | Languages: Python | SymPy is a Python library for symbolic mathematics that enables exact computation using mathematical symbols rather t  |
+| `system-prompt-lookup` | AI & LLM | Checks what a shipped AI product's system prompt and tool schema actually say, by reading a dated archive of captured  |
 | `systematic-debugging` | Testing & QA | Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes |
+| `systemd-services` | General & Miscellaneous | Create and manage systemd services and timers. Configure service dependencies |
 | `systems-programming-rust-project` | Languages: Rust | You are a Rust project architecture expert specializing in scaffolding production-ready Rust applications. Generate c  |
 | `tailor-resume` | Product Management | This skill should be used when the user asks to \"tailor resume\". Tailor a PM resume to a specific job description. |
 | `tailwind-design-system` | Frontend & UI | Build production-ready design systems with Tailwind CSS, including design tokens, component variants, responsive patt  |
@@ -2008,7 +2327,10 @@
 | `temporal-golang-pro` | Languages: Go | Use when building durable distributed systems with Temporal Go SDK. Covers deterministic workflow rules, mTLS worker   |
 | `temporal-python-pro` | Languages: Python | Master Temporal workflow orchestration with Python SDK. Implements durable workflows, saga patterns, and distributed   |
 | `temporal-python-testing` | Languages: Python | Comprehensive testing approaches for Temporal workflows using pytest, progressive disclosure resources for specific t  |
+| `terraform-aws` | DevOps & CI/CD | Provision AWS infrastructure with Terraform. Create modules, manage state, |
 | `terraform-aws-modules` | AWS | Terraform module creation for AWS — reusable modules, state management, and HCL best practices. Use when building or   |
+| `terraform-azure` | DevOps & CI/CD | Provision Azure infrastructure with Terraform. Configure providers, manage |
+| `terraform-gcp` | Google Cloud | Provision GCP infrastructure with Terraform. Configure providers and |
 | `terraform-infrastructure` | DevOps & CI/CD | Terraform infrastructure as code workflow for provisioning cloud resources, creating reusable modules, and managing i  |
 | `terraform-module-library` | Google Cloud | Production-ready Terraform module patterns for AWS, Azure, and GCP infrastructure. |
 | `terraform-skill` | DevOps & CI/CD | Terraform infrastructure as code best practices |
@@ -2019,6 +2341,7 @@
 | `test-framework-migration-skill` | Automation & Integrations | Migrates and converts test automation scripts between Selenium, Playwright, Puppeteer, and Cypress. |
 | `test-guard` | Testing & QA | Review generated or changed test code against universal testing rules before it ships or is presented for approval. |
 | `test-scenarios` | Product Management | This skill should be used when the user asks to \"test scenarios\". Create comprehensive test scenarios from user sto  |
+| `testdriver-e2e-testing` | Testing & QA | Build E2E tests with TestDriver.ai, the AI code reviewer that runs every pull request in a real desktop sandbox, find  |
 | `testing-patterns` | Testing & QA | Jest testing patterns, factory functions, mocking strategies, and TDD workflow. Use when writing unit tests, creating  |
 | `testing-qa` | Automation & Integrations | Comprehensive testing and QA workflow covering unit testing, integration testing, E2E testing, browser automation, an  |
 | `testng-skill` | Languages: Java/Kotlin | Generates TestNG tests in Java with groups, data providers, parallel execution, XML suite configuration, and listener  |
@@ -2028,6 +2351,7 @@
 | `threat-hunting` | General & Miscellaneous | Blue-team threat hunting: detection engineering with Sigma/YARA, SIEM query design, and validation of incident detect  |
 | `threat-intelligence` | General & Miscellaneous | Authorized OSINT and cyber threat intelligence: enriching IOCs, campaigns, impersonation, scams, and threat-actor pro  |
 | `threat-mitigation-mapping` | Security & Pentesting | Map identified threats to appropriate security controls and mitigations. Use when prioritizing security investments,   |
+| `threat-modeling` | General & Miscellaneous | Conduct threat modeling using STRIDE methodology. Identify threats, assess |
 | `threat-modeling-expert` | Security & Pentesting | Expert in threat modeling methodologies, security architecture review, and risk assessment. Masters STRIDE, PASTA, at  |
 | `threejs-animation` | Frontend & UI | Three.js animation - keyframe animation, skeletal animation, morph targets, animation mixing. Use when animating obje  |
 | `threejs-fundamentals` | Frontend & UI | Three.js scene setup, cameras, renderer, Object3D hierarchy, coordinate systems. Use when setting up 3D scenes, creat  |
@@ -2052,6 +2376,12 @@
 | `tools-page-seo-optimizer` | SEO & Marketing | Framework-agnostic SEO workflow for any site with multiple tool, product, or feature pages. Covers duplicate content,  |
 | `top-web-vulnerabilities` | Security & Pentesting | Provide a comprehensive, structured reference for the 100 most critical web application vulnerabilities organized by   |
 | `track-management` | Productivity & Workflow | Use this skill when creating, managing, or working with Conductor tracks - the logical work units for features, bugs,  |
+| `traderspy-market-briefing` | General & Miscellaneous | Crypto market briefing from live TraderSpy data: majors, funding, open interest, top-trader lean, fresh AI signals an  |
+| `traderspy-market-screener` | General & Miscellaneous | Scan the most-traded crypto futures pairs for up to 3 technical conditions in one TraderSpy call, compare coins, and   |
+| `traderspy-position-check` | General & Miscellaneous | Health-check crypto futures positions the user describes, with TraderSpy data: liquidation and stop distance, multi-t  |
+| `traderspy-smart-money` | General & Miscellaneous | Track what top crypto futures traders hold on Binance, Hyperliquid, Bybit and OKX with TraderSpy: elite leaderboard,   |
+| `traderspy-technical-analysis` | General & Miscellaneous | Read one crypto futures pair with TraderSpy: 19 indicators on up to 3 timeframes in one call, key levels, funding, op  |
+| `traderspy-trading-signals` | General & Miscellaneous | Fetch and explain TraderSpy's AI crypto futures signals: entry, take-profit ladder, stop, triggers, status against th  |
 | `trading-ledger` | Database | A trading journal that captures the decision, not just the fill: thesis, plan, and emotion at the moment of entry, wr  |
 | `train-sentence-transformers` | General & Miscellaneous | Train or fine-tune SentenceTransformer, CrossEncoder, and SparseEncoder models for retrieval, similarity, clustering,  |
 | `transform-roadmap` | Product Management | This skill should be used when the user asks to \"transform roadmap\". Convert a feature-based roadmap into an outcom  |
@@ -2062,6 +2392,7 @@
 | `trello-automation` | Automation & Integrations | Automate Trello boards, cards, and workflows via Rube MCP (Composio). Create cards, manage lists, assign members, and  |
 | `triage` | AI & LLM | Move issues and external PRs through a state machine of triage roles — categorise, verify, grill if needed, and write  |
 | `triage-requests` | Product Management | This skill should be used when the user asks to \"triage requests\". Analyze, categorize, and prioritize a batch of f  |
+| `triage-validation` | General & Miscellaneous | Finding validation before writing any report |
 | `trigger-dev` | General & Miscellaneous | Trigger.dev expert for background jobs, AI workflows, and reliable |
 | `trl-training` | General & Miscellaneous | Train and fine-tune transformer language models using TRL (Transformers Reinforcement Learning). Supports SFT, DPO, G  |
 | `trpc-fullstack` | Automation & Integrations | Build end-to-end type-safe APIs with tRPC — routers, procedures, middleware, subscriptions, and Next.js/React integra  |
@@ -2092,6 +2423,7 @@
 | `ui-ux-pro-max` | Mobile | Comprehensive design guide for web and mobile applications. Use when designing new UI components or pages, choosing c  |
 | `ui-visual-validator` | Legal & Compliance | Rigorous visual validation expert specializing in UI testing, design system compliance, and accessibility verification. |
 | `uncle-bob-craft` | Architecture & Design Patterns | Use when performing code review, writing or refactoring code, or discussing architecture; complements clean-code and   |
+| `understand-project-yylo` | Architecture & Design Patterns | Inspect the current product architecture, dependencies, and validation |
 | `unified-ai-gateway` | Automation & Integrations | Operate and evaluate Unified AI System through nine governed MCP tools, including provider-free prompt enhancement, w  |
 | `uniprot-database` | Database | Direct REST API access to UniProt. Protein searches, FASTA retrieval, ID mapping, Swiss-Prot/TrEMBL. For Python workf  |
 | `unit-testing-test-generate` | Testing & QA | Generate comprehensive, maintainable unit tests across languages with strong coverage and edge case focus. |
@@ -2114,10 +2446,12 @@
 | `us-property-data` | General & Miscellaneous | Use when a task needs real U.S. residential property data: valuation, listings, price or tax history, schools, or a z  |
 | `usage-based-pricing` | Backend & API | Design pricing models that developers understand, accept, and can predict. Trigger phrases: usage-based pricing, API   |
 | `use-dom` | Mobile | Use Expo DOM components to run web code in a webview on native and as-is on web. Migrate web code to native increment  |
+| `user-management` | General & Miscellaneous | Manage users, groups, and permissions on Linux systems. Configure sudo |
 | `user-personas` | Product Management | This skill should be used when the user asks to \"user personas\". Create refined user personas from research data. |
 | `user-segmentation` | Product Management | This skill should be used when the user asks to \"user segmentation\". Segment users from feedback data based on beha  |
 | `user-stories` | Product Management | This skill should be used when the user asks to \"user stories\". Create user stories following the 3 C's (Card, Conv  |
 | `user-thoughts` | General & Miscellaneous | >- |
+| `using-agent-skills` | AI & LLM | Meta-skill for discovering and invoking the right agent skill for the |
 | `using-git-worktrees` | Git & Version Control | Git worktrees create isolated workspaces sharing the same repository, allowing work on multiple branches simultaneous  |
 | `using-lwc` | AI & LLM | Use when project decisions, code structure, research, incidents, or verified context must survive future coding-agent  |
 | `using-n8n-mcp-skills` | Automation & Integrations | Route n8n MCP workflow design, editing, validation, testing, deployment, credential, execution, and debugging tasks t  |
@@ -2136,11 +2470,14 @@
 | `varlock` | General & Miscellaneous | Secure-by-default environment variable management for Claude Code sessions. |
 | `varlock-claude-skill` | Git & Version Control | Secure environment variable management ensuring secrets are never exposed in Claude sessions, terminals, logs, or git  |
 | `vector-database-engineer` | Database | Expert in vector databases, embedding strategies, and semantic search implementation. Masters Pinecone, Weaviate, Qdr  |
+| `vector-database-ops` | DevOps & CI/CD | Deploy, manage, and optimize vector databases for AI applications. |
 | `vector-index-tuning` | General & Miscellaneous | Optimize vector index performance for latency, recall, and memory. Use when tuning HNSW parameters, selecting quantiz  |
+| `vendor-management` | Security & Pentesting | Implement vendor risk management programs. Assess third-party security |
 | `vercel-ai-sdk-expert` | Frontend & UI | Expert in the Vercel AI SDK. Covers Core API (generateText, streamText), UI hooks (useChat, useCompletion), tool call  |
 | `vercel-automation` | Automation & Integrations | Automate Vercel tasks via Rube MCP (Composio): manage deployments, domains, DNS, env vars, projects, and teams. Alway  |
 | `vercel-cli-with-tokens` | DevOps & CI/CD | Deploy and manage projects on Vercel using token-based authentication. Use when working with Vercel CLI using access   |
 | `vercel-deployment` | General & Miscellaneous | Expert knowledge for deploying to Vercel with Next.js |
+| `vercel-deployments` | DevOps & CI/CD | Deploy frontend and full-stack apps on Vercel with previews, edge functions, |
 | `vercel-optimize` | General & Miscellaneous | Audit deployed Vercel apps for cost and performance issues using metrics, project config, code scans, and version-awa  |
 | `vercel-react-view-transitions` | Frontend & UI | Guide React and Next.js view transitions, shared element animations, route transitions, transition types, and reduced  |
 | `verification-before-completion` | General & Miscellaneous | Claiming work is complete without verification is dishonesty, not efficiency. Use when ANY variation of success/compl  |
@@ -2162,16 +2499,27 @@
 | `visual-emotion-engineer` | Productivity & Workflow | One sentence - what this skill does and when to invoke it |
 | `vitest-skill` | Backend & API | Generates Vitest tests in JavaScript/TypeScript with Vite-native speed. Jest-compatible API with ESM support and HMR.  |
 | `vizcom` | General & Miscellaneous | AI-powered product design tool for transforming sketches into full-fidelity 3D renders. |
+| `vllm-server` | DevOps & CI/CD | Deploy and manage vLLM for high-throughput LLM inference. Configure continuous |
+| `vmware-vcenter-attack` | General & Miscellaneous | VMware vSphere / vCenter Server external attack matrix |
 | `voice-agents` | General & Miscellaneous | Voice agents represent the frontier of AI interaction - humans |
 | `voice-ai-development` | General & Miscellaneous | Expert in building voice AI applications - from real-time voice |
 | `voice-ai-engine-development` | AI & LLM | Build real-time conversational AI voice engines using async worker pipelines, streaming transcription, LLM agents, an  |
+| `vpn-setup` | General & Miscellaneous | Configure WireGuard, OpenVPN, and cloud VPNs. Implement secure remote |
 | `vps-server-management` | General & Miscellaneous | Manage authorized VPS hosts and server-side agents through cautious SSH and operations workflows. |
 | `vscode-extension-guide-en` | General & Miscellaneous | Guide for VS Code extension development from scaffolding to Marketplace publication |
 | `vulnerability-scanner` | Security & Pentesting | Advanced vulnerability analysis principles. OWASP 2025, Supply Chain Security, attack surface mapping, risk prioritiz  |
+| `vulnerability-scanning` | Security & Pentesting | Scan systems and dependencies for CVEs and security vulnerabilities. |
+| `waf-setup` | DevOps & CI/CD | Deploy and tune Web Application Firewalls. Configure rules for OWASP |
 | `warehouse` | Legal & Compliance | Plan and review read-only data warehouse analysis with explicit scope, privacy, provenance, and validation checks. |
 | `warp-delegate` | AI & LLM | Delegate coding tasks to the Warp Agent CLI (`oz`) only when the user |
 | `warren-buffett` | General & Miscellaneous | Agente que simula Warren Buffett — o maior investidor do seculo XX e XXI, CEO da Berkshire Hathaway, discipulo de Ben  |
 | `wcag-audit-patterns` | General & Miscellaneous | Comprehensive guide to auditing web content against WCAG 2.2 guidelines with actionable remediation strategies. |
+| `weather-data-lifecycle-management` | General & Miscellaneous | Manage ownership, retention, and cleanup of downloaded weather data across one-shot jobs, interactive viewers, caches  |
+| `weather-data-reproducibility` | General & Miscellaneous | Record and verify provenance manifests for weather-data inputs and derived artifacts, including object identity, sele  |
+| `weather-model-data-fetching` | General & Miscellaneous | Retrieve numerical weather prediction data from public AWS S3 and HTTP archives using GRIB2 inventories, byte ranges,  |
+| `weather-model-run-discovery` | General & Miscellaneous | Resolve the newest complete numerical weather prediction cycle and forecast objects across provider mirrors without d  |
+| `weather-observation-fetching` | General & Miscellaneous | Retrieve surface and upper-air weather observations from authoritative APIs and archives with station identity, time,  |
+| `weather-pipeline-performance-diagnosis` | General & Miscellaneous | Diagnose slow weather-data workflows by measuring discovery, transfer, parsing, scientific processing, and rendering   |
 | `weaviate` | Database | Search, query, inspect, create, and import data into Weaviate vector database collections using official scripts and   |
 | `weaviate-cookbooks` | AI & LLM | Build Weaviate AI apps from official cookbook blueprints for RAG, agentic RAG, data exploration, multimodal PDF searc  |
 | `web-artifacts-builder` | Frontend & UI | To build powerful frontend claude.ai artifacts, follow these steps: |
@@ -2182,6 +2530,8 @@
 | `web-project-brainstorming` | SEO & Marketing | Masterclass framework for brainstorming web development projects and page designs. Outlines structural phases for con  |
 | `web-scraper` | General & Miscellaneous | Web scraping inteligente multi-estrategia. Extrai dados estruturados de paginas web (tabelas, listas, precos). Pagina  |
 | `web-security-testing` | Security & Pentesting | Web application security testing workflow for OWASP Top 10 vulnerabilities including injection, XSS, authentication f  |
+| `web2-recon` | General & Miscellaneous | Web2 recon pipeline |
+| `web3-audit` | Security & Pentesting | Smart contract security audit |
 | `web3-testing` | Blockchain & Web3 | Master comprehensive testing strategies for smart contracts using Hardhat, Foundry, and advanced testing patterns. |
 | `webapp-testing` | Languages: Python | To test local web applications, write native Python Playwright scripts. |
 | `webdriverio-skill` | Automation & Integrations | Generates WebdriverIO (WDIO) automation tests in JavaScript or TypeScript. Supports local and TestMu AI cloud. Use wh  |
@@ -2201,8 +2551,11 @@
 | `wiki-qa` | General & Miscellaneous | Answer repository questions grounded entirely in source code evidence. Use when user asks a question about the codeba  |
 | `wiki-researcher` | General & Miscellaneous | You are an expert software engineer and systems analyst. Use when user asks \"how does X work\" with expectation of d  |
 | `wiki-vitepress` | General & Miscellaneous | Transform generated wiki Markdown files into a polished VitePress static site with dark theme and interactive Mermaid  |
+| `wiki-yylo` | General & Miscellaneous | Use YYLO Ledger wiki Records as durable project knowledge. Search before |
 | `windows-ad` | General & Miscellaneous | Authorized Active Directory and Windows identity attacks: Kerberos abuse, AD CS escalation, BloodHound path analysis,  |
+| `windows-hardening` | Security & Pentesting | Harden Windows servers per security baselines and CIS benchmarks. Configure |
 | `windows-privilege-escalation` | Security & Pentesting | Provide systematic methodologies for discovering and exploiting privilege escalation vulnerabilities on Windows syste  |
+| `windows-server` | General & Miscellaneous | Administer Windows Server systems. Manage IIS, Active Directory, and |
 | `windows-shell-reliability` | General & Miscellaneous | Reliable command execution on Windows: paths, encoding, and common binary pitfalls. |
 | `wireshark-analysis` | Security & Pentesting | Execute comprehensive network traffic analysis using Wireshark to capture, filter, and examine network packets for se  |
 | `wjttc-builder` | Testing & QA | PLAN and GENERATE WJTTC (Championship-Grade) test suites for any project. Analyzes the codebase, classifies component  |
@@ -2218,6 +2571,7 @@
 | `workflow-automation` | Automation & Integrations | Workflow automation is the infrastructure that makes AI agents |
 | `workflow-orchestration-patterns` | Architecture & Design Patterns | Master workflow orchestration architecture with Temporal, covering fundamental design decisions, resilience patterns,  |
 | `workflow-patterns` | Testing & QA | Use this skill when implementing tasks according to Conductor's TDD workflow, handling phase checkpoints, managing gi  |
+| `workflow-yylo` | Productivity & Workflow | Create and maintain validated YYLO Ledger workflow Records while keeping |
 | `working-with-coreai` | AI & LLM | Use this skill whenever the user mentions coreai-torch, TorchConverter, coreai-build, AIModel, AIProgram, .aimodel, o  |
 | `workorai` | Productivity & Workflow | WorkorAI talent-marketplace skill: candidates search jobs and manage applications; employers run the job lifecycle an  |
 | `wp-guard` | Security & Pentesting | Review generated or changed WordPress plugins, themes, and blocks for security, internationalization, performance, an  |
@@ -2228,6 +2582,7 @@
 | `write-query` | Product Management | This skill should be used when the user asks to \"write query\". Generate SQL queries from natural language. |
 | `write-stories` | Product Management | This skill should be used when the user asks to \"write stories\". Break a feature into backlog items. |
 | `writing-great-skills` | Productivity & Workflow | Reference for writing and editing skills well — the vocabulary and principles that make a skill predictable. |
+| `writing-guidelines` | Productivity & Workflow | Curated upstream guidance for Writing Guidelines; use when the workflow matches the user goal. |
 | `writing-plans` | General & Miscellaneous | Use when you have a spec or requirements for a multi-step task, before touching code |
 | `writing-skills` | AI & LLM | Use when creating, updating, or improving agent skills. |
 | `wwas` | Product Management | This skill should be used when the user asks to \"wwas\". Create product backlog items in Why-What-Acceptance format. |
@@ -2252,9 +2607,11 @@
 | `youtube-seo-optimizer` | SEO & Marketing | Generate complete YouTube & podcast SEO packages with live-researched keywords — titles, descriptions, tags, hashtags  |
 | `youtube-summarizer` | General & Miscellaneous | Extract transcripts from YouTube videos and generate comprehensive, detailed summaries using intelligent analysis fra  |
 | `youtube-transcript` | General & Miscellaneous | Fetch YouTube transcripts through DeepAPI or local fallback tooling and save clean text output. |
+| `youtube-transcript-skills` | Backend & API | Fetch YouTube video transcripts, search videos/channels, browse channels, and extract playlists via the getyoutubetra  |
 | `zapier-make-patterns` | Automation & Integrations | No-code automation democratizes workflow building. Zapier and Make |
 | `zcode-delegate` | General & Miscellaneous | Delegate coding tasks to the Z.AI ZCode CLI only when the user explicitly |
 | `zendesk-automation` | Automation & Integrations | Automate Zendesk tasks via Rube MCP (Composio): tickets, users, organizations, replies. Always search tools first for  |
+| `zero-trust` | Architecture & Design Patterns | Implement zero-trust network architecture. Configure identity-based access, |
 | `zeroize-audit` | Languages: Rust | Detects missing zeroization of sensitive data in source code and identifies zeroization removed by compiler optimizat  |
 | `zipai-optimizer` | General & Miscellaneous | Adaptive token optimizer: intelligent filtering, surgical output, ambiguity-first, context-window-aware, VCS-aware. |
 | `zod-validation-expert` | Automation & Integrations | Expert in Zod — TypeScript-first schema validation. Covers parsing, custom errors, refinements, type inference, and i  |
