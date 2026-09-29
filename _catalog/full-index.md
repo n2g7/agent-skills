@@ -1,6 +1,6 @@
 # Full Skills Index (Alphabetical)
 
-2154 skills.
+2257 skills.
 
 | Skill ID | Category | Description (truncated) |
 |----------|----------|-------------------------|
@@ -10,6 +10,7 @@
 | `20-andruia-niche-intelligence` | General & Miscellaneous | Estratega de Inteligencia de Dominio de Andru.ia. Analiza el nicho específico de un proyecto para inyectar conocimien  |
 | `2slides-ppt-generator` | Backend & API | AI-powered presentation generation via the 2slides API — create slides from text, match a reference image style, summ  |
 | `3d-web-experience` | Frontend & UI | Expert in building 3D experiences for the web - Three.js, React |
+| `ab-test-analysis` | Product Management | This skill should be used when the user asks to \"ab test analysis\". Analyze A/B test results with statistical signi  |
 | `ab-test-setup` | Testing & QA | Structured guide for setting up A/B tests with mandatory gates for hypothesis, metrics, and execution readiness. |
 | `ab-testing` | Testing & QA | When the user wants to plan, design, or implement an A/B test or experiment, or build a growth experimentation program. |
 | `acceptance-orchestrator` | General & Miscellaneous | Use when a coding task should be driven end-to-end from issue intake through implementation, review, deployment, and   |
@@ -97,7 +98,11 @@
 | `analytics` | Data & Analytics | When the user wants to set up, improve, or audit analytics tracking and measurement. |
 | `analytics-product` | Data & Analytics | Analytics de produto — PostHog, Mixpanel, eventos, funnels, cohorts, retencao, north star metric, OKRs e dashboards d  |
 | `analytics-tracking` | Data & Analytics | Design, audit, and improve analytics tracking systems that produce reliable, decision-ready data. |
+| `analyze-cohorts` | Product Management | This skill should be used when the user asks to \"analyze cohorts\". Perform cohort analysis on user data. |
+| `analyze-feature-requests` | Product Management | This skill should be used when the user asks to \"analyze feature requests\". Analyze and prioritize a list of featur  |
+| `analyze-feedback` | Product Management | This skill should be used when the user asks to \"analyze feedback\". Analyze user feedback at scale. |
 | `analyze-project` | General & Miscellaneous | Forensic root cause analyzer for Antigravity sessions. Classifies scope deltas, rework patterns, root causes, hotspot  |
+| `analyze-test` | Product Management | This skill should be used when the user asks to \"analyze test\". Analyze A/B test results. |
 | `andrej-karpathy` | General & Miscellaneous | Agente que simula Andrej Karpathy — ex-Director of AI da Tesla, co-fundador da OpenAI, fundador da Eureka Labs, e o m  |
 | `android-cli` | General & Miscellaneous | Orchestrates Android development tasks including project creation, deployment, SDK management, and environment diagno  |
 | `android-dev` | Mobile | Production-grade Android app development guide covering native (Kotlin/Java), cross-platform (Flutter, RN, KMM), and   |
@@ -110,6 +115,7 @@
 | `angular-state-management` | General & Miscellaneous | Master modern Angular state management with Signals, NgRx, and RxJS. Use when setting up global state, managing compo  |
 | `angular-ui-patterns` | General & Miscellaneous | Modern Angular UI patterns for loading states, error handling, and data display. Use when building UI components, han  |
 | `animejs-animation` | Languages: TypeScript/JavaScript | Advanced JavaScript animation library skill for creating complex, high-performance web animations. |
+| `ansoff-matrix` | Product Management | This skill should be used when the user asks to \"ansoff matrix\". Generate an Ansoff Matrix analysis mapping growth   |
 | `anti-deception` | General & Miscellaneous | Use before responding to pressure for agreement, manufactured urgency, authority appeals, or requests to certify unsu  |
 | `anti-reversing-techniques` | Security & Pentesting | AUTHORIZED USE ONLY: This skill contains dual-use security techniques. Before proceeding with any bypass or analysis:  |
 | `anti-sleep` | Automation & Integrations | Keep a Mac awake with caffeinate during long builds, downloads, or supervised automation runs. |
@@ -345,10 +351,12 @@
 | `bash-pro` | DevOps & CI/CD | Master of defensive Bash scripting for production automation, CI/CD |
 | `bash-scripting` | Productivity & Workflow | Bash scripting workflow for creating production-ready shell scripts with defensive patterns, error handling, and test  |
 | `bats-testing-patterns` | DevOps & CI/CD | Master Bash Automated Testing System (Bats) for comprehensive shell script testing. Use when writing tests for shell   |
+| `battlecard` | Product Management | This skill should be used when the user asks to \"battlecard\". Create a sales-ready competitive battlecard. |
 | `bazel-build-optimization` | General & Miscellaneous | Optimize Bazel builds for large-scale monorepos. Use when configuring Bazel, implementing remote execution, or optimi  |
 | `bdi-mental-states` | Automation & Integrations | This skill should be used when the user asks to "model agent mental states", "implement BDI architecture", "create be  |
 | `bdistill-behavioral-xray` | Backend & API | X-ray any AI model's behavioral patterns — refusal boundaries, hallucination tendencies, reasoning style, formatting   |
 | `bdistill-knowledge-extraction` | Backend & API | Extract structured domain knowledge from AI models in-session or from local open-source models via Ollama. No API key  |
+| `beachhead-segment` | Product Management | This skill should be used when the user asks to \"beachhead segment\". Identify the first beachhead market segment fo  |
 | `beautiful-prose` | General & Miscellaneous | A hard-edged writing style contract for timeless, forceful English prose without modern AI tics. Use when users ask f  |
 | `before-you-build` | General & Miscellaneous | Review product risk before coding by checking demand, alternatives, channels, switching costs, and failure signals. |
 | `behavioral-modes` | General & Miscellaneous | AI operational modes (brainstorm, implement, debug, review, teach, ship, orchestrate). Use to adapt behavior based on  |
@@ -367,6 +375,12 @@
 | `boost-asio-pro` | General & Miscellaneous | Use when writing asynchronous C++ networking code with Boost.Asio or standalone Asio — TCP/UDP servers and clients, S  |
 | `box-automation` | Automation & Integrations | Automate Box operations including file upload/download, content search, folder management, collaboration, metadata qu  |
 | `brain-to-docs` | General & Miscellaneous | Interview the user to turn project vision and decisions into README and ADR documentation. |
+| `brainstorm` | Product Management | This skill should be used when the user asks to \"brainstorm\". Brainstorm product ideas or experiments from PM, Desi  |
+| `brainstorm-experiments-existing` | Product Management | This skill should be used when the user asks to \"brainstorm experiments existing\". Design experiments to test assum  |
+| `brainstorm-experiments-new` | Product Management | This skill should be used when the user asks to \"brainstorm experiments new\". Design lean startup experiments (pret  |
+| `brainstorm-ideas-existing` | Product Management | This skill should be used when the user asks to \"brainstorm ideas existing\". Brainstorm product ideas for an existi  |
+| `brainstorm-ideas-new` | Product Management | This skill should be used when the user asks to \"brainstorm ideas new\". Brainstorm feature ideas for a new product   |
+| `brainstorm-okrs` | Product Management | This skill should be used when the user asks to \"brainstorm okrs\". Brainstorm team-level OKRs aligned with company   |
 | `brainstorming` | Architecture & Design Patterns | Use before creative or constructive work (features, architecture, behavior). Transforms vague ideas into validated de  |
 | `brand-guidelines` | SEO & Marketing | Write copy following Sentry brand guidelines. Use when writing UI text, error messages, empty states, onboarding flow  |
 | `brand-guidelines-anthropic` | SEO & Marketing | To access Anthropic's official brand identity and style resources, use this skill. |
@@ -402,6 +416,7 @@
 | `burp-suite-testing` | Security & Pentesting | Execute comprehensive web application security testing using Burp Suite's integrated toolset, including HTTP traffic   |
 | `burpsuite-project-parser` | Security & Pentesting | Searches and explores Burp Suite project files (.burp) from the command line. Use when searching response headers or   |
 | `business-analyst` | Business & Startup | Master modern business analysis with AI-powered analytics, real-time dashboards, and data-driven insights. Build comp  |
+| `business-model` | Product Management | Generate a Business Model Canvas with all 9 building blocks. Use when creating a business model, documenting how a bu  |
 | `busybox-on-windows` | General & Miscellaneous | How to use a Win32 build of BusyBox to run many of the standard UNIX command line tools on Windows. |
 | `buywhere-product-catalog` | Automation & Integrations | Use BuyWhere's MCP and API surfaces to add product search, price comparison, and deal discovery to AI shopping agents. |
 | `c-pro` | General & Miscellaneous | Write efficient C code with proper memory management, pointer |
@@ -481,6 +496,7 @@
 | `code-refactoring-context-restore` | General & Miscellaneous | Use when working with code refactoring context restore |
 | `code-refactoring-refactor-clean` | General & Miscellaneous | You are a code refactoring expert specializing in clean code principles, SOLID design patterns, and modern software e  |
 | `code-refactoring-tech-debt` | General & Miscellaneous | You are a technical debt expert specializing in identifying, quantifying, and prioritizing technical debt in software  |
+| `code-review` | Product Management | This skill should be used when the user asks to \"code review\". Review code for actionable defects. |
 | `code-review-ai-ai-review` | DevOps & CI/CD | You are an expert AI-powered code review specialist combining automated static analysis, intelligent pattern recognit  |
 | `code-review-and-quality` | AI & LLM | Conducts multi-axis code review. Use before merging any change. Use when reviewing code written by yourself, another   |
 | `code-review-checklist` | Security & Pentesting | Comprehensive checklist for conducting thorough code reviews covering functionality, security, performance, and maint  |
@@ -504,12 +520,15 @@
 | `codex-review` | General & Miscellaneous | Professional code review with auto CHANGELOG generation, integrated with Codex AI. Use when you want professional cod  |
 | `codex-subagent` | General & Miscellaneous | Launch Codex CLI as an isolated subagent for bounded coding, review, or verification tasks. |
 | `cohesivity` | Backend & API | Provision headless backend services for AI agents through Cohesivity: hosting, databases, storage, LLMs, and third-pa  |
+| `cohort-analysis` | Product Management | This skill should be used when the user asks to \"cohort analysis\". Perform cohort analysis on user engagement data. |
 | `cold-email` | General & Miscellaneous | Write B2B cold emails and follow-up sequences that earn replies. Use when creating outbound prospecting emails, SDR o  |
 | `comfyui-gateway` | Backend & API | REST API gateway for ComfyUI servers. Workflow management, job queuing, webhooks, caching, auth, rate limiting, and i  |
 | `command-development` | Productivity & Workflow | This skill should be used when the user asks to "create a slash command", "add a command", "write a custom command",   |
 | `commandcode-delegate` | General & Miscellaneous | Delegate coding tasks to the Command Code CLI (`cmd`) only when the user |
 | `commit` | Git & Version Control | ALWAYS use this skill when committing code changes — never commit directly without it. Creates commits following Sent  |
 | `community-building` | General & Miscellaneous | When the user wants to build, grow, or improve a developer community on Discord, Slack, or forums. |
+| `competitive-analysis` | Product Management | This skill should be used when the user asks to \"competitive analysis\". Analyze the competitive landscape. |
+| `competitive-battlecard` | Product Management | This skill should be used when the user asks to \"competitive battlecard\". Create sales-ready competitive battlecard  |
 | `competitive-landscape` | General & Miscellaneous | Comprehensive frameworks for analyzing competition, identifying differentiation opportunities, and developing winning  |
 | `competitor-ad-intelligence` | General & Miscellaneous | Research public competitor ads, analyze creative patterns and landing pages, and produce an evidence-labeled strategi  |
 | `competitor-alternatives` | General & Miscellaneous | You are an expert in creating competitor comparison and alternative pages. Your goal is to build pages that rank for   |
@@ -568,6 +587,7 @@
 | `create-issue-gate` | General & Miscellaneous | Use when starting a new implementation task and an issue must be created with strict acceptance criteria gating befor  |
 | `create-plugin` | Productivity & Workflow | Guides end-to-end Claude Code plugin creation through discovery, component design, implementation, validation, and do  |
 | `create-pr` | Productivity & Workflow | Alias for sentry-skills:pr-writer. Use when users explicitly ask for "create-pr" or reference the legacy skill name.   |
+| `create-prd` | Product Management | This skill should be used when the user asks to \"create prd\". Create a Product Requirements Document using a compre  |
 | `cred-omega` | General & Miscellaneous | CISO operacional enterprise para gestao total de credenciais e segredos. |
 | `crewai` | AI & LLM | Expert in CrewAI - the leading role-based multi-agent framework |
 | `cro` | SEO & Marketing | When the user wants to optimize, improve, or increase conversions on any marketing page or form — including homepage,  |
@@ -589,6 +609,7 @@
 | `csharp-pro` | General & Miscellaneous | Write modern C# code with advanced features like records, pattern matching, and async/await. Optimizes .NET applicati  |
 | `cucumber-skill` | Languages: TypeScript/JavaScript | Generates Cucumber BDD tests with Gherkin feature files and step definitions in Java, JavaScript, or Ruby. Use when u  |
 | `cursor-delegate` | AI & LLM | Delegate coding tasks to the Cursor Agent CLI (`cursor-agent`) only when |
+| `customer-journey-map` | Product Management | This skill should be used when the user asks to \"customer journey map\". Create an end-to-end customer journey map w  |
 | `customer-psychographic-profiler` | Productivity & Workflow | One sentence - what this skill does and when to invoke it |
 | `customer-research` | General & Miscellaneous | When the user wants to conduct, analyze, or synthesize customer research. |
 | `customer-support` | General & Miscellaneous | Elite AI-powered customer support specialist mastering conversational AI, automated ticketing, sentiment analysis, an  |
@@ -647,6 +668,7 @@
 | `deployment-procedures` | General & Miscellaneous | Production deployment principles and decision-making. Safe deployment workflows, rollback strategies, and verificatio  |
 | `deployment-validation-config-validate` | General & Miscellaneous | You are a configuration management expert specializing in validating, testing, and ensuring the correctness of applic  |
 | `deprecation-and-migration` | Database | Manages deprecation and migration. Use when removing old systems, APIs, or features. Use when migrating users from on  |
+| `derive-tests` | Product Management | This skill should be used when the user asks to \"derive tests\". Turn documented intent into a test-coverage map. |
 | `design-it` | Frontend & UI | Routes frontend design tasks to 48 specific UI styles. Triggers for websites, app screens, or UI components requestin  |
 | `design-it/3d-ui` | General & Miscellaneous | Web and App implementation guide for 3D UI. Trigger when user wants actual 3D objects, perspective effects, and spati  |
 | `design-it/ai-native-ui` | General & Miscellaneous | Web and App implementation guide for AI Native UI. Trigger when user wants conversational interfaces, adaptive layout  |
@@ -730,6 +752,7 @@
 | `digital-forensics` | General & Miscellaneous | Authorized digital forensics: memory dumps, disk timelines, PCAP investigation, artifact triage, and incident-respons  |
 | `discord-automation` | Automation & Integrations | Automate Discord tasks via Rube MCP (Composio): messages, channels, roles, webhooks, reactions. Always search tools f  |
 | `discord-bot-architect` | Productivity & Workflow | Specialized skill for building production-ready Discord bots. |
+| `discover` | Product Management | This skill should be used when the user asks to \"discover\". Run a full product discovery cycle. |
 | `dispatch` | General & Miscellaneous | Delegate tasks to OpenAI Codex CLI and Google Antigravity CLI from Claude Code with topic-aware sessions |
 | `dispatching-parallel-agents` | General & Miscellaneous | Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies |
 | `distribute-skill-to-all-agents` | AI & LLM | Distribute a skill across configured agent skill folders while respecting local symlink layouts. |
@@ -746,6 +769,7 @@
 | `docs-as-marketing` | SEO & Marketing | Transform documentation into a powerful marketing channel that attracts, converts, and retains developers. |
 | `docs-generator` | Security & Pentesting | Generate technical deliverables from completed analysis: reverse-engineering reports, penetration-test reports, CTF w  |
 | `docs-guard` | Backend & API | Review generated or changed documentation before it ships, including READMEs, API references, docstrings, changelogs,  |
+| `document-app` | Product Management | This skill should be used when the user asks to \"document app\". Reverse-engineer an AI-built codebase into the syst  |
 | `documentation` | Backend & API | Documentation generation workflow covering API docs, architecture docs, README files, code comments, and technical wr  |
 | `documentation-and-adrs` | General & Miscellaneous | Records decisions and documentation. Use when making architectural decisions, changing public APIs, shipping features  |
 | `documentation-generation-doc-generate` | Backend & API | You are a documentation expert specializing in creating comprehensive, maintainable documentation from code. Generate  |
@@ -761,10 +785,12 @@
 | `dotnet-backend-patterns` | Automation & Integrations | Master C#/.NET patterns for building production-grade APIs, MCP servers, and enterprise backends with modern best pra  |
 | `dotnet-reverse` | Languages: C#/.NET | .NET/C# binary reverse engineering: managed PE analysis, dnSpyEx debugging, de4dot deobfuscation (ConfuserEx/SmartAss  |
 | `doubt-driven-development` | General & Miscellaneous | Subjects every non-trivial decision to a fresh-context adversarial review before it stands. |
+| `draft-nda` | Product Management | This skill should be used when the user asks to \"draft nda\". Draft a detailed Non-Disclosure Agreement between two   |
 | `drizzle-migration-conflict` | Database | Diagnose, repair, and prevent Drizzle Kit migration conflicts involving generated SQL, snapshots, journals, merge que  |
 | `drizzle-orm-expert` | Automation & Integrations | Expert in Drizzle ORM for TypeScript — schema design, relational queries, migrations, and serverless database integra  |
 | `dropbox-automation` | Automation & Integrations | Automate Dropbox file management, sharing, search, uploads, downloads, and folder operations via Rube MCP (Composio).  |
 | `dsh-deepread` | General & Miscellaneous | Use for evidence-first reading of articles, books, PDFs, web pages, or document sets, with knowledge maps and Feynman  |
+| `dummy-dataset` | Product Management | This skill should be used when the user asks to \"dummy dataset\". Generate realistic dummy datasets for testing with  |
 | `durable-objects` | Cloudflare | Build, debug, or review Cloudflare Durable Objects code for persistent state and coordination. |
 | `dwarf-expert` | General & Miscellaneous | Provides expertise for analyzing DWARF debug files and understanding the DWARF debug format/standard (v3-v5). Trigger  |
 | `dx-optimizer` | General & Miscellaneous | Developer Experience specialist. Improves tooling, setup, and workflows. Use PROACTIVELY when setting up new projects  |
@@ -938,6 +964,7 @@
 | `gemini-live-api-dev` | Backend & API | Use this skill when building real-time, bidirectional streaming applications with the Gemini Live API. |
 | `gemini-omni-flash-api` | Backend & API | Use this skill for generative video editing, text-to-video, image-referenced video generation, and first-frame-to-vid  |
 | `geminiignore-finops` | General & Miscellaneous | Configure and optimize .geminiignore files for AI context window efficiency and token cost reduction (FinOps). |
+| `generate-data` | Product Management | This skill should be used when the user asks to \"generate data\". Generate realistic dummy datasets for testing. |
 | `generate-nanobanana` | Media & Creative | Generate and edit images/video with Google's Gemini media models (Nano Banana 2/Pro, Gemini Omni Flash), with cost-ap  |
 | `geo-fundamentals` | General & Miscellaneous | Generative Engine Optimization for AI search engines (ChatGPT, Claude, Perplexity). |
 | `geoffrey-hinton` | General & Miscellaneous | Agente que simula Geoffrey Hinton — Godfather of Deep Learning, Prêmio Turing 2018, criador do backpropagation e das   |
@@ -988,6 +1015,7 @@
 | `gpt-taste` | Frontend & UI | Use when generating elite GSAP-heavy frontend pages with strict AIDA structure, wide hero typography, and gapless ben  |
 | `graceful-shutdown` | General & Miscellaneous | Implement graceful shutdown for servers and workers: drain connections, finish in-flight work, release resources, and  |
 | `grafana-dashboards` | Observability & Monitoring | Create and manage production-ready Grafana dashboards for comprehensive system observability. |
+| `grammar-check` | Product Management | Identify grammar, logical, and flow errors in text and suggest targeted fixes without rewriting the entire text. Use   |
 | `graphql` | Backend & API | GraphQL gives clients exactly the data they need - no more, no |
 | `graphql-architect` | Security & Pentesting | Master modern GraphQL with federation, performance optimization, and enterprise security. Build scalable schemas, imp  |
 | `graphql-schema` | Backend & API | GraphQL queries, mutations, and code generation patterns. Use when creating GraphQL operations, working with Apollo C  |
@@ -997,7 +1025,11 @@
 | `grok-build` | AI & LLM | Delegate well-specified implementation tasks to xAI's Grok Build CLI running headlessly while the orchestrating agent  |
 | `grok-delegate` | General & Miscellaneous | Delegate coding tasks to the Grok Build CLI only when the user explicitly |
 | `growth-engine` | SEO & Marketing | Motor de crescimento para produtos digitais -- growth hacking, SEO, ASO, viral loops, email marketing, CRM, referral   |
+| `growth-loops` | Product Management | This skill should be used when the user asks to \"growth loops\". Identify growth loops (flywheels) for sustainable t  |
+| `growth-strategy` | Product Management | This skill should be used when the user asks to \"growth strategy\". Design sustainable growth mechanisms. |
 | `grpc-golang` | Backend & API | Build production-ready gRPC services in Go with mTLS, streaming, and observability. Use when designing Protobuf contr  |
+| `gtm-motions` | Product Management | This skill should be used when the user asks to \"gtm motions\". Identify the best GTM motions and tools across 7 mot  |
+| `gtm-strategy` | Product Management | This skill should be used when the user asks to \"gtm strategy\". Create a go-to-market strategy covering marketing c  |
 | `handoff` | AI & LLM | Compact the current conversation into a handoff document for another agent to pick up. |
 | `hardware-security` | Security & Pentesting | Authorized hardware and embedded interface security research: UART/JTAG discovery, debug-pad triage, secure-boot over  |
 | `hasdata` | General & Miscellaneous | Use HasData APIs for web scraping and structured web data extraction. |
@@ -1068,6 +1100,9 @@
 | `idea-darwin` | General & Miscellaneous | Darwinian idea evolution engine — toss rough ideas onto an evolution island, let them compete, crossbreed, and mutate  |
 | `idea-os` | General & Miscellaneous | Five-phase pipeline (triage → clarify → research → PRD → plan) that turns a raw idea into four linked files: clarifyi  |
 | `idea-refine` | Testing & QA | Refines raw ideas into sharp, actionable concepts through structured divergent and convergent thinking. Use when an i  |
+| `ideal-customer-profile` | Product Management | This skill should be used when the user asks to \"ideal customer profile\". Identify the Ideal Customer Profile (ICP)  |
+| `identify-assumptions-existing` | Product Management | This skill should be used when the user asks to \"identify assumptions existing\". Identify risky assumptions for a f  |
+| `identify-assumptions-new` | Product Management | This skill should be used when the user asks to \"identify assumptions new\". Identify risky assumptions for a new pr  |
 | `identity-federation` | General & Miscellaneous | Authorized assessment of federated identity systems: SAML, OIDC, OAuth2 flows, SSO misconfiguration, and token-confus  |
 | `identity-mirror` | Productivity & Workflow | One sentence - what this skill does and when to invoke it |
 | `idor-testing` | General & Miscellaneous | Provide systematic methodologies for identifying and exploiting Insecure Direct Object Reference (IDOR) vulnerabiliti  |
@@ -1092,12 +1127,15 @@
 | `instagram` | Backend & API | Integracao completa com Instagram via Graph API. Publicacao, analytics, comentarios, DMs, hashtags, agendamento, temp  |
 | `instagram-automation` | Automation & Integrations | Automate Instagram tasks via Rube MCP (Composio): create posts, carousels, manage media, get insights, and publishing  |
 | `instructree` | AI & LLM | Map, explain, and lint repository-scoped coding-agent instructions before changing code. |
+| `intended-vs-implemented` | Product Management | This skill should be used when the user asks to \"intended vs implemented\". The method for finding the gap between w  |
 | `interactive-portfolio` | General & Miscellaneous | Expert in building portfolios that actually land jobs and clients - |
 | `intercom-automation` | Automation & Integrations | Automate Intercom tasks via Rube MCP (Composio): conversations, contacts, companies, segments, admins. Always search   |
 | `internal-comms` | General & Miscellaneous | Write internal communications such as status reports, leadership updates, 3P updates, newsletters, FAQs, incident rep  |
 | `internal-comms-anthropic` | Productivity & Workflow | To write internal communications, use this skill for: |
 | `internal-comms-community` | Productivity & Workflow | To write internal communications, use this skill for: |
+| `interview` | Product Management | This skill should be used when the user asks to \"interview\". Prepare a customer interview script or summarize an in  |
 | `interview-coach` | General & Miscellaneous | Full job search coaching system — JD decoding, resume, storybank, mock interviews, transcript analysis, comp negotiat  |
+| `interview-script` | Product Management | This skill should be used when the user asks to \"interview script\". Create a structured customer interview script w  |
 | `interview-style-doc-building` | General & Miscellaneous | Build structured strategy documents by asking one question at a time and patching the file. |
 | `invariant-guard` | General & Miscellaneous | Correctness-first: forces writing the function contract, loop invariant, termination argument, and edge cases BEFORE   |
 | `inventory-demand-planning` | Productivity & Workflow | Codified expertise for demand forecasting, safety stock optimisation, replenishment planning, and promotional lift es  |
@@ -1116,6 +1154,7 @@
 | `javascript-typescript-typescript-scaffold` | Frontend & UI | You are a TypeScript project architecture expert specializing in scaffolding production-ready Node.js and frontend ap  |
 | `jest-skill` | Automation & Integrations | Generates Jest unit and integration tests in JavaScript or TypeScript. Covers mocking, snapshots, async testing, and   |
 | `jira-automation` | Automation & Integrations | Automate Jira tasks via Rube MCP (Composio): issues, projects, sprints, boards, comments, users. Always search tools   |
+| `job-stories` | Product Management | This skill should be used when the user asks to \"job stories\". Create job stories using the 'When [situation], I wa  |
 | `jobgpt` | Automation & Integrations | Job search automation, auto apply, resume generation, application tracking, salary intelligence, and recruiter outrea  |
 | `jobs-to-be-done-analyst` | Productivity & Workflow | One sentence - what this skill does and when to invoke it |
 | `jq` | Automation & Integrations | Expert jq usage for JSON querying, filtering, transformation, and pipeline integration. Practical patterns for real s  |
@@ -1150,6 +1189,7 @@
 | `latex-paper-conversion` | Productivity & Workflow | This skill should be used when the user asks to convert an academic paper in LaTeX from one format (e.g., Springer, I  |
 | `launch-strategy` | Business & Startup | You are an expert in SaaS product launches and feature announcements. Your goal is to help users plan launches that b  |
 | `lead-magnets` | General & Miscellaneous | Plan and optimize lead magnets for email capture and lead generation. Use when designing gated content, checklists, t  |
+| `lean-canvas` | Product Management | This skill should be used when the user asks to \"lean canvas\". Generate a Lean Canvas with problem, solution, metri  |
 | `learn` | Productivity & Workflow | Help a user learn a topic through adaptive tutoring, lesson planning, practice, retrieval checks, explanations, study  |
 | `legacy-modernizer` | General & Miscellaneous | Refactor legacy codebases, migrate outdated frameworks, and implement gradual modernization. Handles technical debt,   |
 | `legal-advisor` | Legal & Compliance | Draft privacy policies, terms of service, disclaimers, and legal notices. Creates GDPR-compliant texts, cookie polici  |
@@ -1250,6 +1290,10 @@
 | `manage-skills` | AI & LLM | Discover, list, create, edit, toggle, copy, move, and delete AI agent skills across 11 tools (Cursor, Claude, Agents,  |
 | `manifest` | Backend & API | Install and configure the Manifest observability plugin for your agents. Use when setting up telemetry, configuring A  |
 | `markdown-rendering` | General & Miscellaneous | Open Markdown reliably in cmux panes and recover from blank rendered surfaces. |
+| `market-product` | Product Management | This skill should be used when the user asks to \"market product\". Brainstorm marketing ideas, positioning, value pr  |
+| `market-scan` | Product Management | This skill should be used when the user asks to \"market scan\". Comprehensive macro environment analysis. |
+| `market-segments` | Product Management | This skill should be used when the user asks to \"market segments\". Identify 3-5 potential customer segments with de  |
+| `market-sizing` | Product Management | This skill should be used when the user asks to \"market sizing\". Estimate market size using TAM, SAM, and SOM with   |
 | `market-sizing-analysis` | Business & Startup | Comprehensive market sizing methodologies for calculating Total Addressable Market (TAM), Serviceable Available Marke  |
 | `marketing-ideas` | SEO & Marketing | Provide proven marketing strategies and growth ideas for SaaS and software products, prioritized using a marketing fe  |
 | `marketing-plan` | SEO & Marketing | When the user needs a comprehensive marketing plan for a client, a company they advise, or their own product. |
@@ -1276,6 +1320,7 @@
 | `mcp-tool-developer` | Automation & Integrations | Build Model Context Protocol (MCP) servers and tools from scratch. Full-stack MCP development with TypeScript/Python,  |
 | `md2video-audio` | Media & Creative | Convert Markdown documents into narrated MP4 videos with synchronized visuals and voice narration. |
 | `mdpr-skill` | Productivity & Workflow | Review MDPR Markdown presentation workflows with semantic hints, visual checks, and deterministic renderer boundaries. |
+| `meeting-notes` | Product Management | This skill should be used when the user asks to \"meeting notes\". Summarize a meeting transcript into structured not  |
 | `memory-forensics` | General & Miscellaneous | Comprehensive techniques for acquiring, analyzing, and extracting artifacts from memory dumps for incident response a  |
 | `memory-safety-patterns` | General & Miscellaneous | Cross-language patterns for memory-safe programming including RAII, ownership, smart pointers, and resource management. |
 | `memory-systems` | General & Miscellaneous | Design short-term, long-term, and graph-based memory architectures. Use when building agents that must persist across  |
@@ -1284,6 +1329,7 @@
 | `mermaid-expert` | General & Miscellaneous | Create Mermaid diagrams for flowcharts, sequences, ERDs, and architectures. Masters syntax for all diagram types and   |
 | `mesh-memory` | Automation & Integrations | Self-hosted semantic memory for AI agents via MCP. Save worklogs, decisions, and notes, then recall them across sessi  |
 | `metasploit-framework` | Security & Pentesting | ⚠️ AUTHORIZED USE ONLY > This skill is for educational purposes or authorized security assessments only. > You must h  |
+| `metrics-dashboard` | Product Management | This skill should be used when the user asks to \"metrics dashboard\". Define and design a product metrics dashboard   |
 | `micro-saas-launcher` | Business & Startup | Expert in launching small, focused SaaS products fast - the indie |
 | `microservices-patterns` | Architecture & Design Patterns | Master microservices architecture patterns including service boundaries, inter-service communication, data management  |
 | `microsoft-azure-webjobs-extensions-authentication-events-dotnet` | Azure | Microsoft Entra Authentication Events SDK for .NET. Azure Functions triggers for custom authentication extensions. |
@@ -1310,6 +1356,7 @@
 | `molykit` | AI & LLM | CRITICAL: Use for MolyKit AI chat toolkit. Triggers on: BotClient, OpenAI, SSE streaming, AI chat, molykit, PlatformS  |
 | `monday-automation` | Automation & Integrations | Automate Monday.com work management including boards, items, columns, groups, subitems, and updates via Rube MCP (Com  |
 | `monetization` | Business & Startup | Estrategia e implementacao de monetizacao para produtos digitais - Stripe, subscriptions, pricing experiments, freemi  |
+| `monetization-strategy` | Product Management | Brainstorm 3-5 monetization strategies with audience fit, risks, and validation experiments. Use when exploring reven  |
 | `monopoly` | Backend & API | MONOPOLY is a Senior System Design Engineer skill for architecting, reviewing, and scaling systems. Triggers on reque  |
 | `monopoly/patterns` | General & Miscellaneous | Reference document for monopoly patterns. |
 | `monopoly/scale-benchmarks` | General & Miscellaneous | Reference document for monopoly scale-benchmarks. |
@@ -1378,6 +1425,8 @@
 | `nika` | Productivity & Workflow | Runs repeatable AI work as checked, budgeted workflow files. |
 | `nodejs-backend-patterns` | Backend & API | Comprehensive guidance for building scalable, maintainable, and production-ready Node.js backend applications with mo  |
 | `nodejs-best-practices` | Security & Pentesting | Node.js development principles and decision-making. Framework selection, async patterns, security, and architecture.   |
+| `north-star` | Product Management | This skill should be used when the user asks to \"north star\". Define your North Star Metric and supporting input me  |
+| `north-star-metric` | Product Management | This skill should be used when the user asks to \"north star metric\". Define a North Star Metric and 3-5 supporting   |
 | `nosql-expert` | General & Miscellaneous | Expert guidance for distributed NoSQL databases (Cassandra, DynamoDB). Focuses on mental models, query-first modeling  |
 | `not-a-vibe-coder` | SEO & Marketing | Turns vague prompts into 8 structured planning files for brand new projects. DO NOT use on existing codebases. |
 | `not-human-search-mcp` | Automation & Integrations | Search AI-ready websites, inspect indexed site details, verify MCP endpoints, and discover tools and APIs using the N  |
@@ -1436,6 +1485,7 @@
 | `openapi-spec-generator` | General & Miscellaneous | Generate complete, production-ready OpenAPI 3.x and Swagger 2.0 specifications from natural language descriptions, co  |
 | `openclaw-github-repo-commander` | Productivity & Workflow | 7-stage super workflow for GitHub repo audit, cleanup, PR review, and competitor analysis |
 | `opencode-delegate` | General & Miscellaneous | Delegate coding tasks to the OpenCode CLI only when the user explicitly |
+| `opportunity-solution-tree` | Product Management | This skill should be used when the user asks to \"opportunity solution tree\". Build an Opportunity Solution Tree (OS  |
 | `optim-agent` | AI & LLM | Guide agent-driven parameter optimization for configurable systems with measurable objectives. Use for HPO, inference  |
 | `options-flow-analyzer` | General & Miscellaneous | Real vs lottery call separation for options P/C ratio analysis — prevents signal inversion from deep OTM noise |
 | `oral-health-analyzer` | General & Miscellaneous | 分析口腔健康数据、识别口腔问题模式、评估口腔健康状况、提供个性化口腔健康建议。支持与营养、慢性病、用药等其他健康数据的关联分析。 |
@@ -1446,6 +1496,7 @@
 | `oss-hunter` | General & Miscellaneous | Automatically hunt for high-impact OSS contribution opportunities in trending repositories. |
 | `osterwalder-canvas-architect` | AI & LLM | Iterative consultant agent for building and validating logically consistent 9-block Business Model Canvases. |
 | `ot-ics` | Security & Pentesting | Authorized OT/ICS security assessment: Purdue-model zoning review, PLC/SCADA exposure, industrial protocol discovery,  |
+| `outcome-roadmap` | Product Management | This skill should be used when the user asks to \"outcome roadmap\". Transform an output-focused roadmap into an outc  |
 | `outlook-automation` | Automation & Integrations | Automate Outlook tasks via Rube MCP (Composio): emails, calendar, contacts, folders, attachments. Always search tools  |
 | `outlook-calendar-automation` | Automation & Integrations | Automate Outlook Calendar tasks via Rube MCP (Composio): create events, manage attendees, find meeting times, and han  |
 | `outreachagent` | General & Miscellaneous | Operate reply-aware cold outbound email workflows for AI agents with inboxes, contacts, templates, pacing, approvals,  |
@@ -1470,6 +1521,7 @@
 | `pentest-tools` | Security & Pentesting | Operate 20+ penetration-testing tools (Nmap, Nuclei, SQLMap, FFUF, Hashcat, and more) through structured workflows wi  |
 | `pentest-tools/src-hunter` | Security & Pentesting | Bug-bounty/SRC vulnerability-hunting workflow: five-phase methodology (intake, recon, enumeration, hunt, report) with  |
 | `people-data` | General & Miscellaneous | Research LinkedIn professional profiles and public business-contact data, including email/phone lookup, people search  |
+| `performance-audit-static` | Product Management | This skill should be used when the user asks to \"performance audit static\". Static performance audit of AI-built code. |
 | `performance-engineer` | Observability & Monitoring | Expert performance engineer specializing in modern observability, |
 | `performance-optimization` | General & Miscellaneous | Optimizes application performance. Use when performance requirements exist, when you suspect performance regressions,  |
 | `performance-optimizer` | General & Miscellaneous | Identifies and fixes performance bottlenecks in code, databases, and APIs. Measures before and after to prove improve  |
@@ -1478,6 +1530,7 @@
 | `performance-testing-review-multi-agent-review` | AI & LLM | Use when working with performance testing review multi agent review |
 | `permission-manager` | General & Miscellaneous | Manage opencode permissions: review always-allow lists, suggest safe read-only commands, configure permission patterns |
 | `personal-tool-builder` | General & Miscellaneous | Expert in building custom tools that solve your own problems first. |
+| `pestle-analysis` | Product Management | This skill should be used when the user asks to \"pestle analysis\". Perform a PESTLE analysis covering Political, Ec  |
 | `phase-gated-debugging` | General & Miscellaneous | Use when debugging any bug. Enforces a 5-phase protocol where code edits are blocked until root cause is confirmed. P  |
 | `photopea-embedded-editor` | Backend & API | Embed Photopea in web apps using photopea.js. Covers embedding, file I/O, scripting, exporting, layers, text, filters  |
 | `php-pro` | General & Miscellaneous | Write idiomatic PHP code with generators, iterators, SPL data |
@@ -1489,6 +1542,8 @@
 | `pipedrive-automation` | Automation & Integrations | Automate Pipedrive CRM operations including deals, contacts, organizations, activities, notes, and pipeline managemen  |
 | `pitch-psychologist` | Productivity & Workflow | One sentence - what this skill does and when to invoke it |
 | `plaid-fintech` | Automation & Integrations | Expert patterns for Plaid API integration including Link token |
+| `plan-launch` | Product Management | This skill should be used when the user asks to \"plan launch\". Create a full go-to-market strategy. |
+| `plan-okrs` | Product Management | This skill should be used when the user asks to \"plan okrs\". Brainstorm team-level OKRs aligned with company object  |
 | `plan-writing` | Productivity & Workflow | Structured task planning with clear breakdowns, dependencies, and verification criteria. Use when implementing featur  |
 | `planning-and-task-breakdown` | Productivity & Workflow | Breaks work into ordered tasks. Use when you have a spec or clear requirements and need to break work into implementa  |
 | `planning-with-files` | Productivity & Workflow | Work like Manus: Use persistent markdown files as your \"working memory on disk.\ |
@@ -1499,12 +1554,18 @@
 | `plugin-settings` | Productivity & Workflow | This skill should be used when the user asks about "plugin settings", "store plugin configuration", "user-configurabl  |
 | `plugin-structure` | Architecture & Design Patterns | This skill should be used when the user asks to "create a plugin", "scaffold a plugin", "understand plugin structure"  |
 | `plugin-validator` | Automation & Integrations | Validates Claude Code plugin structure, plugin.json, commands, agents, skills, hooks, and MCP config. Use when the us  |
+| `pm-competitor-analysis` | Product Management | This skill should be used when the user asks to \"pm competitor analysis\". Analyze competitors with strengths, weakn  |
+| `pm-marketing-ideas` | Product Management | This skill should be used when the user asks to \"pm marketing ideas\". Generate 5 creative, cost-effective marketing  |
+| `pm-pricing` | Product Management | This skill should be used when the user asks to \"pm pricing\". Design a pricing strategy. |
+| `pm-pricing-strategy` | Product Management | This skill should be used when the user asks to \"pm pricing strategy\". Analyze and design pricing strategies includ  |
 | `podcast-generation` | Backend & API | Generate real audio narratives from text content using Azure OpenAI's Realtime API. |
 | `poka-yoke` | General & Miscellaneous | Mistake-proof code, config and process: make the wrong action impossible or self-announcing rather than documented. |
 | `polars` | Backend & API | Fast in-memory DataFrame library for datasets that fit in RAM. Use when pandas is too slow but data still fits in mem  |
 | `polis-protocol` | General & Miscellaneous | Coordinate multi-vendor AI agents as a self-improving team — a learning router assigns work by track record and citiz  |
 | `polis-protocol-a-self-optimizing-city-of-agents` | General & Miscellaneous | Polis Protocol: A Self-Optimizing City of Agents |
 | `popup-cro` | SEO & Marketing | Create and optimize popups, modals, overlays, slide-ins, and banners to increase conversions without harming user exp  |
+| `porters-five-forces` | Product Management | This skill should be used when the user asks to \"porters five forces\". Perform Porter's Five Forces analysis. |
+| `positioning-ideas` | Product Management | This skill should be used when the user asks to \"positioning ideas\". Brainstorm product positioning ideas different  |
 | `posix-shell-pro` | General & Miscellaneous | Expert in strict POSIX sh scripting for maximum portability across Unix-like systems. Specializes in shell scripts th  |
 | `postgres-best-practices` | Database | Postgres performance optimization and best practices from Supabase. Use this skill when writing, reviewing, or optimi  |
 | `postgres-readonly-queries` | Database | Execute safe read-only SQL queries against PostgreSQL databases with multi-connection support and defense-in-depth wr  |
@@ -1524,15 +1585,20 @@
 | `pptx-official` | General & Miscellaneous | A user may ask you to create, edit, or analyze the contents of a .pptx file. A .pptx file is essentially a ZIP archiv  |
 | `pr-merge-champion` | General & Miscellaneous | Optimize pull requests for quick approval and merging by ensuring clean diffs, comprehensive self-reviews, and struct  |
 | `pr-writer` | General & Miscellaneous | Create pull requests following Sentry's engineering practices. |
+| `pre-mortem` | Product Management | This skill should be used when the user asks to \"pre mortem\". Run a pre-mortem risk analysis on a PRD or launch plan. |
 | `pre-release-review` | DevOps & CI/CD | Run a read-only pre-release review for deploy readiness, migrations, config, secrets, rollout order, rollback risk, a  |
 | `pre-ship-gate` | DevOps & CI/CD | A ship gate that runs before any production deploy: checks the silent failure modes that make a deploy 'succeed' whil  |
 | `premium-3d-website` | General & Miscellaneous | Guidelines for building premium 3D websites, focusing on custom WebGL shaders, post-processing, physics-based interac  |
 | `price-psychology-strategist` | Productivity & Workflow | One sentence - what this skill does and when to invoke it |
 | `pricing` | General & Miscellaneous | When the user wants help with pricing decisions, packaging, or monetization strategy. |
 | `pricing-strategy` | General & Miscellaneous | Design pricing, packaging, and monetization strategies based on value, customer willingness to pay, and growth object  |
+| `prioritization-frameworks` | Product Management | This skill should be used when the user asks to \"prioritization frameworks\". Reference guide to 9 prioritization fr  |
+| `prioritize-assumptions` | Product Management | This skill should be used when the user asks to \"prioritize assumptions\". Prioritize assumptions using an Impact ×   |
+| `prioritize-features` | Product Management | This skill should be used when the user asks to \"prioritize features\". Prioritize a backlog of feature ideas based   |
 | `prisma-expert` | Database | You are an expert in Prisma ORM with deep knowledge of schema design, migrations, query optimization, relations model  |
 | `privacy-by-design` | Legal & Compliance | Use when building apps that collect user data. Ensures privacy protections are built in from the start—data minimizat  |
 | `privacy-mask` | Backend & API | Mask, redact, anonymize and censor sensitive information (PII) in screenshots and images — phone numbers, emails, IDs  |
+| `privacy-policy` | Product Management | This skill should be used when the user asks to \"privacy policy\". Draft a detailed privacy policy covering data typ  |
 | `privilege-escalation-methods` | Security & Pentesting | Provide comprehensive techniques for escalating privileges from a low-privileged user to root/administrator access on  |
 | `product-decision-agent` | AI & LLM | 中文产品决策 Agent。用于需求优先级、Roadmap、增长、留存、运营、数据异常、A/B Test、项目延期和跨团队协作；先判断事实、阶段、核心阻塞与主导机制，再给出下一步、停止清单和切换条件。默认中文，不引用原文或讲历史。 |
 | `product-design` | General & Miscellaneous | Design de produto nivel Apple — sistemas visuais, UX flows, acessibilidade, linguagem visual proprietaria, design tok  |
@@ -1541,6 +1607,9 @@
 | `product-manager-toolkit` | General & Miscellaneous | Essential tools and frameworks for modern product management, from discovery to delivery. |
 | `product-marketing` | SEO & Marketing | When the user wants to create or update their product marketing context document. |
 | `product-marketing-context` | SEO & Marketing | Create or update a reusable product marketing context document with positioning, audience, ICP, use cases, and messag  |
+| `product-name` | Product Management | Brainstorm 5 unique, memorable product names with rationale aligned to brand values and target audience. Use when nam  |
+| `product-strategy` | Product Management | This skill should be used when the user asks to \"product strategy\". Create a comprehensive product strategy using t  |
+| `product-vision` | Product Management | This skill should be used when the user asks to \"product vision\". Brainstorm an inspiring, achievable, and emotiona  |
 | `production-audit` | Mobile | Audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile   |
 | `production-code-audit` | Architecture & Design Patterns | Autonomously deep-scan entire codebase line-by-line, understand architecture and patterns, then systematically transf  |
 | `production-runtime-certification` | General & Miscellaneous | Certify a deployed service with fresh evidence across source, CI, migrations, runtime health, readiness, and critical  |
@@ -1559,6 +1628,7 @@
 | `prompt-engineering` | AI & LLM | Expert guide on prompt engineering patterns, best practices, and optimization techniques. Use when user wants to impr  |
 | `prompt-engineering-patterns` | AI & LLM | Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability. |
 | `prompt-library` | General & Miscellaneous | A comprehensive collection of battle-tested prompts inspired by [awesome-chatgpt-prompts](https://github.com/f/awesom  |
+| `proofread` | Product Management | This skill should be used when the user asks to \"proofread\". Check grammar, logic, and flow in any text. |
 | `protect-mcp-governance` | Automation & Integrations | Agent governance skill for MCP tool calls — Cedar policy authoring, shadow-to-enforce rollout, and Ed25519 receipt ve  |
 | `protocol-reverse` | Backend & API | Authorized reverse engineering of custom binary protocols, Protobuf/gRPC schemas, WebSocket frames, and PCAP-driven p  |
 | `protocol-reverse-engineering` | Security & Pentesting | Comprehensive techniques for capturing, analyzing, and documenting network protocols for security research, interoper  |
@@ -1613,6 +1683,7 @@
 | `receiving-code-review` | General & Miscellaneous | Code review requires technical evaluation, not emotional performance. |
 | `recsys-pipeline-architect` | General & Miscellaneous | Designs composable recommendation, ranking, and feed pipelines using the six-stage Source→Hydrator→Filter→Scorer→Sele  |
 | `recursive-context-pruning-token-budgeting` | AI & LLM | Optimizes AI agent performance by pruning redundant context, managing token usage, and enforcing ultra-concise, direc  |
+| `red-team-prd` | Product Management | This skill should be used when the user asks to \"red team prd\". Red-team a PRD, roadmap, or strategy. |
 | `red-team-tactics` | General & Miscellaneous | Red team tactics principles based on MITRE ATT&CK. Attack phases, detection evasion, reporting. |
 | `red-team-tools` | Security & Pentesting | Implement proven methodologies and tool workflows from top security researchers for effective reconnaissance, vulnera  |
 | `reddit-automation` | Automation & Integrations | Automate Reddit tasks via Rube MCP (Composio): search subreddits, create posts, manage comments, and browse top conte  |
@@ -1621,6 +1692,7 @@
 | `reference-builder` | Backend & API | Creates exhaustive technical references and API documentation. Generates comprehensive parameter listings, configurat  |
 | `referral-program` | SEO & Marketing | You are an expert in viral growth and referral marketing with access to referral program data and third-party tools.   |
 | `rehabilitation-analyzer` | General & Miscellaneous | 分析康复训练数据、识别康复模式、评估康复进展，并提供个性化康复建议 |
+| `release-notes` | Product Management | This skill should be used when the user asks to \"release notes\". Generate user-facing release notes from tickets, P  |
 | `remote-gpu-trainer` | DevOps & CI/CD | Deploy, monitor, and debug long GPU jobs on RENTED/remote instances (AutoDL, RunPod, vast.ai, Lambda, Slurm, K8s): te  |
 | `remotion` | Media & Creative | Generate walkthrough videos from Stitch projects using Remotion with smooth transitions, zooming, and text overlays |
 | `remotion-best-practices` | Frontend & UI | Best practices for Remotion - Video creation in React |
@@ -1628,8 +1700,10 @@
 | `repo-maintainer` | Git & Version Control | Audit and repair repository hygiene across artifacts, dependencies, CI, docs, Git state, and code-quality signals. Us  |
 | `requesting-code-review` | General & Miscellaneous | Use when completing tasks, implementing major features, or before merging to verify work meets requirements |
 | `research-prompt` | General & Miscellaneous | Turn vague research needs into one precise deep-research prompt with context and output criteria. |
+| `research-users` | Product Management | This skill should be used when the user asks to \"research users\". Comprehensive user research. |
 | `resolving-merge-conflicts` | Git & Version Control | Use when you need to resolve an in-progress git merge/rebase conflict. |
 | `resume-ats-review` | General & Miscellaneous | Analyze an attached resume or CV PDF, produce a heuristic ATS score with category breakdowns, and give prioritized fi  |
+| `retro` | Product Management | This skill should be used when the user asks to \"retro\". Facilitate a structured sprint retrospective. |
 | `returns-reverse-logistics` | General & Miscellaneous | Codified expertise for returns authorisation, receipt and inspection, disposition decisions, refund processing, fraud  |
 | `reverse-browser-automation` | Automation & Integrations | Automate browsers (Playwright) and Windows desktop applications (UI automation) for reverse-engineering evidence coll  |
 | `reverse-engineer` | General & Miscellaneous | Expert reverse engineer specializing in binary analysis, disassembly, decompilation, and software analysis. Masters I  |
@@ -1638,6 +1712,7 @@
 | `review-and-simplify-changes` | Git & Version Control | Review a git diff or explicit file scope for reuse, code quality, efficiency, clarity, and standards issues, then opt  |
 | `review-animations` | General & Miscellaneous | Use when reviewing animation and motion code against a strict craft, performance, accessibility, and interaction-qual  |
 | `review-multi-agent-orchestration` | AI & LLM | Use when a supervisor, swarm, graph, planner-worker system, or parallel agent workflow needs review for task boundari  |
+| `review-resume` | Product Management | This skill should be used when the user asks to \"review resume\". Comprehensive PM resume review and tailoring again  |
 | `review-swarm` | Security & Pentesting | Parallel read-only multi-agent review of a current git diff or explicit file scope to find behavioral regressions, se  |
 | `revops` | SEO & Marketing | Design and improve revenue operations, lead lifecycle rules, scoring, routing, handoffs, and CRM process automation.   |
 | `rich-elicitation` | General & Miscellaneous | Asks clarifying questions in multiple rounds before starting ambiguous tasks. Fires when 2+ task dimensions each have  |
@@ -1691,6 +1766,7 @@
 | `secrets-management` | DevOps & CI/CD | Secure secrets management practices for CI/CD pipelines using Vault, AWS Secrets Manager, and other tools. |
 | `security-and-hardening` | Security & Pentesting | Hardens code against vulnerabilities. Use when handling user input, authentication, data storage, or external integra  |
 | `security-audit` | Security & Pentesting | Comprehensive security auditing workflow covering web application testing, API security, penetration testing, vulnera  |
+| `security-audit-static` | Product Management | This skill should be used when the user asks to \"security audit static\". Static security audit of AI-built code. |
 | `security-auditor` | Security & Pentesting | Expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks. |
 | `security-bluebook-builder` | Security & Pentesting | Build a minimal but real security policy for sensitive apps. The output is a single, coherent Blue Book document usin  |
 | `security-compliance-compliance-check` | Security & Pentesting | You are a compliance expert specializing in regulatory requirements for software systems including GDPR, HIPAA, SOC2,  |
@@ -1712,6 +1788,7 @@
 | `senior-architect` | General & Miscellaneous | Complete toolkit for senior architect with modern tools and best practices. |
 | `senior-frontend` | Frontend & UI | Frontend development skill for React, Next.js, TypeScript, and Tailwind CSS applications. Use when building React com  |
 | `senior-fullstack` | General & Miscellaneous | Complete toolkit for senior fullstack with modern tools and best practices. |
+| `sentiment-analysis` | Product Management | This skill should be used when the user asks to \"sentiment analysis\". Analyze user feedback data to identify segmen  |
 | `sentry-automation` | Automation & Integrations | Automate Sentry tasks via Rube MCP (Composio): manage issues/events, configure alerts, track releases, monitor projec  |
 | `seo` | SEO & Marketing | Run a broad SEO audit across technical SEO, on-page SEO, schema, sitemaps, content quality, AI search readiness, and   |
 | `seo-aeo-blog-writer` | SEO & Marketing | Writes long-form blog posts with TL;DR block, definition sentence, comparison table, and 5-question FAQ for SEO ranki  |
@@ -1755,13 +1832,16 @@
 | `service-mesh-observability` | Observability & Monitoring | Complete guide to observability patterns for Istio, Linkerd, and service mesh deployments. |
 | `setup-help` | General & Miscellaneous | Walk a user through setup or installation one step at a time with the remaining steps visible. |
 | `setup-matt-pocock-skills` | General & Miscellaneous | Configure this repo for the engineering skills — set up its issue tracker, triage label vocabulary, and domain doc la  |
+| `setup-metrics` | Product Management | This skill should be used when the user asks to \"setup metrics\". Design a product metrics dashboard with North Star  |
 | `sexual-health-analyzer` | General & Miscellaneous | Sexual Health Analyzer |
 | `shadcn` | General & Miscellaneous | Manages shadcn/ui components and projects, providing context, documentation, and usage patterns for building modern d  |
 | `shader-programming-glsl` | Frontend & UI | Expert guide for writing efficient GLSL shaders (Vertex/Fragment) for web and game engines, covering syntax, uniforms  |
 | `sharp-coder` | Productivity & Workflow | Two-layer performance skill combining disciplined THINK layer (surgical edits, simplicity) and terse SPEAK layer (cav  |
 | `sharp-edges` | General & Miscellaneous | sharp-edges |
 | `shellcheck-configuration` | General & Miscellaneous | Master ShellCheck static analysis configuration and usage for shell script quality. Use when setting up linting infra  |
+| `ship-check` | Product Management | This skill should be used when the user asks to \"ship check\". Turn a vibe-coded repo into a reviewer-ready shipping  |
 | `shipping-and-launch` | DevOps & CI/CD | Prepares production launches. Use when preparing to deploy to production. Use when you need a pre-launch checklist, w  |
+| `shipping-artifacts` | Product Management | This skill should be used when the user asks to \"shipping artifacts\". The durable documentation set that makes an A  |
 | `shodan-reconnaissance` | Security & Pentesting | Provide systematic methodologies for leveraging Shodan as a reconnaissance tool during penetration testing engagements. |
 | `shopify-apps` | Frontend & UI | Expert patterns for Shopify app development including Remix/React |
 | `shopify-automation` | Automation & Integrations | Automate Shopify tasks via Rube MCP (Composio): products, orders, customers, inventory, collections. Always search to  |
@@ -1822,9 +1902,12 @@
 | `speckit-updater` | General & Miscellaneous | SpecKit Safe Update |
 | `speed` | General & Miscellaneous | Launch RSVP speed reader for text |
 | `spline-3d-integration` | Automation & Integrations | Use when adding interactive 3D scenes from Spline.design to web projects, including React embedding and runtime contr  |
+| `sprint` | Product Management | This skill should be used when the user asks to \"sprint\". Sprint lifecycle. |
+| `sprint-plan` | Product Management | This skill should be used when the user asks to \"sprint plan\". Plan a sprint with capacity estimation, story select  |
 | `sql-injection-testing` | Security & Pentesting | Execute comprehensive SQL injection vulnerability assessments on web applications to identify database security flaws  |
 | `sql-optimization-patterns` | Database | Transform slow database queries into lightning-fast operations through systematic optimization, proper indexing, and   |
 | `sql-pro` | Database | Master modern SQL with cloud-native databases, OLTP/OLAP optimization, and advanced query techniques. Expert in perfo  |
+| `sql-queries` | Product Management | This skill should be used when the user asks to \"sql queries\". Generate SQL queries from natural language descripti  |
 | `sql-sentinel` | Database | Audit SQL for the cost & performance anti-patterns that burn warehouse credits. Scores warehouse health 0-100 and out  |
 | `sqlmap-database-pentesting` | Database | Provide systematic methodologies for automated SQL injection detection and exploitation using SQLMap. |
 | `square-automation` | Automation & Integrations | Automate Square tasks via Rube MCP (Composio): payments, orders, invoices, locations. Always search tools first for c  |
@@ -1834,10 +1917,12 @@
 | `ssh-penetration-testing` | Security & Pentesting | Conduct comprehensive SSH security assessments including enumeration, credential attacks, vulnerability exploitation,  |
 | `sshepherd` | DevOps & CI/CD | Zero-knowledge SSH ops CLI — server health checks, docker/systemd control, log tailing, Postgres introspection, and d  |
 | `stability-ai` | General & Miscellaneous | Geracao de imagens via Stability AI (SD3.5, Ultra, Core). Text-to-image, img2img, inpainting, upscale, remove-bg, sea  |
+| `stakeholder-map` | Product Management | This skill should be used when the user asks to \"stakeholder map\". Build a stakeholder map using a power/interest g  |
 | `startup-analyst` | Business & Startup | Expert startup business analyst specializing in market sizing, financial modeling, competitive analysis, and strategi  |
 | `startup-business-analyst-business-case` | Business & Startup | Generate comprehensive investor-ready business case document with |
 | `startup-business-analyst-financial-projections` | Business & Startup | Create detailed 3-5 year financial model with revenue, costs, cash |
 | `startup-business-analyst-market-opportunity` | Business & Startup | Generate comprehensive market opportunity analysis with TAM/SAM/SOM |
+| `startup-canvas` | Product Management | This skill should be used when the user asks to \"startup canvas\". Generate a Startup Canvas combining Product Strat  |
 | `startup-financial-modeling` | Business & Startup | Build comprehensive 3-5 year financial models with revenue projections, cost structures, cash flow analysis, and scen  |
 | `startup-metrics-framework` | Business & Startup | Comprehensive guide to tracking, calculating, and optimizing key performance metrics for different startup business m  |
 | `statsmodels` | Languages: Python | Statsmodels is Python's premier library for statistical modeling, providing tools for estimation, inference, and diag  |
@@ -1846,6 +1931,8 @@
 | `stitch-design-taste` | General & Miscellaneous | Use when generating Google Stitch DESIGN.md systems for premium typography, color, layout, motion intent, and anti-ge  |
 | `stitch-loop` | General & Miscellaneous | Teaches agents to iteratively build websites using Stitch with an autonomous baton-passing loop pattern |
 | `stitch-ui-design` | Mobile | Expert guidance for crafting effective prompts in Google Stitch, the AI-powered UI design tool by Google Labs. This s  |
+| `strategy` | Product Management | This skill should be used when the user asks to \"strategy\". Create a comprehensive product strategy using the 9-sec  |
+| `strategy-red-team` | Product Management | This skill should be used when the user asks to \"strategy red team\". Red-team a PRD, roadmap, or strategy by attack  |
 | `stride-analysis-patterns` | Security & Pentesting | Apply STRIDE methodology to systematically identify threats. Use when analyzing system security, conducting threat mo  |
 | `stripe-automation` | Automation & Integrations | Automate Stripe tasks via Rube MCP (Composio): customers, charges, subscriptions, invoices, products, refunds. Always  |
 | `stripe-integration` | Security & Pentesting | Master Stripe payment processing integration for robust, PCI-compliant payment flows including checkout, subscription  |
@@ -1853,6 +1940,8 @@
 | `subagent-driven-development` | General & Miscellaneous | Use when executing implementation plans with independent tasks in the current session |
 | `subagent-orchestrator` | General & Miscellaneous | Coordinate quota-aware parallel subagents for large, multi-file Antigravity tasks. |
 | `subject-line-psychologist` | Productivity & Workflow | One sentence - what this skill does and when to invoke it |
+| `summarize-interview` | Product Management | This skill should be used when the user asks to \"summarize interview\". Summarize a customer interview transcript in  |
+| `summarize-meeting` | Product Management | This skill should be used when the user asks to \"summarize meeting\". Summarize a meeting transcript into structured  |
 | `supabase` | Database | Use when doing ANY task involving Supabase. |
 | `supabase-automation` | Automation & Integrations | Automate Supabase database queries, table management, project administration, storage, edge functions, and SQL execut  |
 | `supabase-postgres-best-practices` | Database | Postgres performance optimization and best practices from Supabase. Use this skill when writing, reviewing, or optimi  |
@@ -1884,9 +1973,11 @@
 | `swiftui-performance-audit` | Mobile | Audit SwiftUI performance issues from code review and profiling evidence. |
 | `swiftui-ui-patterns` | Mobile | Apply proven SwiftUI UI patterns for navigation, sheets, async state, and reusable screens. |
 | `swiftui-view-refactor` | Mobile | Refactor SwiftUI views into smaller components with stable, explicit data flow. |
+| `swot-analysis` | Product Management | This skill should be used when the user asks to \"swot analysis\". Perform a detailed SWOT analysis. |
 | `sympy` | Languages: Python | SymPy is a Python library for symbolic mathematics that enables exact computation using mathematical symbols rather t  |
 | `systematic-debugging` | Testing & QA | Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes |
 | `systems-programming-rust-project` | Languages: Rust | You are a Rust project architecture expert specializing in scaffolding production-ready Rust applications. Generate c  |
+| `tailor-resume` | Product Management | This skill should be used when the user asks to \"tailor resume\". Tailor a PM resume to a specific job description. |
 | `tailwind-design-system` | Frontend & UI | Build production-ready design systems with Tailwind CSS, including design tokens, component variants, responsive patt  |
 | `tailwind-patterns` | Frontend & UI | Tailwind CSS v4 principles. CSS-first configuration, container queries, modern patterns, design token architecture. |
 | `taisly-social-media-posting` | AI & LLM | Use Taisly Agent Kit to prepare and publish approved short-form video posts across TikTok, Instagram Reels, YouTube S  |
@@ -1927,6 +2018,7 @@
 | `test-fixing` | Testing & QA | Systematically identify and fix all failing tests using smart grouping strategies. Use when explicitly asks to fix te  |
 | `test-framework-migration-skill` | Automation & Integrations | Migrates and converts test automation scripts between Selenium, Playwright, Puppeteer, and Cypress. |
 | `test-guard` | Testing & QA | Review generated or changed test code against universal testing rules before it ships or is presented for approval. |
+| `test-scenarios` | Product Management | This skill should be used when the user asks to \"test scenarios\". Create comprehensive test scenarios from user sto  |
 | `testing-patterns` | Testing & QA | Jest testing patterns, factory functions, mocking strategies, and TDD workflow. Use when writing unit tests, creating  |
 | `testing-qa` | Automation & Integrations | Comprehensive testing and QA workflow covering unit testing, integration testing, E2E testing, browser automation, an  |
 | `testng-skill` | Languages: Java/Kotlin | Generates TestNG tests in Java with groups, data providers, parallel execution, XML suite configuration, and listener  |
@@ -1962,12 +2054,14 @@
 | `track-management` | Productivity & Workflow | Use this skill when creating, managing, or working with Conductor tracks - the logical work units for features, bugs,  |
 | `trading-ledger` | Database | A trading journal that captures the decision, not just the fill: thesis, plan, and emotion at the moment of entry, wr  |
 | `train-sentence-transformers` | General & Miscellaneous | Train or fine-tune SentenceTransformer, CrossEncoder, and SparseEncoder models for retrieval, similarity, clustering,  |
+| `transform-roadmap` | Product Management | This skill should be used when the user asks to \"transform roadmap\". Convert a feature-based roadmap into an outcom  |
 | `transformers-js` | Languages: TypeScript/JavaScript | Run Hugging Face models in JavaScript or TypeScript with Transformers.js in Node.js or the browser. |
 | `travel-health-analyzer` | General & Miscellaneous | 分析旅行健康数据、评估目的地健康风险、提供疫苗接种建议、生成多语言紧急医疗信息卡片。支持WHO/CDC数据集成的专业级旅行健康风险评估。 |
 | `travel-planner` | General & Miscellaneous | 旅行/行程规划需求时使用:规划去某地旅行、X天X城、带老人孩子、自驾、假期安排等。产出逐日行程表、预算估算(经济/舒适/奢华三档)、交通住宿建议、景点美食清单。必须先问预算,预算未确认只输出问题清单;事实数据带来源和查询日期。 |
 | `tree-ring-memory` | AI & LLM | Use Tree Ring Memory for local-first AI-agent memory lifecycle work: recall, evidence, audit, forgetting, and consoli  |
 | `trello-automation` | Automation & Integrations | Automate Trello boards, cards, and workflows via Rube MCP (Composio). Create cards, manage lists, assign members, and  |
 | `triage` | AI & LLM | Move issues and external PRs through a state machine of triage roles — categorise, verify, grill if needed, and write  |
+| `triage-requests` | Product Management | This skill should be used when the user asks to \"triage requests\". Analyze, categorize, and prioritize a batch of f  |
 | `trigger-dev` | General & Miscellaneous | Trigger.dev expert for background jobs, AI workflows, and reliable |
 | `trl-training` | General & Miscellaneous | Train and fine-tune transformer language models using TRL (Transformers Reinforcement Learning). Supports SFT, DPO, G  |
 | `trpc-fullstack` | Automation & Integrations | Build end-to-end type-safe APIs with tRPC — routers, procedures, middleware, subscriptions, and Next.js/React integra  |
@@ -2020,6 +2114,9 @@
 | `us-property-data` | General & Miscellaneous | Use when a task needs real U.S. residential property data: valuation, listings, price or tax history, schools, or a z  |
 | `usage-based-pricing` | Backend & API | Design pricing models that developers understand, accept, and can predict. Trigger phrases: usage-based pricing, API   |
 | `use-dom` | Mobile | Use Expo DOM components to run web code in a webview on native and as-is on web. Migrate web code to native increment  |
+| `user-personas` | Product Management | This skill should be used when the user asks to \"user personas\". Create refined user personas from research data. |
+| `user-segmentation` | Product Management | This skill should be used when the user asks to \"user segmentation\". Segment users from feedback data based on beha  |
+| `user-stories` | Product Management | This skill should be used when the user asks to \"user stories\". Create user stories following the 3 C's (Card, Conv  |
 | `user-thoughts` | General & Miscellaneous | >- |
 | `using-git-worktrees` | Git & Version Control | Git worktrees create isolated workspaces sharing the same repository, allowing work on multiple branches simultaneous  |
 | `using-lwc` | AI & LLM | Use when project decisions, code structure, research, incidents, or verified context must survive future coding-agent  |
@@ -2033,6 +2130,8 @@
 | `ux-flow` | General & Miscellaneous | Design user flows and screen structure using StyleSeed UX patterns such as progressive disclosure, hub-and-spoke navi  |
 | `ux-persuasion-engineer` | Productivity & Workflow | One sentence - what this skill does and when to invoke it |
 | `uxui-principles` | General & Miscellaneous | Evaluate interfaces against 168 research-backed UX/UI principles, detect antipatterns, and inject UX context into AI   |
+| `value-prop-statements` | Product Management | Generate value proposition statements for marketing, sales, and onboarding from existing value propositions. Use when  |
+| `value-proposition` | Product Management | This skill should be used when the user asks to \"value proposition\". Design a detailed value proposition using a 6-  |
 | `variant-analysis` | Security & Pentesting | Find similar vulnerabilities and bugs across codebases using pattern-based analysis. Use when hunting bug variants, b  |
 | `varlock` | General & Miscellaneous | Secure-by-default environment variable management for Claude Code sessions. |
 | `varlock-claude-skill` | Git & Version Control | Secure environment variable management ensuring secrets are never exposed in Claude sessions, terminals, logs, or git  |
@@ -2125,9 +2224,13 @@
 | `wp-site-health-auditor` | General & Miscellaneous | Turns a WordPress Site Health report into a risk-tiered, backup-first fix plan with exact WP-CLI/PHP snippets. Use fo  |
 | `wrangler` | Cloudflare | Run or troubleshoot Wrangler CLI commands and configure Worker projects for local development, deployment, and Cloudf  |
 | `wrike-automation` | Automation & Integrations | Automate Wrike project management via Rube MCP (Composio): create tasks/folders, manage projects, assign work, and tr  |
+| `write-prd` | Product Management | This skill should be used when the user asks to \"write prd\". Create a comprehensive Product Requirements Document f  |
+| `write-query` | Product Management | This skill should be used when the user asks to \"write query\". Generate SQL queries from natural language. |
+| `write-stories` | Product Management | This skill should be used when the user asks to \"write stories\". Break a feature into backlog items. |
 | `writing-great-skills` | Productivity & Workflow | Reference for writing and editing skills well — the vocabulary and principles that make a skill predictable. |
 | `writing-plans` | General & Miscellaneous | Use when you have a spec or requirements for a multi-step task, before touching code |
 | `writing-skills` | AI & LLM | Use when creating, updating, or improving agent skills. |
+| `wwas` | Product Management | This skill should be used when the user asks to \"wwas\". Create product backlog items in Why-What-Acceptance format. |
 | `x-article-publisher-skill` | Productivity & Workflow | Publish articles to X/Twitter |
 | `x-twitter-scraper` | Automation & Integrations | X (Twitter) data platform skill — tweet search, user lookup, follower extraction, engagement metrics, giveaway draws,  |
 | `x402-express-wrapper` | Automation & Integrations | Wrapper oficial de M2MCent (Node.js) para inyectar muros de pago x402 en APIs o servidores Model Context Protocol (MC  |

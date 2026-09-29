@@ -14,12 +14,15 @@ CATALOG_DIR = os.path.join(SKILLS_ROOT, "_catalog")
 def parse_frontmatter(content):
     m = re.match(r"^---\s*\n(.*?)\n---", content, re.DOTALL)
     if not m:
-        return None, None
+        return None, None, None
     fm = m.group(1)
-    name = desc = None
+    name = desc = catalog_category = None
     desc_lines, in_desc = [], False
     for line in fm.split("\n"):
-        if line.startswith("name:"):
+        if line.startswith("catalog_category:"):
+            catalog_category = line.split(":", 1)[1].strip().strip('"').strip("'")
+            in_desc = False
+        elif line.startswith("name:"):
             name = line.split(":", 1)[1].strip().strip('"').strip("'")
             in_desc = False
         elif line.startswith("description:"):
@@ -37,7 +40,7 @@ def parse_frontmatter(content):
                 desc_lines.append(line.strip())
     if desc_lines and not desc:
         desc = " ".join(desc_lines)
-    return name, desc
+    return name, desc, catalog_category
 
 
 def categorize(skill_id, name, desc):
@@ -94,12 +97,12 @@ def main():
         rel = os.path.relpath(root, SKILLS_ROOT)
         skill_id = rel if rel != "." else os.path.basename(root)
         with open(os.path.join(root, "SKILL.md"), encoding="utf-8", errors="replace") as f:
-            name, desc = parse_frontmatter(f.read(8000))
+            name, desc, catalog_category = parse_frontmatter(f.read(8000))
         skills.append({
             "id": skill_id,
             "name": name or skill_id.split("/")[-1],
             "description": (desc or "").strip(),
-            "category": categorize(skill_id, name, desc),
+            "category": catalog_category or categorize(skill_id, name, desc),
         })
 
     skills.sort(key=lambda s: (s["category"], s["id"]))

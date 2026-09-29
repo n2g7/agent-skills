@@ -1,6 +1,6 @@
 # Skills Catalog Overview
 
-**Total skills:** 2154  
+**Total skills:** 2257  
 **Location:** repo root, `~/.agents/skills/`, or `.agents/skills/` submodule
 
 ## How to use this catalog
@@ -24,6 +24,7 @@ Refresh: `python3 _catalog/regenerate.py`
 | Azure | 121 | `agent-framework-azure-ai-py`, `azure-ai-agents-persistent-dotnet`, `azure-ai-agents-persistent-java` |
 | Security & Pentesting | 113 | `007`, `active-directory-attacks`, `agent-squad/luna` |
 | Productivity & Workflow | 108 | `10-andruia-skill-smith`, `agentfolio`, `anti-sycophancy` |
+| Product Management | 103 | `ab-test-analysis`, `analyze-cohorts`, `analyze-feature-requests` |
 | SEO & Marketing | 100 | `ai-seo`, `apify-brand-reputation-monitoring`, `apify-influencer-discovery` |
 | Backend & API | 95 | `2slides-ppt-generator`, `agent-squad/aria`, `agentmail` |
 | Frontend & UI | 80 | `3d-web-experience`, `api-and-interface-design`, `application-performance-performance-optimization` |

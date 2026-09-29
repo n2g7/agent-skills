@@ -116,6 +116,9 @@
     "2slides-ppt-generator"
   ],
   "3-5": [
+    "market-segments",
+    "monetization-strategy",
+    "north-star-metric",
     "startup-business-analyst-financial-projections",
     "startup-financial-modeling"
   ],
@@ -192,6 +195,9 @@
   "6-layer": [
     "yes-md"
   ],
+  "6-part": [
+    "value-proposition"
+  ],
   "600": [
     "claude-speed-reader"
   ],
@@ -219,6 +225,9 @@
   "8-phase": [
     "squirrel"
   ],
+  "8-section": [
+    "create-prd"
+  ],
   "800": [
     "recallmax"
   ],
@@ -233,6 +242,10 @@
   ],
   "9-block": [
     "osterwalder-canvas-architect"
+  ],
+  "9-section": [
+    "product-strategy",
+    "strategy"
   ],
   "90-day": [
     "moatmri"
@@ -262,6 +275,9 @@
   "aave": [
     "aomi-transact"
   ],
+  "ab-test-analysis": [
+    "ab-test-analysis"
+  ],
   "ab-test-setup": [
     "ab-test-setup"
   ],
@@ -271,6 +287,9 @@
   "abilities": [
     "wordpress",
     "wordpress-plugin-development"
+  ],
+  "abm": [
+    "gtm-motions"
   ],
   "abnormal": [
     "diagnose-android-overheating"
@@ -356,6 +375,7 @@
     "acceptance-orchestrator",
     "closed-loop-delivery",
     "create-issue-gate",
+    "job-stories",
     "spec-driven-loop"
   ],
   "acceptance-orchestrator": [
@@ -489,6 +509,9 @@
   "acessibilidade": [
     "product-design"
   ],
+  "achievable": [
+    "product-vision"
+  ],
   "achieve": [
     "huggingface-tool-builder"
   ],
@@ -508,6 +531,7 @@
     "ai-dev-jobs-mcp",
     "ai-md",
     "ai-seo",
+    "ansoff-matrix",
     "apify-audience-analysis",
     "apify-competitor-intelligence",
     "apify-content-analytics",
@@ -546,8 +570,11 @@
     "feature-tracking",
     "git-workflow-and-versioning",
     "global-chat-agent-discovery",
+    "gtm-motions",
     "helium-mcp",
     "hybrid-cloud-architect",
+    "identify-assumptions-existing",
+    "identify-assumptions-new",
     "ii-commons",
     "lambda-lang",
     "lambdatest-agent-skills",
@@ -615,14 +642,18 @@
     "hig-components-dialogs",
     "makepad-deployment",
     "makepad-event-action",
+    "meeting-notes",
     "moatmri",
     "poka-yoke",
     "quality-nonconformance",
     "robius-event-action",
-    "screenstudio-alt"
+    "screenstudio-alt",
+    "summarize-interview",
+    "summarize-meeting"
   ],
   "actionable": [
     "agent-qa-result-triage",
+    "code-review",
     "codebase-cleanup-deps-audit",
     "concise-planning",
     "dependency-management-deps-audit",
@@ -648,7 +679,8 @@
     "makepad-deployment",
     "odoo-qweb-templates",
     "skill-security-audit",
-    "sveltekit"
+    "sveltekit",
+    "test-scenarios"
   ],
   "actiontrait": [
     "makepad-event-action"
@@ -727,6 +759,7 @@
   ],
   "actually": [
     "changelog-updates",
+    "intended-vs-implemented",
     "interactive-portfolio",
     "logic-explain",
     "offers"
@@ -928,6 +961,9 @@
   "advanced-evaluation": [
     "advanced-evaluation"
   ],
+  "advantage": [
+    "lean-canvas"
+  ],
   "adversarial": [
     "agentflow",
     "bugs-are-annoying",
@@ -1051,12 +1087,14 @@
     "api-security-best-practices",
     "azure-monitor-query-java",
     "closed-loop-delivery",
+    "competitive-battlecard",
     "debugging-code",
     "dos-verify-done-claims",
     "fact-check-x-complete",
     "network-101",
     "postgres-readonly-queries",
     "review-animations",
+    "review-resume",
     "security-and-hardening",
     "security/aws-compliance-checker",
     "skill-check",
@@ -1445,7 +1483,8 @@
   ],
   "agreement": [
     "anti-deception",
-    "anti-sycophancy"
+    "anti-sycophancy",
+    "draft-nda"
   ],
   "agreements": [
     "legal-advisor",
@@ -1482,6 +1521,12 @@
     "incident-response-smart-fix",
     "progressive-estimation",
     "team-collaboration-standup-notes"
+  ],
+  "ai-built": [
+    "document-app",
+    "performance-audit-static",
+    "security-audit-static",
+    "shipping-artifacts"
   ],
   "ai-callable": [
     "n8n-code-tool"
@@ -1652,7 +1697,9 @@
     "product-inventor"
   ],
   "alert": [
+    "metrics-dashboard",
     "monte-carlo-analyze-root-cause",
+    "setup-metrics",
     "tune-monitor"
   ],
   "alerting": [
@@ -1718,15 +1765,26 @@
     "makepad-layout",
     "wgm"
   ],
+  "aligned": [
+    "brainstorm-okrs",
+    "plan-okrs",
+    "product-name"
+  ],
   "alignment": [
+    "analyze-feature-requests",
     "antigravity-maintainer-batch-release",
     "context-driven-development",
-    "design-it/swiss-design"
+    "design-it/swiss-design",
+    "prioritize-features"
+  ],
+  "aligns": [
+    "product-vision"
   ],
   "all": [
     "anywrite",
     "apify-ultimate-scraper",
     "brooks-sweep",
+    "business-model",
     "cc-skill-security-review",
     "code-documentation-code-explain",
     "code-simplifier",
@@ -1961,7 +2019,10 @@
     "20-andruia-niche-intelligence"
   ],
   "analysis": [
+    "ab-test-analysis",
     "agent-orchestration-improve-agent",
+    "analyze-cohorts",
+    "ansoff-matrix",
     "anti-reversing-techniques",
     "apk-reverse",
     "architecture",
@@ -1986,6 +2047,8 @@
     "code-review-ai-ai-review",
     "code-review-excellence",
     "code-showcase-systematic-debugging",
+    "cohort-analysis",
+    "competitive-analysis",
     "competitor-tracking",
     "computer-vision-expert",
     "content-creator",
@@ -2018,6 +2081,8 @@
     "longbridge-content",
     "macos-reverse",
     "malware-analyst",
+    "market-scan",
+    "market-segments",
     "maxia",
     "memory-forensics",
     "mobile-reverse",
@@ -2034,8 +2099,13 @@
     "parallel-agents",
     "performance-profiling",
     "performance-testing-review-ai-review",
+    "pestle-analysis",
     "plotly",
+    "pm-competitor-analysis",
+    "pm-pricing-strategy",
+    "porters-five-forces",
     "postgresql-optimization",
+    "pre-mortem",
     "quality-nonconformance",
     "radare2",
     "radio-sdr",
@@ -2046,6 +2116,7 @@
     "seaborn",
     "security-scanning-security-dependencies",
     "semgrep-rule-creator",
+    "sentiment-analysis",
     "seo",
     "seo-aeo-content-cluster",
     "seo-content",
@@ -2061,6 +2132,7 @@
     "startup-analyst",
     "startup-business-analyst-market-opportunity",
     "startup-financial-modeling",
+    "swot-analysis",
     "variant-analysis",
     "vulnerability-scanner",
     "warehouse",
@@ -2113,7 +2185,12 @@
     "analytics-tracking"
   ],
   "analyze": [
+    "ab-test-analysis",
     "ad-campaign-analyzer",
+    "analyze-cohorts",
+    "analyze-feature-requests",
+    "analyze-feedback",
+    "analyze-test",
     "apify-competitor-intelligence",
     "apify-content-analytics",
     "apify-market-research",
@@ -2125,6 +2202,7 @@
     "codebase-cleanup-deps-audit",
     "codebase-cleanup-refactor-clean",
     "codebase-cleanup-tech-debt",
+    "competitive-analysis",
     "competitor-ad-intelligence",
     "competitor-profiling",
     "constant-time-analysis",
@@ -2147,23 +2225,39 @@
     "monte-carlo-monitoring-advisor",
     "monte-carlo-storage-cost-analysis",
     "page-cro",
+    "pm-competitor-analysis",
+    "pm-pricing-strategy",
     "pptx",
     "pptx-official",
     "qiskit",
     "quant-analyst",
     "resume-ats-review",
     "seek-and-analyze-video",
+    "sentiment-analysis",
     "seo-page",
     "seo-sitemap",
     "skill-rails-upgrade",
     "skin-health-analyzer",
     "software-architecture",
     "spec-kit",
+    "triage-requests",
     "tune-monitor",
     "xvary-stock-research"
   ],
+  "analyze-cohorts": [
+    "analyze-cohorts"
+  ],
+  "analyze-feature-requests": [
+    "analyze-feature-requests"
+  ],
+  "analyze-feedback": [
+    "analyze-feedback"
+  ],
   "analyze-project": [
     "analyze-project"
+  ],
+  "analyze-test": [
+    "analyze-test"
   ],
   "analyze_storage_costs": [
     "monte-carlo-storage-cost-analysis"
@@ -2190,6 +2284,7 @@
     "aws-cost-operations",
     "binary-analysis-patterns",
     "burpsuite-project-parser",
+    "business-model",
     "competitive-landscape",
     "dwarf-expert",
     "error-debugging-error-analysis",
@@ -2372,6 +2467,12 @@
     "pdf-conversion-router",
     "skill-issue"
   ],
+  "ansoff": [
+    "ansoff-matrix"
+  ],
+  "ansoff-matrix": [
+    "ansoff-matrix"
+  ],
   "answer": [
     "ai-seo",
     "faf-go",
@@ -2530,6 +2631,7 @@
     "playwright-skill",
     "posix-shell-pro",
     "pre-ship-gate",
+    "proofread",
     "rclone-cli",
     "redis-cli",
     "runaway-guard",
@@ -2936,6 +3038,7 @@
     "design-it/widget-based-design",
     "design-it/y2k-design",
     "design-ux",
+    "document-app",
     "earllm-build",
     "electron-development",
     "expo-brownfield",
@@ -2959,6 +3062,7 @@
     "robius-app-architecture",
     "sandbox-next",
     "screenshots",
+    "shipping-artifacts",
     "shopify-apps",
     "shopify-review-triage",
     "tanstack-query-expert",
@@ -3233,6 +3337,7 @@
     "debugging-strategies",
     "dependency-upgrade",
     "lightning-architecture-review",
+    "market-sizing",
     "temporal-python-testing"
   ],
   "appropriate": [
@@ -3590,6 +3695,7 @@
     "lesson-generator",
     "memory-forensics",
     "repo-maintainer",
+    "shipping-artifacts",
     "survey-generator",
     "web-artifacts-builder"
   ],
@@ -3682,50 +3788,144 @@
     "time-ledger"
   ],
   "asks": [
+    "ab-test-analysis",
     "advanced-evaluation",
     "agent-development",
     "agents-md",
+    "analyze-cohorts",
+    "analyze-feature-requests",
+    "analyze-feedback",
+    "analyze-test",
+    "ansoff-matrix",
     "appdeploy",
+    "battlecard",
     "bdi-mental-states",
+    "beachhead-segment",
+    "brainstorm",
+    "brainstorm-experiments-existing",
+    "brainstorm-experiments-new",
+    "brainstorm-ideas-existing",
+    "brainstorm-ideas-new",
+    "brainstorm-okrs",
     "check-identity-pack",
     "claude-api",
+    "code-review",
+    "cohort-analysis",
     "command-development",
+    "competitive-analysis",
+    "competitive-battlecard",
     "comprehensive-review-pr-enhance",
     "concise-planning",
     "create-plugin",
+    "create-prd",
+    "customer-journey-map",
     "cypress-skill",
+    "derive-tests",
     "design-philosophy",
     "detect-ai-text",
+    "discover",
     "ditto",
+    "document-app",
+    "draft-nda",
+    "dummy-dataset",
     "explain-like-socrates",
     "expo-cicd-workflows",
     "faf-context",
     "find-complementary-founders",
     "find-matching-tenders",
     "fp-types-ref",
+    "generate-data",
     "git-pushing",
+    "growth-loops",
+    "growth-strategy",
+    "gtm-motions",
+    "gtm-strategy",
     "hook-development",
     "huggingface-best",
     "humanize-chinese",
+    "ideal-customer-profile",
+    "identify-assumptions-existing",
+    "identify-assumptions-new",
     "image-generator",
+    "intended-vs-implemented",
+    "interview",
+    "interview-script",
+    "job-stories",
     "latex-paper-conversion",
+    "lean-canvas",
     "learn",
+    "market-product",
+    "market-scan",
+    "market-segments",
+    "market-sizing",
     "mcp-integration",
+    "meeting-notes",
+    "metrics-dashboard",
     "multi-agent-patterns",
+    "north-star",
+    "north-star-metric",
     "odw",
+    "opportunity-solution-tree",
+    "outcome-roadmap",
+    "performance-audit-static",
+    "pestle-analysis",
+    "plan-launch",
+    "plan-okrs",
     "plugin-dev-agent-creator",
     "plugin-settings",
     "plugin-structure",
     "plugin-validator",
+    "pm-competitor-analysis",
+    "pm-marketing-ideas",
+    "pm-pricing",
+    "pm-pricing-strategy",
+    "porters-five-forces",
+    "positioning-ideas",
+    "pre-mortem",
+    "prioritization-frameworks",
+    "prioritize-assumptions",
+    "prioritize-features",
+    "privacy-policy",
+    "product-strategy",
+    "product-vision",
     "professional-proofreader",
+    "proofread",
+    "red-team-prd",
+    "release-notes",
+    "research-users",
     "resume-ats-review",
+    "retro",
+    "review-resume",
     "rich-elicitation",
     "sankhya-dashboard-html-jsp-custom-best-pratices",
     "screen-adverse-media",
+    "security-audit-static",
+    "sentiment-analysis",
     "seo",
+    "setup-metrics",
+    "ship-check",
+    "shipping-artifacts",
     "skill-reviewer",
     "spec-kit",
+    "sprint",
+    "sprint-plan",
+    "sql-queries",
+    "stakeholder-map",
+    "startup-canvas",
+    "strategy",
+    "strategy-red-team",
+    "summarize-interview",
+    "summarize-meeting",
+    "swot-analysis",
+    "tailor-resume",
     "test-fixing",
+    "test-scenarios",
+    "transform-roadmap",
+    "triage-requests",
+    "user-personas",
+    "user-segmentation",
+    "user-stories",
+    "value-proposition",
     "verify-citations",
     "verify-document",
     "wiki-changelog",
@@ -3734,6 +3934,10 @@
     "wiki-researcher",
     "wiki-vitepress",
     "wordpress-centric-high-seo-optimized-blogwriting-skill",
+    "write-prd",
+    "write-query",
+    "write-stories",
+    "wwas",
     "yield-intelligence"
   ],
   "askuserquestion": [
@@ -3870,10 +4074,15 @@
     "axiom"
   ],
   "assumptions": [
+    "brainstorm-experiments-existing",
     "idea-refine",
+    "identify-assumptions-existing",
+    "identify-assumptions-new",
     "marketplace-rbac-audit",
     "multi-agent-brainstorming",
+    "prioritize-assumptions",
     "security-bluebook-builder",
+    "strategy-red-team",
     "the-honoured-one"
   ],
   "assurance": [
@@ -4058,7 +4267,8 @@
     "html-injection-testing"
   ],
   "attacking": [
-    "active-directory-attacks"
+    "active-directory-attacks",
+    "strategy-red-team"
   ],
   "attacks": [
     "active-directory-attacks",
@@ -4099,7 +4309,9 @@
   "audience": [
     "apify-audience-analysis",
     "developer-audience-context",
+    "monetization-strategy",
     "product-marketing-context",
+    "product-name",
     "social-content"
   ],
   "audiences": [
@@ -4164,9 +4376,11 @@
     "mock-hunter",
     "openclaw-github-repo-commander",
     "pagespeed-enhancer",
+    "performance-audit-static",
     "production-audit",
     "project-skill-audit",
     "repo-maintainer",
+    "security-audit-static",
     "seo",
     "seo-aeo-content-quality-auditor",
     "seo-audit",
@@ -4228,6 +4442,9 @@
   "auditoria": [
     "leiloeiro-edital",
     "skill-sentinel"
+  ],
+  "auditors": [
+    "document-app"
   ],
   "audits": [
     "accessibility-compliance-accessibility-audit",
@@ -5462,6 +5679,11 @@
   "backlinks": [
     "seo-dataforseo"
   ],
+  "backlog": [
+    "prioritize-features",
+    "write-stories",
+    "wwas"
+  ],
   "backoff": [
     "api-rate-limit-handler"
   ],
@@ -5582,12 +5804,14 @@
     "kotler-macro-analyzer",
     "playwright-skill",
     "pricing-strategy",
+    "prioritize-features",
     "red-team-tactics",
     "seo-content-auditor",
     "seo-content-writer",
     "seo-keyword-strategist",
     "seo-meta-optimizer",
-    "seo-snippet-hunter"
+    "seo-snippet-hunter",
+    "user-segmentation"
   ],
   "baseline": [
     "accesslint-diff"
@@ -5636,7 +5860,8 @@
     "data-engineering-data-pipeline",
     "production-scheduling",
     "pubmed-database",
-    "segment-automation"
+    "segment-automation",
+    "triage-requests"
   ],
   "batches": [
     "antigravity-maintainer-batch-release",
@@ -5660,6 +5885,13 @@
     "ai-md",
     "infinite-gratitude",
     "prompt-library"
+  ],
+  "battlecard": [
+    "battlecard",
+    "competitive-battlecard"
+  ],
+  "battlecards": [
+    "competitive-battlecard"
   ],
   "bayesiana": [
     "matematico-tao"
@@ -5689,6 +5921,12 @@
   ],
   "bdistill-knowledge-extraction": [
     "bdistill-knowledge-extraction"
+  ],
+  "beachhead": [
+    "beachhead-segment"
+  ],
+  "beachhead-segment": [
+    "beachhead-segment"
   ],
   "beautiful": [
     "building-native-ui"
@@ -5766,6 +6004,7 @@
     "runaway-guard",
     "screen-adverse-media",
     "setup-matt-pocock-skills",
+    "shipping-artifacts",
     "skill-audit",
     "skill-check",
     "skill-scanner",
@@ -5773,6 +6012,7 @@
     "spec-driven-development",
     "spec-driven-loop",
     "spec-kit",
+    "strategy-red-team",
     "systematic-debugging",
     "test-driven-development",
     "test-guard",
@@ -5815,7 +6055,8 @@
     "plugin-settings",
     "prompt-engineering",
     "systematic-debugging",
-    "tdd-workflows-tdd-red"
+    "tdd-workflows-tdd-red",
+    "user-segmentation"
   ],
   "behavioral": [
     "agent-evaluation",
@@ -5828,6 +6069,9 @@
   ],
   "behavioral-modes": [
     "behavioral-modes"
+  ],
+  "behaviors": [
+    "ideal-customer-profile"
   ],
   "behind": [
     "architecture-decision-records",
@@ -5905,6 +6149,7 @@
     "dotnet-backend-patterns",
     "gemini-api-integration",
     "godot-gdscript-patterns",
+    "gtm-motions",
     "huggingface-best",
     "javascript-testing-patterns",
     "laravel-security-audit",
@@ -5926,6 +6171,7 @@
     "python-testing-patterns",
     "react-patterns",
     "remotion-best-practices",
+    "review-resume",
     "sankhya-dashboard-html-jsp-custom-best-pratices",
     "security/aws-security-audit",
     "senior-architect",
@@ -5970,9 +6216,11 @@
     "api-integration",
     "context-engineering",
     "ddd-context-mapping",
+    "draft-nda",
     "eas-update-insights",
     "framework-migration-code-migrate",
     "hybrid-cloud-networking",
+    "intended-vs-implemented",
     "n8n-code-javascript",
     "n8n-node-configuration",
     "nextjs-on-cloudflare",
@@ -6189,6 +6437,7 @@
   ],
   "blocks": [
     "agents-generator",
+    "business-model",
     "design-it/widget-based-design",
     "linux-shell-scripting",
     "notion-automation",
@@ -6374,7 +6623,8 @@
     "python-performance-optimization"
   ],
   "bottom-up": [
-    "c4-architecture-c4-architecture"
+    "c4-architecture-c4-architecture",
+    "market-sizing"
   ],
   "bounces": [
     "postmark-automation"
@@ -6441,7 +6691,34 @@
   ],
   "brainstorm": [
     "behavioral-modes",
-    "co-marketing"
+    "brainstorm",
+    "brainstorm-experiments-existing",
+    "brainstorm-experiments-new",
+    "brainstorm-ideas-existing",
+    "brainstorm-ideas-new",
+    "brainstorm-okrs",
+    "co-marketing",
+    "market-product",
+    "monetization-strategy",
+    "plan-okrs",
+    "positioning-ideas",
+    "product-name",
+    "product-vision"
+  ],
+  "brainstorm-experiments-existing": [
+    "brainstorm-experiments-existing"
+  ],
+  "brainstorm-experiments-new": [
+    "brainstorm-experiments-new"
+  ],
+  "brainstorm-ideas-existing": [
+    "brainstorm-ideas-existing"
+  ],
+  "brainstorm-ideas-new": [
+    "brainstorm-ideas-new"
+  ],
+  "brainstorm-okrs": [
+    "brainstorm-okrs"
   ],
   "brainstorming": [
     "brainstorming",
@@ -6498,6 +6775,7 @@
     "free-tool-strategy",
     "not-a-vibe-coder",
     "popup-cro",
+    "product-name",
     "ui-setup"
   ],
   "brand-guidelines": [
@@ -6535,7 +6813,8 @@
     "debugging-and-error-recovery",
     "falsify",
     "planning-and-task-breakdown",
-    "to-issues"
+    "to-issues",
+    "write-stories"
   ],
   "break-ai-fix-loops": [
     "break-ai-fix-loops"
@@ -6920,6 +7199,7 @@
     "nextjs-on-cloudflare",
     "nx-workspace-patterns",
     "observability-engineer",
+    "opportunity-solution-tree",
     "patch-diff-exploit",
     "pipecat-friday-agent",
     "plugin-dev-agent-creator",
@@ -6943,6 +7223,7 @@
     "shopify-development",
     "skyvern-browser-automation",
     "slack-bot-builder",
+    "stakeholder-map",
     "startup-financial-modeling",
     "stitch-loop",
     "supply-chain-security",
@@ -6992,6 +7273,7 @@
     "brave-man",
     "browser-extension-builder",
     "building-native-ui",
+    "business-model",
     "cdk-patterns",
     "changelog-updates",
     "chrome-extension-developer",
@@ -7182,6 +7464,7 @@
   "business": [
     "auri-core",
     "business-analyst",
+    "business-model",
     "data-scientist",
     "ddd-strategic-design",
     "find-matching-tenders",
@@ -7200,6 +7483,7 @@
     "social-content",
     "startup-analyst",
     "startup-business-analyst-business-case",
+    "startup-canvas",
     "startup-metrics-framework",
     "whatsapp-automation",
     "whatsapp-cloud-api"
@@ -7215,6 +7499,9 @@
   ],
   "business-logic": [
     "prototype"
+  ],
+  "business-model": [
+    "business-model"
   ],
   "busybox": [
     "busybox-on-windows"
@@ -7437,6 +7724,7 @@
     "fp-taskeither-ref",
     "gha-security-review",
     "hugging-face-tool-builder",
+    "job-stories",
     "macos-screen-recorder",
     "parallel-agents",
     "playwright-skill",
@@ -7502,7 +7790,12 @@
     "canva-automation"
   ],
   "canvas": [
-    "json-canvas"
+    "business-model",
+    "json-canvas",
+    "lean-canvas",
+    "product-strategy",
+    "startup-canvas",
+    "strategy"
   ],
   "canvas-design": [
     "canvas-design"
@@ -7531,7 +7824,8 @@
     "azure-mgmt-fabric-py"
   ],
   "capacity": [
-    "context-optimization"
+    "context-optimization",
+    "sprint-plan"
   ],
   "capital": [
     "longbridge-market-data"
@@ -7572,7 +7866,8 @@
     "obsidian-bases",
     "pci-compliance",
     "seo-aeo-meta-description-generator",
-    "ui-pattern"
+    "ui-pattern",
+    "user-stories"
   ],
   "card-based": [
     "design-it/card-based-design"
@@ -7701,11 +7996,15 @@
   "categories": [
     "agent-qa-result-triage",
     "avoid-ai-writing",
+    "identify-assumptions-new",
     "monte-carlo-storage-cost-analysis",
     "scanning-tools"
   ],
   "categorise": [
     "triage"
+  ],
+  "categorize": [
+    "triage-requests"
   ],
   "category": [
     "exa-search",
@@ -7923,6 +8222,7 @@
   ],
   "changelogs": [
     "docs-guard",
+    "release-notes",
     "wiki-changelog"
   ],
   "changeover": [
@@ -7974,8 +8274,11 @@
     "discord-automation",
     "django-pro",
     "go-concurrency-patterns",
+    "gtm-strategy",
+    "lean-canvas",
     "lightning-channel-factories",
     "microsoft-teams-automation",
+    "pm-marketing-ideas",
     "thick-client",
     "youtube-full"
   ],
@@ -8069,8 +8372,10 @@
     "makepad-widgets",
     "monte-carlo-asset-health",
     "plugin-validator",
+    "proofread",
     "seo-content",
     "seo-page",
+    "ship-check",
     "skill-reviewer",
     "slideops",
     "verify-citations",
@@ -8087,6 +8392,7 @@
   ],
   "checking": [
     "before-you-build",
+    "grammar-check",
     "security/aws-compliance-checker"
   ],
   "checklist": [
@@ -8526,7 +8832,9 @@
     "plugin-structure"
   ],
   "clauses": [
-    "atlas-ledger"
+    "atlas-ledger",
+    "draft-nda",
+    "privacy-policy"
   ],
   "clausulas": [
     "leiloeiro-edital"
@@ -9024,6 +9332,7 @@
     "code-polish",
     "code-refactoring-context-restore",
     "code-refactoring-refactor-clean",
+    "code-review",
     "code-review-ai-ai-review",
     "code-review-and-quality",
     "code-review-checklist",
@@ -9087,6 +9396,7 @@
     "hook-development",
     "incremental-implementation",
     "instructree",
+    "intended-vs-implemented",
     "invariant-guard",
     "kaizen",
     "kimi-delegate",
@@ -9109,6 +9419,7 @@
     "observability-and-instrumentation",
     "openapi-spec-generation",
     "openapi-spec-generator",
+    "performance-audit-static",
     "performance-optimizer",
     "performance-testing-review-ai-review",
     "phase-gated-debugging",
@@ -9127,6 +9438,7 @@
     "rust-async-patterns",
     "seaborn",
     "security-and-hardening",
+    "security-audit-static",
     "security-scanning-security-sast",
     "semgrep-rule-creator",
     "senior-frontend",
@@ -9207,6 +9519,9 @@
   "code-refactoring-tech-debt": [
     "code-refactoring-tech-debt"
   ],
+  "code-review": [
+    "code-review"
+  ],
   "code-review-ai-ai-review": [
     "code-review-ai-ai-review"
   ],
@@ -9250,6 +9565,7 @@
     "codebase-cleanup-tech-debt",
     "codebase-to-wordpress-converter",
     "data-structure-protocol",
+    "document-app",
     "documentation-and-adrs",
     "improve-codebase-architecture",
     "lovable-cleanup",
@@ -9442,9 +9758,17 @@
   "cohesivity": [
     "cohesivity"
   ],
+  "cohort": [
+    "analyze-cohorts",
+    "cohort-analysis"
+  ],
+  "cohort-analysis": [
+    "cohort-analysis"
+  ],
   "cohorts": [
     "amplitude-automation",
     "analytics-product",
+    "analyze-cohorts",
     "mixpanel-automation"
   ],
   "coi": [
@@ -9547,6 +9871,7 @@
     "design-it/vibrant-maximalism"
   ],
   "columns": [
+    "dummy-dataset",
     "monday-automation"
   ],
   "com": [
@@ -9591,7 +9916,8 @@
     "huggingface-tool-builder",
     "performance-testing-review-ai-review",
     "scientific-writing",
-    "sharp-coder"
+    "sharp-coder",
+    "startup-canvas"
   ],
   "comentarios": [
     "instagram"
@@ -9758,6 +10084,10 @@
     "windows-shell-reliability",
     "wordpress-penetration-testing"
   ],
+  "communicates": [
+    "outcome-roadmap",
+    "transform-roadmap"
+  ],
   "communicating": [
     "attack-tree-construction"
   ],
@@ -9774,6 +10104,7 @@
     "it-manager-pro",
     "microservices-patterns",
     "mtls-configuration",
+    "stakeholder-map",
     "team-collaboration-standup-notes",
     "twilio-communications"
   ],
@@ -9788,6 +10119,7 @@
   "community": [
     "community-building",
     "competitor-tracking",
+    "gtm-motions",
     "huggingface-spaces",
     "longbridge-content",
     "odoo-upgrade-advisor",
@@ -9828,11 +10160,13 @@
     "satori"
   ],
   "company": [
+    "brainstorm-okrs",
     "exa-search",
     "find-matching-tenders",
     "linkedin-automation",
     "longbridge-fundamentals",
-    "marketing-plan"
+    "marketing-plan",
+    "plan-okrs"
   ],
   "comparable": [
     "agent-evaluation-reporting"
@@ -9858,6 +10192,7 @@
     "accesslint-diff"
   ],
   "comparing": [
+    "competitive-battlecard",
     "spec-to-code-compliance"
   ],
   "comparison": [
@@ -9908,11 +10243,21 @@
   ],
   "competitive": [
     "alternatives-pages",
+    "battlecard",
+    "competitive-analysis",
+    "competitive-battlecard",
     "competitor-alternatives",
     "moatmri",
+    "pm-pricing-strategy",
     "seo-plan",
     "startup-analyst",
     "usage-based-pricing"
+  ],
+  "competitive-analysis": [
+    "competitive-analysis"
+  ],
+  "competitive-battlecard": [
+    "competitive-battlecard"
   ],
   "competitive-landscape": [
     "competitive-landscape"
@@ -9920,11 +10265,13 @@
   "competitor": [
     "alternatives-pages",
     "apify-competitor-intelligence",
+    "competitive-battlecard",
     "competitor-ad-intelligence",
     "competitor-alternatives",
     "competitor-tracking",
     "developer-churn",
     "openclaw-github-repo-commander",
+    "pm-competitor-analysis",
     "seo-competitor-pages",
     "seo-dataforseo"
   ],
@@ -9947,7 +10294,9 @@
     "competitor-analysis",
     "competitor-profiling",
     "competitor-tracking",
-    "developer-listening"
+    "developer-listening",
+    "pm-competitor-analysis",
+    "positioning-ideas"
   ],
   "compile": [
     "compile-knowledge",
@@ -10097,6 +10446,7 @@
     "openapi-spec-generation",
     "payment-integration",
     "pci-compliance",
+    "privacy-policy",
     "scanning-tools",
     "security-auditor",
     "security-compliance-compliance-check",
@@ -10329,6 +10679,7 @@
     "code-review-checklist",
     "competitive-landscape",
     "comprehensive-review-full-review",
+    "create-prd",
     "csharp-pro",
     "deep-research",
     "dependency-upgrade",
@@ -10362,6 +10713,7 @@
     "kpi-dashboard-design",
     "llm-application-dev-ai-assistant",
     "llm-evaluation",
+    "market-scan",
     "market-sizing-analysis",
     "marketing-plan",
     "mcp-integration",
@@ -10380,6 +10732,7 @@
     "postmortem-writing",
     "pr-merge-champion",
     "privilege-escalation-methods",
+    "product-strategy",
     "prompt-library",
     "protocol-reverse-engineering",
     "python-packaging",
@@ -10387,6 +10740,8 @@
     "react-best-practices",
     "readme",
     "reference-builder",
+    "research-users",
+    "review-resume",
     "sast-configuration",
     "scientific-writing",
     "screen-reader-testing",
@@ -10405,9 +10760,11 @@
     "startup-business-analyst-market-opportunity",
     "startup-financial-modeling",
     "startup-metrics-framework",
+    "strategy",
     "tdd-orchestrator",
     "temporal-python-testing",
     "test-automator",
+    "test-scenarios",
     "testing-qa",
     "top-web-vulnerabilities",
     "typescript-advanced-types",
@@ -10419,6 +10776,7 @@
     "web3-testing",
     "wiki-page-writer",
     "wireshark-analysis",
+    "write-prd",
     "xss-html-injection",
     "youtube-summarizer"
   ],
@@ -10567,7 +10925,8 @@
     "ai-loop",
     "apify-market-research",
     "go-concurrency-patterns",
-    "goal-loop"
+    "goal-loop",
+    "test-scenarios"
   ],
   "conduct": [
     "accessibility-compliance-accessibility-audit",
@@ -10617,6 +10976,7 @@
     "developer-advocacy"
   ],
   "confidence": [
+    "ab-test-analysis",
     "agent-qa-result-triage",
     "agents-generator",
     "e2e-testing-patterns",
@@ -10749,7 +11109,8 @@
   "confirmation": [
     "atlas-ledger",
     "copywriting",
-    "talivia-agent-kit"
+    "talivia-agent-kit",
+    "user-stories"
   ],
   "confirmations": [
     "ux-copy"
@@ -10860,6 +11221,9 @@
     "markstream-vue2-cli",
     "skill-porter"
   ],
+  "considerations": [
+    "privacy-policy"
+  ],
   "considering": [
     "unslop-review"
   ],
@@ -10897,6 +11261,9 @@
   "constant-time-analysis": [
     "constant-time-analysis"
   ],
+  "constellation": [
+    "north-star-metric"
+  ],
   "constitucional": [
     "advogado-especialista"
   ],
@@ -10906,6 +11273,7 @@
   "constraints": [
     "backend-dev-guidelines",
     "doc2math",
+    "dummy-dataset",
     "postgresql",
     "ui-skills"
   ],
@@ -11061,6 +11429,7 @@
     "devrel-content",
     "exa-search",
     "firecrawl-scraper",
+    "grammar-check",
     "hig-components-content",
     "html-injection-testing",
     "hugging-face-evaluation",
@@ -11394,6 +11763,7 @@
     "context-compression",
     "handoff",
     "to-prd",
+    "user-stories",
     "using-superpowers"
   ],
   "conversation-memory": [
@@ -11452,6 +11822,7 @@
     "paywall-upgrade-cro",
     "postman-openapi-converter",
     "skill-seekers",
+    "transform-roadmap",
     "zoho-crm-automation"
   ],
   "converting": [
@@ -11548,7 +11919,8 @@
     "landing-page-generator",
     "manage-skills",
     "rclone-cli",
-    "skill-porter"
+    "skill-porter",
+    "value-prop-statements"
   ],
   "copy-editing": [
     "copy-editing"
@@ -11580,6 +11952,7 @@
     "dotnet-backend",
     "frontend-lighthouse",
     "gdb-cli",
+    "interview-script",
     "ios-developer",
     "landing-page-generator",
     "m365-agents-dotnet",
@@ -11702,6 +12075,7 @@
     "database-cloud-optimization-cost-optimize",
     "energy-procurement",
     "geminiignore-finops",
+    "lean-canvas",
     "runaway-guard",
     "sandbase-mcp",
     "sql-sentinel",
@@ -11717,7 +12091,8 @@
   ],
   "cost-effective": [
     "data-engineering-data-pipeline",
-    "database-cloud-optimization-cost-optimize"
+    "database-cloud-optimization-cost-optimize",
+    "pm-marketing-ideas"
   ],
   "cost-optimization": [
     "cost-optimization"
@@ -11736,7 +12111,8 @@
     "aws-cost-operations",
     "before-you-build",
     "cost-optimization",
-    "startup-business-analyst-financial-projections"
+    "startup-business-analyst-financial-projections",
+    "startup-canvas"
   ],
   "councils": [
     "llm-council"
@@ -11805,13 +12181,18 @@
     "bevy-ecs-expert",
     "cloud-devops",
     "code-review-checklist",
+    "create-prd",
     "database",
     "documentation",
+    "draft-nda",
     "godot-4-migration",
+    "gtm-strategy",
     "incident-runbook-templates",
     "kotlin-coroutines-expert",
     "model-authoring",
     "office-productivity",
+    "pestle-analysis",
+    "privacy-policy",
     "rag-implementation",
     "saas-mvp-launcher",
     "security-audit",
@@ -11924,7 +12305,8 @@
   ],
   "crafting": [
     "llm-application-dev-prompt-optimize",
-    "stitch-ui-design"
+    "stitch-ui-design",
+    "value-prop-statements"
   ],
   "crash": [
     "eas-update-insights"
@@ -11974,6 +12356,7 @@
     "alternatives-pages",
     "api-documenter",
     "azure-keyvault-keys-rust",
+    "battlecard",
     "bdi-mental-states",
     "c4-code",
     "changelog-updates",
@@ -11981,9 +12364,12 @@
     "code-refactoring-tech-debt",
     "codebase-cleanup-tech-debt",
     "command-development",
+    "competitive-battlecard",
     "conductor-new-track",
     "create-branch",
     "create-plugin",
+    "create-prd",
+    "customer-journey-map",
     "datadog-automation",
     "deploy-to-vercel",
     "deployment-validation-config-validate",
@@ -12001,6 +12387,7 @@
     "frontend-slides-frontend-slides",
     "git-pushing",
     "grafana-dashboards",
+    "gtm-strategy",
     "hig-project-context",
     "hook-development",
     "html-injection-testing",
@@ -12009,7 +12396,9 @@
     "hyperexecute-skill",
     "image-generator",
     "instagram-automation",
+    "interview-script",
     "issues",
+    "job-stories",
     "json-canvas",
     "linkedin-automation",
     "linkedin-cli",
@@ -12032,6 +12421,7 @@
     "odoo-orm-expert",
     "outlook-calendar-automation",
     "paid-ads",
+    "plan-launch",
     "plugin-dev-agent-creator",
     "plugin-structure",
     "popup-cro",
@@ -12041,6 +12431,7 @@
     "pr-writer",
     "product-marketing",
     "product-marketing-context",
+    "product-strategy",
     "pydantic-models-py",
     "react-flow-node-ts",
     "reddit-automation",
@@ -12053,15 +12444,21 @@
     "sred-work-summary",
     "startup-business-analyst-financial-projections",
     "stitch-ui-design",
+    "strategy",
     "technical-tutorials",
+    "test-scenarios",
     "threejs-skills",
     "trello-automation",
     "ui-ux-designer",
+    "user-personas",
+    "user-stories",
     "using-git-worktrees",
     "videodb",
     "weaviate",
     "wiki-builder",
     "wrike-automation",
+    "write-prd",
+    "wwas",
     "xiaohongshu-content-strategist",
     "yao-meta-skill",
     "zoho-crm-automation",
@@ -12079,6 +12476,9 @@
   "create-pr": [
     "create-pr"
   ],
+  "create-prd": [
+    "create-prd"
+  ],
   "created": [
     "create-issue-gate"
   ],
@@ -12087,6 +12487,7 @@
   ],
   "creates": [
     "app-builder",
+    "business-model",
     "c4-context",
     "commit",
     "devcontainer-setup",
@@ -12126,6 +12527,7 @@
     "azure-mgmt-weightsandbiases-dotnet",
     "azure-security-keyvault-keys-java",
     "bash-scripting",
+    "business-model",
     "canvas-design",
     "cc-skill-security-review",
     "cicd-automation-workflow-automate",
@@ -12188,6 +12590,7 @@
     "threejs-shaders",
     "tool-design",
     "track-management",
+    "value-prop-statements",
     "writing-skills"
   ],
   "creation": [
@@ -12223,6 +12626,7 @@
     "brainstorming",
     "competitor-ad-intelligence",
     "daily-gift",
+    "pm-marketing-ideas",
     "riffkit"
   ],
   "creator": [
@@ -12292,9 +12696,11 @@
     "closed-loop-delivery",
     "create-issue-gate",
     "idea-os",
+    "job-stories",
     "plan-writing",
     "research-prompt",
-    "spec-driven-loop"
+    "spec-driven-loop",
+    "user-stories"
   ],
   "critical": [
     "bash-linux",
@@ -12541,6 +12947,7 @@
     "tailwind-patterns"
   ],
   "csv": [
+    "dummy-dataset",
     "junta-leiloeiros",
     "libreoffice/calc",
     "odoo-security-rules",
@@ -12718,12 +13125,21 @@
   ],
   "customer": [
     "chat-widget",
+    "customer-journey-map",
     "customer-research",
     "customer-support",
+    "ideal-customer-profile",
+    "interview",
+    "interview-script",
+    "market-segments",
     "paid-ads",
     "pricing-strategy",
     "revops",
-    "segment-cdp"
+    "segment-cdp",
+    "summarize-interview"
+  ],
+  "customer-journey-map": [
+    "customer-journey-map"
   ],
   "customer-psychographic-profiler": [
     "customer-psychographic-profiler"
@@ -12739,11 +13155,13 @@
     "odoo-woocommerce-bridge",
     "referral-program",
     "shopify-automation",
-    "stripe-automation"
+    "stripe-automation",
+    "triage-requests"
   ],
   "customizable": [
     "azure-ai-contentsafety-ts",
-    "design-it/widget-based-design"
+    "design-it/widget-based-design",
+    "dummy-dataset"
   ],
   "customization": [
     "radix-ui-design-system",
@@ -12810,6 +13228,7 @@
   ],
   "cycle": [
     "code-showcase-testing-patterns",
+    "discover",
     "iterate-pr",
     "tdd-workflow",
     "tdd-workflows",
@@ -12906,7 +13325,9 @@
     "design-it/bento-ui",
     "design-it/dashboard-design",
     "hierarchical-agent-memory",
-    "kubestellar-console"
+    "kubestellar-console",
+    "metrics-dashboard",
+    "setup-metrics"
   ],
   "dashboard-design": [
     "design-it/dashboard-design"
@@ -12934,6 +13355,7 @@
     "airflow-dag-patterns",
     "alpha-vantage",
     "analytics-tracking",
+    "analyze-cohorts",
     "angular-ui-patterns",
     "apify-ecommerce",
     "apify-ultimate-scraper",
@@ -12955,6 +13377,7 @@
     "cc-skill-clickhouse-io",
     "claude-d3js-skill",
     "code-showcase-react-ui-patterns",
+    "cohort-analysis",
     "constant-time-analysis",
     "data-engineer",
     "data-engineering-data-driven-feature",
@@ -12977,6 +13400,7 @@
     "fp-ts-react",
     "frontend-dev-guidelines",
     "gdpr-data-handling",
+    "generate-data",
     "glasser",
     "googlesheets-automation",
     "graphql",
@@ -12984,6 +13408,7 @@
     "hasdata-cli",
     "helium-mcp",
     "huggingface-tool-builder",
+    "ideal-customer-profile",
     "industrial-brutalist-ui",
     "infinity",
     "ios-developer",
@@ -12992,6 +13417,7 @@
     "libreoffice/base",
     "libreoffice/calc",
     "longbridge-fundamentals",
+    "metrics-dashboard",
     "microservices-patterns",
     "ml-pipeline-workflow",
     "mock-hunter",
@@ -13016,6 +13442,7 @@
     "polars",
     "postgresql",
     "privacy-by-design",
+    "privacy-policy",
     "programmatic-seo",
     "quant-analyst",
     "react-best-practices",
@@ -13027,6 +13454,7 @@
     "schema-markup-generator",
     "security-and-hardening",
     "segment-cdp",
+    "sentiment-analysis",
     "seo-aeo-schema-generator",
     "seo-dataforseo",
     "seo-programmatic",
@@ -13044,6 +13472,8 @@
     "testng-skill",
     "upstash-redis",
     "us-property-data",
+    "user-personas",
+    "user-segmentation",
     "warehouse",
     "weaviate",
     "weaviate-cookbooks",
@@ -13209,6 +13639,7 @@
     "testng-skill"
   ],
   "dataset": [
+    "dummy-dataset",
     "hugging-face-dataset-viewer",
     "hugging-face-datasets"
   ],
@@ -13219,6 +13650,8 @@
     "azure-ai-ml-py",
     "azure-ai-projects-dotnet",
     "azure-ai-projects-java",
+    "dummy-dataset",
+    "generate-data",
     "hf-mcp",
     "hugging-face-cli",
     "hugging-face-dataset-viewer",
@@ -13233,6 +13666,7 @@
     "wordpress-woocommerce-development"
   ],
   "date": [
+    "summarize-meeting",
     "time-ledger"
   ],
   "dates": [
@@ -13442,7 +13876,8 @@
   ],
   "deciding": [
     "content-strategy",
-    "deprecation-and-migration"
+    "deprecation-and-migration",
+    "monetization-strategy"
   ],
   "decision": [
     "architecture-decision-records",
@@ -13482,11 +13917,13 @@
     "lore",
     "marketing-psychology",
     "markstream-vue2",
+    "meeting-notes",
     "mesh-memory",
     "pricing",
     "read-all-adrs",
     "returns-reverse-logistics",
     "server-management",
+    "summarize-meeting",
     "trading-ledger",
     "using-lwc",
     "workflow-orchestration-patterns"
@@ -13626,7 +14063,8 @@
     "markstream-vue2-vite"
   ],
   "defects": [
-    "agent-qa-debug-fix"
+    "agent-qa-debug-fix",
+    "code-review"
   ],
   "defense": [
     "attack-tree-construction"
@@ -13653,6 +14091,9 @@
   "define": [
     "command-development",
     "ddd-context-mapping",
+    "metrics-dashboard",
+    "north-star",
+    "north-star-metric",
     "tdd-workflows-tdd-red"
   ],
   "defined": [
@@ -13777,7 +14218,9 @@
     "zapier-make-patterns"
   ],
   "demographics": [
-    "apify-audience-analysis"
+    "apify-audience-analysis",
+    "ideal-customer-profile",
+    "market-segments"
   ],
   "demonstrate": [
     "sql-injection-testing",
@@ -13844,6 +14287,7 @@
     "ontoly-software-graph",
     "pydantic-ai",
     "security-scanning-security-dependencies",
+    "sprint-plan",
     "supply-chain-risk-auditor",
     "supply-chain-security",
     "uv-package-manager"
@@ -13984,7 +14428,11 @@
     "wiki-researcher"
   ],
   "derive": [
+    "derive-tests",
     "security-requirement-extraction"
+  ],
+  "derive-tests": [
+    "derive-tests"
   ],
   "desagio": [
     "leiloeiro-mercado"
@@ -14004,7 +14452,8 @@
     "resume-ats-review",
     "seo-aeo-meta-description-generator",
     "skill-development",
-    "skill-reviewer"
+    "skill-reviewer",
+    "tailor-resume"
   ],
   "descriptions": [
     "ad-creative",
@@ -14014,7 +14463,9 @@
     "openapi-spec-generator",
     "postman-collection-generator",
     "seo-meta-optimizer",
+    "sql-queries",
     "ste-writing",
+    "user-stories",
     "youtube-seo-optimizer"
   ],
   "design": [
@@ -14036,6 +14487,8 @@
     "autonomous-agent-patterns",
     "backend-architect",
     "baseline-ui",
+    "brainstorm-experiments-existing",
+    "brainstorm-experiments-new",
     "brooks-lint",
     "brooks-review",
     "canvas-design",
@@ -14107,6 +14560,7 @@
     "grill-me",
     "grill-with-docs",
     "grilling",
+    "growth-strategy",
     "hig-foundations",
     "hig-platforms",
     "hig-project-context",
@@ -14116,6 +14570,7 @@
     "loop-library",
     "machine-learning-ops-ml-pipeline",
     "memory-systems",
+    "metrics-dashboard",
     "monopoly",
     "multi-agent-architect",
     "multi-agent-patterns",
@@ -14125,6 +14580,8 @@
     "observability-monitoring-slo-implement",
     "offers",
     "pakistan-payments-stack",
+    "pm-pricing",
+    "pm-pricing-strategy",
     "postgresql",
     "pricing-strategy",
     "prisma-expert",
@@ -14141,6 +14598,7 @@
     "saas-multi-tenant",
     "schema-markup",
     "sdk-dx",
+    "setup-metrics",
     "shadcn",
     "snowflake-development",
     "software-architecture",
@@ -14159,9 +14617,11 @@
     "ui-ux-pro-max",
     "ui-visual-validator",
     "usage-based-pricing",
+    "user-stories",
     "using-n8n-mcp-skills",
     "ux-audit",
     "ux-flow",
+    "value-proposition",
     "vizcom",
     "wordpress-theme-development",
     "workflow-orchestration-patterns"
@@ -14253,6 +14713,9 @@
     "hugging-face-datasets"
   ],
   "designer": [
+    "brainstorm",
+    "brainstorm-ideas-existing",
+    "brainstorm-ideas-new",
     "nerdzao-elite",
     "steve-jobs"
   ],
@@ -14307,9 +14770,14 @@
     "n8n-node-configuration"
   ],
   "detailed": [
+    "draft-nda",
+    "job-stories",
     "pdf",
     "pdf-official",
+    "privacy-policy",
     "startup-business-analyst-financial-projections",
+    "swot-analysis",
+    "value-proposition",
     "youtube-summarizer"
   ],
   "details": [
@@ -14517,6 +14985,7 @@
     "ai-ml",
     "android-cli",
     "android-dev",
+    "ansoff-matrix",
     "api-testing-observability-api-mock",
     "arm-cortex-expert",
     "avalonia-zafiro-development",
@@ -14758,8 +15227,12 @@
   "differential-review": [
     "differential-review"
   ],
+  "differentiated": [
+    "positioning-ideas"
+  ],
   "differentiation": [
     "competitive-landscape",
+    "pm-competitor-analysis",
     "seo-cannibalization-detector"
   ],
   "difficult": [
@@ -14794,6 +15267,7 @@
   "digital": [
     "design-it/vaporwave",
     "digital-forensics",
+    "gtm-motions",
     "it-manager-hospital",
     "it-manager-pro",
     "itil-expert",
@@ -14940,6 +15414,7 @@
     "apify-trend-analysis",
     "cloudflare",
     "crypto-bd-agent",
+    "discover",
     "flowhunt-skill",
     "global-chat-agent-discovery",
     "hf-cloud-aws-context-discovery",
@@ -14970,14 +15445,17 @@
     "api-fuzzing-bug-bounty",
     "api-security",
     "azure-mgmt-apicenter-dotnet",
+    "brainstorm-ideas-new",
     "buywhere-product-catalog",
     "competitor-analysis",
     "create-plugin",
+    "discover",
     "exa-search",
     "filesystem-context",
     "flowhunt-skill",
     "hardware-security",
     "ingest-youtube",
+    "opportunity-solution-tree",
     "ot-ics",
     "people-data",
     "product-manager-toolkit",
@@ -15238,8 +15716,10 @@
     "azure-cosmos-rust",
     "check-identity-pack",
     "comprehensive-review-pr-enhance",
+    "create-prd",
     "detect-ai-text",
     "doc-coauthoring",
+    "document-app",
     "docusign-automation",
     "dsh-deepread",
     "handoff",
@@ -15259,7 +15739,11 @@
     "security-bluebook-builder",
     "startup-business-analyst-business-case",
     "verify-citations",
-    "verify-document"
+    "verify-document",
+    "write-prd"
+  ],
+  "document-app": [
+    "document-app"
   ],
   "documentation": [
     "agents-md",
@@ -15308,6 +15792,7 @@
     "reference-builder",
     "screenshots",
     "shadcn",
+    "shipping-artifacts",
     "skill-seekers",
     "source-driven-development",
     "spec-to-code-compliance",
@@ -15328,10 +15813,12 @@
     "documentation-templates"
   ],
   "documented": [
+    "derive-tests",
     "poka-yoke",
     "sred-work-summary"
   ],
   "documenting": [
+    "business-model",
     "protocol-reverse-engineering"
   ],
   "documents": [
@@ -15347,6 +15834,7 @@
     "clarity-gate",
     "context-fundamentals",
     "doc2math",
+    "document-app",
     "extract-document-data",
     "interview-style-doc-building",
     "md2video-audio",
@@ -15509,11 +15997,17 @@
   "draft": [
     "blog-writing-guide",
     "crossframe-essay",
+    "draft-nda",
     "email-issue-fixer",
     "goal-loop",
+    "grammar-check",
     "legal-advisor",
     "linkedin-post-writer",
+    "privacy-policy",
     "sales-automator"
+  ],
+  "draft-nda": [
+    "draft-nda"
   ],
   "drag": [
     "lookdev",
@@ -15633,6 +16127,13 @@
   "dual-use": [
     "anti-reversing-techniques"
   ],
+  "dummy": [
+    "dummy-dataset",
+    "generate-data"
+  ],
+  "dummy-dataset": [
+    "dummy-dataset"
+  ],
   "dumping": [
     "burpsuite-project-parser",
     "tree-ring-memory"
@@ -15668,6 +16169,7 @@
     "dbos-typescript",
     "durable-objects",
     "feature-tracking",
+    "shipping-artifacts",
     "temporal-golang-pro",
     "temporal-python-pro"
   ],
@@ -15762,6 +16264,7 @@
     "blueprint",
     "ejentum-reasoning-harness",
     "notebooklm",
+    "prioritize-assumptions",
     "rich-elicitation",
     "semgrep-rule-variant-creator",
     "skill-issue",
@@ -15830,7 +16333,8 @@
     "webflow-automation"
   ],
   "economic": [
-    "alpha-vantage"
+    "alpha-vantage",
+    "pestle-analysis"
   ],
   "ecossistema": [
     "agent-orchestrator",
@@ -16032,6 +16536,10 @@
   ],
   "efficient-web-research": [
     "efficient-web-research"
+  ],
+  "effort": [
+    "analyze-feature-requests",
+    "prioritize-features"
   ],
   "efici": [
     "nerdzao-elite-gemini-high"
@@ -16254,10 +16762,14 @@
     "trading-ledger"
   ],
   "emotional": [
+    "product-vision",
     "receiving-code-review"
   ],
   "emotional-arc-designer": [
     "emotional-arc-designer"
+  ],
+  "emotions": [
+    "customer-journey-map"
   ],
   "emphasizes": [
     "code-showcase-systematic-debugging"
@@ -16352,6 +16864,7 @@
     "application-performance-performance-optimization",
     "backend-development-feature-development",
     "create-plugin",
+    "customer-journey-map",
     "development",
     "e2e-testing",
     "e2e-testing-patterns",
@@ -16416,7 +16929,9 @@
     "adhx",
     "apify-audience-analysis",
     "apify-content-analytics",
+    "cohort-analysis",
     "linkedin-post-writer",
+    "pm-marketing-ideas",
     "social-content",
     "x-twitter-scraper"
   ],
@@ -16453,6 +16968,9 @@
     "arm-cortex-expert",
     "backend-dev-guidelines",
     "blog-writing-guide",
+    "brainstorm",
+    "brainstorm-ideas-existing",
+    "brainstorm-ideas-new",
     "deployment-engineer",
     "edr-bypass-re",
     "frontend-dev-guidelines",
@@ -16616,6 +17134,7 @@
     "code-review-and-quality"
   ],
   "entire": [
+    "grammar-check",
     "production-code-audit"
   ],
   "entirely": [
@@ -16691,6 +17210,7 @@
   "environment": [
     "android-cli",
     "glasser",
+    "market-scan",
     "superpowers-lab",
     "threejs-lighting",
     "threejs-textures",
@@ -16708,7 +17228,8 @@
     "environment-setup-guide"
   ],
   "environmental": [
-    "design-it/spatial-computing-ui"
+    "design-it/spatial-computing-ui",
+    "pestle-analysis"
   ],
   "environments": [
     "active-directory-attacks",
@@ -16838,6 +17359,7 @@
     "fp-either-ref",
     "fp-errors",
     "fp-ts-errors",
+    "grammar-check",
     "indexing-issue-auditor",
     "n8n-code-javascript",
     "n8n-expression-syntax",
@@ -16967,6 +17489,7 @@
   "estimate": [
     "detect-ai-text",
     "hf-mem",
+    "market-sizing",
     "planning-and-task-breakdown",
     "progressive-estimation"
   ],
@@ -16978,7 +17501,9 @@
   ],
   "estimation": [
     "inventory-demand-planning",
+    "pm-pricing-strategy",
     "seaborn",
+    "sprint-plan",
     "statsmodels"
   ],
   "estoc": [
@@ -17048,6 +17573,7 @@
     "yao-meta-skill"
   ],
   "evaluating": [
+    "monetization-strategy",
     "supply-chain-risk-auditor"
   ],
   "evaluation": [
@@ -17460,7 +17986,10 @@
     "agent-orchestration-improve-agent",
     "agent-squad/max",
     "apify-actorization",
+    "brainstorm-experiments-existing",
+    "brainstorm-ideas-existing",
     "browser-harness",
+    "business-model",
     "c4-architecture-c4-architecture",
     "claude-settings-audit",
     "cloudflare-one-migrations",
@@ -17477,6 +18006,7 @@
     "hig-components-menus",
     "hig-inputs",
     "hig-technologies",
+    "identify-assumptions-existing",
     "laravel-development-workflow",
     "make-me-an-expert",
     "markstream-migration",
@@ -17491,6 +18021,7 @@
     "tool-design",
     "turnstile-spin",
     "ui-page",
+    "value-prop-statements",
     "xlsx",
     "xlsx-official"
   ],
@@ -17572,9 +18103,14 @@
     "data-engineering-data-driven-feature"
   ],
   "experiments": [
+    "brainstorm",
+    "brainstorm-experiments-existing",
+    "brainstorm-experiments-new",
     "hugging-face-trackio",
     "monetization",
-    "optim-agent"
+    "monetization-strategy",
+    "optim-agent",
+    "prioritize-assumptions"
   ],
   "expert": [
     "3d-web-experience",
@@ -17883,6 +18419,7 @@
     "windows-privilege-escalation"
   ],
   "exploration": [
+    "interview-script",
     "model-compression-exploration",
     "weaviate-cookbooks"
   ],
@@ -17897,6 +18434,10 @@
   ],
   "explores": [
     "burpsuite-project-parser"
+  ],
+  "exploring": [
+    "monetization-strategy",
+    "product-name"
   ],
   "expo": [
     "add-app-clip",
@@ -18023,6 +18564,7 @@
     "hybrid-cloud-networking"
   ],
   "extend": [
+    "ab-test-analysis",
     "anti-ui-slop",
     "code-simplification",
     "earllm-build"
@@ -18196,7 +18738,8 @@
     "hig-components-system"
   ],
   "facilitate": [
-    "git-pr-workflows-pr-enhance"
+    "git-pr-workflows-pr-enhance",
+    "retro"
   ],
   "facility": [
     "fda-food-safety-auditor"
@@ -18220,6 +18763,9 @@
     "lightning-channel-factories",
     "lightning-factory-explainer",
     "testing-patterns"
+  ],
+  "factors": [
+    "pestle-analysis"
   ],
   "factory": [
     "code-showcase-testing-patterns",
@@ -18457,16 +19003,19 @@
     "marketing-psychology"
   ],
   "feature": [
+    "analyze-feature-requests",
     "azure-appconfiguration-java",
     "azure-appconfiguration-py",
     "azure-appconfiguration-ts",
     "backend-development-feature-development",
+    "brainstorm-ideas-new",
     "cro",
     "cucumber-skill",
     "free-tier-strategy",
     "frontend-architecture",
     "full-stack-orchestration-full-stack-feature",
     "git-pushing",
+    "identify-assumptions-existing",
     "incremental-implementation",
     "launch-strategy",
     "ml-engineer",
@@ -18474,13 +19023,20 @@
     "observability-and-instrumentation",
     "observability-monitoring-slo-implement",
     "posthog-automation",
+    "prioritize-features",
     "security-and-hardening",
     "seo-competitor-pages",
     "shopify-review-triage",
     "spec-driven-development",
     "team-collaboration-issue",
     "test-driven-development",
-    "tools-page-seo-optimizer"
+    "tools-page-seo-optimizer",
+    "triage-requests",
+    "write-prd",
+    "write-stories"
+  ],
+  "feature-based": [
+    "transform-roadmap"
   ],
   "feature-level": [
     "feature-tracking"
@@ -18516,6 +19072,7 @@
     "pdf-official",
     "plan-writing",
     "postgresql",
+    "prioritize-features",
     "python-pro",
     "react-modernization",
     "requesting-code-review",
@@ -18549,6 +19106,7 @@
     "recsys-pipeline-architect"
   ],
   "feedback": [
+    "analyze-feedback",
     "brooks-test",
     "closed-loop-delivery",
     "code-review-excellence",
@@ -18557,6 +19115,8 @@
     "iterate-pr",
     "loop-library",
     "progressive-estimation",
+    "sentiment-analysis",
+    "user-segmentation",
     "ux-feedback",
     "vibers-code-review"
   ],
@@ -18922,6 +19482,7 @@
     "gha-security-review",
     "huggingface-best",
     "huggingface-local-models",
+    "intended-vs-implemented",
     "spec-to-code-compliance",
     "variant-analysis"
   ],
@@ -19016,6 +19577,7 @@
     "asana-automation",
     "bamboohr-automation",
     "basecamp-automation",
+    "beachhead-segment",
     "bitbucket-automation",
     "blog-writing-guide",
     "cal-com-automation",
@@ -19104,6 +19666,8 @@
   "fit": [
     "find-matching-tenders",
     "makepad-layout",
+    "market-segments",
+    "monetization-strategy",
     "polars",
     "workorai"
   ],
@@ -19119,6 +19683,7 @@
     "ethical-hacking-methodology",
     "idea-autopsy",
     "mock-hunter",
+    "porters-five-forces",
     "wjttc-builder"
   ],
   "five-phase": [
@@ -19174,6 +19739,7 @@
     "brooks-sweep",
     "bug-hunter",
     "code-showcase-systematic-debugging",
+    "grammar-check",
     "iterate-pr",
     "monte-carlo-remediation",
     "patch-diff-exploit",
@@ -19301,9 +19867,11 @@
     "distributed-tracing",
     "firmware-pentest",
     "fp-pipe-ref",
+    "grammar-check",
     "kotlin-coroutines-expert",
     "longbridge-market-data",
     "makepad-layout",
+    "proofread",
     "react-flow-node-ts",
     "skill-security-audit",
     "startup-financial-modeling",
@@ -19354,6 +19922,9 @@
   ],
   "fluxo": [
     "social-orchestrator"
+  ],
+  "flywheels": [
+    "growth-loops"
   ],
   "foco": [
     "nerdzao-elite-gemini-high"
@@ -19411,6 +19982,7 @@
     "vibers-code-review"
   ],
   "follow-ups": [
+    "meeting-notes",
     "monte-carlo-storage-cost-analysis",
     "sales-automator"
   ],
@@ -19438,6 +20010,7 @@
     "skill-writer",
     "swiftui-expert-skill",
     "testing-patterns",
+    "user-stories",
     "zustand-store-ts"
   ],
   "follows": [
@@ -19475,6 +20048,7 @@
   ],
   "forces": [
     "invariant-guard",
+    "porters-five-forces",
     "runaway-guard",
     "the-honoured-one"
   ],
@@ -19515,6 +20089,7 @@
     "form-cro",
     "formik-patterns",
     "longbridge-content",
+    "north-star-metric",
     "odoo-xml-views-builder",
     "pdf",
     "pdf-official",
@@ -19539,6 +20114,7 @@
     "faf-expert",
     "googlesheets-automation",
     "hugging-face-evaluation",
+    "job-stories",
     "latex-paper-conversion",
     "libreoffice/calc",
     "libreoffice/draw",
@@ -19549,7 +20125,8 @@
     "seo-schema",
     "seo-sitemap",
     "sred-project-organizer",
-    "unslop-commit"
+    "unslop-commit",
+    "wwas"
   ],
   "formato": [
     "social-orchestrator"
@@ -19558,6 +20135,7 @@
     "akf-trust-metadata",
     "api-patterns",
     "azure-ai-translation-document-py",
+    "dummy-dataset",
     "internal-comms",
     "local-llm-expert",
     "n8n-code-tool",
@@ -19602,6 +20180,7 @@
     "ui-pattern"
   ],
   "formula": [
+    "review-resume",
     "riffkit"
   ],
   "formula-backed": [
@@ -19612,6 +20191,7 @@
     "libreoffice/calc",
     "linkedin-post-writer",
     "obsidian-bases",
+    "prioritization-frameworks",
     "product-manager",
     "wechat-official-account-strategist"
   ],
@@ -19796,6 +20376,7 @@
     "ml-engineer",
     "nodejs-backend-patterns",
     "observability-monitoring-slo-implement",
+    "prioritization-frameworks",
     "product-manager",
     "product-manager-toolkit",
     "prompt-engineer",
@@ -20019,6 +20600,7 @@
     "attack-chain",
     "claude-code-guide",
     "comprehensive-review-full-review",
+    "discover",
     "full-stack-orchestration-full-stack-feature",
     "google-drive-automation",
     "google-sheets-automation",
@@ -20027,6 +20609,7 @@
     "monte-carlo-remediation",
     "nerdzao-elite",
     "photopea-embedded-editor",
+    "plan-launch",
     "rayden-use",
     "seo",
     "top-web-vulnerabilities"
@@ -20188,6 +20771,7 @@
   ],
   "gap": [
     "find-matching-tenders",
+    "intended-vs-implemented",
     "macos-screen-recorder",
     "seo-aeo-content-cluster"
   ],
@@ -20281,6 +20865,7 @@
     "game-development/game-design"
   ],
   "gdpr": [
+    "privacy-policy",
     "security-compliance-compliance-check"
   ],
   "gdpr-compliant": [
@@ -20360,12 +20945,14 @@
   ],
   "generate": [
     "agents-generator",
+    "ansoff-matrix",
     "api-documentation-generator",
     "api-documenter",
     "app-store-changelog",
     "article-illustrations",
     "ask-copilot",
     "atlas-cloud-media",
+    "business-model",
     "c4-architecture-c4-architecture",
     "claude-settings-audit",
     "code-documentation-doc-generate",
@@ -20376,18 +20963,21 @@
     "diagram-generator",
     "docs-generator",
     "documentation-generation-doc-generate",
+    "dummy-dataset",
     "fal-generate",
     "fal-workflow",
     "favicon",
     "framework-migration-code-migrate",
     "free-tool-strategy",
     "frontend-mobile-development-component-scaffold",
+    "generate-data",
     "generate-nanobanana",
     "git-pr-review",
     "git-pr-workflows-pr-enhance",
     "image-generator",
     "javascript-typescript-typescript-scaffold",
     "keyword-extractor",
+    "lean-canvas",
     "linkedin-content-generator",
     "magic-ui-generator",
     "mise-configurator",
@@ -20397,6 +20987,7 @@
     "openapi-spec-generation",
     "openapi-spec-generator",
     "plugin-dev-agent-creator",
+    "pm-marketing-ideas",
     "podcast-generation",
     "postman-collection-generator",
     "postman-newman-automation",
@@ -20404,6 +20995,7 @@
     "python-development-python-scaffold",
     "python-pptx-generator",
     "rayden-code",
+    "release-notes",
     "remotion",
     "runapi-cli",
     "schema-markup-generator",
@@ -20414,8 +21006,11 @@
     "seo-image-gen",
     "seo-schema",
     "seo-sitemap",
+    "sql-queries",
+    "stakeholder-map",
     "startup-business-analyst-business-case",
     "startup-business-analyst-market-opportunity",
+    "startup-canvas",
     "stitch-ui-design",
     "survey-generator",
     "systems-programming-rust-project",
@@ -20424,14 +21019,19 @@
     "ui-pattern",
     "unit-testing-test-generate",
     "ux-copy",
+    "value-prop-statements",
     "video-content-extractor",
     "videodb",
     "videodb-skills",
     "wiki-changelog",
     "wiki-onboarding",
     "wjttc-builder",
+    "write-query",
     "youtube-seo-optimizer",
     "youtube-summarizer"
+  ],
+  "generate-data": [
+    "generate-data"
   ],
   "generate-nanobanana": [
     "generate-nanobanana"
@@ -20913,7 +21513,10 @@
     "go-rust-reverse"
   ],
   "go-to-market": [
-    "find-complementary-founders"
+    "find-complementary-founders",
+    "gtm-strategy",
+    "identify-assumptions-new",
+    "plan-launch"
   ],
   "goal": [
     "atlas-contract",
@@ -21136,7 +21739,12 @@
     "warren-buffett"
   ],
   "grammar": [
-    "professional-proofreader"
+    "grammar-check",
+    "professional-proofreader",
+    "proofread"
+  ],
+  "grammar-check": [
+    "grammar-check"
   ],
   "grants": [
     "huggingface-spaces",
@@ -21201,7 +21809,8 @@
     "azure-eventgrid-py",
     "design-it/bento-ui",
     "design-it/swiss-design",
-    "lookdev"
+    "lookdev",
+    "stakeholder-map"
   ],
   "grids": [
     "design-it/color-blocking",
@@ -21269,8 +21878,11 @@
   ],
   "growth": [
     "ab-testing",
+    "ansoff-matrix",
     "developer-newsletter",
     "growth-engine",
+    "growth-loops",
+    "growth-strategy",
     "marketing-ideas",
     "open-source-marketing",
     "pricing-strategy",
@@ -21278,6 +21890,12 @@
   ],
   "growth-engine": [
     "growth-engine"
+  ],
+  "growth-loops": [
+    "growth-loops"
+  ],
+  "growth-strategy": [
+    "growth-strategy"
   ],
   "grpc": [
     "grpc-golang",
@@ -21301,7 +21919,15 @@
     "gpt-taste"
   ],
   "gtm": [
-    "auri-core"
+    "auri-core",
+    "gtm-motions",
+    "gtm-strategy"
+  ],
+  "gtm-motions": [
+    "gtm-motions"
+  ],
+  "gtm-strategy": [
+    "gtm-strategy"
   ],
   "guarantee": [
     "offers"
@@ -21361,6 +21987,7 @@
     "nosql-expert",
     "plugin-structure",
     "pptx-deck-creation",
+    "prioritization-frameworks",
     "security-compliance-compliance-check",
     "seo-dataforseo",
     "skill-development",
@@ -21465,6 +22092,7 @@
     "pdf-official",
     "postgresql-cli",
     "postmortem-writing",
+    "prioritization-frameworks",
     "prometheus-configuration",
     "prompt-engineering",
     "python-packaging",
@@ -21856,6 +22484,7 @@
     "production-audit",
     "production-runtime-certification",
     "repo-maintainer",
+    "setup-metrics",
     "sexual-health-analyzer",
     "skin-health-analyzer",
     "sql-sentinel",
@@ -22338,6 +22967,7 @@
   "how": [
     "agent-tool-builder",
     "ax-extract-workflow",
+    "business-model",
     "busybox-on-windows",
     "content-strategy",
     "developer-seo",
@@ -22345,6 +22975,7 @@
     "makepad-basics",
     "makepad-layout",
     "mcp-builder",
+    "monetization-strategy",
     "monte-carlo-asset-health",
     "seo-fundamentals",
     "styleseed-design-review",
@@ -22720,6 +23351,7 @@
     "iconsax-library"
   ],
   "icp": [
+    "ideal-customer-profile",
     "product-marketing-context"
   ],
   "ics": [
@@ -22741,7 +23373,10 @@
     "idea-darwin",
     "idea-os",
     "idea-refine",
-    "spec-driven-development"
+    "identify-assumptions-existing",
+    "identify-assumptions-new",
+    "spec-driven-development",
+    "write-prd"
   ],
   "idea-autopsy": [
     "idea-autopsy"
@@ -22756,15 +23391,30 @@
     "idea-refine"
   ],
   "ideal": [
+    "ideal-customer-profile",
     "image-studio"
   ],
+  "ideal-customer-profile": [
+    "ideal-customer-profile"
+  ],
   "ideas": [
+    "brainstorm",
+    "brainstorm-ideas-existing",
+    "brainstorm-ideas-new",
     "brainstorming",
     "enhance-prompt",
     "idea-darwin",
     "idea-refine",
+    "market-product",
     "marketing-ideas",
+    "pm-marketing-ideas",
+    "positioning-ideas",
+    "prioritize-features",
+    "product-name",
     "unity-ai-game-creator"
+  ],
+  "ideation": [
+    "brainstorm-ideas-existing"
   ],
   "idempotency": [
     "production-audit"
@@ -22781,6 +23431,7 @@
     "malware-analyst",
     "radio-sdr",
     "scanpy",
+    "sprint-plan",
     "threat-modeling-expert",
     "top-web-vulnerabilities"
   ],
@@ -22804,6 +23455,7 @@
   "identify": [
     "accessibility-compliance-accessibility-audit",
     "audit-skills",
+    "beachhead-segment",
     "broken-authentication",
     "brooks-test",
     "database-cloud-optimization-cost-optimize",
@@ -22811,22 +23463,37 @@
     "file-path-traversal",
     "flowhunt-skill",
     "frontend-mobile-security-xss-scan",
+    "grammar-check",
+    "growth-loops",
+    "gtm-motions",
     "hello",
     "html-injection-testing",
+    "ideal-customer-profile",
+    "identify-assumptions-existing",
+    "identify-assumptions-new",
     "linux-privilege-escalation",
+    "market-segments",
     "mock-hunter",
     "multi-agent-brainstorming",
     "power-user-cultivation",
     "reverse-engineering/dsl-vm-reverse",
     "security-scanning-security-dependencies",
     "segment-automation",
+    "sentiment-analysis",
     "seo-cannibalization-detector",
     "skin-health-analyzer",
     "smtp-penetration-testing",
     "sql-injection-testing",
+    "stakeholder-map",
     "stride-analysis-patterns",
     "test-fixing",
     "xss-html-injection"
+  ],
+  "identify-assumptions-existing": [
+    "identify-assumptions-existing"
+  ],
+  "identify-assumptions-new": [
+    "identify-assumptions-new"
   ],
   "identifying": [
     "api-onboarding",
@@ -23011,12 +23678,15 @@
     "leiloeiro-risco"
   ],
   "impact": [
+    "analyze-feature-requests",
     "axiom",
     "code-refactoring-tech-debt",
     "codebase-cleanup-tech-debt",
     "design-it/high-contrast",
     "github-issue-creator",
     "ontoly-software-graph",
+    "prioritize-assumptions",
+    "prioritize-features",
     "schema-markup",
     "top-web-vulnerabilities"
   ],
@@ -23175,6 +23845,7 @@
     "spec-to-code-compliance"
   ],
   "implemented": [
+    "intended-vs-implemented",
     "vexor-cli"
   ],
   "implementer": [
@@ -23363,6 +24034,9 @@
   "in-session": [
     "bdistill-knowledge-extraction"
   ],
+  "inbound": [
+    "gtm-motions"
+  ],
   "inbox": [
     "mailtrap-testing-with-sandbox"
   ],
@@ -23473,6 +24147,7 @@
     "hig-components-status",
     "hubspot-integration",
     "hugging-face-model-trainer",
+    "identify-assumptions-new",
     "java-pro",
     "k8s-manifest-generator",
     "linux-shell-scripting",
@@ -23488,9 +24163,11 @@
     "people-data",
     "pipedrive-automation",
     "plaid-fintech",
+    "pm-pricing-strategy",
     "prompt-caching",
     "python-pro",
     "react-native-architecture",
+    "review-resume",
     "risk-metrics-calculation",
     "salesforce-development",
     "scanpy",
@@ -23695,6 +24372,7 @@
     "design-it/card-based-design",
     "design-it/data-dense-design",
     "design-it/tile-design",
+    "draft-nda",
     "dwarf-expert",
     "hig-components-controls",
     "hig-components-menus",
@@ -23771,6 +24449,7 @@
   ],
   "initial": [
     "attack-chain",
+    "brainstorm-ideas-new",
     "variant-analysis"
   ],
   "initializing": [
@@ -23831,8 +24510,11 @@
     "mobile-security-coder",
     "n8n-code-javascript",
     "n8n-code-python",
+    "north-star",
+    "north-star-metric",
     "security-and-hardening",
     "semgrep-rule-variant-creator",
+    "setup-metrics",
     "sql-injection-testing",
     "threejs-interaction",
     "xss-html-injection"
@@ -23865,7 +24547,9 @@
     "business-analyst",
     "data-engineering-data-driven-feature",
     "instagram-automation",
-    "pagespeed-enhancer"
+    "interview",
+    "pagespeed-enhancer",
+    "sentiment-analysis"
   ],
   "inspect": [
     "ai-dev-jobs-mcp",
@@ -23907,6 +24591,9 @@
     "javascript-mastery",
     "llm-app-patterns",
     "prompt-library"
+  ],
+  "inspiring": [
+    "product-vision"
   ],
   "instagram": [
     "apify-audience-analysis",
@@ -24199,7 +24886,11 @@
     "zipai-optimizer"
   ],
   "intended": [
+    "intended-vs-implemented",
     "model-authoring"
+  ],
+  "intended-vs-implemented": [
+    "intended-vs-implemented"
   ],
   "intensity": [
     "liuguang-banlan-ui"
@@ -24207,11 +24898,14 @@
   "intent": [
     "agent-squad/rex",
     "azure-ai-language-conversations-py",
+    "derive-tests",
     "design-thinking",
     "fable-safe-prompt",
+    "outcome-roadmap",
     "project-state-governor",
     "recallmax",
-    "stitch-design-taste"
+    "stitch-design-taste",
+    "transform-roadmap"
   ],
   "intentionally": [
     "design-it/brutalism"
@@ -24304,7 +24998,8 @@
     "intercom-automation"
   ],
   "interest": [
-    "launch-strategy"
+    "launch-strategy",
+    "stakeholder-map"
   ],
   "interest-driven": [
     "axiom"
@@ -24399,6 +25094,7 @@
     "voice-ai-engine-development"
   ],
   "intervals": [
+    "ab-test-analysis",
     "video-content-extractor"
   ],
   "intervention": [
@@ -24411,10 +25107,16 @@
     "grill-me",
     "grill-with-docs",
     "grilling",
+    "interview",
+    "interview-script",
+    "summarize-interview",
     "to-prd"
   ],
   "interview-coach": [
     "interview-coach"
+  ],
+  "interview-script": [
+    "interview-script"
   ],
   "interview-style-doc-building": [
     "interview-style-doc-building"
@@ -24449,9 +25151,11 @@
     "data-storytelling",
     "debugging-strategies",
     "deep-research",
+    "derive-tests",
     "design-md",
     "doc2math",
     "docs-as-marketing",
+    "document-app",
     "enhance-prompt",
     "entropy-box",
     "examprep-ai",
@@ -24466,6 +25170,7 @@
     "idea-os",
     "idea-refine",
     "ingest-youtube",
+    "interview",
     "launch-strategy",
     "lead-magnets",
     "lookdev-auto",
@@ -24479,9 +25184,11 @@
     "markstream-vue2-vite",
     "mcp-integration",
     "md2video-audio",
+    "meeting-notes",
     "monte-carlo-performance-diagnosis",
     "neon-ai-gateway",
     "not-a-vibe-coder",
+    "outcome-roadmap",
     "pdf-conversion-router",
     "planning-and-task-breakdown",
     "postman-openapi-converter",
@@ -24493,6 +25200,7 @@
     "riffkit",
     "satori",
     "security-requirement-extraction",
+    "ship-check",
     "shopify-review-triage",
     "skill-seekers",
     "slideops",
@@ -24501,10 +25209,13 @@
     "sred-project-organizer",
     "sred-work-summary",
     "ste-writing",
+    "summarize-interview",
+    "summarize-meeting",
     "swiftui-view-refactor",
     "time-ledger",
     "to-issues",
     "to-prd",
+    "transform-roadmap",
     "tutorial-engineer",
     "unity-ai-game-creator",
     "uxui-principles",
@@ -24513,6 +25224,7 @@
     "wgm",
     "wiki-vitepress",
     "wp-site-health-auditor",
+    "write-stories",
     "youtube-notetaker"
   ],
   "intraday": [
@@ -24561,6 +25273,9 @@
   ],
   "inversion": [
     "options-flow-analyzer"
+  ],
+  "invest": [
+    "user-stories"
   ],
   "investidor": [
     "bill-gates",
@@ -24845,9 +25560,13 @@
     "it-manager-pro"
   ],
   "items": [
+    "meeting-notes",
     "miro-automation",
     "monday-automation",
-    "odw"
+    "odw",
+    "summarize-interview",
+    "write-stories",
+    "wwas"
   ],
   "iterate": [
     "ad-creative",
@@ -24896,7 +25615,8 @@
     "pdf",
     "pdf-official",
     "setup-matt-pocock-skills",
-    "squirrel"
+    "squirrel",
+    "strategy-red-team"
   ],
   "itself": [
     "brooks-harness"
@@ -25049,11 +25769,19 @@
     "bullmq-specialist",
     "comfyui-gateway",
     "interview-coach",
+    "job-stories",
     "jobgpt",
     "production-scheduling",
     "resume-ats-review",
+    "tailor-resume",
     "unity-ecs-patterns",
     "workorai"
+  ],
+  "job-specific": [
+    "review-resume"
+  ],
+  "job-stories": [
+    "job-stories"
   ],
   "jobgpt": [
     "jobgpt"
@@ -25110,6 +25838,7 @@
   "journey": [
     "android-ui-journey-testing",
     "api-onboarding",
+    "customer-journey-map",
     "idea-os"
   ],
   "journeys": [
@@ -25132,6 +25861,7 @@
     "apify-actorization",
     "bilig-workpaper",
     "claude-settings-audit",
+    "dummy-dataset",
     "emergency-card",
     "fal-workflow",
     "jq",
@@ -25170,6 +25900,15 @@
   ],
   "jtag": [
     "hardware-security"
+  ],
+  "jtbd": [
+    "ideal-customer-profile",
+    "interview-script",
+    "market-segments",
+    "sentiment-analysis",
+    "summarize-interview",
+    "user-segmentation",
+    "value-proposition"
   ],
   "judge": [
     "deterministic-design",
@@ -25218,6 +25957,10 @@
   ],
   "juridicos": [
     "leiloeiro-risco"
+  ],
+  "jurisdiction": [
+    "draft-nda",
+    "privacy-policy"
   ],
   "jurisdictions": [
     "customs-trade-compliance"
@@ -25312,8 +26055,10 @@
     "google-analytics-automation",
     "kpi-dashboard-design",
     "lightning-channel-factories",
+    "metrics-dashboard",
     "socialclaw",
     "startup-metrics-framework",
+    "summarize-meeting",
     "video-content-extractor",
     "youtube-full"
   ],
@@ -25370,6 +26115,7 @@
     "hybrid-search-implementation",
     "mesh-memory",
     "resume-ats-review",
+    "review-resume",
     "seo-aeo-keyword-research",
     "seo-cannibalization-detector",
     "seo-dataforseo",
@@ -25598,6 +26344,9 @@
   "landing-page-generator": [
     "landing-page-generator"
   ],
+  "landscape": [
+    "competitive-analysis"
+  ],
   "lanes": [
     "competitor-analysis",
     "delegate-setup"
@@ -25644,10 +26393,12 @@
     "security-bluebook-builder",
     "semgrep-rule-variant-creator",
     "seo-hreflang",
+    "sql-queries",
     "trl-training",
     "ui-score",
     "using-neon",
-    "ux-audit"
+    "ux-audit",
+    "write-query"
   ],
   "language-specific": [
     "api-sdk-generator",
@@ -25753,9 +26504,13 @@
     "latex-paper-conversion"
   ],
   "launch": [
+    "beachhead-segment",
     "codex-subagent",
     "eas-update-insights",
+    "gtm-strategy",
     "open-source-marketing",
+    "plan-launch",
+    "pre-mortem",
     "pre-release-review",
     "saas-mvp-launcher",
     "speed"
@@ -25877,6 +26632,13 @@
   "leaks": [
     "audit-skills"
   ],
+  "lean": [
+    "brainstorm-experiments-new",
+    "lean-canvas"
+  ],
+  "lean-canvas": [
+    "lean-canvas"
+  ],
   "leap-year": [
     "cron-doctor"
   ],
@@ -25940,9 +26702,12 @@
     "legacy-modernizer"
   ],
   "legal": [
+    "draft-nda",
     "legal-advisor",
     "lex",
-    "local-legal-seo-audit"
+    "local-legal-seo-audit",
+    "pestle-analysis",
+    "privacy-policy"
   ],
   "legal-advisor": [
     "legal-advisor"
@@ -26126,6 +26891,7 @@
     "expo-module",
     "junit-5-skill",
     "revops",
+    "sprint",
     "track-management",
     "tree-ring-memory",
     "workorai"
@@ -26339,7 +27105,8 @@
     "hugging-face-dataset-viewer",
     "lesson-generator",
     "puzzle-activity-planner",
-    "sred-work-summary"
+    "sred-work-summary",
+    "user-stories"
   ],
   "lint": [
     "ecl-harness-engineer",
@@ -26405,6 +27172,7 @@
   ],
   "list": [
     "activecampaign-automation",
+    "analyze-feature-requests",
     "basecamp-automation",
     "daily-news-report",
     "developer-newsletter",
@@ -26599,6 +27367,9 @@
     "the-honoured-one",
     "vibecode-production-qa-validator"
   ],
+  "load-bearing": [
+    "strategy-red-team"
+  ],
   "loaded": [
     "developer-audience-context",
     "playwright-skill",
@@ -26737,6 +27508,7 @@
     "js-reverse",
     "logic-lens",
     "logic-review",
+    "proofread",
     "woo-guard"
   ],
   "logic-diff": [
@@ -26759,6 +27531,7 @@
   ],
   "logical": [
     "conductor-revert",
+    "grammar-check",
     "track-management"
   ],
   "logically": [
@@ -26894,6 +27667,7 @@
     "agent-self-scheduling",
     "break-ai-fix-loops",
     "growth-engine",
+    "growth-loops",
     "javascript-pro",
     "lemmaly",
     "loop-library",
@@ -27054,6 +27828,9 @@
   ],
   "macos-spm-app-packaging": [
     "macos-spm-app-packaging"
+  ],
+  "macro": [
+    "market-scan"
   ],
   "mae": [
     "yann-lecun-tecnico"
@@ -27282,6 +28059,7 @@
   "makes": [
     "re-create",
     "riffkit",
+    "shipping-artifacts",
     "ui-a11y",
     "workflow-automation",
     "yes-md"
@@ -27610,11 +28388,14 @@
   "map": [
     "azure-maps-search-dotnet",
     "burpsuite-project-parser",
+    "customer-journey-map",
     "ddd-context-mapping",
+    "derive-tests",
     "instructree",
     "moatmri",
     "seo-aeo-content-cluster",
     "seo-aeo-keyword-research",
+    "stakeholder-map",
     "threat-mitigation-mapping"
   ],
   "mapped": [
@@ -27622,12 +28403,14 @@
     "typescript-advanced-types"
   ],
   "mapping": [
+    "ansoff-matrix",
     "attack-tree-construction",
     "cloudflare-one-migrations",
     "crossframe-notebook",
     "ddd-context-mapping",
     "odoo-edi-connector",
     "site-architecture",
+    "sprint-plan",
     "threejs-textures",
     "uniprot-database",
     "vulnerability-scanner"
@@ -27705,18 +28488,36 @@
   ],
   "market": [
     "ai-dev-jobs-mcp",
+    "ansoff-matrix",
     "apify-competitor-intelligence",
     "apify-market-research",
+    "beachhead-segment",
     "competitive-landscape",
     "gemini-deep-research",
     "kotler-macro-analyzer",
     "longbridge-market-data",
+    "market-product",
+    "market-scan",
+    "market-segments",
+    "market-sizing",
     "market-sizing-analysis",
     "open-source-marketing",
     "quant-analyst",
     "startup-analyst",
     "startup-business-analyst-market-opportunity",
     "xvary-stock-research"
+  ],
+  "market-product": [
+    "market-product"
+  ],
+  "market-scan": [
+    "market-scan"
+  ],
+  "market-segments": [
+    "market-segments"
+  ],
+  "market-sizing": [
+    "market-sizing"
   ],
   "market-sizing-analysis": [
     "market-sizing-analysis"
@@ -27740,11 +28541,14 @@
     "email-systems",
     "github-presence",
     "growth-engine",
+    "gtm-strategy",
     "mailchimp-automation",
+    "market-product",
     "marketing-ideas",
     "marketing-plan",
     "marketing-psychology",
     "open-source-marketing",
+    "pm-marketing-ideas",
     "product-marketing",
     "product-marketing-context",
     "referral-program",
@@ -27752,7 +28556,8 @@
     "screenshots",
     "sdk-dx",
     "sendgrid-automation",
-    "unslop-commit"
+    "unslop-commit",
+    "value-prop-statements"
   ],
   "marketing-ideas": [
     "marketing-ideas"
@@ -28008,7 +28813,9 @@
     "seo-competitor-pages"
   ],
   "matrix": [
+    "ansoff-matrix",
     "github-actions-advanced",
+    "prioritize-assumptions",
     "robius-matrix-integration"
   ],
   "matrix-sdk": [
@@ -28276,6 +29083,7 @@
   ],
   "mechanisms": [
     "crossframe-casebook",
+    "growth-strategy",
     "sql-injection-testing",
     "xss-html-injection"
   ],
@@ -28325,8 +29133,13 @@
     "spec-driven-loop"
   ],
   "meeting": [
+    "meeting-notes",
     "outlook-calendar-automation",
+    "summarize-meeting",
     "zoom-automation"
+  ],
+  "meeting-notes": [
+    "meeting-notes"
   ],
   "meetings": [
     "microsoft-teams-automation"
@@ -28344,6 +29157,9 @@
   ],
   "meme": [
     "helium-mcp"
+  ],
+  "memorable": [
+    "product-name"
   ],
   "memoria": [
     "claude-code-expert"
@@ -28534,6 +29350,7 @@
     "telegram-automation",
     "telegram-bot-messaging",
     "unslop-commit",
+    "value-prop-statements",
     "whatsapp-automation"
   ],
   "messaging": [
@@ -28548,12 +29365,15 @@
     "azure-servicebus-ts",
     "azure-web-pubsub-ts",
     "chat-widget",
+    "gtm-strategy",
     "lambda-lang",
     "mercury-mcp",
     "pilot-protocol",
+    "pm-marketing-ideas",
     "product-marketing-context",
     "slack-automation",
-    "twilio-communications"
+    "twilio-communications",
+    "value-prop-statements"
   ],
   "meta": [
     "ad-creative",
@@ -28607,7 +29427,8 @@
     "usage-based-pricing"
   ],
   "method": [
-    "api-analyzer"
+    "api-analyzer",
+    "intended-vs-implemented"
   ],
   "methodical": [
     "brendangregg-use-tsa",
@@ -28645,7 +29466,10 @@
   "metric": [
     "analytics-product",
     "hugging-face-trackio",
+    "north-star",
+    "north-star-metric",
     "prometheus-configuration",
+    "setup-metrics",
     "tune-monitor"
   ],
   "metricas": [
@@ -28661,9 +29485,14 @@
     "azure-monitor-query-py",
     "datadog-automation",
     "expo-observe",
+    "gtm-strategy",
     "idea-os",
+    "lean-canvas",
     "llm-evaluation",
+    "metrics-dashboard",
     "mock-hunter",
+    "north-star",
+    "north-star-metric",
     "observability-and-instrumentation",
     "observability-monitoring-monitor-setup",
     "outreachagent",
@@ -28671,9 +29500,13 @@
     "quant-analyst",
     "risk-metrics-calculation",
     "seo-dataforseo",
+    "setup-metrics",
     "startup-metrics-framework",
     "vercel-optimize",
     "x-twitter-scraper"
+  ],
+  "metrics-dashboard": [
+    "metrics-dashboard"
   ],
   "metro": [
     "design-it/tile-design"
@@ -29077,6 +29910,7 @@
     "azure-mgmt-weightsandbiases-dotnet",
     "bdi-mental-states",
     "bdistill-behavioral-xray",
+    "business-model",
     "context-fundamentals",
     "dbt-transformation-patterns",
     "domain-modeling",
@@ -29111,6 +29945,7 @@
     "seek-and-analyze-video",
     "skills/x402-express-wrapper",
     "startup-business-analyst-financial-projections",
+    "startup-canvas",
     "tokenwise",
     "trl-training",
     "working-with-coreai",
@@ -29185,7 +30020,9 @@
     "marketing-psychology",
     "mmx-cli",
     "model-authoring",
+    "monetization-strategy",
     "nosql-expert",
+    "pm-pricing-strategy",
     "projection-patterns",
     "pydantic-models-py",
     "quant-analyst",
@@ -29387,8 +30224,15 @@
   ],
   "monetization": [
     "monetization",
+    "monetization-strategy",
     "pricing",
     "pricing-strategy"
+  ],
+  "monetization-strategy": [
+    "monetization-strategy"
+  ],
+  "monetize": [
+    "monetization-strategy"
   ],
   "mongodb": [
     "azure-mgmt-mongodbatlas-dotnet",
@@ -29559,6 +30403,9 @@
   "morpho": [
     "aomi-transact"
   ],
+  "mortem": [
+    "pre-mortem"
+  ],
   "most": [
     "gemini-api-dev",
     "qiskit",
@@ -29573,6 +30420,7 @@
     "design-taste-frontend",
     "fixing-motion-performance",
     "frontend-ui-dark-ts",
+    "gtm-motions",
     "magic-animator",
     "minimalist-ui",
     "product-design",
@@ -29580,6 +30428,15 @@
     "stitch-design-taste",
     "threejs-animation",
     "ui-motion"
+  ],
+  "motions": [
+    "gtm-motions"
+  ],
+  "motivates": [
+    "product-vision"
+  ],
+  "motivation": [
+    "job-stories"
   ],
   "motor": [
     "growth-engine"
@@ -29743,6 +30600,9 @@
   ],
   "multi-perspectiva": [
     "multi-advisor"
+  ],
+  "multi-perspective": [
+    "brainstorm-ideas-existing"
   ],
   "multi-phase": [
     "api-security",
@@ -29996,6 +30856,7 @@
     "accesslint-diff",
     "create-pr",
     "logic-explain",
+    "product-name",
     "viral-generator-builder"
   ],
   "named": [
@@ -30006,7 +30867,9 @@
   "names": [
     "binary-diff",
     "crossframe-critical",
-    "liuguang-banlan-ui"
+    "liuguang-banlan-ui",
+    "market-product",
+    "product-name"
   ],
   "namespace": [
     "debug-buttercup"
@@ -30017,6 +30880,7 @@
     "n8n-subworkflows",
     "offers",
     "plugin-structure",
+    "product-name",
     "skill-check",
     "smart-git-automation"
   ],
@@ -30097,7 +30961,9 @@
     "humanize-chinese",
     "lambda-lang",
     "openapi-spec-generator",
-    "postman-collection-generator"
+    "postman-collection-generator",
+    "sql-queries",
+    "write-query"
   ],
   "natural-language": [
     "aomi-transact",
@@ -30144,6 +31010,9 @@
     "nerdzao-elite-gemini-high",
     "task-intelligence"
   ],
+  "nda": [
+    "draft-nda"
+  ],
   "ndar": [
     "10-andruia-skill-smith"
   ],
@@ -30162,6 +31031,7 @@
     "context-engineering",
     "context7-auto-research",
     "debugging-and-error-recovery",
+    "document-app",
     "documentation-and-adrs",
     "exa-search",
     "file-organizer",
@@ -30195,7 +31065,9 @@
     "triage"
   ],
   "needing": [
-    "memory-systems"
+    "draft-nda",
+    "memory-systems",
+    "privacy-policy"
   ],
   "needs": [
     "agent-development",
@@ -30216,6 +31088,7 @@
     "frontend-ui-engineering",
     "game-development",
     "gh-review-requests",
+    "ideal-customer-profile",
     "liuguang-banlan-ui",
     "marketing-plan",
     "plugin-structure",
@@ -30225,7 +31098,8 @@
     "seo-dataforseo",
     "skill-development",
     "skill-suggester",
-    "us-property-data"
+    "us-property-data",
+    "user-segmentation"
   ],
   "needs-human-read": [
     "shopify-review-triage"
@@ -30401,6 +31275,8 @@
     "app-builder/templates",
     "azure-communication-callingserver-java",
     "blueprint",
+    "brainstorm-experiments-new",
+    "brainstorm-ideas-new",
     "brave-man",
     "cc-skill-security-review",
     "changelog-updates",
@@ -30417,10 +31293,12 @@
     "fastapi-templates",
     "fix-review",
     "frontend-dev-guidelines",
+    "identify-assumptions-new",
     "new-rails-project",
     "not-a-vibe-coder",
     "obsidian-clipper-template-creator",
     "plugin-dev-agent-creator",
+    "product-name",
     "react-best-practices",
     "seo-meta-optimizer",
     "seo-plan",
@@ -30431,6 +31309,7 @@
     "skill-improver",
     "skill-suggester",
     "spec-driven-development",
+    "startup-canvas",
     "swiftui-expert-skill",
     "teach",
     "tool-design",
@@ -30639,6 +31518,9 @@
   "non-custodial": [
     "aomi-transact"
   ],
+  "non-disclosure": [
+    "draft-nda"
+  ],
   "non-goals": [
     "idea-os"
   ],
@@ -30679,7 +31561,16 @@
   ],
   "north": [
     "analytics-product",
-    "auri-core"
+    "auri-core",
+    "north-star",
+    "north-star-metric",
+    "setup-metrics"
+  ],
+  "north-star": [
+    "north-star"
+  ],
+  "north-star-metric": [
+    "north-star-metric"
   ],
   "nosql": [
     "azure-cosmos-db-py",
@@ -30726,13 +31617,16 @@
     "examprep-ai",
     "freshdesk-automation",
     "github-issue-creator",
+    "meeting-notes",
     "mesh-memory",
     "miro-automation",
     "obsidian-bases",
     "obsidian-markdown",
     "pdf-conversion-router",
     "pipedrive-automation",
+    "release-notes",
     "ste-writing",
+    "summarize-meeting",
     "yao-meta-skill",
     "youtube-notetaker"
   ],
@@ -30894,11 +31788,15 @@
     "macos-reverse"
   ],
   "objectives": [
+    "brainstorm-okrs",
+    "create-prd",
     "doc2math",
     "lesson-generator",
     "optim-agent",
+    "plan-okrs",
     "pricing-strategy",
-    "slo-implementation"
+    "slo-implementation",
+    "test-scenarios"
   ],
   "objects": [
     "anywrite",
@@ -31193,7 +32091,9 @@
     "liuguang-banlan-ui"
   ],
   "okrs": [
-    "analytics-product"
+    "analytics-product",
+    "brainstorm-okrs",
+    "plan-okrs"
   ],
   "olap": [
     "sql-pro"
@@ -31264,6 +32164,7 @@
     "onboarding",
     "onboarding-cro",
     "screen-adverse-media",
+    "value-prop-statements",
     "wiki-architect",
     "wiki-onboarding",
     "working-with-coreai"
@@ -31307,6 +32208,7 @@
     "neon-ai-gateway",
     "objection-preemptor",
     "onboarding-psychologist",
+    "outcome-roadmap",
     "pitch-psychologist",
     "price-psychology-strategist",
     "prototype",
@@ -31627,18 +32529,24 @@
     "co-marketing",
     "codebase-design",
     "competitive-landscape",
+    "customer-journey-map",
     "database-cloud-optimization-cost-optimize",
     "find-matching-tenders",
     "flowhunt-skill",
     "improve-codebase-architecture",
     "market-sizing-analysis",
     "oss-hunter",
+    "pm-competitor-analysis",
     "salesforce-automation",
     "seo-aeo-internal-linking",
     "seo-structure-architect"
   ],
   "opportunity": [
+    "opportunity-solution-tree",
     "startup-business-analyst-market-opportunity"
+  ],
+  "opportunity-solution-tree": [
+    "opportunity-solution-tree"
   ],
   "ops": [
     "boost-asio-pro",
@@ -31721,6 +32629,7 @@
     "rag-implementation",
     "react-best-practices",
     "react-flow-architect",
+    "review-resume",
     "ruby-pro",
     "seo-competitor-pages",
     "seo-images",
@@ -32030,6 +32939,9 @@
   "oss-hunter": [
     "oss-hunter"
   ],
+  "ost": [
+    "opportunity-solution-tree"
+  ],
   "osterwalder-canvas-architect": [
     "osterwalder-canvas-architect"
   ],
@@ -32092,12 +33004,22 @@
   "outbound": [
     "cold-email",
     "freshservice-automation",
+    "gtm-motions",
     "mailtrap-testing-with-sandbox",
     "outreachagent"
   ],
   "outcome": [
     "accint-commitments",
-    "android-ui-journey-testing"
+    "android-ui-journey-testing",
+    "job-stories",
+    "outcome-roadmap"
+  ],
+  "outcome-focused": [
+    "outcome-roadmap",
+    "transform-roadmap"
+  ],
+  "outcome-roadmap": [
+    "outcome-roadmap"
   ],
   "outcomes": [
     "accint-solve",
@@ -32134,6 +33056,7 @@
     "context-engineering",
     "crossframe-review",
     "crossframe-suite",
+    "dummy-dataset",
     "enhance-prompt",
     "frontend-security-coder",
     "frontend-ui-engineering",
@@ -32154,6 +33077,9 @@
     "xss-html-injection",
     "youtube-transcript",
     "zipai-optimizer"
+  ],
+  "output-focused": [
+    "outcome-roadmap"
   ],
   "outputs": [
     "advanced-evaluation",
@@ -32346,6 +33272,9 @@
   "packed": [
     "reverse-engineering"
   ],
+  "packet": [
+    "ship-check"
+  ],
   "packets": [
     "orchestrate-batch-refactor",
     "wireshark-analysis"
@@ -32460,12 +33389,16 @@
   "paid": [
     "ad-creative",
     "free-tier-strategy",
+    "gtm-motions",
     "paid-ads",
     "paywall-upgrade-cro",
     "runaway-guard"
   ],
   "paid-ads": [
     "paid-ads"
+  ],
+  "pain": [
+    "customer-journey-map"
   ],
   "pairing": [
     "design-it/editorial-design"
@@ -32642,9 +33575,11 @@
     "zoom-automation"
   ],
   "participants": [
-    "azure-communication-chat-java"
+    "azure-communication-chat-java",
+    "summarize-meeting"
   ],
   "parties": [
+    "draft-nda",
     "puzzle-activity-planner"
   ],
   "partitioning": [
@@ -32661,7 +33596,8 @@
     "satori"
   ],
   "partners": [
-    "co-marketing"
+    "co-marketing",
+    "gtm-motions"
   ],
   "partnership": [
     "co-marketing",
@@ -33130,6 +34066,7 @@
   ],
   "penetration": [
     "active-directory-attacks",
+    "ansoff-matrix",
     "api-fuzzing-bug-bounty",
     "aws-penetration-testing",
     "ethical-hacking-methodology",
@@ -33186,6 +34123,7 @@
     "mobile-reverse",
     "mock-hunter",
     "seo-aeo-meta-description-generator",
+    "stakeholder-map",
     "tokenwise"
   ],
   "per-category": [
@@ -33219,10 +34157,15 @@
     "context-guardian"
   ],
   "perform": [
+    "analyze-cohorts",
     "apify-actorization",
+    "cohort-analysis",
     "image-generator",
     "mmx-cli",
-    "security-compliance-compliance-check"
+    "pestle-analysis",
+    "porters-five-forces",
+    "security-compliance-compliance-check",
+    "swot-analysis"
   ],
   "performance": [
     "ad-creative",
@@ -33271,6 +34214,7 @@
     "page-cro",
     "pagespeed-enhancer",
     "paid-ads",
+    "performance-audit-static",
     "performance-engineer",
     "performance-optimization",
     "performance-optimizer",
@@ -33320,6 +34264,9 @@
     "wordpress",
     "working-with-coreai",
     "wp-guard"
+  ],
+  "performance-audit-static": [
+    "performance-audit-static"
   ],
   "performance-engineer": [
     "performance-engineer"
@@ -33456,7 +34403,8 @@
   ],
   "personas": [
     "c4-context",
-    "multi-advisor"
+    "multi-advisor",
+    "user-personas"
   ],
   "perspectivas": [
     "ilya-sutskever"
@@ -33465,6 +34413,8 @@
     "design-it/3d-ui"
   ],
   "perspectives": [
+    "brainstorm",
+    "brainstorm-ideas-new",
     "helium-mcp",
     "parallel-agents"
   ],
@@ -33476,6 +34426,12 @@
   ],
   "pestel": [
     "kotler-macro-analyzer"
+  ],
+  "pestle": [
+    "pestle-analysis"
+  ],
+  "pestle-analysis": [
+    "pestle-analysis"
   ],
   "pgvector": [
     "mesh-memory",
@@ -33807,12 +34763,16 @@
     "odw",
     "open-dynamic-workflows",
     "orchestrate-batch-refactor",
+    "plan-launch",
+    "plan-okrs",
+    "pre-mortem",
     "puzzle-activity-planner",
     "seo-forensic-incident-response",
     "seo-plan",
     "seo-programmatic",
     "site-architecture",
     "spec-kit",
+    "sprint-plan",
     "sql-optimization-patterns",
     "sql-sentinel",
     "to-issues",
@@ -33824,6 +34784,12 @@
     "wjttc-builder",
     "wjttc-tester",
     "wp-site-health-auditor"
+  ],
+  "plan-launch": [
+    "plan-launch"
+  ],
+  "plan-okrs": [
+    "plan-okrs"
   ],
   "plan-writing": [
     "plan-writing"
@@ -33974,6 +34940,9 @@
   "plc": [
     "ot-ics"
   ],
+  "plg": [
+    "gtm-motions"
+  ],
   "plotly": [
     "plotly"
   ],
@@ -34034,6 +35003,18 @@
     "macos-screen-recorder",
     "markstream-vue2-vite"
   ],
+  "pm-competitor-analysis": [
+    "pm-competitor-analysis"
+  ],
+  "pm-marketing-ideas": [
+    "pm-marketing-ideas"
+  ],
+  "pm-pricing": [
+    "pm-pricing"
+  ],
+  "pm-pricing-strategy": [
+    "pm-pricing-strategy"
+  ],
   "pmc": [
     "ii-commons"
   ],
@@ -34082,7 +35063,9 @@
   "points": [
     "api-onboarding",
     "bulletmind",
-    "design-it/isometric-design"
+    "customer-journey-map",
+    "design-it/isometric-design",
+    "summarize-meeting"
   ],
   "poisoning": [
     "llm-security"
@@ -34115,6 +35098,7 @@
     "fable-safe-prompt",
     "ii-commons",
     "markstream-migration",
+    "privacy-policy",
     "protect-mcp-governance",
     "security-bluebook-builder",
     "security/aws-iam-best-practices"
@@ -34137,6 +35121,9 @@
     "enhance-prompt",
     "python-pptx-generator",
     "wiki-vitepress"
+  ],
+  "political": [
+    "pestle-analysis"
   ],
   "poll": [
     "gemini-deep-research"
@@ -34207,6 +35194,15 @@
   "portals": [
     "api-documenter"
   ],
+  "porter": [
+    "porters-five-forces"
+  ],
+  "porters": [
+    "porters-five-forces"
+  ],
+  "porters-five-forces": [
+    "porters-five-forces"
+  ],
   "portfolio": [
     "emblemai-crypto-wallet",
     "longbridge",
@@ -34240,7 +35236,12 @@
     "competitive-landscape",
     "competitor-tracking",
     "linkedin-profile-optimizer",
+    "market-product",
+    "positioning-ideas",
     "product-marketing-context"
+  ],
+  "positioning-ideas": [
+    "positioning-ideas"
   ],
   "positions": [
     "odoo-accounting-setup"
@@ -34399,10 +35400,14 @@
   "potential": [
     "cc-skill-security-review",
     "claude-code-guide",
+    "market-segments",
     "seo-cannibalization-detector"
   ],
   "potentially": [
     "file-path-traversal"
+  ],
+  "power": [
+    "stakeholder-map"
   ],
   "power-user-cultivation": [
     "power-user-cultivation"
@@ -34533,6 +35538,7 @@
     "python-testing-patterns",
     "react-patterns",
     "remotion-best-practices",
+    "review-resume",
     "sankhya-dashboard-html-jsp-custom-best-pratices",
     "secrets-management",
     "security/aws-security-audit",
@@ -34560,12 +35566,23 @@
     "workflow-orchestration-patterns"
   ],
   "prd": [
+    "create-prd",
     "idea-os",
     "implement",
     "loki-mode",
+    "pre-mortem",
+    "red-team-prd",
     "spec-driven-loop",
+    "strategy-red-team",
     "to-issues",
-    "to-prd"
+    "to-prd",
+    "write-prd"
+  ],
+  "prds": [
+    "release-notes"
+  ],
+  "pre": [
+    "pre-mortem"
   ],
   "pre-c": [
     "boost-asio-pro"
@@ -34587,6 +35604,9 @@
   ],
   "pre-launch": [
     "shipping-and-launch"
+  ],
+  "pre-mortem": [
+    "pre-mortem"
   ],
   "pre-populated": [
     "developer-sandbox"
@@ -34698,6 +35718,7 @@
     "pentest-checklist"
   ],
   "prepare": [
+    "interview",
     "loopy",
     "taisly-social-media-posting"
   ],
@@ -34775,6 +35796,9 @@
     "agy-auto",
     "hook-development"
   ],
+  "pretotypes": [
+    "brainstorm-experiments-new"
+  ],
   "prevent": [
     "drizzle-migration-conflict",
     "postmortem-writing"
@@ -34844,6 +35868,9 @@
     "fal-platform",
     "landing-page-generator",
     "monetization",
+    "monetization-strategy",
+    "pm-pricing",
+    "pm-pricing-strategy",
     "pricing",
     "pricing-strategy",
     "sales-automator",
@@ -34919,10 +35946,24 @@
     "seo-aeo-keyword-research"
   ],
   "prioritization": [
+    "prioritization-frameworks",
     "vulnerability-scanner"
   ],
+  "prioritization-frameworks": [
+    "prioritization-frameworks"
+  ],
   "prioritize": [
-    "content-strategy"
+    "analyze-feature-requests",
+    "content-strategy",
+    "prioritize-assumptions",
+    "prioritize-features",
+    "triage-requests"
+  ],
+  "prioritize-assumptions": [
+    "prioritize-assumptions"
+  ],
+  "prioritize-features": [
+    "prioritize-features"
   ],
   "prioritized": [
     "accesslint-audit",
@@ -34954,6 +35995,7 @@
     "legal-advisor",
     "local-llm-expert",
     "privacy-by-design",
+    "privacy-policy",
     "review-swarm",
     "warehouse"
   ],
@@ -34962,6 +36004,9 @@
   ],
   "privacy-mask": [
     "privacy-mask"
+  ],
+  "privacy-policy": [
+    "privacy-policy"
   ],
   "private": [
     "ditto",
@@ -35016,10 +36061,16 @@
   "probably": [
     "file-organizer"
   ],
+  "probing": [
+    "interview-script"
+  ],
   "problem": [
+    "create-prd",
     "doc2math",
     "incident-responder",
-    "skin-health-analyzer"
+    "lean-canvas",
+    "skin-health-analyzer",
+    "write-prd"
   ],
   "problem-solving": [
     "debugging-strategies"
@@ -35132,35 +36183,62 @@
     "agent-qa-debug-fix",
     "ai-engineering-toolkit",
     "ai-product",
+    "ansoff-matrix",
     "anti-ui-slop",
     "apify-ecommerce",
     "apify-market-research",
+    "beachhead-segment",
     "before-you-build",
     "blog-writing-guide",
+    "brainstorm",
+    "brainstorm-experiments-existing",
+    "brainstorm-experiments-new",
+    "brainstorm-ideas-existing",
+    "brainstorm-ideas-new",
     "buywhere-product-catalog",
     "changelog-updates",
     "cloudflare",
+    "competitive-battlecard",
     "competitor-alternatives",
+    "create-prd",
     "developer-sandbox",
+    "discover",
     "emil-design-eng",
+    "identify-assumptions-existing",
+    "identify-assumptions-new",
     "image-generator",
     "itil-expert",
     "launch-strategy",
+    "market-product",
+    "market-segments",
     "marketing-plan",
+    "metrics-dashboard",
+    "monetization-strategy",
     "nerdzao-elite",
     "odoo-ecommerce-configurator",
+    "opportunity-solution-tree",
+    "positioning-ideas",
     "product-inventor",
     "product-manager-toolkit",
     "product-marketing",
     "product-marketing-context",
+    "product-name",
+    "product-strategy",
+    "product-vision",
     "project-state-governor",
     "riffkit",
     "screenshots",
+    "sentiment-analysis",
     "seo-aeo-landing-page-writer",
     "seo-image-gen",
+    "setup-metrics",
+    "startup-canvas",
+    "strategy",
     "tools-page-seo-optimizer",
     "vizcom",
-    "woo-guard"
+    "woo-guard",
+    "write-prd",
+    "wwas"
   ],
   "product-decision-agent": [
     "product-decision-agent"
@@ -35182,6 +36260,15 @@
   ],
   "product-marketing-context": [
     "product-marketing-context"
+  ],
+  "product-name": [
+    "product-name"
+  ],
+  "product-strategy": [
+    "product-strategy"
+  ],
+  "product-vision": [
+    "product-vision"
   ],
   "production": [
     "airflow-dag-patterns",
@@ -35369,6 +36456,7 @@
     "ditto",
     "github-presence",
     "hf-cloud-aws-context-discovery",
+    "ideal-customer-profile",
     "linkedin-automation",
     "linkedin-profile-optimizer",
     "python-performance-optimization"
@@ -35720,7 +36808,14 @@
     "kaizen"
   ],
   "proofread": [
-    "professional-proofreader"
+    "professional-proofreader",
+    "proofread"
+  ],
+  "proofreading": [
+    "grammar-check"
+  ],
+  "prop": [
+    "market-product"
   ],
   "propagate": [
     "binary-diff"
@@ -35780,7 +36875,12 @@
     "systematic-debugging"
   ],
   "proposition": [
-    "crossframe-debate"
+    "crossframe-debate",
+    "value-prop-statements",
+    "value-proposition"
+  ],
+  "propositions": [
+    "value-prop-statements"
   ],
   "proprietaria": [
     "product-design"
@@ -36295,6 +37395,7 @@
     "copilot-sdk",
     "dbos-python",
     "devcontainer-setup",
+    "dummy-dataset",
     "fastapi-pro",
     "hugging-face-gradio",
     "hugging-face-trackio",
@@ -36407,6 +37508,9 @@
   "qstash": [
     "upstash-qstash"
   ],
+  "quadrant": [
+    "stakeholder-map"
+  ],
   "qualidade": [
     "llm-ops",
     "nerdzao-elite-gemini-high",
@@ -36432,6 +37536,7 @@
     "find-bugs",
     "git-hooks-automation",
     "git-pr-workflows-git-workflow",
+    "grammar-check",
     "kaizen",
     "llm-prompt-optimizer",
     "makepad-reference",
@@ -36544,10 +37649,12 @@
     "seo-aeo-keyword-research",
     "similarity-search-patterns",
     "sql-optimization-patterns",
+    "sql-queries",
     "supabase-automation",
     "supabase-postgres-best-practices",
     "tailwind-patterns",
-    "variant-analysis"
+    "variant-analysis",
+    "write-query"
   ],
   "query": [
     "api-analyzer",
@@ -36577,7 +37684,8 @@
     "tanstack-query-expert",
     "threat-hunting",
     "weaviate",
-    "web-media-getter"
+    "web-media-getter",
+    "write-query"
   ],
   "query-first": [
     "nosql-expert"
@@ -36619,6 +37727,7 @@
     "hig-inputs",
     "hig-technologies",
     "idea-os",
+    "interview-script",
     "orca-replay",
     "prototype",
     "rich-elicitation",
@@ -36883,7 +37992,9 @@
     "bdi-mental-states"
   ],
   "rationale": [
-    "architecture-decision-records"
+    "architecture-decision-records",
+    "pm-marketing-ideas",
+    "product-name"
   ],
   "raw": [
     "data-storytelling",
@@ -37232,10 +38343,13 @@
   "realistic": [
     "api-testing-observability-api-mock",
     "design-it/skeuomorphism",
+    "dummy-dataset",
+    "generate-data",
     "k6-load-testing"
   ],
   "reality": [
-    "design-it/spatial-design"
+    "design-it/spatial-design",
+    "strategy-red-team"
   ],
   "realtime": [
     "podcast-generation"
@@ -37254,6 +38368,9 @@
   ],
   "rebase": [
     "resolving-merge-conflicts"
+  ],
+  "rebranding": [
+    "product-name"
   ],
   "rebuilds": [
     "axiom"
@@ -37317,6 +38434,7 @@
   "recommendations": [
     "aws-cost-optimizer",
     "business-analyst",
+    "prioritize-features",
     "seo-content-auditor",
     "vercel-optimize"
   ],
@@ -37425,7 +38543,9 @@
     "active-directory-attacks",
     "aws-penetration-testing",
     "privilege-escalation-methods",
+    "red-team-prd",
     "red-team-tactics",
+    "strategy-red-team",
     "tdd-workflows-tdd-red"
   ],
   "red-green-refactor": [
@@ -37437,7 +38557,12 @@
   ],
   "red-team": [
     "dotnet-reverse",
-    "edr-bypass-re"
+    "edr-bypass-re",
+    "red-team-prd",
+    "strategy-red-team"
+  ],
+  "red-team-prd": [
+    "red-team-prd"
   ],
   "red-team-tactics": [
     "red-team-tactics"
@@ -37578,6 +38703,7 @@
     "pdf-official",
     "pentest-commands",
     "postgresql-cli",
+    "prioritization-frameworks",
     "rclone-cli",
     "redis-cli",
     "reference-builder",
@@ -37611,6 +38737,9 @@
   ],
   "refine": [
     "diagram-generator"
+  ],
+  "refined": [
+    "user-personas"
   ],
   "refinement": [
     "doc-coauthoring"
@@ -37775,7 +38904,11 @@
     "github-actions-advanced",
     "graceful-shutdown",
     "production-runtime-certification",
+    "release-notes",
     "ste-writing"
+  ],
+  "release-notes": [
+    "release-notes"
   ],
   "releases": [
     "antigravity-maintainer-batch-release",
@@ -38049,6 +39182,7 @@
     "openclaw-github-repo-commander",
     "production-audit",
     "setup-matt-pocock-skills",
+    "ship-check",
     "vexor-cli"
   ],
   "repo-maintainer": [
@@ -38200,6 +39334,7 @@
     "requesting-code-review"
   ],
   "requests": [
+    "analyze-feature-requests",
     "anti-deception",
     "app-builder",
     "atlas-contract",
@@ -38223,7 +39358,8 @@
     "routerbase-model-gateway",
     "sharp-coder",
     "shopify-review-triage",
-    "threejs-skills"
+    "threejs-skills",
+    "triage-requests"
   ],
   "requestslibrary": [
     "robot-framework-skill"
@@ -38259,6 +39395,7 @@
     "ask-questions-if-underspecified",
     "backend-development-feature-development",
     "check-identity-pack",
+    "create-prd",
     "entropy-box",
     "event-sourcing-architect",
     "game-development/vr-ar",
@@ -38269,6 +39406,7 @@
     "security-compliance-compliance-check",
     "security-requirement-extraction",
     "spec-driven-development",
+    "write-prd",
     "writing-plans"
   ],
   "requires": [
@@ -38310,6 +39448,7 @@
     "helium-mcp",
     "hugging-face-paper-publisher",
     "idea-os",
+    "ideal-customer-profile",
     "infinite-gratitude",
     "last30days",
     "malware-analyst",
@@ -38321,10 +39460,12 @@
     "protocol-reverse-engineering",
     "radio-sdr",
     "research-prompt",
+    "research-users",
     "scientific-writing",
     "seo-aeo-keyword-research",
     "tavily-web",
     "ui-ux-designer",
+    "user-personas",
     "using-lwc",
     "verify-citations",
     "wifi-wireless",
@@ -38345,6 +39486,9 @@
   ],
   "research-prompt": [
     "research-prompt"
+  ],
+  "research-users": [
+    "research-users"
   ],
   "researcher": [
     "search-specialist"
@@ -38541,6 +39685,8 @@
     "seo-aeo-schema-generator"
   ],
   "results": [
+    "ab-test-analysis",
+    "analyze-test",
     "enhance-prompt",
     "fp-pragmatic",
     "fp-ts-pragmatic",
@@ -38557,7 +39703,9 @@
   "resume": [
     "interview-coach",
     "jobgpt",
-    "resume-ats-review"
+    "resume-ats-review",
+    "review-resume",
+    "tailor-resume"
   ],
   "resume-ats-review": [
     "resume-ats-review"
@@ -38617,13 +39765,17 @@
   "retro": [
     "design-it/retro-design",
     "design-it/retro-futurism",
-    "design-it/vaporwave"
+    "design-it/vaporwave",
+    "retro"
   ],
   "retro-design": [
     "design-it/retro-design"
   ],
   "retro-futurism": [
     "design-it/retro-futurism"
+  ],
+  "retrospective": [
+    "retro"
   ],
   "retrospectives": [
     "crossframe-org"
@@ -38681,9 +39833,12 @@
     "performance-optimization"
   ],
   "revenue": [
+    "lean-canvas",
     "monetization",
+    "monetization-strategy",
     "revops",
     "startup-business-analyst-financial-projections",
+    "startup-canvas",
     "startup-financial-modeling",
     "talivia-agent-kit"
   ],
@@ -38709,6 +39864,7 @@
     "reverse-browser-automation"
   ],
   "reverse-engineer": [
+    "document-app",
     "reverse-engineer"
   ],
   "reverse-engineering": [
@@ -38737,6 +39893,7 @@
     "cloudflare-one",
     "cloudflare-security-audit",
     "code-audit",
+    "code-review",
     "code-review-ai-ai-review",
     "code-review-and-quality",
     "code-reviewer",
@@ -38755,6 +39912,7 @@
     "django-perf-review",
     "docs-guard",
     "doubt-driven-development",
+    "draft-nda",
     "durable-objects",
     "effective-agent-skills",
     "email-security",
@@ -38784,6 +39942,7 @@
     "receiving-code-review",
     "review-and-simplify-changes",
     "review-multi-agent-orchestration",
+    "review-resume",
     "review-swarm",
     "screen-adverse-media",
     "security/aws-iam-best-practices",
@@ -38821,14 +39980,24 @@
   "review-multi-agent-orchestration": [
     "review-multi-agent-orchestration"
   ],
+  "review-resume": [
+    "review-resume"
+  ],
   "review-swarm": [
     "review-swarm"
+  ],
+  "reviewable": [
+    "shipping-artifacts"
   ],
   "reviewer": [
     "brooks-lint"
   ],
+  "reviewer-ready": [
+    "ship-check"
+  ],
   "reviewers": [
-    "comprehensive-review-pr-enhance"
+    "comprehensive-review-pr-enhance",
+    "document-app"
   ],
   "reviewing": [
     "angular-best-practices",
@@ -38841,6 +40010,7 @@
     "fixing-accessibility",
     "fixing-metadata",
     "fixing-motion-performance",
+    "grammar-check",
     "model-authoring",
     "monopoly",
     "postgres-best-practices",
@@ -38907,7 +40077,8 @@
     "unslop-review"
   ],
   "rewriting": [
-    "cv-generator"
+    "cv-generator",
+    "grammar-check"
   ],
   "rex": [
     "agent-squad/rex"
@@ -38981,15 +40152,21 @@
     "churn-prevention"
   ],
   "risk": [
+    "analyze-feature-requests",
     "before-you-build",
     "comprehensive-review-pr-enhance",
     "event-staffing-compliance",
     "framework-migration-deps-upgrade",
+    "identify-assumptions-new",
+    "pre-mortem",
     "pre-release-review",
+    "prioritize-assumptions",
+    "prioritize-features",
     "quant-analyst",
     "risk-manager",
     "risk-metrics-calculation",
     "shopify-review-triage",
+    "sprint-plan",
     "supply-chain-risk-auditor",
     "threat-modeling-expert",
     "vulnerability-scanner"
@@ -39020,6 +40197,7 @@
     "brooks-test",
     "feature-tracking",
     "logic-lens",
+    "monetization-strategy",
     "review-swarm",
     "security-scanning-security-dependencies",
     "skill-scanner",
@@ -39027,7 +40205,9 @@
   ],
   "risky": [
     "ai-loop",
-    "brooks-sweep"
+    "brooks-sweep",
+    "identify-assumptions-existing",
+    "identify-assumptions-new"
   ],
   "rivalidades": [
     "yann-lecun-debate"
@@ -39046,9 +40226,13 @@
     "brooks-debt",
     "content-strategy",
     "examprep-ai",
+    "outcome-roadmap",
     "product-decision-agent",
+    "red-team-prd",
     "saas-mvp-launcher",
-    "seo-plan"
+    "seo-plan",
+    "strategy-red-team",
+    "transform-roadmap"
   ],
   "robert": [
     "clean-code"
@@ -39129,6 +40313,7 @@
     "ai-dev-jobs-mcp",
     "discord-automation",
     "marketplace-rbac-audit",
+    "test-scenarios",
     "triage"
   ],
   "rollback": [
@@ -39467,6 +40652,7 @@
     "cyber-audit",
     "debug-buttercup",
     "deep-research",
+    "discover",
     "gemini-deep-research",
     "github-actions-debugger",
     "glasser",
@@ -39486,6 +40672,7 @@
     "orca-replay",
     "parallel-agents",
     "posix-shell-pro",
+    "pre-mortem",
     "pre-release-review",
     "run-deep-swe",
     "seo",
@@ -39716,13 +40903,18 @@
     "odoo-sales-crm-expert",
     "revops",
     "sales-automator",
-    "sales-enablement"
+    "sales-enablement",
+    "value-prop-statements"
   ],
   "sales-automator": [
     "sales-automator"
   ],
   "sales-enablement": [
     "sales-enablement"
+  ],
+  "sales-ready": [
+    "battlecard",
+    "competitive-battlecard"
   ],
   "salesforce": [
     "salesforce-automation",
@@ -39741,6 +40933,7 @@
     "computer-vision-expert",
     "devops-deploy",
     "hugging-face-vision-trainer",
+    "market-sizing",
     "market-sizing-analysis",
     "sam-altman",
     "startup-business-analyst-market-opportunity"
@@ -39765,6 +40958,7 @@
     "identity-federation"
   ],
   "sample": [
+    "ab-test-analysis",
     "developer-onboarding",
     "js-reverse"
   ],
@@ -39832,6 +41026,8 @@
     "sast-configuration"
   ],
   "satisfaction": [
+    "sentiment-analysis",
+    "summarize-interview",
     "verification-before-completion"
   ],
   "satisfies": [
@@ -39960,6 +41156,7 @@
   ],
   "scale": [
     "ad-creative",
+    "analyze-feedback",
     "aws-agentic-ai",
     "azure-ai-translation-document-py",
     "azure-microsoft-playwright-testing-ts",
@@ -39995,6 +41192,7 @@
     "agent-orchestrator",
     "improve-codebase-architecture",
     "indexing-issue-auditor",
+    "market-scan",
     "pagespeed-enhancer",
     "security-scanning-security-dependencies",
     "skill-scanner",
@@ -40043,7 +41241,8 @@
     "attack-tree-construction",
     "awt-e2e-testing",
     "k6-load-testing",
-    "temporal-python-testing"
+    "temporal-python-testing",
+    "test-scenarios"
   ],
   "scene": [
     "threejs-fundamentals",
@@ -40279,6 +41478,7 @@
     "faf-wizard",
     "hugging-face-evaluation",
     "huggingface-best",
+    "sentiment-analysis",
     "seo-aeo-content-quality-auditor",
     "seo-content-auditor",
     "sql-sentinel",
@@ -40387,6 +41587,8 @@
   ],
   "script": [
     "bats-testing-patterns",
+    "interview",
+    "interview-script",
     "linux-shell-scripting",
     "makepad-splash",
     "seo-aeo-schema-generator",
@@ -40818,7 +42020,9 @@
     "asana-automation",
     "design-it/bento-ui",
     "design-it/color-blocking",
+    "interview-script",
     "site-architecture",
+    "startup-canvas",
     "todoist-automation",
     "ui-pattern"
   ],
@@ -40928,6 +42132,7 @@
     "sast-configuration",
     "scanning-tools",
     "security-audit",
+    "security-audit-static",
     "security-auditor",
     "security-bluebook-builder",
     "security-requirement-extraction",
@@ -40970,6 +42175,9 @@
   ],
   "security-audit": [
     "security-audit"
+  ],
+  "security-audit-static": [
+    "security-audit-static"
   ],
   "security-auditor": [
     "security-auditor"
@@ -41018,9 +42226,11 @@
     "seek-and-analyze-video"
   ],
   "segment": [
+    "beachhead-segment",
     "computer-vision-expert",
     "segment-automation",
-    "segment-cdp"
+    "segment-cdp",
+    "user-segmentation"
   ],
   "segment-automation": [
     "segment-automation"
@@ -41030,13 +42240,18 @@
   ],
   "segmentation": [
     "hugging-face-vision-trainer",
-    "mixpanel-automation"
+    "mixpanel-automation",
+    "user-segmentation"
   ],
   "segments": [
+    "create-prd",
     "intercom-automation",
+    "lean-canvas",
     "longbridge-fundamentals",
     "mailchimp-automation",
-    "mailtrap-managing-contacts"
+    "mailtrap-managing-contacts",
+    "market-segments",
+    "sentiment-analysis"
   ],
   "segredos": [
     "cred-omega"
@@ -41084,6 +42299,7 @@
     "python-patterns",
     "rag-implementation",
     "scanning-tools",
+    "sprint-plan",
     "threejs-interaction"
   ],
   "selector": [
@@ -41316,7 +42532,11 @@
     "customer-support",
     "longbridge-market-data",
     "maxia",
-    "news-sentiment-engine"
+    "news-sentiment-engine",
+    "sentiment-analysis"
+  ],
+  "sentiment-analysis": [
+    "sentiment-analysis"
   ],
   "sentry": [
     "blog-writing-guide",
@@ -41803,6 +43023,7 @@
     "observability-monitoring-monitor-setup",
     "plugin-structure",
     "setup-matt-pocock-skills",
+    "shipping-artifacts",
     "signup-flow-cro",
     "talivia-agent-kit",
     "turnstile-spin",
@@ -41866,6 +43087,7 @@
     "sast-configuration",
     "sendgrid-automation",
     "setup-help",
+    "setup-metrics",
     "telegram",
     "threejs-fundamentals",
     "ui-setup",
@@ -41876,6 +43098,9 @@
   ],
   "setup-matt-pocock-skills": [
     "setup-matt-pocock-skills"
+  ],
+  "setup-metrics": [
+    "setup-metrics"
   ],
   "setups": [
     "mise-configurator"
@@ -42039,11 +43264,16 @@
     "ui-motion"
   ],
   "ship": [
+    "ab-test-analysis",
     "add-app-clip",
     "behavioral-modes",
     "cron-doctor",
     "e2e-testing-patterns",
-    "pre-ship-gate"
+    "pre-ship-gate",
+    "ship-check"
+  ],
+  "ship-check": [
+    "ship-check"
   ],
   "shipment": [
     "logistics-exception-management"
@@ -42059,11 +43289,16 @@
     "lookdev",
     "observability-and-instrumentation",
     "odoo-ecommerce-configurator",
+    "ship-check",
+    "shipping-artifacts",
     "woo-guard",
     "wordpress-woocommerce-development"
   ],
   "shipping-and-launch": [
     "shipping-and-launch"
+  ],
+  "shipping-artifacts": [
+    "shipping-artifacts"
   ],
   "ships": [
     "docs-guard",
@@ -42117,26 +43352,124 @@
     "taisly-social-media-posting"
   ],
   "should": [
+    "ab-test-analysis",
     "acceptance-orchestrator",
     "advanced-evaluation",
     "agent-development",
     "agents-md",
+    "analyze-cohorts",
+    "analyze-feature-requests",
+    "analyze-feedback",
+    "analyze-test",
+    "ansoff-matrix",
+    "battlecard",
     "bdi-mental-states",
+    "beachhead-segment",
+    "brainstorm",
+    "brainstorm-experiments-existing",
+    "brainstorm-experiments-new",
+    "brainstorm-ideas-existing",
+    "brainstorm-ideas-new",
+    "brainstorm-okrs",
+    "code-review",
     "code-simplification",
+    "cohort-analysis",
     "command-development",
+    "competitive-analysis",
+    "competitive-battlecard",
+    "create-prd",
+    "customer-journey-map",
+    "derive-tests",
+    "discover",
+    "document-app",
+    "draft-nda",
+    "dummy-dataset",
+    "generate-data",
+    "growth-loops",
+    "growth-strategy",
+    "gtm-motions",
+    "gtm-strategy",
     "hook-development",
+    "ideal-customer-profile",
+    "identify-assumptions-existing",
+    "identify-assumptions-new",
+    "intended-vs-implemented",
+    "interview",
+    "interview-script",
     "javascript-mastery",
+    "job-stories",
     "latex-paper-conversion",
+    "lean-canvas",
     "make-me-an-expert",
+    "market-product",
+    "market-scan",
+    "market-segments",
+    "market-sizing",
     "mcp-integration",
+    "meeting-notes",
+    "metrics-dashboard",
     "multi-agent-patterns",
+    "north-star",
+    "north-star-metric",
+    "opportunity-solution-tree",
+    "outcome-roadmap",
+    "performance-audit-static",
+    "pestle-analysis",
+    "plan-launch",
+    "plan-okrs",
     "plugin-settings",
     "plugin-structure",
+    "pm-competitor-analysis",
+    "pm-marketing-ideas",
+    "pm-pricing",
+    "pm-pricing-strategy",
+    "porters-five-forces",
+    "positioning-ideas",
+    "pre-mortem",
+    "prioritization-frameworks",
+    "prioritize-assumptions",
+    "prioritize-features",
+    "privacy-policy",
+    "product-strategy",
+    "product-vision",
+    "proofread",
+    "red-team-prd",
+    "release-notes",
+    "research-users",
+    "retro",
+    "review-resume",
     "sankhya-dashboard-html-jsp-custom-best-pratices",
+    "security-audit-static",
     "security-bluebook-builder",
+    "sentiment-analysis",
+    "setup-metrics",
+    "ship-check",
+    "shipping-artifacts",
     "skill-development",
     "software-architecture",
-    "spec-kit"
+    "spec-kit",
+    "sprint",
+    "sprint-plan",
+    "sql-queries",
+    "stakeholder-map",
+    "startup-canvas",
+    "strategy",
+    "strategy-red-team",
+    "summarize-interview",
+    "summarize-meeting",
+    "swot-analysis",
+    "tailor-resume",
+    "test-scenarios",
+    "transform-roadmap",
+    "triage-requests",
+    "user-personas",
+    "user-segmentation",
+    "user-stories",
+    "value-proposition",
+    "write-prd",
+    "write-query",
+    "write-stories",
+    "wwas"
   ],
   "show": [
     "gh-review-requests"
@@ -42197,7 +43530,8 @@
     "repo-maintainer",
     "seo-authority-builder",
     "seo-content-auditor",
-    "seo-technical"
+    "seo-technical",
+    "summarize-interview"
   ],
   "signaltoui": [
     "robius-app-architecture"
@@ -42211,6 +43545,9 @@
   "signatures": [
     "c4-code",
     "docusign-automation"
+  ],
+  "significance": [
+    "ab-test-analysis"
   ],
   "significant": [
     "architecture-decision-records",
@@ -42431,16 +43768,19 @@
   ],
   "situation": [
     "ask-matt",
-    "git-advanced-workflows"
+    "git-advanced-workflows",
+    "job-stories"
   ],
   "six-stage": [
     "recsys-pipeline-architect"
   ],
   "size": [
+    "ab-test-analysis",
     "angular-best-practices",
     "eas-update-insights",
     "makepad-font",
     "makepad-layout",
+    "market-sizing",
     "model-compression-exploration",
     "seo-images",
     "web-performance-optimization"
@@ -42450,6 +43790,7 @@
     "seo-images"
   ],
   "sizing": [
+    "market-sizing",
     "market-sizing-analysis",
     "startup-analyst",
     "unsloth-finetuning"
@@ -42467,11 +43808,17 @@
     "expo-examples"
   ],
   "skill": [
+    "ab-test-analysis",
     "advanced-evaluation",
     "agent-development",
     "agentfolio",
     "agents-md",
+    "analyze-cohorts",
+    "analyze-feature-requests",
+    "analyze-feedback",
+    "analyze-test",
     "animejs-animation",
+    "ansoff-matrix",
     "anti-reversing-techniques",
     "anti-sycophancy",
     "antigravity-design-expert",
@@ -42484,8 +43831,16 @@
     "aws-serverless",
     "awt-e2e-testing",
     "azure-communication-callingserver-java",
+    "battlecard",
     "bdi-mental-states",
+    "beachhead-segment",
     "blog-writing-guide",
+    "brainstorm",
+    "brainstorm-experiments-existing",
+    "brainstorm-experiments-new",
+    "brainstorm-ideas-existing",
+    "brainstorm-ideas-new",
+    "brainstorm-okrs",
     "brand-guidelines-anthropic",
     "brand-guidelines-community",
     "brand-perception-psychologist",
@@ -42499,19 +43854,30 @@
     "claude-d3js-skill",
     "clean-code",
     "cloudflare",
+    "code-review",
     "codebase-design",
     "codebase-to-wordpress-converter",
+    "cohort-analysis",
     "command-development",
     "commit",
+    "competitive-analysis",
+    "competitive-battlecard",
     "copywriting-psychologist",
     "create-pr",
+    "create-prd",
+    "customer-journey-map",
     "customer-psychographic-profiler",
+    "derive-tests",
     "developer-audience-context",
     "developer-sandbox",
     "discord-bot-architect",
+    "discover",
     "distribute-skill-to-all-agents",
     "doc-coauthoring",
+    "document-app",
     "domain-modeling",
+    "draft-nda",
+    "dummy-dataset",
     "emotional-arc-designer",
     "ethical-hacking-methodology",
     "evolution",
@@ -42520,48 +43886,94 @@
     "gcp-cloud-run",
     "gemini-live-api-dev",
     "gemini-omni-flash-api",
+    "generate-data",
     "github-actions-debugger",
+    "growth-loops",
+    "growth-strategy",
+    "gtm-motions",
+    "gtm-strategy",
     "headline-psychologist",
     "hello",
     "hook-development",
     "huggingface-tool-builder",
     "iconsax-library",
+    "ideal-customer-profile",
+    "identify-assumptions-existing",
+    "identify-assumptions-new",
     "identity-mirror",
     "image-generator",
     "imagen",
     "infinite-gratitude",
+    "intended-vs-implemented",
     "internal-comms-anthropic",
     "internal-comms-community",
+    "interview",
+    "interview-script",
+    "job-stories",
     "jobs-to-be-done-analyst",
     "k6-load-testing",
     "kaizen",
     "latex-paper-conversion",
+    "lean-canvas",
     "logic-lens",
     "loss-aversion-designer",
     "make-me-an-expert",
+    "market-product",
+    "market-scan",
+    "market-segments",
+    "market-sizing",
     "mcp-builder-ms",
     "mcp-integration",
+    "meeting-notes",
     "metasploit-framework",
+    "metrics-dashboard",
     "model-authoring",
     "model-compression-exploration",
     "monopoly",
     "moodle-external-api-development",
     "multi-agent-patterns",
     "nextjs-on-cloudflare",
+    "north-star",
+    "north-star-metric",
     "objection-preemptor",
     "onboarding-psychologist",
+    "opportunity-solution-tree",
+    "outcome-roadmap",
     "papers-skill",
+    "performance-audit-static",
+    "pestle-analysis",
     "pitch-psychologist",
+    "plan-launch",
+    "plan-okrs",
     "playwright-skill",
     "plugin-settings",
     "plugin-structure",
+    "pm-competitor-analysis",
+    "pm-marketing-ideas",
+    "pm-pricing",
+    "pm-pricing-strategy",
+    "porters-five-forces",
+    "positioning-ideas",
     "postgres-best-practices",
+    "pre-mortem",
     "price-psychology-strategist",
+    "prioritization-frameworks",
+    "prioritize-assumptions",
+    "prioritize-features",
+    "privacy-policy",
+    "product-strategy",
+    "product-vision",
     "project-development",
+    "proofread",
     "protect-mcp-governance",
     "push-skill-to-github",
     "rclone-cli",
+    "red-team-prd",
     "redis-cli",
+    "release-notes",
+    "research-users",
+    "retro",
+    "review-resume",
     "sankhya-dashboard-html-jsp-custom-best-pratices",
     "scanning-tools",
     "scanpy",
@@ -42569,10 +43981,15 @@
     "scientific-writing",
     "sdk-dx",
     "seaborn",
+    "security-audit-static",
     "senior-frontend",
+    "sentiment-analysis",
     "seo",
     "sequence-psychologist",
+    "setup-metrics",
     "sharp-coder",
+    "ship-check",
+    "shipping-artifacts",
     "skill-creator",
     "skill-development",
     "skill-improver",
@@ -42586,27 +44003,49 @@
     "socialclaw",
     "software-architecture",
     "spec-kit",
+    "sprint",
+    "sprint-plan",
+    "sql-queries",
     "squirrel",
     "ssh-penetration-testing",
+    "stakeholder-map",
+    "startup-canvas",
     "stitch-ui-design",
+    "strategy",
+    "strategy-red-team",
     "subject-line-psychologist",
+    "summarize-interview",
+    "summarize-meeting",
     "supabase-postgres-best-practices",
+    "swot-analysis",
+    "tailor-resume",
     "teach",
+    "test-scenarios",
     "theme-factory",
     "top-web-vulnerabilities",
     "track-management",
+    "transform-roadmap",
+    "triage-requests",
     "trust-calibrator",
     "unsplash-integration",
     "update-swiftui-apis",
+    "user-personas",
+    "user-segmentation",
+    "user-stories",
     "using-superpowers",
     "ux-persuasion-engineer",
+    "value-proposition",
     "vexor",
     "visual-emotion-engineer",
     "wordpress-centric-high-seo-optimized-blogwriting-skill",
     "workflow-patterns",
     "working-with-coreai",
     "workorai",
+    "write-prd",
+    "write-query",
+    "write-stories",
     "writing-great-skills",
+    "wwas",
     "x-twitter-scraper",
     "yao-meta-skill"
   ],
@@ -42969,6 +44408,7 @@
   "social": [
     "fixing-metadata",
     "magic-animator",
+    "pestle-analysis",
     "screenshots",
     "seo-aeo-meta-description-generator",
     "social-content",
@@ -43066,6 +44506,8 @@
   ],
   "solution": [
     "entropy-box",
+    "lean-canvas",
+    "opportunity-solution-tree",
     "unslop-commit"
   ],
   "solutions": [
@@ -43090,6 +44532,7 @@
     "developer-listening"
   ],
   "som": [
+    "market-sizing",
     "market-sizing-analysis",
     "startup-business-analyst-market-opportunity"
   ],
@@ -43179,6 +44622,7 @@
     "fact-check-x-complete",
     "go-in-depth",
     "helium-mcp",
+    "metrics-dashboard",
     "parallel-search-mcp",
     "threat-intelligence",
     "ui-tokens",
@@ -43397,9 +44841,11 @@
   ],
   "specific": [
     "apify-actor-development",
+    "competitive-battlecard",
     "design-it",
     "fsi-compliance-checker",
     "logic-explain",
+    "tailor-resume",
     "temporal-python-testing",
     "wiki-qa",
     "yield-intelligence"
@@ -43539,6 +44985,14 @@
   "springer": [
     "latex-paper-conversion"
   ],
+  "sprint": [
+    "retro",
+    "sprint",
+    "sprint-plan"
+  ],
+  "sprint-plan": [
+    "sprint-plan"
+  ],
   "sprints": [
     "jira-automation"
   ],
@@ -43553,6 +45007,7 @@
     "database",
     "database-migrations-sql-migrations",
     "drizzle-migration-conflict",
+    "dummy-dataset",
     "monte-carlo-prevent",
     "monte-carlo-validation-notebook",
     "postgres-readonly-queries",
@@ -43560,10 +45015,12 @@
     "snowflake-development",
     "sql-injection-testing",
     "sql-pro",
+    "sql-queries",
     "sql-sentinel",
     "sqlmap-database-pentesting",
     "supabase-automation",
-    "tune-monitor"
+    "tune-monitor",
+    "write-query"
   ],
   "sql-based": [
     "hugging-face-datasets"
@@ -43576,6 +45033,9 @@
   ],
   "sql-pro": [
     "sql-pro"
+  ],
+  "sql-queries": [
+    "sql-queries"
   ],
   "sql-sentinel": [
     "sql-sentinel"
@@ -43744,6 +45204,7 @@
     "shipping-and-launch"
   ],
   "stages": [
+    "customer-journey-map",
     "doc-coauthoring",
     "ethical-hacking-methodology",
     "odoo-project-timesheet",
@@ -43753,8 +45214,16 @@
     "mailtrap-testing-with-sandbox",
     "n8n-multi-instance"
   ],
+  "stakeholder": [
+    "stakeholder-map"
+  ],
+  "stakeholder-map": [
+    "stakeholder-map"
+  ],
   "stakeholders": [
-    "attack-tree-construction"
+    "attack-tree-construction",
+    "product-vision",
+    "triage-requests"
   ],
   "staking": [
     "defi-protocol-templates"
@@ -43828,7 +45297,10 @@
   "star": [
     "analytics-product",
     "auri-core",
-    "prompt-engineer"
+    "north-star",
+    "north-star-metric",
+    "prompt-engineer",
+    "setup-metrics"
   ],
   "stark": [
     "design-it/high-contrast",
@@ -43858,14 +45330,17 @@
     "nextjs-on-cloudflare",
     "rich-elicitation",
     "spec-driven-development",
+    "test-scenarios",
     "using-superpowers"
   ],
   "starts": [
     "logic-fix-all"
   ],
   "startup": [
+    "brainstorm-experiments-new",
     "market-sizing-analysis",
     "startup-analyst",
+    "startup-canvas",
     "startup-metrics-framework"
   ],
   "startup-analyst": [
@@ -43879,6 +45354,9 @@
   ],
   "startup-business-analyst-market-opportunity": [
     "startup-business-analyst-market-opportunity"
+  ],
+  "startup-canvas": [
+    "startup-canvas"
   ],
   "startup-financial-modeling": [
     "startup-financial-modeling"
@@ -43948,11 +45426,14 @@
   ],
   "statement": [
     "verification-before-completion",
-    "verify-document"
+    "verify-document",
+    "write-prd"
   ],
   "statements": [
     "extract-document-data",
-    "longbridge-fundamentals"
+    "longbridge-fundamentals",
+    "market-product",
+    "value-prop-statements"
   ],
   "states": [
     "angular-ui-patterns",
@@ -43973,9 +45454,11 @@
     "malware-analysis",
     "matplotlib",
     "nextjs-seo-indexing",
+    "performance-audit-static",
     "performance-testing-review-ai-review",
     "plotly",
     "sast-configuration",
+    "security-audit-static",
     "security-scanning-security-sast",
     "semgrep-rule-creator",
     "seo-dataforseo",
@@ -43984,6 +45467,7 @@
     "wiki-vitepress"
   ],
   "statistical": [
+    "ab-test-analysis",
     "data-scientist",
     "quant-analyst",
     "seaborn",
@@ -44065,6 +45549,7 @@
     "odoo-migration-helper",
     "odoo-upgrade-advisor",
     "technical-tutorials",
+    "test-scenarios",
     "tutorial-engineer",
     "unity-ai-game-creator"
   ],
@@ -44131,6 +45616,7 @@
     "longbridge-content"
   ],
   "stop": [
+    "ab-test-analysis",
     "agent-manager-skill",
     "ai-loop",
     "anti-ui-slop",
@@ -44204,13 +45690,20 @@
     "zustand-store-ts"
   ],
   "stories": [
-    "security-requirement-extraction"
+    "job-stories",
+    "security-requirement-extraction",
+    "test-scenarios",
+    "user-stories",
+    "write-stories"
   ],
   "storing": [
     "azure-keyvault-secrets-rust",
     "azure-keyvault-secrets-ts",
     "azure-security-keyvault-secrets-java",
     "plugin-settings"
+  ],
+  "story": [
+    "sprint-plan"
   ],
   "storybank": [
     "interview-coach"
@@ -44228,6 +45721,7 @@
     "framework-migration-legacy-modernize"
   ],
   "strategic": [
+    "analyze-feature-requests",
     "business-analyst",
     "carrier-relationship-management",
     "competitor-ad-intelligence",
@@ -44235,10 +45729,14 @@
     "ddd-strategic-design",
     "domain-driven-design",
     "kotler-macro-analyzer",
+    "outcome-roadmap",
+    "prioritize-features",
     "seo-plan",
-    "startup-analyst"
+    "startup-analyst",
+    "transform-roadmap"
   ],
   "strategies": [
+    "ansoff-matrix",
     "apify-competitor-intelligence",
     "ci-cd-and-automation",
     "code-showcase-testing-patterns",
@@ -44263,10 +45761,12 @@
     "javascript-testing-patterns",
     "llm-evaluation",
     "marketing-ideas",
+    "monetization-strategy",
     "multi-platform-apps-multi-platform",
     "nestjs-expert",
     "observability-engineer",
     "odoo-inventory-optimizer",
+    "pm-pricing-strategy",
     "postgresql-optimization",
     "pricing-strategy",
     "programmatic-seo",
@@ -44280,6 +45780,7 @@
     "risk-manager",
     "security-scanning-security-dependencies",
     "seo-cannibalization-detector",
+    "stakeholder-map",
     "team-composition-analysis",
     "temporal-python-pro",
     "test-automator",
@@ -44308,12 +45809,20 @@
     "developer-seo",
     "free-tier-strategy",
     "free-tool-strategy",
+    "growth-strategy",
+    "gtm-strategy",
+    "identify-assumptions-new",
     "interview-style-doc-building",
     "it-manager-pro",
     "odoo-backup-strategy",
     "pdf-conversion-router",
+    "plan-launch",
+    "pm-pricing",
+    "pm-pricing-strategy",
     "pricing",
+    "product-strategy",
     "public-relations",
+    "red-team-prd",
     "seo",
     "seo-aeo-content-cluster",
     "seo-aeo-internal-linking",
@@ -44321,9 +45830,15 @@
     "seo-plan",
     "server-management",
     "shipping-and-launch",
+    "startup-canvas",
+    "strategy",
+    "strategy-red-team",
     "tools-page-seo-optimizer",
     "wechat-official-account-strategist",
     "xiaohongshu-content-strategist"
+  ],
+  "strategy-red-team": [
+    "strategy-red-team"
   ],
   "stream": [
     "videodb-skills"
@@ -44365,6 +45880,9 @@
   ],
   "streamtext": [
     "vercel-ai-sdk-expert"
+  ],
+  "strengths": [
+    "pm-competitor-analysis"
   ],
   "stress": [
     "leiloeiro-risco"
@@ -44469,10 +45987,12 @@
     "documentation-templates",
     "game-development/game-design",
     "gpt-taste",
+    "lean-canvas",
     "lemmaly",
     "makepad-basics",
     "odoo-module-developer",
     "offers",
+    "opportunity-solution-tree",
     "plugin-structure",
     "plugin-validator",
     "python-patterns",
@@ -44520,8 +46040,11 @@
     "hasdata-cli",
     "idea-darwin",
     "idea-refine",
+    "interview",
+    "interview-script",
     "interview-style-doc-building",
     "kotlin-coroutines-expert",
+    "meeting-notes",
     "multi-agent-brainstorming",
     "n8n-agents",
     "n8n-error-handling",
@@ -44534,6 +46057,7 @@
     "pr-merge-champion",
     "programmatic-seo",
     "pydantic-ai",
+    "retro",
     "saas-mvp-launcher",
     "satori",
     "schema-markup",
@@ -44545,6 +46069,8 @@
     "seo-schema",
     "seo-technical",
     "skyvern-browser-automation",
+    "summarize-interview",
+    "summarize-meeting",
     "technical-change-tracker",
     "top-web-vulnerabilities",
     "video-content-extractor",
@@ -44781,6 +46307,7 @@
   ],
   "success": [
     "audit-agent-run-evidence",
+    "gtm-strategy",
     "revops",
     "ux-feedback",
     "verification-before-completion"
@@ -44814,8 +46341,10 @@
     "hybrid-search-implementation"
   ],
   "suggest": [
+    "grammar-check",
     "lookdev-auto",
     "permission-manager",
+    "prioritize-assumptions",
     "react-component-performance"
   ],
   "suggestions": [
@@ -44873,11 +46402,24 @@
   "summarize": [
     "2slides-ppt-generator",
     "comprehensive-review-pr-enhance",
+    "interview",
+    "meeting-notes",
+    "summarize-interview",
+    "summarize-meeting",
     "wiki-changelog"
+  ],
+  "summarize-interview": [
+    "summarize-interview"
+  ],
+  "summarize-meeting": [
+    "summarize-meeting"
   ],
   "summarizing": [
     "agent-evaluation-reporting",
     "read-all-adrs"
+  ],
+  "summary": [
+    "summarize-meeting"
   ],
   "sunset": [
     "deprecation-and-migration"
@@ -44987,6 +46529,10 @@
     "deepapi",
     "riffkit"
   ],
+  "supporting": [
+    "north-star",
+    "north-star-metric"
+  ],
   "supports": [
     "agents-generator",
     "appium-skill",
@@ -45005,6 +46551,9 @@
     "tune-monitor",
     "using-neon",
     "webdriverio-skill"
+  ],
+  "supposed": [
+    "intended-vs-implemented"
   ],
   "suppression": [
     "ejentum-reasoning-harness"
@@ -45050,6 +46599,10 @@
   ],
   "sustainability": [
     "itil-expert"
+  ],
+  "sustainable": [
+    "growth-loops",
+    "growth-strategy"
   ],
   "sutis": [
     "ai-studio-image"
@@ -45159,7 +46712,11 @@
     "using-git-worktrees"
   ],
   "swot": [
-    "kotler-macro-analyzer"
+    "kotler-macro-analyzer",
+    "swot-analysis"
+  ],
+  "swot-analysis": [
+    "swot-analysis"
   ],
   "swr": [
     "native-data-fetching"
@@ -45274,6 +46831,7 @@
     "core-components",
     "design-md",
     "diary",
+    "document-app",
     "enhance-prompt",
     "expo-module",
     "framework-migration-legacy-modernize",
@@ -45284,6 +46842,7 @@
     "hierarchical-agent-memory",
     "hig-components-system",
     "hugging-face-datasets",
+    "intended-vs-implemented",
     "interview-coach",
     "linkedin-content-generator",
     "linux-shell-scripting",
@@ -45525,7 +47084,14 @@
     "sshepherd"
   ],
   "tailor": [
-    "hig-project-context"
+    "hig-project-context",
+    "tailor-resume"
+  ],
+  "tailor-resume": [
+    "tailor-resume"
+  ],
+  "tailoring": [
+    "review-resume"
   ],
   "tailors": [
     "resume-ats-review"
@@ -45579,6 +47145,7 @@
     "youtube-notetaker"
   ],
   "tam": [
+    "market-sizing",
     "market-sizing-analysis",
     "startup-business-analyst-market-opportunity"
   ],
@@ -45608,11 +47175,13 @@
     "add-app-clip",
     "last30days",
     "network-101",
+    "product-name",
     "resume-ats-review",
     "semgrep-rule-variant-creator"
   ],
   "targeted": [
     "decision-navigator",
+    "grammar-check",
     "react-component-performance",
     "skill-router"
   ],
@@ -45890,10 +47459,13 @@
     "dx-optimizer",
     "gh-review-requests",
     "git-pr-workflows-onboard",
+    "identify-assumptions-new",
     "polis-protocol",
     "privilege-escalation-methods",
+    "red-team-prd",
     "red-team-tactics",
     "sales-enablement",
+    "strategy-red-team",
     "team-collaboration-standup-notes",
     "team-composition-analysis",
     "wiki-onboarding"
@@ -45909,6 +47481,10 @@
   ],
   "team-graph": [
     "mercury-mcp"
+  ],
+  "team-level": [
+    "brainstorm-okrs",
+    "plan-okrs"
   ],
   "team-ready": [
     "yao-meta-skill"
@@ -45934,6 +47510,7 @@
     "microsoft-teams-automation",
     "n8n-multi-instance",
     "odoo-sales-crm-expert",
+    "product-vision",
     "sentry-automation",
     "vercel-automation"
   ],
@@ -46026,6 +47603,9 @@
     "ssh-penetration-testing",
     "xss-html-injection"
   ],
+  "technological": [
+    "pestle-analysis"
+  ],
   "technologies": [
     "event-store-design"
   ],
@@ -46091,9 +47671,12 @@
   ],
   "template": [
     "cloudformation-best-practices",
+    "create-prd",
     "obsidian-clipper-template-creator",
     "skill-creator",
+    "summarize-interview",
     "typescript-advanced-types",
+    "value-proposition",
     "wordpress-theme-development",
     "xlsx",
     "xlsx-official"
@@ -46122,6 +47705,7 @@
     "odoo-sales-crm-expert",
     "outreachagent",
     "postmark-automation",
+    "prioritization-frameworks",
     "product-manager",
     "programmatic-seo",
     "sales-automator",
@@ -46250,9 +47834,12 @@
     "video-content-extractor"
   ],
   "test": [
+    "ab-test-analysis",
     "ab-testing",
     "agent-squad/quinn",
+    "analyze-test",
     "api-design-principles",
+    "brainstorm-experiments-existing",
     "brooks-sweep",
     "browser-testing-with-devtools",
     "ci-cd-and-automation",
@@ -46286,6 +47873,7 @@
     "test-fixing",
     "test-framework-migration-skill",
     "test-guard",
+    "test-scenarios",
     "testing-patterns",
     "vitest-skill",
     "webapp-testing",
@@ -46294,6 +47882,9 @@
   ],
   "test-automator": [
     "test-automator"
+  ],
+  "test-coverage": [
+    "derive-tests"
   ],
   "test-driven": [
     "bats-testing-patterns",
@@ -46316,6 +47907,9 @@
   ],
   "test-guard": [
     "test-guard"
+  ],
+  "test-scenarios": [
+    "test-scenarios"
   ],
   "test-suite": [
     "brooks-test"
@@ -46361,12 +47955,14 @@
     "deployment-validation-config-validate",
     "django-pro",
     "doc-coauthoring",
+    "dummy-dataset",
     "e2e-testing",
     "ethical-hacking-methodology",
     "evaluation",
     "ffuf-web-fuzzing",
     "firmware-pentest",
     "framework-migration-deps-upgrade",
+    "generate-data",
     "git-pr-workflows-git-workflow",
     "github-actions-templates",
     "gitlab-ci-patterns",
@@ -46446,6 +48042,7 @@
     "cypress-skill",
     "data-quality-frameworks",
     "debugging-and-error-recovery",
+    "derive-tests",
     "finishing-a-development-branch",
     "frontend-mobile-development-component-scaffold",
     "jest-skill",
@@ -46488,6 +48085,7 @@
     "cv-generator",
     "design-it/typography-first",
     "gemini-interactions-api",
+    "grammar-check",
     "humanize-chinese",
     "keyword-extractor",
     "makepad-font",
@@ -46496,6 +48094,7 @@
     "pdf-conversion-router",
     "photopea-embedded-editor",
     "podcast-generation",
+    "proofread",
     "remotion",
     "seo-aeo-internal-linking",
     "seo-images",
@@ -46583,6 +48182,7 @@
     "unslop-review"
   ],
   "theme": [
+    "analyze-feature-requests",
     "codebase-to-wordpress-converter",
     "robius-state-management",
     "theme-factory",
@@ -46816,6 +48416,10 @@
   "threejs-textures": [
     "threejs-textures"
   ],
+  "thresholds": [
+    "metrics-dashboard",
+    "setup-metrics"
+  ],
   "throat-clearing": [
     "unslop-review"
   ],
@@ -46923,6 +48527,7 @@
     "freshservice-automation",
     "helpdesk-automation",
     "hubspot-automation",
+    "release-notes",
     "zendesk-automation"
   ],
   "ticks": [
@@ -47022,6 +48627,7 @@
   ],
   "timeline": [
     "case-review",
+    "gtm-strategy",
     "robius-matrix-integration"
   ],
   "timelines": [
@@ -47372,6 +48978,7 @@
     "freshservice-automation",
     "gitlab-automation",
     "google-analytics-automation",
+    "gtm-motions",
     "helpdesk-automation",
     "hf-mcp",
     "incident-response-smart-fix",
@@ -47467,9 +49074,13 @@
     "huggingface-best",
     "linkedin-profile-optimizer",
     "llm-security",
+    "prioritize-features",
     "red-team-tools",
     "reddit-automation",
     "web-security-testing"
+  ],
+  "top-down": [
+    "market-sizing"
   ],
   "top-k": [
     "web-media-getter"
@@ -47486,7 +49097,8 @@
     "seo-aeo-content-cluster",
     "seo-content-planner",
     "seo-content-writer",
-    "seo-keyword-strategist"
+    "seo-keyword-strategist",
+    "summarize-meeting"
   ],
   "topic-aware": [
     "dispatch"
@@ -47538,6 +49150,9 @@
     "ckw-design",
     "email-issue-fixer",
     "writing-plans"
+  ],
+  "touchpoints": [
+    "customer-journey-map"
   ],
   "touchupdate": [
     "makepad-event-action"
@@ -47658,6 +49273,9 @@
     "hierarchical-agent-memory",
     "track-management"
   ],
+  "traction": [
+    "growth-loops"
+  ],
   "trade": [
     "event-staffing-ordering",
     "longbridge-market-data"
@@ -47735,7 +49353,11 @@
   ],
   "transcript": [
     "ingest-youtube",
+    "interview",
     "interview-coach",
+    "meeting-notes",
+    "summarize-interview",
+    "summarize-meeting",
     "tree-ring-memory"
   ],
   "transcriptapi": [
@@ -47771,10 +49393,15 @@
     "data-storytelling",
     "debugging-strategies",
     "docs-as-marketing",
+    "outcome-roadmap",
     "production-code-audit",
     "sql-optimization-patterns",
+    "transform-roadmap",
     "unity-ai-game-creator",
     "wiki-vitepress"
+  ],
+  "transform-roadmap": [
+    "transform-roadmap"
   ],
   "transformar": [
     "amazon-alexa"
@@ -47885,6 +49512,7 @@
     "runaway-guard"
   ],
   "tree": [
+    "opportunity-solution-tree",
     "tree-ring-memory"
   ],
   "tree-ring-memory": [
@@ -47928,7 +49556,11 @@
     "setup-matt-pocock-skills",
     "shopify-review-triage",
     "team-collaboration-issue",
-    "triage"
+    "triage",
+    "triage-requests"
+  ],
+  "triage-requests": [
+    "triage-requests"
   ],
   "trial": [
     "free-tier-strategy"
@@ -48181,10 +49813,12 @@
   "turn": [
     "blueprint",
     "brain-to-docs",
+    "derive-tests",
     "github-issue-creator",
     "power-user-cultivation",
     "referral-program",
     "research-prompt",
+    "ship-check",
     "shopify-review-triage",
     "slideops",
     "to-prd",
@@ -48266,6 +49900,7 @@
   ],
   "two": [
     "accesslint-audit",
+    "draft-nda",
     "liuguang-banlan-ui",
     "logic-diff",
     "ste-writing",
@@ -48330,11 +49965,15 @@
   ],
   "types": [
     "azure-identity-ts",
+    "draft-nda",
     "fp-types-ref",
     "graphql-schema",
+    "gtm-motions",
     "mcp-integration",
     "mermaid-expert",
+    "metrics-dashboard",
     "postgresql",
+    "privacy-policy",
     "react-flow-node-ts",
     "seo-aeo-content-cluster",
     "seo-aeo-schema-generator",
@@ -48632,6 +50271,9 @@
   "unexplained": [
     "bug-hunt-swarm"
   ],
+  "unfair": [
+    "lean-canvas"
+  ],
   "unfinished": [
     "design-it/brutalism"
   ],
@@ -48678,6 +50320,7 @@
   ],
   "unique": [
     "eas-update-insights",
+    "product-name",
     "tools-page-seo-optimizer"
   ],
   "uniswap": [
@@ -48990,7 +50633,8 @@
   "usability": [
     "design-it/flat-design-2",
     "design-ux",
-    "deterministic-design"
+    "deterministic-design",
+    "identify-assumptions-existing"
   ],
   "usable": [
     "deterministic-design"
@@ -49039,23 +50683,121 @@
     "vercel-ai-sdk-expert"
   ],
   "used": [
+    "ab-test-analysis",
     "advanced-evaluation",
     "agent-development",
     "agents-md",
+    "analyze-cohorts",
+    "analyze-feature-requests",
+    "analyze-feedback",
+    "analyze-test",
+    "ansoff-matrix",
+    "battlecard",
     "bdi-mental-states",
+    "beachhead-segment",
+    "brainstorm",
+    "brainstorm-experiments-existing",
+    "brainstorm-experiments-new",
+    "brainstorm-ideas-existing",
+    "brainstorm-ideas-new",
+    "brainstorm-okrs",
+    "code-review",
+    "cohort-analysis",
     "command-development",
+    "competitive-analysis",
+    "competitive-battlecard",
+    "create-prd",
+    "customer-journey-map",
+    "derive-tests",
     "design-it/isometric-design",
+    "discover",
+    "document-app",
+    "draft-nda",
+    "dummy-dataset",
+    "generate-data",
+    "growth-loops",
+    "growth-strategy",
+    "gtm-motions",
+    "gtm-strategy",
     "hook-development",
+    "ideal-customer-profile",
+    "identify-assumptions-existing",
+    "identify-assumptions-new",
+    "intended-vs-implemented",
+    "interview",
+    "interview-script",
+    "job-stories",
     "latex-paper-conversion",
+    "lean-canvas",
     "make-me-an-expert",
+    "market-product",
+    "market-scan",
+    "market-segments",
+    "market-sizing",
     "mcp-integration",
+    "meeting-notes",
+    "metrics-dashboard",
     "multi-agent-patterns",
+    "north-star",
+    "north-star-metric",
+    "opportunity-solution-tree",
+    "outcome-roadmap",
+    "performance-audit-static",
+    "pestle-analysis",
+    "plan-launch",
+    "plan-okrs",
     "plugin-settings",
     "plugin-structure",
+    "pm-competitor-analysis",
+    "pm-marketing-ideas",
+    "pm-pricing",
+    "pm-pricing-strategy",
+    "porters-five-forces",
+    "positioning-ideas",
+    "pre-mortem",
+    "prioritization-frameworks",
+    "prioritize-assumptions",
+    "prioritize-features",
+    "privacy-policy",
+    "product-strategy",
+    "product-vision",
+    "proofread",
+    "red-team-prd",
+    "release-notes",
+    "research-users",
+    "retro",
+    "review-resume",
     "sankhya-dashboard-html-jsp-custom-best-pratices",
+    "security-audit-static",
+    "sentiment-analysis",
+    "setup-metrics",
+    "ship-check",
+    "shipping-artifacts",
     "skill-development",
     "software-architecture",
-    "spec-kit"
+    "spec-kit",
+    "sprint",
+    "sprint-plan",
+    "sql-queries",
+    "stakeholder-map",
+    "startup-canvas",
+    "strategy",
+    "strategy-red-team",
+    "summarize-interview",
+    "summarize-meeting",
+    "swot-analysis",
+    "tailor-resume",
+    "test-scenarios",
+    "transform-roadmap",
+    "triage-requests",
+    "user-personas",
+    "user-segmentation",
+    "user-stories",
+    "value-proposition",
+    "write-prd",
+    "write-query",
+    "write-stories",
+    "wwas"
   ],
   "useful": [
     "anti-ui-slop",
@@ -49066,6 +50808,7 @@
     "native-data-fetching"
   ],
   "user": [
+    "ab-test-analysis",
     "ab-testing",
     "add-app-clip",
     "advanced-evaluation",
@@ -49076,14 +50819,27 @@
     "aider-delegate",
     "amplitude-automation",
     "analytics",
+    "analyze-cohorts",
+    "analyze-feature-requests",
+    "analyze-feedback",
+    "analyze-test",
+    "ansoff-matrix",
     "api-designer",
     "appdeploy",
     "apple-notes-search",
     "atlas-ledger",
     "aws-mcp-setup",
     "azure-communication-common-java",
+    "battlecard",
     "bdi-mental-states",
+    "beachhead-segment",
     "brain-to-docs",
+    "brainstorm",
+    "brainstorm-experiments-existing",
+    "brainstorm-experiments-new",
+    "brainstorm-ideas-existing",
+    "brainstorm-ideas-new",
+    "brainstorm-okrs",
     "c4-context",
     "cc-skill-security-review",
     "chat-widget",
@@ -49095,26 +50851,33 @@
     "cloudflare",
     "co-marketing",
     "code-documentation-doc-generate",
+    "code-review",
     "codebase-design",
     "codex-delegate",
     "cohesivity",
+    "cohort-analysis",
     "command-development",
     "commandcode-delegate",
     "community-building",
+    "competitive-analysis",
+    "competitive-battlecard",
     "competitor-profiling",
     "comprehensive-review-pr-enhance",
     "concise-planning",
     "cowork-to-code-bridge",
     "create-plugin",
+    "create-prd",
     "cro",
     "crossframe",
     "crossframe-critical",
     "crossframe-suite",
     "cucumber-skill",
+    "customer-journey-map",
     "customer-research",
     "cypress-skill",
     "defuddle",
     "deploy-to-vercel",
+    "derive-tests",
     "design-it/3d-ui",
     "design-it/ai-native-ui",
     "design-it/aurora-ui",
@@ -49172,11 +50935,15 @@
     "developer-newsletter",
     "devrel-content",
     "diagnosing-bugs",
+    "discover",
     "ditto",
+    "document-app",
     "documentation-generation-doc-generate",
     "docx",
     "docx-official",
     "domain-modeling",
+    "draft-nda",
+    "dummy-dataset",
     "explain-like-socrates",
     "expo-brownfield",
     "expo-cicd-workflows",
@@ -49188,18 +50955,30 @@
     "fp-taskeither-ref",
     "fp-types-ref",
     "frontend-slides-frontend-slides",
+    "generate-data",
     "github-presence",
     "gitlab-automation",
     "grilling",
     "grok-delegate",
+    "growth-loops",
+    "growth-strategy",
+    "gtm-motions",
+    "gtm-strategy",
     "hook-development",
     "html-injection-testing",
     "huggingface-best",
     "huggingface-tool-builder",
     "humanize-chinese",
     "idea-os",
+    "ideal-customer-profile",
+    "identify-assumptions-existing",
+    "identify-assumptions-new",
     "image-generator",
+    "intended-vs-implemented",
+    "interview",
+    "interview-script",
     "jest-skill",
+    "job-stories",
     "json-canvas",
     "junit-5-skill",
     "kaizen",
@@ -49207,18 +50986,27 @@
     "kimi-delegate",
     "last30days",
     "latex-paper-conversion",
+    "lean-canvas",
     "learn",
     "linux-privilege-escalation",
     "linux-shell-scripting",
     "make-me-an-expert",
+    "market-product",
+    "market-scan",
+    "market-segments",
+    "market-sizing",
     "marketing-plan",
     "mcp-integration",
+    "meeting-notes",
+    "metrics-dashboard",
     "mixpanel-automation",
     "mmx-cli",
     "model-authoring",
     "model-compression-exploration",
     "moyu",
     "multi-agent-patterns",
+    "north-star",
+    "north-star-metric",
     "obsidian-bases",
     "obsidian-markdown",
     "odw",
@@ -49228,36 +51016,63 @@
     "onboarding-cro",
     "open-source-marketing",
     "opencode-delegate",
+    "opportunity-solution-tree",
+    "outcome-roadmap",
     "parallel-search-mcp",
+    "performance-audit-static",
+    "pestle-analysis",
+    "plan-launch",
+    "plan-okrs",
     "plugin-dev-agent-creator",
     "plugin-settings",
     "plugin-structure",
     "plugin-validator",
+    "pm-competitor-analysis",
+    "pm-marketing-ideas",
+    "pm-pricing",
+    "pm-pricing-strategy",
     "popup-cro",
+    "porters-five-forces",
+    "positioning-ideas",
     "posthog-automation",
     "power-user-cultivation",
     "pptx",
     "pptx-official",
+    "pre-mortem",
     "pricing",
+    "prioritization-frameworks",
+    "prioritize-assumptions",
+    "prioritize-features",
     "privacy-by-design",
+    "privacy-policy",
     "privilege-escalation-methods",
     "product-marketing",
+    "product-strategy",
+    "product-vision",
     "professional-proofreader",
     "progressive-web-app",
     "prompt-engineer",
     "prompt-engineering",
+    "proofread",
     "public-relations",
     "pytest-skill",
     "qoder-delegate",
     "rclone-cli",
+    "red-team-prd",
     "redis-cli",
+    "release-notes",
+    "research-users",
     "resume-ats-review",
+    "retro",
+    "review-resume",
     "robot-framework-skill",
     "sankhya-dashboard-html-jsp-custom-best-pratices",
     "screen-adverse-media",
     "screenshots",
     "security-and-hardening",
+    "security-audit-static",
     "security-requirement-extraction",
+    "sentiment-analysis",
     "seo",
     "seo-aeo-blog-writer",
     "seo-aeo-content-cluster",
@@ -49277,23 +51092,44 @@
     "seo-schema",
     "seo-sitemap",
     "setup-help",
+    "setup-metrics",
+    "ship-check",
+    "shipping-artifacts",
     "skill-development",
     "skill-reviewer",
     "skill-router",
     "smartui-skill",
     "smtp-penetration-testing",
     "spec-kit",
+    "sprint",
+    "sprint-plan",
+    "sql-queries",
+    "stakeholder-map",
+    "startup-canvas",
+    "strategy",
+    "strategy-red-team",
+    "summarize-interview",
+    "summarize-meeting",
+    "swot-analysis",
+    "tailor-resume",
     "tdd",
     "teach",
     "technical-tutorials",
+    "test-scenarios",
     "testng-skill",
     "threejs-interaction",
     "threejs-skills",
     "tiktok-automation",
     "time-ledger",
     "trading-ledger",
+    "transform-roadmap",
+    "triage-requests",
     "ui-ux-designer",
+    "user-personas",
+    "user-segmentation",
+    "user-stories",
     "ux-flow",
+    "value-proposition",
     "verify-citations",
     "verify-document",
     "vitest-skill",
@@ -49306,6 +51142,10 @@
     "wiki-vitepress",
     "wordpress-centric-high-seo-optimized-blogwriting-skill",
     "working-with-coreai",
+    "write-prd",
+    "write-query",
+    "write-stories",
+    "wwas",
     "x-twitter-scraper",
     "xlsx",
     "xlsx-official",
@@ -49328,7 +51168,8 @@
   "user-facing": [
     "app-store-changelog",
     "brand-guidelines",
-    "frontend-ui-engineering"
+    "frontend-ui-engineering",
+    "release-notes"
   ],
   "user-invoked": [
     "ask-matt"
@@ -49336,8 +51177,17 @@
   "user-mode": [
     "edr-bypass-re"
   ],
+  "user-personas": [
+    "user-personas"
+  ],
   "user-provided": [
     "huggingface-lora-space-builder"
+  ],
+  "user-segmentation": [
+    "user-segmentation"
+  ],
+  "user-stories": [
+    "user-stories"
   ],
   "user-thoughts": [
     "user-thoughts"
@@ -49366,11 +51216,13 @@
     "onboarding-cro",
     "paywall-upgrade-cro",
     "power-user-cultivation",
+    "research-users",
     "segment-automation",
     "signup-flow-cro",
     "skill-check",
     "software-architecture",
     "twitter-automation",
+    "user-segmentation",
     "zendesk-automation"
   ],
   "uses": [
@@ -49422,6 +51274,7 @@
     "azure-servicebus-rust",
     "azure-storage-blob-java",
     "binary-diff",
+    "brainstorm-ideas-existing",
     "brooks-test",
     "bug-hunter",
     "burp-suite-testing",
@@ -49435,6 +51288,7 @@
     "code-documentation-doc-generate",
     "code-showcase-core-components",
     "core-components",
+    "create-prd",
     "data-engineering-data-driven-feature",
     "dbos-golang",
     "dbos-python",
@@ -49473,6 +51327,7 @@
     "image-generator",
     "internal-comms",
     "javascript-testing-patterns",
+    "job-stories",
     "jobgpt",
     "laravel-security-audit",
     "lightning-factory-explainer",
@@ -49480,6 +51335,7 @@
     "llm-structured-output",
     "local-llm-expert",
     "logic-lens",
+    "market-sizing",
     "marketing-ideas",
     "marketing-psychology",
     "markstream-custom-components",
@@ -49506,6 +51362,8 @@
     "pipecat-friday-agent",
     "playwright-java",
     "podcast-generation",
+    "prioritize-assumptions",
+    "product-strategy",
     "programmatic-seo",
     "project-development",
     "prompt-engineer",
@@ -49526,7 +51384,9 @@
     "skill-improver",
     "slack-bot-builder",
     "sqlmap-database-pentesting",
+    "stakeholder-map",
     "stitch-loop",
+    "strategy",
     "sympy",
     "tavily-web",
     "temporal-python-testing",
@@ -49540,6 +51400,7 @@
     "uv-package-manager",
     "ux-audit",
     "ux-flow",
+    "value-proposition",
     "variant-analysis",
     "vercel-cli-with-tokens",
     "vercel-optimize",
@@ -49587,6 +51448,9 @@
   ],
   "uv-package-manager": [
     "uv-package-manager"
+  ],
+  "uvp": [
+    "lean-canvas"
   ],
   "uvx": [
     "aws-mcp-setup"
@@ -49684,6 +51548,7 @@
     "threat-mitigation-mapping"
   ],
   "validation": [
+    "ab-test-analysis",
     "agents-generator",
     "api-endpoint-builder",
     "api-security-best-practices",
@@ -49700,6 +51565,7 @@
     "fp-either-ref",
     "lint-and-validate",
     "mobile-security-coder",
+    "monetization-strategy",
     "monte-carlo-validation-notebook",
     "n8n-validation-expert",
     "nerdzao-elite",
@@ -49730,13 +51596,25 @@
     "us-property-data"
   ],
   "value": [
+    "business-model",
     "competitor-alternatives",
+    "create-prd",
     "ddd-tactical-patterns",
+    "identify-assumptions-existing",
     "itil-expert",
+    "market-product",
     "mock-hunter",
     "offers",
     "paywall-upgrade-cro",
-    "pricing-strategy"
+    "pricing-strategy",
+    "value-prop-statements",
+    "value-proposition"
+  ],
+  "value-prop-statements": [
+    "value-prop-statements"
+  ],
+  "value-proposition": [
+    "value-proposition"
   ],
   "values": [
     "azure-keyvault-secrets-ts",
@@ -49747,6 +51625,7 @@
     "lookdev",
     "lookdev-auto",
     "mock-hunter",
+    "product-name",
     "ui-tokens"
   ],
   "vanilla": [
@@ -50156,6 +52035,9 @@
     "zoho-crm-automation",
     "zoom-automation"
   ],
+  "viability": [
+    "identify-assumptions-existing"
+  ],
   "viable": [
     "rich-elicitation"
   ],
@@ -50169,6 +52051,8 @@
     "vibe-code-cleanup"
   ],
   "vibe-coded": [
+    "ship-check",
+    "shipping-artifacts",
     "vibe-code-cleanup"
   ],
   "vibe-delegate": [
@@ -50338,7 +52222,8 @@
     "design-it/spatial-design",
     "hugging-face-vision-trainer",
     "liuguang-banlan-ui",
-    "lookdev-auto"
+    "lookdev-auto",
+    "product-vision"
   ],
   "vision-judged": [
     "deterministic-design"
@@ -50393,6 +52278,7 @@
   "visualization": [
     "design-it/dashboard-design",
     "matplotlib",
+    "metrics-dashboard",
     "plotly",
     "scanpy",
     "seaborn"
@@ -50653,6 +52539,7 @@
     "codex-review",
     "firecrawl-scraper",
     "idea-refine",
+    "job-stories",
     "obsidian-clipper-template-creator",
     "software-architecture",
     "source-driven-development"
@@ -50784,6 +52671,9 @@
     "design-it/retro-design",
     "minimalist-ui"
   ],
+  "warm-up": [
+    "interview-script"
+  ],
   "warnings": [
     "debug-buttercup"
   ],
@@ -50844,7 +52734,8 @@
     "smtp-penetration-testing"
   ],
   "weaknesses": [
-    "linux-privilege-escalation"
+    "linux-privilege-escalation",
+    "pm-competitor-analysis"
   ],
   "weather": [
     "azure-maps-search-dotnet"
@@ -51194,6 +53085,7 @@
     "hello",
     "huggingface-best",
     "identity-mirror",
+    "intended-vs-implemented",
     "jobs-to-be-done-analyst",
     "logic-explain",
     "logic-lens",
@@ -51226,6 +53118,9 @@
   ],
   "whatsapp-cloud-api": [
     "whatsapp-cloud-api"
+  ],
+  "when-to-use": [
+    "prioritization-frameworks"
   ],
   "whenever": [
     "ckw-design",
@@ -51328,6 +53223,9 @@
     "skill-issue",
     "styleseed-design-review"
   ],
+  "why-what-acceptance": [
+    "wwas"
+  ],
   "wi-fi": [
     "wifi-wireless"
   ],
@@ -51406,6 +53304,9 @@
   ],
   "willingness": [
     "pricing-strategy"
+  ],
+  "willingness-to-pay": [
+    "pm-pricing-strategy"
   ],
   "win-back": [
     "churn-prevention",
@@ -51523,6 +53424,7 @@
     "fp-pragmatic",
     "fp-ts-pragmatic",
     "free-tier-strategy",
+    "grammar-check",
     "hf-cloud-aws-context-discovery",
     "lightning-channel-factories",
     "macos-spm-app-packaging",
@@ -52003,6 +53905,9 @@
   "wrap": [
     "ai-wrapper-product"
   ],
+  "wrap-up": [
+    "interview-script"
+  ],
   "wrapper": [
     "api-sdk-generator",
     "skills/x402-express-wrapper",
@@ -52069,10 +53974,22 @@
     "swiftui-expert-skill",
     "triage",
     "webapp-testing",
-    "wordpress-centric-high-seo-optimized-blogwriting-skill"
+    "wordpress-centric-high-seo-optimized-blogwriting-skill",
+    "write-prd",
+    "write-query",
+    "write-stories"
   ],
   "write-back": [
     "crossframe-org"
+  ],
+  "write-prd": [
+    "write-prd"
+  ],
+  "write-query": [
+    "write-query"
+  ],
+  "write-stories": [
+    "write-stories"
   ],
   "write-ups": [
     "docs-generator"
@@ -52113,6 +54030,7 @@
     "documentation",
     "expo-module",
     "fp-ts-pragmatic",
+    "grammar-check",
     "invariant-guard",
     "lemmaly",
     "model-authoring",
@@ -52136,6 +54054,7 @@
     "threejs-shaders",
     "uncle-bob-craft",
     "unslop",
+    "value-prop-statements",
     "verify-citations",
     "workers-best-practices",
     "writing-great-skills"
@@ -52169,6 +54088,9 @@
   ],
   "wsl2": [
     "cowork-to-code-bridge"
+  ],
+  "wwas": [
+    "wwas"
   ],
   "www": [
     "wellally-tech"
@@ -52258,6 +54180,9 @@
   ],
   "xxi": [
     "warren-buffett"
+  ],
+  "xyz": [
+    "review-resume"
   ],
   "y2k": [
     "design-it/cyber-y2k",
